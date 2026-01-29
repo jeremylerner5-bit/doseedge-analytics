@@ -1,0 +1,1400 @@
+{
+  "stocks": [
+    {
+      "name": "AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML - 100 ML",
+      "original": "STOCK: AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML - 100 ML",
+      "total": 74,
+      "size": "30 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PEDIATRIC MVI 50ML *VIAL* STOCK",
+      "original": "STOCK: BAXA - PEDIATRIC MVI 50ML *VIAL* STOCK",
+      "total": 53,
+      "size": "50ML",
+      "type": "Stock"
+    },
+    {
+      "name": "VANCOMYCIN (VANCOCIN) 5MG/ML IN D5W - 1000ML !",
+      "original": "STOCK: VANCOMYCIN (VANCOCIN) 5MG/ML IN D5W - 1000ML !",
+      "total": 36,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML100 ML STOCK !",
+      "original": "STOCK: CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML100 ML STOCK !",
+      "total": 33,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "METHOCARBAMOL (ROBAXIN) 10 MG/ML IN **NS** - 300ML *ROOM TEMP STORAGE*",
+      "original": "STOCK: METHOCARBAMOL (ROBAXIN) 10 MG/ML IN **NS** - 300ML *ROOM TEMP STORAGE*",
+      "total": 30,
+      "size": "10 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PHYTONADIONE 1MG/ML IN NS - 20ML",
+      "original": "STOCK: BAXA - PHYTONADIONE 1MG/ML IN NS - 20ML",
+      "total": 25,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PANTOPRAZOLE (PROTONIX) 4MG/ML *NS* 50ML",
+      "original": "STOCK: PANTOPRAZOLE (PROTONIX) 4MG/ML *NS* 50ML",
+      "total": 25,
+      "size": "4MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML - 300 ML STOCK",
+      "original": "STOCK: AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML - 300 ML STOCK",
+      "total": 23,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 1UNIT/ML PAPAVERINE 0.12MG/ML NS - 500ML STOCK",
+      "original": "STOCK: HEPARIN 1UNIT/ML PAPAVERINE 0.12MG/ML NS - 500ML STOCK",
+      "total": 23,
+      "size": "1UNIT",
+      "type": "Stock"
+    },
+    {
+      "name": "FILGRASTIM-SNDZ (ZARXIO) 15 MCG/ML IN D5W- 20 ML",
+      "original": "STOCK: FILGRASTIM-SNDZ (ZARXIO) 15 MCG/ML IN D5W- 20 ML",
+      "total": 22,
+      "size": "15 MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "LORAZEPAM **0.5** MG/ML IN NS - 4ML MAKE IN GLASS VIAL !",
+      "original": "STOCK: LORAZEPAM **0.5** MG/ML IN NS - 4ML MAKE IN GLASS VIAL !",
+      "total": 21,
+      "size": "4ML",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFAZOLIN (ANCEF) 2000MG/20ML IN SW",
+      "original": "STOCK: LIB-CEFAZOLIN (ANCEF) 2000MG/20ML IN SW",
+      "total": 20,
+      "size": "2000MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFEPIME (MAXIPIME) IN SODIUM CHLORIDE (NS) 0.9% 40 MG/ML - 50ML STOCK",
+      "original": "STOCK: LIB-CEFEPIME (MAXIPIME) IN SODIUM CHLORIDE (NS) 0.9% 40 MG/ML - 50ML STOCK",
+      "total": 20,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 100ML !",
+      "original": "STOCK: METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 100ML !",
+      "total": 20,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML- 300ML STOCK",
+      "original": "STOCK: AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML- 300ML STOCK",
+      "total": 19,
+      "size": "30 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML -25ML STOCK",
+      "original": "STOCK: LIB-AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML -25ML STOCK",
+      "total": 19,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 266.67ML STOCK",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 266.67ML STOCK",
+      "total": 18,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MVI ADULT 100ML *VIAL* STOCK",
+      "original": "STOCK: BAXA - MVI ADULT 100ML *VIAL* STOCK",
+      "total": 17,
+      "size": "100ML",
+      "type": "Stock"
+    },
+    {
+      "name": "THIAMINE 100 MG/ML - 10ML STOCK",
+      "original": "STOCK: BAXA - THIAMINE 100 MG/ML - 10ML STOCK",
+      "total": 17,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DAPTOMYCIN (CUBICIN) 20 MG/ML IN 0.9% SODIUM CHLORIDE - 25ML",
+      "original": "STOCK: DAPTOMYCIN (CUBICIN) 20 MG/ML IN 0.9% SODIUM CHLORIDE - 25ML",
+      "total": 17,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W- 10ML - STOCK",
+      "original": "STOCK: LIB-PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W- 10ML - STOCK",
+      "total": 17,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 50ML STOCK",
+      "original": "STOCK: PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 50ML STOCK",
+      "total": 16,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE(NS) 0.9% - 550ML STOCK",
+      "original": "STOCK: CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE(NS) 0.9% - 550ML STOCK",
+      "total": 15,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PHYTONADIONE (AQUA-MEPHYTON) 1MG/ML IN NS - 10ML",
+      "original": "STOCK: PHYTONADIONE (AQUA-MEPHYTON) 1MG/ML IN NS - 10ML",
+      "total": 15,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 100 UNITS/ML IN 0.45% NS - 50ML REPACKAGED STOCK SYRINGE",
+      "original": "STOCK: BAXA - HEPARIN 100 UNITS/ML IN 0.45% NS - 50ML REPACKAGED STOCK SYRINGE",
+      "total": 14,
+      "size": "100 UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "DEXAMETHASONE (DECADRON) 1MG/ML NS - 50ML",
+      "original": "STOCK: DEXAMETHASONE (DECADRON) 1MG/ML NS - 50ML",
+      "total": 14,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "NAFCILLIN (UNIPEN) 30MG/ML IN **NS** - 66.67ML !",
+      "original": "STOCK: NAFCILLIN (UNIPEN) 30MG/ML IN **NS** - 66.67ML !",
+      "total": 14,
+      "size": "30MG",
+      "type": "Stock"
+    },
+    {
+      "name": "NALBUPHINE (NUBAIN) 1MG/ML IN NS - 10ML",
+      "original": "STOCK: NALBUPHINE (NUBAIN) 1MG/ML IN NS - 10ML",
+      "total": 14,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ALPROSTADIL 10MCG/ML DILUTION IN NS - 50ML",
+      "original": "STOCK: ALPROSTADIL 10MCG/ML DILUTION IN NS - 50ML",
+      "total": 13,
+      "size": "10MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 30,000 UNITS IN PLASMA-LYTE 1000ML STOCK",
+      "original": "STOCK: HEPARIN 30,000 UNITS IN PLASMA-LYTE 1000ML STOCK",
+      "total": 13,
+      "size": "000 UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 10ML STOCK",
+      "original": "STOCK: PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 10ML STOCK",
+      "total": 13,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "FAMOTIDINE (PEPCID) 4 MG/ML NS 5 ML STOCK",
+      "original": "STOCK: FAMOTIDINE (PEPCID) 4 MG/ML NS 5 ML STOCK",
+      "total": 12,
+      "size": "4 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ACYCLOVIR (ZOVIRAX) IN SODIUM CHLORIDE 7 MG/ML- 290ML",
+      "original": "STOCK: ACYCLOVIR (ZOVIRAX) IN SODIUM CHLORIDE 7 MG/ML- 290ML",
+      "total": 10,
+      "size": "7 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DIPHENHYDRAMINE (BENADRYL) IN *NS* 5 MG/ML -10ML",
+      "original": "STOCK: DIPHENHYDRAMINE (BENADRYL) IN *NS* 5 MG/ML -10ML",
+      "total": 10,
+      "size": "5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 1 UNIT/ML NS 1000ML (1021ML WITH OVERFILL) STOCK",
+      "original": "STOCK: HEPARIN 1 UNIT/ML NS 1000ML (1021ML WITH OVERFILL) STOCK",
+      "total": 10,
+      "size": "1 UNIT",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML 20ML STOCK",
+      "original": "STOCK: LIB-CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML 20ML STOCK",
+      "total": 10,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 1 UNIT/ML NS 500ML (530.5ML WITH OVERFILL) STOCK",
+      "original": "STOCK: HEPARIN 1 UNIT/ML NS 500ML (530.5ML WITH OVERFILL) STOCK",
+      "total": 9,
+      "size": "1 UNIT",
+      "type": "Stock"
+    },
+    {
+      "name": "MIDAZOLAM (VERSED) 0.1 MG/ML IN NS - 4ML MAKE IN SYRINGE",
+      "original": "STOCK: MIDAZOLAM (VERSED) 0.1 MG/ML IN NS - 4ML MAKE IN SYRINGE",
+      "total": 9,
+      "size": "0.1 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "OXYTOCIN IN SODIUM CHLORIDE 30UNITS/500ML - STOCK",
+      "original": "STOCK: OXYTOCIN IN SODIUM CHLORIDE 30UNITS/500ML - STOCK",
+      "total": 9,
+      "size": "30UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "VANCOMYCIN (VANCOCIN) 5 MG/ML IN D5W- 300ML STOCK",
+      "original": "STOCK: VANCOMYCIN (VANCOCIN) 5 MG/ML IN D5W- 300ML STOCK",
+      "total": 9,
+      "size": "5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% 100ML",
+      "original": "STOCK: CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% 100ML",
+      "total": 8,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GENTAMICIN 0.48 MG/ML NS IRRIGATION STOCK (IN BAG) - 273.3ML",
+      "original": "STOCK: GENTAMICIN 0.48 MG/ML NS IRRIGATION STOCK (IN BAG) - 273.3ML",
+      "total": 8,
+      "size": "0.48 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 25ML",
+      "original": "STOCK: LIB-METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 25ML",
+      "total": 8,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "METHYLPREDNISOLONE (SOLU-MEDROL) *5MG/ML IN *NS - 100ML !",
+      "original": "STOCK: METHYLPREDNISOLONE (SOLU-MEDROL) *5MG/ML IN *NS - 100ML !",
+      "total": 8,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PENTAMIDINE (PENTAM) 6 MG/ML IN D5W - 50ML !",
+      "original": "STOCK: PENTAMIDINE (PENTAM) 6 MG/ML IN D5W - 50ML !",
+      "total": 8,
+      "size": "6 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS 50 ML STOCK",
+      "original": "STOCK: PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS 50 ML STOCK",
+      "total": 8,
+      "size": "67.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "VANCOMYCIN (VANCOCIN) 5MG/ML WITH SODIUM CITRATE 4% ANTIBIOTIC LOCK STOCK- 10ML",
+      "original": "STOCK: VANCOMYCIN (VANCOCIN) 5MG/ML WITH SODIUM CITRATE 4% ANTIBIOTIC LOCK STOCK- 10ML",
+      "total": 8,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "IMIPENEM-CILASTATION-RELEBACTAM (RECARBRIO) 12.5 MG/ML NS 100ML STOCK",
+      "original": "STOCK: IMIPENEM-CILASTATION-RELEBACTAM (RECARBRIO) 12.5 MG/ML NS 100ML STOCK",
+      "total": 7,
+      "size": "12.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "METHYLPREDNISOLONE (SOLU-MEDROL) *1MG/ML IN D5W - 40ML !",
+      "original": "STOCK: METHYLPREDNISOLONE (SOLU-MEDROL) *1MG/ML IN D5W - 40ML !",
+      "total": 7,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PHENOBARBITAL 10MG/ML IN SW - 6.5ML",
+      "original": "STOCK: PHENOBARBITAL 10MG/ML IN SW - 6.5ML",
+      "total": 7,
+      "size": "10MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML- 100ML STOCK",
+      "original": "STOCK: AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML- 100ML STOCK",
+      "total": 6,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "FOSPHENYTOIN (CEREBYX) 25 MG PE/ML IN NS -20ML",
+      "original": "STOCK: FOSPHENYTOIN (CEREBYX) 25 MG PE/ML IN NS -20ML",
+      "total": 6,
+      "size": "25 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GANCICLOVIR (CYTOVENE) 5MG/ML IN D5W- 100ML",
+      "original": "STOCK: GANCICLOVIR (CYTOVENE) 5MG/ML IN D5W- 100ML",
+      "total": 6,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "IOHEXOL 175MG/1ML (422 MOSM) 200ML - STOCK",
+      "original": "STOCK: IOHEXOL 175MG/1ML (422 MOSM) 200ML - STOCK",
+      "total": 6,
+      "size": "175MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MYCOPHENOLATE (CELLCEPT) 6MG/ML IN D5W- 250ML",
+      "original": "STOCK: MYCOPHENOLATE (CELLCEPT) 6MG/ML IN D5W- 250ML",
+      "total": 6,
+      "size": "6MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS - 66.67ML (4.5G VIAL)",
+      "original": "STOCK: PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS - 66.67ML (4.5G VIAL)",
+      "total": 6,
+      "size": "67.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "SELENIOUS ACID 10MCG/ML DILUTION IN SW - 20ML",
+      "original": "STOCK: BAXA - SELENIOUS ACID 10MCG/ML DILUTION IN SW - 20ML",
+      "total": 5,
+      "size": "10MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN **D5W** 100ML",
+      "original": "STOCK: HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN **D5W** 100ML",
+      "total": 5,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ALEMTUZUMAB (CAMPATH) IN NS 3 MG/ML - 5ML STOCK",
+      "original": "STOCK: ALEMTUZUMAB (CAMPATH) IN NS 3 MG/ML - 5ML STOCK",
+      "total": 4,
+      "size": "3 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "COSYNTROPIN 1MCG/ML IN NS - 250ML !",
+      "original": "STOCK: COSYNTROPIN 1MCG/ML IN NS - 250ML !",
+      "total": 4,
+      "size": "1MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "FAMOTIDINE (PEPCID) 4MG/ML NS - 10ML",
+      "original": "STOCK: FAMOTIDINE (PEPCID) 4MG/ML NS - 10ML",
+      "total": 4,
+      "size": "4MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GRANISETRON (KYTRIL) 50MCG/ML IN NS - 10ML STOCK",
+      "original": "STOCK: GRANISETRON (KYTRIL) 50MCG/ML IN NS - 10ML STOCK",
+      "total": 4,
+      "size": "50MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 20ML",
+      "original": "STOCK: HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 20ML",
+      "total": 4,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 40ML",
+      "original": "STOCK: HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 40ML",
+      "total": 4,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFTAZIDIME (FORTAZ) IN STERILE WATER 100 MG/ML 5ML STOCK",
+      "original": "STOCK: LIB-CEFTAZIDIME (FORTAZ) IN STERILE WATER 100 MG/ML 5ML STOCK",
+      "total": 4,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ROPIVACAINE 0.2% WITH EPI 1:200,000 - 100ML OR STOCK",
+      "original": "STOCK: ROPIVACAINE 0.2% WITH EPI 1:200,000 - 100ML OR STOCK",
+      "total": 4,
+      "size": "100ML",
+      "type": "Stock"
+    },
+    {
+      "name": "CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% *FOR REPACKAGE* -100G/ 2500ML",
+      "original": "STOCK: CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% *FOR REPACKAGE* -100G/ 2500ML",
+      "total": 3,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE)1.5MG/ML IN *D5W* - 33.33ML",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE)1.5MG/ML IN *D5W* - 33.33ML",
+      "total": 3,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MORPHINE PF (ASTROMORPH) 0.1 MG/ML IN NS - 4ML (MAKE IN SYRINGE)",
+      "original": "STOCK: MORPHINE PF (ASTROMORPH) 0.1 MG/ML IN NS - 4ML (MAKE IN SYRINGE)",
+      "total": 3,
+      "size": "0.1 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ACETAZOLAMIDE (DIAMOX) IN D5W 25 MG/ML - 20ML !",
+      "original": "STOCK: ACETAZOLAMIDE (DIAMOX) IN D5W 25 MG/ML - 20ML !",
+      "total": 2,
+      "size": "25 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CYCLOSPORINE (SANDIMMUNE) IN D5W 2.5 MG/ML- 100ML ROOM TEMP !",
+      "original": "STOCK: CYCLOSPORINE (SANDIMMUNE) IN D5W 2.5 MG/ML- 100ML ROOM TEMP !",
+      "total": 2,
+      "size": "2.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DEXAMETHASONE (DECADRON) 1MG/ML NS - 20ML STOCK",
+      "original": "STOCK: DEXAMETHASONE (DECADRON) 1MG/ML NS - 20ML STOCK",
+      "total": 2,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GENTAMICIN (GARAMYCIN) IN D5W 10 MG/ML - 8ML !",
+      "original": "STOCK: GENTAMICIN (GARAMYCIN) IN D5W 10 MG/ML - 8ML !",
+      "total": 2,
+      "size": "10 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 25ML STOCK",
+      "original": "STOCK: LIB-CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 25ML STOCK",
+      "total": 2,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN (OMNIPEN) *50MG/ML* IN NS -10 ML (ONLY USE 500MG VIAL)",
+      "original": "STOCK: AMPICILLIN (OMNIPEN) *50MG/ML* IN NS -10 ML (ONLY USE 500MG VIAL)",
+      "total": 1,
+      "size": "50MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DESMOPRESSIN (DDAVP) *1 MCG/ML* IN NS - 4ML (MAKE IN GLASS VIAL)",
+      "original": "STOCK: DESMOPRESSIN (DDAVP) *1 MCG/ML* IN NS - 4ML (MAKE IN GLASS VIAL)",
+      "total": 1,
+      "size": "1 MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "ETHANOL 70% STOCK 3ML (DEHYDRATED ALCOHOL 2.12 ML/ 0.88 ML STERILE WATER)",
+      "original": "STOCK: ETHANOL 70% STOCK 3ML (DEHYDRATED ALCOHOL 2.12 ML/ 0.88 ML STERILE WATER)",
+      "total": 1,
+      "size": "3ML",
+      "type": "Stock"
+    },
+    {
+      "name": "FUROSEMIDE (LASIX) 1 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 20ML",
+      "original": "STOCK: FUROSEMIDE (LASIX) 1 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 20ML",
+      "total": 1,
+      "size": "1 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "INSULIN REGULAR (MYXREDLIN) 0.02 UNITS/ML IN D10W - 50ML STOCK",
+      "original": "STOCK: INSULIN REGULAR (MYXREDLIN) 0.02 UNITS/ML IN D10W - 50ML STOCK",
+      "total": 1,
+      "size": "0.02 UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "MESNA 20MG/ML IN SODIUM CHLORIDE 0.9% - 100ML - STOCK",
+      "original": "STOCK: MESNA 20MG/ML IN SODIUM CHLORIDE 0.9% - 100ML - STOCK",
+      "total": 1,
+      "size": "20MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 100ML STOCK",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 100ML STOCK",
+      "total": 1,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 133.33ML STOCK",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 133.33ML STOCK",
+      "total": 1,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "NALBUPHINE (NUBAIN) 1MG/ML IN NS - 20ML",
+      "original": "STOCK: NALBUPHINE (NUBAIN) 1MG/ML IN NS - 20ML",
+      "total": 1,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ROPIVACAINE (NAROPIN) 0.2 % - EPINEPHRINE (ADRENALIN) 1:200,000 INJECTION- 20ML",
+      "original": "STOCK: ROPIVACAINE (NAROPIN) 0.2 % - EPINEPHRINE (ADRENALIN) 1:200,000 INJECTION- 20ML",
+      "total": 1,
+      "size": "20ML",
+      "type": "Stock"
+    }
+  ],
+  "dilutions": [
+    {
+      "name": "SELENIOUS ACID 10MCG/ML DILUTION IN SW - 30ML",
+      "original": "DILUTION: BAXA - SELENIOUS ACID 10MCG/ML DILUTION IN SW - 30ML",
+      "total": 63,
+      "size": "10MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "COPPER 100MCG/ML DILUTION IN SW - 40ML",
+      "original": "DILUTION: BAXA - COPPER 100MCG/ML DILUTION IN SW - 40ML",
+      "total": 51,
+      "size": "100MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "LEVOCARNITINE 50MG/ML DILUTION IN SW - 40ML- SYRINGE",
+      "original": "DILUTION: BAXA - LEVOCARNITINE 50MG/ML DILUTION IN SW - 40ML- SYRINGE",
+      "total": 50,
+      "size": "50MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "ZINC SULFATE 1MG/ML DILUTION IN SW- 50ML",
+      "original": "DILUTION: BAXA - ZINC SULFATE 1MG/ML DILUTION IN SW- 50ML",
+      "total": 40,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN NS - 100ML DILUTION",
+      "original": "DILUTION: HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN NS - 100ML DILUTION",
+      "total": 33,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "ASCORBIC ACID 100MG/ML DILUTION IN SW - 25ML",
+      "original": "DILUTION: BAXA - ASCORBIC ACID 100MG/ML DILUTION IN SW - 25ML",
+      "total": 30,
+      "size": "100MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "HYDRALAZINE (APRESOLINE) 1MG/ML IN SW - 20ML",
+      "original": "DILUTION: HYDRALAZINE (APRESOLINE) 1MG/ML IN SW - 20ML",
+      "total": 28,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "FAMOTIDINE 2MG/ML IN SW - 50ML",
+      "original": "DILUTION: BAXA - FAMOTIDINE 2MG/ML IN SW - 50ML",
+      "total": 26,
+      "size": "2MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "FOLIC ACID 0.25MG/ML DILUTION IN SW - 10ML",
+      "original": "DILUTION: BAXA - FOLIC ACID 0.25MG/ML DILUTION IN SW - 10ML",
+      "total": 8,
+      "size": "0.25MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "LEVOCARNITINE 50MG/ML DILUTION IN SW (MANUAL ADD)- 2ML",
+      "original": "DILUTION: BAXA - LEVOCARNITINE 50MG/ML DILUTION IN SW (MANUAL ADD)- 2ML",
+      "total": 8,
+      "size": "50MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "COPPER 100MCG/ML DILUTION IN SW - 20ML",
+      "original": "DILUTION: BAXA - COPPER 100MCG/ML DILUTION IN SW - 20ML",
+      "total": 5,
+      "size": "100MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "ZINC SULFATE 1MG/ML DILUTION IN SW- 25ML",
+      "original": "DILUTION: BAXA - ZINC SULFATE 1MG/ML DILUTION IN SW- 25ML",
+      "total": 5,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "EPINEPHRINE (ADRENALIN) 32 MCG/ML DILUTION IN D5W - 12ML",
+      "original": "DILUTION: EPINEPHRINE (ADRENALIN) 32 MCG/ML DILUTION IN D5W - 12ML",
+      "total": 5,
+      "size": "32 MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "LEVOCARNITINE 50MG/ML DILUTION IN SW - 20ML- SYRINGE",
+      "original": "DILUTION: BAXA - LEVOCARNITINE 50MG/ML DILUTION IN SW - 20ML- SYRINGE",
+      "total": 4,
+      "size": "50MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "PHENYLEPHRINE 0.2 MG/ML D5W - 30ML",
+      "original": "DILUTION: PHENYLEPHRINE 0.2 MG/ML D5W - 30ML",
+      "total": 1,
+      "size": "0.2 MG",
+      "type": "Dilution"
+    }
+  ],
+  "all": [
+    {
+      "name": "AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML - 100 ML",
+      "original": "STOCK: AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML - 100 ML",
+      "total": 74,
+      "size": "30 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "SELENIOUS ACID 10MCG/ML DILUTION IN SW - 30ML",
+      "original": "DILUTION: BAXA - SELENIOUS ACID 10MCG/ML DILUTION IN SW - 30ML",
+      "total": 63,
+      "size": "10MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "PEDIATRIC MVI 50ML *VIAL* STOCK",
+      "original": "STOCK: BAXA - PEDIATRIC MVI 50ML *VIAL* STOCK",
+      "total": 53,
+      "size": "50ML",
+      "type": "Stock"
+    },
+    {
+      "name": "COPPER 100MCG/ML DILUTION IN SW - 40ML",
+      "original": "DILUTION: BAXA - COPPER 100MCG/ML DILUTION IN SW - 40ML",
+      "total": 51,
+      "size": "100MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "LEVOCARNITINE 50MG/ML DILUTION IN SW - 40ML- SYRINGE",
+      "original": "DILUTION: BAXA - LEVOCARNITINE 50MG/ML DILUTION IN SW - 40ML- SYRINGE",
+      "total": 50,
+      "size": "50MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "ZINC SULFATE 1MG/ML DILUTION IN SW- 50ML",
+      "original": "DILUTION: BAXA - ZINC SULFATE 1MG/ML DILUTION IN SW- 50ML",
+      "total": 40,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "VANCOMYCIN (VANCOCIN) 5MG/ML IN D5W - 1000ML !",
+      "original": "STOCK: VANCOMYCIN (VANCOCIN) 5MG/ML IN D5W - 1000ML !",
+      "total": 36,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML100 ML STOCK !",
+      "original": "STOCK: CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML100 ML STOCK !",
+      "total": 33,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN NS - 100ML DILUTION",
+      "original": "DILUTION: HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN NS - 100ML DILUTION",
+      "total": 33,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "METHOCARBAMOL (ROBAXIN) 10 MG/ML IN **NS** - 300ML *ROOM TEMP STORAGE*",
+      "original": "STOCK: METHOCARBAMOL (ROBAXIN) 10 MG/ML IN **NS** - 300ML *ROOM TEMP STORAGE*",
+      "total": 30,
+      "size": "10 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ASCORBIC ACID 100MG/ML DILUTION IN SW - 25ML",
+      "original": "DILUTION: BAXA - ASCORBIC ACID 100MG/ML DILUTION IN SW - 25ML",
+      "total": 30,
+      "size": "100MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "HYDRALAZINE (APRESOLINE) 1MG/ML IN SW - 20ML",
+      "original": "DILUTION: HYDRALAZINE (APRESOLINE) 1MG/ML IN SW - 20ML",
+      "total": 28,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "FAMOTIDINE 2MG/ML IN SW - 50ML",
+      "original": "DILUTION: BAXA - FAMOTIDINE 2MG/ML IN SW - 50ML",
+      "total": 26,
+      "size": "2MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "PHYTONADIONE 1MG/ML IN NS - 20ML",
+      "original": "STOCK: BAXA - PHYTONADIONE 1MG/ML IN NS - 20ML",
+      "total": 25,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PANTOPRAZOLE (PROTONIX) 4MG/ML *NS* 50ML",
+      "original": "STOCK: PANTOPRAZOLE (PROTONIX) 4MG/ML *NS* 50ML",
+      "total": 25,
+      "size": "4MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML - 300 ML STOCK",
+      "original": "STOCK: AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML - 300 ML STOCK",
+      "total": 23,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 1UNIT/ML PAPAVERINE 0.12MG/ML NS - 500ML STOCK",
+      "original": "STOCK: HEPARIN 1UNIT/ML PAPAVERINE 0.12MG/ML NS - 500ML STOCK",
+      "total": 23,
+      "size": "1UNIT",
+      "type": "Stock"
+    },
+    {
+      "name": "FILGRASTIM-SNDZ (ZARXIO) 15 MCG/ML IN D5W- 20 ML",
+      "original": "STOCK: FILGRASTIM-SNDZ (ZARXIO) 15 MCG/ML IN D5W- 20 ML",
+      "total": 22,
+      "size": "15 MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "LORAZEPAM **0.5** MG/ML IN NS - 4ML MAKE IN GLASS VIAL !",
+      "original": "STOCK: LORAZEPAM **0.5** MG/ML IN NS - 4ML MAKE IN GLASS VIAL !",
+      "total": 21,
+      "size": "4ML",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFAZOLIN (ANCEF) 2000MG/20ML IN SW",
+      "original": "STOCK: LIB-CEFAZOLIN (ANCEF) 2000MG/20ML IN SW",
+      "total": 20,
+      "size": "2000MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFEPIME (MAXIPIME) IN SODIUM CHLORIDE (NS) 0.9% 40 MG/ML - 50ML STOCK",
+      "original": "STOCK: LIB-CEFEPIME (MAXIPIME) IN SODIUM CHLORIDE (NS) 0.9% 40 MG/ML - 50ML STOCK",
+      "total": 20,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 100ML !",
+      "original": "STOCK: METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 100ML !",
+      "total": 20,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML- 300ML STOCK",
+      "original": "STOCK: AMPICILLIN-SULBACTAM (UNASYN) IN NS 30 MG/ML- 300ML STOCK",
+      "total": 19,
+      "size": "30 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML -25ML STOCK",
+      "original": "STOCK: LIB-AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML -25ML STOCK",
+      "total": 19,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 266.67ML STOCK",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 266.67ML STOCK",
+      "total": 18,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MVI ADULT 100ML *VIAL* STOCK",
+      "original": "STOCK: BAXA - MVI ADULT 100ML *VIAL* STOCK",
+      "total": 17,
+      "size": "100ML",
+      "type": "Stock"
+    },
+    {
+      "name": "THIAMINE 100 MG/ML - 10ML STOCK",
+      "original": "STOCK: BAXA - THIAMINE 100 MG/ML - 10ML STOCK",
+      "total": 17,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DAPTOMYCIN (CUBICIN) 20 MG/ML IN 0.9% SODIUM CHLORIDE - 25ML",
+      "original": "STOCK: DAPTOMYCIN (CUBICIN) 20 MG/ML IN 0.9% SODIUM CHLORIDE - 25ML",
+      "total": 17,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W- 10ML - STOCK",
+      "original": "STOCK: LIB-PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W- 10ML - STOCK",
+      "total": 17,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 50ML STOCK",
+      "original": "STOCK: PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 50ML STOCK",
+      "total": 16,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE(NS) 0.9% - 550ML STOCK",
+      "original": "STOCK: CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE(NS) 0.9% - 550ML STOCK",
+      "total": 15,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PHYTONADIONE (AQUA-MEPHYTON) 1MG/ML IN NS - 10ML",
+      "original": "STOCK: PHYTONADIONE (AQUA-MEPHYTON) 1MG/ML IN NS - 10ML",
+      "total": 15,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 100 UNITS/ML IN 0.45% NS - 50ML REPACKAGED STOCK SYRINGE",
+      "original": "STOCK: BAXA - HEPARIN 100 UNITS/ML IN 0.45% NS - 50ML REPACKAGED STOCK SYRINGE",
+      "total": 14,
+      "size": "100 UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "DEXAMETHASONE (DECADRON) 1MG/ML NS - 50ML",
+      "original": "STOCK: DEXAMETHASONE (DECADRON) 1MG/ML NS - 50ML",
+      "total": 14,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "NAFCILLIN (UNIPEN) 30MG/ML IN **NS** - 66.67ML !",
+      "original": "STOCK: NAFCILLIN (UNIPEN) 30MG/ML IN **NS** - 66.67ML !",
+      "total": 14,
+      "size": "30MG",
+      "type": "Stock"
+    },
+    {
+      "name": "NALBUPHINE (NUBAIN) 1MG/ML IN NS - 10ML",
+      "original": "STOCK: NALBUPHINE (NUBAIN) 1MG/ML IN NS - 10ML",
+      "total": 14,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ALPROSTADIL 10MCG/ML DILUTION IN NS - 50ML",
+      "original": "STOCK: ALPROSTADIL 10MCG/ML DILUTION IN NS - 50ML",
+      "total": 13,
+      "size": "10MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 30,000 UNITS IN PLASMA-LYTE 1000ML STOCK",
+      "original": "STOCK: HEPARIN 30,000 UNITS IN PLASMA-LYTE 1000ML STOCK",
+      "total": 13,
+      "size": "000 UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 10ML STOCK",
+      "original": "STOCK: PROCHLORPERAZINE (COMPAZINE) 1MG/ML D5W - 10ML STOCK",
+      "total": 13,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "FAMOTIDINE (PEPCID) 4 MG/ML NS 5 ML STOCK",
+      "original": "STOCK: FAMOTIDINE (PEPCID) 4 MG/ML NS 5 ML STOCK",
+      "total": 12,
+      "size": "4 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ACYCLOVIR (ZOVIRAX) IN SODIUM CHLORIDE 7 MG/ML- 290ML",
+      "original": "STOCK: ACYCLOVIR (ZOVIRAX) IN SODIUM CHLORIDE 7 MG/ML- 290ML",
+      "total": 10,
+      "size": "7 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DIPHENHYDRAMINE (BENADRYL) IN *NS* 5 MG/ML -10ML",
+      "original": "STOCK: DIPHENHYDRAMINE (BENADRYL) IN *NS* 5 MG/ML -10ML",
+      "total": 10,
+      "size": "5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 1 UNIT/ML NS 1000ML (1021ML WITH OVERFILL) STOCK",
+      "original": "STOCK: HEPARIN 1 UNIT/ML NS 1000ML (1021ML WITH OVERFILL) STOCK",
+      "total": 10,
+      "size": "1 UNIT",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML 20ML STOCK",
+      "original": "STOCK: LIB-CEFTRIAXONE (ROCEPHIN) IN *NS* 100 MG/ML 20ML STOCK",
+      "total": 10,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HEPARIN 1 UNIT/ML NS 500ML (530.5ML WITH OVERFILL) STOCK",
+      "original": "STOCK: HEPARIN 1 UNIT/ML NS 500ML (530.5ML WITH OVERFILL) STOCK",
+      "total": 9,
+      "size": "1 UNIT",
+      "type": "Stock"
+    },
+    {
+      "name": "MIDAZOLAM (VERSED) 0.1 MG/ML IN NS - 4ML MAKE IN SYRINGE",
+      "original": "STOCK: MIDAZOLAM (VERSED) 0.1 MG/ML IN NS - 4ML MAKE IN SYRINGE",
+      "total": 9,
+      "size": "0.1 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "OXYTOCIN IN SODIUM CHLORIDE 30UNITS/500ML - STOCK",
+      "original": "STOCK: OXYTOCIN IN SODIUM CHLORIDE 30UNITS/500ML - STOCK",
+      "total": 9,
+      "size": "30UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "VANCOMYCIN (VANCOCIN) 5 MG/ML IN D5W- 300ML STOCK",
+      "original": "STOCK: VANCOMYCIN (VANCOCIN) 5 MG/ML IN D5W- 300ML STOCK",
+      "total": 9,
+      "size": "5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% 100ML",
+      "original": "STOCK: CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% 100ML",
+      "total": 8,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GENTAMICIN 0.48 MG/ML NS IRRIGATION STOCK (IN BAG) - 273.3ML",
+      "original": "STOCK: GENTAMICIN 0.48 MG/ML NS IRRIGATION STOCK (IN BAG) - 273.3ML",
+      "total": 8,
+      "size": "0.48 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 25ML",
+      "original": "STOCK: LIB-METHYLPREDNISOLONE (SOLU-MEDROL) 5MG/ML IN D5W - 25ML",
+      "total": 8,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "METHYLPREDNISOLONE (SOLU-MEDROL) *5MG/ML IN *NS - 100ML !",
+      "original": "STOCK: METHYLPREDNISOLONE (SOLU-MEDROL) *5MG/ML IN *NS - 100ML !",
+      "total": 8,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PENTAMIDINE (PENTAM) 6 MG/ML IN D5W - 50ML !",
+      "original": "STOCK: PENTAMIDINE (PENTAM) 6 MG/ML IN D5W - 50ML !",
+      "total": 8,
+      "size": "6 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS 50 ML STOCK",
+      "original": "STOCK: PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS 50 ML STOCK",
+      "total": 8,
+      "size": "67.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "VANCOMYCIN (VANCOCIN) 5MG/ML WITH SODIUM CITRATE 4% ANTIBIOTIC LOCK STOCK- 10ML",
+      "original": "STOCK: VANCOMYCIN (VANCOCIN) 5MG/ML WITH SODIUM CITRATE 4% ANTIBIOTIC LOCK STOCK- 10ML",
+      "total": 8,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "FOLIC ACID 0.25MG/ML DILUTION IN SW - 10ML",
+      "original": "DILUTION: BAXA - FOLIC ACID 0.25MG/ML DILUTION IN SW - 10ML",
+      "total": 8,
+      "size": "0.25MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "LEVOCARNITINE 50MG/ML DILUTION IN SW (MANUAL ADD)- 2ML",
+      "original": "DILUTION: BAXA - LEVOCARNITINE 50MG/ML DILUTION IN SW (MANUAL ADD)- 2ML",
+      "total": 8,
+      "size": "50MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "IMIPENEM-CILASTATION-RELEBACTAM (RECARBRIO) 12.5 MG/ML NS 100ML STOCK",
+      "original": "STOCK: IMIPENEM-CILASTATION-RELEBACTAM (RECARBRIO) 12.5 MG/ML NS 100ML STOCK",
+      "total": 7,
+      "size": "12.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "METHYLPREDNISOLONE (SOLU-MEDROL) *1MG/ML IN D5W - 40ML !",
+      "original": "STOCK: METHYLPREDNISOLONE (SOLU-MEDROL) *1MG/ML IN D5W - 40ML !",
+      "total": 7,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PHENOBARBITAL 10MG/ML IN SW - 6.5ML",
+      "original": "STOCK: PHENOBARBITAL 10MG/ML IN SW - 6.5ML",
+      "total": 7,
+      "size": "10MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML- 100ML STOCK",
+      "original": "STOCK: AMPICILLIN (OMNIPEN) IN SODIUM CHLORIDE 20 MG/ML- 100ML STOCK",
+      "total": 6,
+      "size": "20 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "FOSPHENYTOIN (CEREBYX) 25 MG PE/ML IN NS -20ML",
+      "original": "STOCK: FOSPHENYTOIN (CEREBYX) 25 MG PE/ML IN NS -20ML",
+      "total": 6,
+      "size": "25 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GANCICLOVIR (CYTOVENE) 5MG/ML IN D5W- 100ML",
+      "original": "STOCK: GANCICLOVIR (CYTOVENE) 5MG/ML IN D5W- 100ML",
+      "total": 6,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "IOHEXOL 175MG/1ML (422 MOSM) 200ML - STOCK",
+      "original": "STOCK: IOHEXOL 175MG/1ML (422 MOSM) 200ML - STOCK",
+      "total": 6,
+      "size": "175MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MYCOPHENOLATE (CELLCEPT) 6MG/ML IN D5W- 250ML",
+      "original": "STOCK: MYCOPHENOLATE (CELLCEPT) 6MG/ML IN D5W- 250ML",
+      "total": 6,
+      "size": "6MG",
+      "type": "Stock"
+    },
+    {
+      "name": "PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS - 66.67ML (4.5G VIAL)",
+      "original": "STOCK: PIPERACILLIN SODIUM-TAZOBACTAM (*****ZOSYN*****) 67.5 MG/ML NS - 66.67ML (4.5G VIAL)",
+      "total": 6,
+      "size": "67.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "SELENIOUS ACID 10MCG/ML DILUTION IN SW - 20ML",
+      "original": "STOCK: BAXA - SELENIOUS ACID 10MCG/ML DILUTION IN SW - 20ML",
+      "total": 5,
+      "size": "10MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN **D5W** 100ML",
+      "original": "STOCK: HYDROCORTISONE (SOLU-CORTEF) *1MG/ML* IN **D5W** 100ML",
+      "total": 5,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "COPPER 100MCG/ML DILUTION IN SW - 20ML",
+      "original": "DILUTION: BAXA - COPPER 100MCG/ML DILUTION IN SW - 20ML",
+      "total": 5,
+      "size": "100MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "ZINC SULFATE 1MG/ML DILUTION IN SW- 25ML",
+      "original": "DILUTION: BAXA - ZINC SULFATE 1MG/ML DILUTION IN SW- 25ML",
+      "total": 5,
+      "size": "1MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "EPINEPHRINE (ADRENALIN) 32 MCG/ML DILUTION IN D5W - 12ML",
+      "original": "DILUTION: EPINEPHRINE (ADRENALIN) 32 MCG/ML DILUTION IN D5W - 12ML",
+      "total": 5,
+      "size": "32 MCG",
+      "type": "Dilution"
+    },
+    {
+      "name": "ALEMTUZUMAB (CAMPATH) IN NS 3 MG/ML - 5ML STOCK",
+      "original": "STOCK: ALEMTUZUMAB (CAMPATH) IN NS 3 MG/ML - 5ML STOCK",
+      "total": 4,
+      "size": "3 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "COSYNTROPIN 1MCG/ML IN NS - 250ML !",
+      "original": "STOCK: COSYNTROPIN 1MCG/ML IN NS - 250ML !",
+      "total": 4,
+      "size": "1MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "FAMOTIDINE (PEPCID) 4MG/ML NS - 10ML",
+      "original": "STOCK: FAMOTIDINE (PEPCID) 4MG/ML NS - 10ML",
+      "total": 4,
+      "size": "4MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GRANISETRON (KYTRIL) 50MCG/ML IN NS - 10ML STOCK",
+      "original": "STOCK: GRANISETRON (KYTRIL) 50MCG/ML IN NS - 10ML STOCK",
+      "total": 4,
+      "size": "50MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 20ML",
+      "original": "STOCK: HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 20ML",
+      "total": 4,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 40ML",
+      "original": "STOCK: HYDROCORTISONE (SOLU-CORTEF) 5MG/ML IN NS- 40ML",
+      "total": 4,
+      "size": "5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFTAZIDIME (FORTAZ) IN STERILE WATER 100 MG/ML 5ML STOCK",
+      "original": "STOCK: LIB-CEFTAZIDIME (FORTAZ) IN STERILE WATER 100 MG/ML 5ML STOCK",
+      "total": 4,
+      "size": "100 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ROPIVACAINE 0.2% WITH EPI 1:200,000 - 100ML OR STOCK",
+      "original": "STOCK: ROPIVACAINE 0.2% WITH EPI 1:200,000 - 100ML OR STOCK",
+      "total": 4,
+      "size": "100ML",
+      "type": "Stock"
+    },
+    {
+      "name": "LEVOCARNITINE 50MG/ML DILUTION IN SW - 20ML- SYRINGE",
+      "original": "DILUTION: BAXA - LEVOCARNITINE 50MG/ML DILUTION IN SW - 20ML- SYRINGE",
+      "total": 4,
+      "size": "50MG",
+      "type": "Dilution"
+    },
+    {
+      "name": "CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% *FOR REPACKAGE* -100G/ 2500ML",
+      "original": "STOCK: CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% *FOR REPACKAGE* -100G/ 2500ML",
+      "total": 3,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE)1.5MG/ML IN *D5W* - 33.33ML",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE)1.5MG/ML IN *D5W* - 33.33ML",
+      "total": 3,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MORPHINE PF (ASTROMORPH) 0.1 MG/ML IN NS - 4ML (MAKE IN SYRINGE)",
+      "original": "STOCK: MORPHINE PF (ASTROMORPH) 0.1 MG/ML IN NS - 4ML (MAKE IN SYRINGE)",
+      "total": 3,
+      "size": "0.1 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ACETAZOLAMIDE (DIAMOX) IN D5W 25 MG/ML - 20ML !",
+      "original": "STOCK: ACETAZOLAMIDE (DIAMOX) IN D5W 25 MG/ML - 20ML !",
+      "total": 2,
+      "size": "25 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "CYCLOSPORINE (SANDIMMUNE) IN D5W 2.5 MG/ML- 100ML ROOM TEMP !",
+      "original": "STOCK: CYCLOSPORINE (SANDIMMUNE) IN D5W 2.5 MG/ML- 100ML ROOM TEMP !",
+      "total": 2,
+      "size": "2.5 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DEXAMETHASONE (DECADRON) 1MG/ML NS - 20ML STOCK",
+      "original": "STOCK: DEXAMETHASONE (DECADRON) 1MG/ML NS - 20ML STOCK",
+      "total": 2,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "GENTAMICIN (GARAMYCIN) IN D5W 10 MG/ML - 8ML !",
+      "original": "STOCK: GENTAMICIN (GARAMYCIN) IN D5W 10 MG/ML - 8ML !",
+      "total": 2,
+      "size": "10 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "LIB-CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 25ML STOCK",
+      "original": "STOCK: LIB-CEFEPIME (MAXIPIME) 40 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 25ML STOCK",
+      "total": 2,
+      "size": "40 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "AMPICILLIN (OMNIPEN) *50MG/ML* IN NS -10 ML (ONLY USE 500MG VIAL)",
+      "original": "STOCK: AMPICILLIN (OMNIPEN) *50MG/ML* IN NS -10 ML (ONLY USE 500MG VIAL)",
+      "total": 1,
+      "size": "50MG",
+      "type": "Stock"
+    },
+    {
+      "name": "DESMOPRESSIN (DDAVP) *1 MCG/ML* IN NS - 4ML (MAKE IN GLASS VIAL)",
+      "original": "STOCK: DESMOPRESSIN (DDAVP) *1 MCG/ML* IN NS - 4ML (MAKE IN GLASS VIAL)",
+      "total": 1,
+      "size": "1 MCG",
+      "type": "Stock"
+    },
+    {
+      "name": "ETHANOL 70% STOCK 3ML (DEHYDRATED ALCOHOL 2.12 ML/ 0.88 ML STERILE WATER)",
+      "original": "STOCK: ETHANOL 70% STOCK 3ML (DEHYDRATED ALCOHOL 2.12 ML/ 0.88 ML STERILE WATER)",
+      "total": 1,
+      "size": "3ML",
+      "type": "Stock"
+    },
+    {
+      "name": "FUROSEMIDE (LASIX) 1 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 20ML",
+      "original": "STOCK: FUROSEMIDE (LASIX) 1 MG/ML IN SODIUM CHLORIDE (NS) 0.9% - 20ML",
+      "total": 1,
+      "size": "1 MG",
+      "type": "Stock"
+    },
+    {
+      "name": "INSULIN REGULAR (MYXREDLIN) 0.02 UNITS/ML IN D10W - 50ML STOCK",
+      "original": "STOCK: INSULIN REGULAR (MYXREDLIN) 0.02 UNITS/ML IN D10W - 50ML STOCK",
+      "total": 1,
+      "size": "0.02 UNITS",
+      "type": "Stock"
+    },
+    {
+      "name": "MESNA 20MG/ML IN SODIUM CHLORIDE 0.9% - 100ML - STOCK",
+      "original": "STOCK: MESNA 20MG/ML IN SODIUM CHLORIDE 0.9% - 100ML - STOCK",
+      "total": 1,
+      "size": "20MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 100ML STOCK",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 100ML STOCK",
+      "total": 1,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 133.33ML STOCK",
+      "original": "STOCK: MICAFUNGIN (MYCAMINE) 1.5MG/ML IN NS - 133.33ML STOCK",
+      "total": 1,
+      "size": "1.5MG",
+      "type": "Stock"
+    },
+    {
+      "name": "NALBUPHINE (NUBAIN) 1MG/ML IN NS - 20ML",
+      "original": "STOCK: NALBUPHINE (NUBAIN) 1MG/ML IN NS - 20ML",
+      "total": 1,
+      "size": "1MG",
+      "type": "Stock"
+    },
+    {
+      "name": "ROPIVACAINE (NAROPIN) 0.2 % - EPINEPHRINE (ADRENALIN) 1:200,000 INJECTION- 20ML",
+      "original": "STOCK: ROPIVACAINE (NAROPIN) 0.2 % - EPINEPHRINE (ADRENALIN) 1:200,000 INJECTION- 20ML",
+      "total": 1,
+      "size": "20ML",
+      "type": "Stock"
+    },
+    {
+      "name": "PHENYLEPHRINE 0.2 MG/ML D5W - 30ML",
+      "original": "DILUTION: PHENYLEPHRINE 0.2 MG/ML D5W - 30ML",
+      "total": 1,
+      "size": "0.2 MG",
+      "type": "Dilution"
+    }
+  ],
+  "summary": {
+    "total_stock_types": 84,
+    "total_dilution_types": 15,
+    "total_doses_made": 1319
+  },
+  "uploaded_at": "2026-01-24T20:33:57.447Z"
+}

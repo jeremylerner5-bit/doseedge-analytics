@@ -1,0 +1,5338 @@
+{
+  "by_product": {
+    "abatacept 250mg (Bristol-Myers Squibb)": {
+      "ndc": 3218713,
+      "productCount": 11,
+      "doseCount": 6,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 6,
+        "HEM/ONC PHARMACY": 5
+      }
+    },
+    "Ablysinol (dehydrated alcohol) 5mL ampule": {
+      "ndc": 54288010515,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "acetaminophen 1000mg/100mL (Braun)": {
+      "ndc": 264410090,
+      "productCount": 83,
+      "doseCount": 228,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 83
+      }
+    },
+    "acetaminophen 1000mg/100mL (Fresenius Kabi)": {
+      "ndc": 63323043441,
+      "productCount": 229,
+      "doseCount": 507,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 71,
+        "CRITICAL CARE PHARMACY": 11,
+        "ED PHARMACY": 14,
+        "LIBERTY MAIN PHARMACY": 50,
+        "OR MAIN PHARMACY": 80,
+        "HEM/ONC PHARMACY": 2,
+        "Unknown": 1
+      }
+    },
+    "acetaminophen 10mg/mL - 100mL bag (Baxter)": {
+      "ndc": 36000030660,
+      "productCount": 142,
+      "doseCount": 408,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 37,
+        "CCHMC MAIN PHARMACY": 103,
+        "Unknown": 2
+      }
+    },
+    "acetaZOLAMIDE (DIAMOX) in D5W 25 mg/mL - 20mL !": {
+      "ndc": "Z6478216361",
+      "productCount": 1,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "acetazolamide 500 mg vial (Avet)": {
+      "ndc": 23155031331,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "acetazolamide 500mg West Ward": {
+      "ndc": 143950301,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "acetylcysteine 20% 30mL Perrigo": {
+      "ndc": 574080530,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "ED PHARMACY": 1
+      }
+    },
+    "acetylcysteine 200 mg/mL Sagent": {
+      "ndc": 25021081230,
+      "productCount": 17,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8,
+        "ED PHARMACY": 5,
+        "CRITICAL CARE PHARMACY": 4
+      }
+    },
+    "acyclovir (ZOVIRAX) in sodium chloride 7 mg/mL- 290mL": {
+      "ndc": "Z6473016076",
+      "productCount": 8,
+      "doseCount": 38,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7,
+        "Unknown": 1
+      }
+    },
+    "acyclovir 50 mg/mL - 10mL (Auromedics)": {
+      "ndc": 55150015410,
+      "productCount": 6,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "Acyclovir 50 mg/mL 20 mL (Fresnius)": {
+      "ndc": 65219062404,
+      "productCount": 1,
+      "doseCount": 2,
+      "locations": {
+        "ED PHARMACY": 1
+      }
+    },
+    "acyclovir 50 mg/mL 20mL Auromedics": {
+      "ndc": 55150015520,
+      "productCount": 27,
+      "doseCount": 21,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 19,
+        "LIBERTY MAIN PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 3,
+        "ED PHARMACY": 3
+      }
+    },
+    "agalsidase beta 35mg (Genzyme Corporation)": {
+      "ndc": 58468004001,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "agalsidase beta 5mg (Genzyme Corporation)": {
+      "ndc": 58468004101,
+      "productCount": 5,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "albumin human 25% - 100mL bag (Takeda Pharma)": {
+      "ndc": 944049304,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "albuterol sulfate inhalation solution 0.5% 5mg/mL - 20mL (Staq #2)": {
+      "ndc": 73177016333,
+      "productCount": 37,
+      "doseCount": 66,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 15,
+        "CRITICAL CARE PHARMACY": 21,
+        "Unknown": 1
+      }
+    },
+    "alemtuzumab (CAMPATH) in NS 3 mg/mL - 5mL STOCK": {
+      "ndc": "Z6716518246",
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "alemtuzumab 30 mg/mL 1mL (Genzyme) 1": {
+      "ndc": 58468035701,
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "alpha 1-proteinase inhibitor human 1gm (CSL Behring)": {
+      "ndc": 53720102,
+      "productCount": 22,
+      "doseCount": 10,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 10,
+        "CCHMC MAIN PHARMACY": 4,
+        "HEM/ONC PHARMACY": 8
+      }
+    },
+    "alprostadil 10mcg/mL dilution in NS - 50mL": {
+      "ndc": "Z6473016079",
+      "productCount": 13,
+      "doseCount": 31,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7,
+        "CRITICAL CARE PHARMACY": 6
+      }
+    },
+    "alprostadil 500 mcg/mL 1 mL(Pfizer U.S. Pharmaceuticals Group)": {
+      "ndc": 9316901,
+      "productCount": 15,
+      "doseCount": 15,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7,
+        "CRITICAL CARE PHARMACY": 8
+      }
+    },
+    "aminophylline 25 mg/mL 20mL (Hospira Inc) #3": {
+      "ndc": 409592216,
+      "productCount": 3,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "amiodarone hcl 150mg/100mL (Nexterone)": {
+      "ndc": 43066015010,
+      "productCount": 11,
+      "doseCount": 14,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "ampicillin (OMNIPEN) *50mg/ml* in NS -10 mL (only use 500mg vial)": {
+      "ndc": "Z6473016086",
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "ampicillin (OMNIPEN) in sodium chloride 20 mg/mL - 300 mL STOCK": {
+      "ndc": "Z6473016090",
+      "productCount": 19,
+      "doseCount": 142,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 19
+      }
+    },
+    "ampicillin (OMNIPEN) in sodium chloride 20 mg/mL- 100mL Stock": {
+      "ndc": "Z6471816069",
+      "productCount": 4,
+      "doseCount": 6,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 3,
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "ampicillin 2g (Sandoz Inc) #7": {
+      "ndc": 781340880,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "ED PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "ampicillin 2g Auromedics": {
+      "ndc": 55150011420,
+      "productCount": 115,
+      "doseCount": 90,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 80,
+        "CRITICAL CARE PHARMACY": 16,
+        "LIBERTY MAIN PHARMACY": 8,
+        "ED PHARMACY": 5,
+        "OR MAIN PHARMACY": 6
+      }
+    },
+    "ampicillin 500mg Sandoz": {
+      "ndc": 781340778,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "ampicillin and sulbactam 1.5 gram/vial (West-Ward)": {
+      "ndc": 641611601,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "ampicillin and sulbactam 3g vial (WestWard)": {
+      "ndc": 641611701,
+      "productCount": 32,
+      "doseCount": 37,
+      "locations": {
+        "ED PHARMACY": 11,
+        "CRITICAL CARE PHARMACY": 9,
+        "LIBERTY MAIN PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 6,
+        "OR MAIN PHARMACY": 5
+      }
+    },
+    "ampicillin-sulbactam (UNASYN) in NS 30 mg/mL - 100 mL": {
+      "ndc": "Z6473016091",
+      "productCount": 63,
+      "doseCount": 67,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 63
+      }
+    },
+    "ampicillin-sulbactam (UNASYN) in NS 30 mg/mL- 300mL STOCK": {
+      "ndc": "Z6563317337",
+      "productCount": 16,
+      "doseCount": 96,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 15,
+        "Unknown": 1
+      }
+    },
+    "ampicillin-sulbactam 10g-5g vial (Meitheal)": {
+      "ndc": 71288003375,
+      "productCount": 27,
+      "doseCount": 92,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 27
+      }
+    },
+    "anakinra 100mg/0.67mL Syringe biovitrum #2": {
+      "ndc": 66658023401,
+      "productCount": 11,
+      "doseCount": 15,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 9,
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "anifrolumab-fnia (SAPHNELO) 300mg/2mL Astra Zenica": {
+      "ndc": 310304000,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "anticoagulant sodium citrate solution 4% - 9mL syringe (CCHMC)": {
+      "ndc": 9999101972,
+      "productCount": 8,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "arginine 10% 300mL dosed as mg (Pfizer U.S. Pharmaceuticals Group 1) [10G/100mL]*": {
+      "ndc": "00009043601-01",
+      "productCount": 5,
+      "doseCount": 11,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "arsenic trioxide 1mg/mL - 10mL (Zydus Pharmaceuticals)": {
+      "ndc": 68382099710,
+      "productCount": 10,
+      "doseCount": 5,
+      "locations": {
+        "HEM/ONC PHARMACY": 10
+      }
+    },
+    "Artesunate for injection 110mg vial": {
+      "ndc": 73607000201,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "ascorbic acid 500 mg/mL 50mL (McGuff Pharmaceuticals Inc)": {
+      "ndc": 67157010150,
+      "productCount": 3,
+      "doseCount": 30,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "axatilimab-csfr 9mg/0.18mL injection (Incyte Pharma)": {
+      "ndc": 50881003412,
+      "productCount": 11,
+      "doseCount": 5,
+      "locations": {
+        "HEM/ONC PHARMACY": 11
+      }
+    },
+    "azaCITIDine 100mg (Dr Reddy's)": {
+      "ndc": 43598030562,
+      "productCount": 15,
+      "doseCount": 10,
+      "locations": {
+        "HEM/ONC PHARMACY": 9,
+        "LIBERTY MAIN PHARMACY": 6
+      }
+    },
+    "azithromycin 500 mg (Auromedics)": {
+      "ndc": 55150017410,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "basiliximab 10mg (Novartis Pharmaceuticals)": {
+      "ndc": 78039361,
+      "productCount": 4,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2,
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "belatacept 250mg vial (Bristol-Myers Squibb)": {
+      "ndc": 3037113,
+      "productCount": 3,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "belimumab (Benlysta) 120mg Vial": {
+      "ndc": 49401010101,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "belimumab (Benlysta) 400 mg Vial": {
+      "ndc": 49401010201,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "bevacizumab 25 mg/mL 16mL (Genentech)": {
+      "ndc": 50242006101,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "bevacizumab-bvzr (ZIRABEV) 25mg/mL - 16mL vial (Pfizer)": {
+      "ndc": 69034201,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "bivalirudin 250mg vial (Meitheal)": {
+      "ndc": 71288042710,
+      "productCount": 209,
+      "doseCount": 121,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 101,
+        "CRITICAL CARE PHARMACY": 108
+      }
+    },
+    "Bleomycin 30 units (West-Ward)": {
+      "ndc": 143924101,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "botulinum toxin type A 100units (Allergan Inc) [100 units/mL]": {
+      "ndc": "00023114501-01",
+      "productCount": 3,
+      "doseCount": 2,
+      "locations": {
+        "OR MAIN PHARMACY": 3
+      }
+    },
+    "botulinum toxin type A 100units (Allergan Inc) [50 units/mL]": {
+      "ndc": "00023114501-02",
+      "productCount": 15,
+      "doseCount": 19,
+      "locations": {
+        "OR MAIN PHARMACY": 8,
+        "LIBERTY MAIN PHARMACY": 6,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "Brivaracetam (Briviact) 50mg/5mL Injection (UCB Pharma)": {
+      "ndc": 50474097063,
+      "productCount": 8,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "bumetanide 0.25 mg/mL 10mL (WEST-WARD)": {
+      "ndc": 641600701,
+      "productCount": 14,
+      "doseCount": 16,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 14
+      }
+    },
+    "bumetanide 0.25mg/mL - 10mL vial (Glenmark)": {
+      "ndc": 68462047040,
+      "productCount": 138,
+      "doseCount": 124,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 47,
+        "CRITICAL CARE PHARMACY": 91
+      }
+    },
+    "bupivacaine 0.5% - 30mL vial (Eugia)": {
+      "ndc": 55150017030,
+      "productCount": 5,
+      "doseCount": 6,
+      "locations": {
+        "OR MAIN PHARMACY": 5
+      }
+    },
+    "bupivacaine 0.5% 10mL (AuroMedics)": {
+      "ndc": 55150016910,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "bupivacaine liposome (EXPAREL) 1.3% 20mL (Pacira Pharma)": {
+      "ndc": 65250026620,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "OR MAIN PHARMACY": 2
+      }
+    },
+    "BUsulfan 6mg/ml 10ml (Meitheal)": {
+      "ndc": 71288011610,
+      "productCount": 5,
+      "doseCount": 5,
+      "locations": {
+        "HEM/ONC PHARMACY": 5
+      }
+    },
+    "butorphanol 1 mg/mL 1mL (Hospira)": {
+      "ndc": 409162321,
+      "productCount": 2,
+      "doseCount": 3,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "caffeine citrate 20 mg/mL Sagent": {
+      "ndc": 25021060103,
+      "productCount": 12,
+      "doseCount": 33,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 9,
+        "CRITICAL CARE PHARMACY": 3
+      }
+    },
+    "calaspargase pegol-mknl 750units/1mL - 5mL vial (Servier)": {
+      "ndc": 72694051501,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "calcium chloride 100 mg/mL 10mL (American Regent)": {
+      "ndc": 517671001,
+      "productCount": 258,
+      "doseCount": 91,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 70,
+        "CRITICAL CARE PHARMACY": 186,
+        "OR MAIN PHARMACY": 2
+      }
+    },
+    "Calcium Gluconate 100 mg /mL Fresenius Kabi 10mL": {
+      "ndc": 63323036001,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "calcium gluconate 100mg/mL 50mL (Fresenius Kabi)": {
+      "ndc": 63323036003,
+      "productCount": 7,
+      "doseCount": 3,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 6,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "canakinumab injection 150mg/mL - 1mL vial (Novartis)": {
+      "ndc": 78073461,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "CARBOplatin 10 mg/mL 15mL (Hospira Inc) #2": {
+      "ndc": 61703033922,
+      "productCount": 15,
+      "doseCount": 8,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 5,
+        "HEM/ONC PHARMACY": 10
+      }
+    },
+    "casimersen 50mg/1mL 2mL (Sarepta)": {
+      "ndc": 60923022702,
+      "productCount": 17,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 17
+      }
+    },
+    "ceFAZolin 10g (West-Ward Pharmaceutical Corporation)": {
+      "ndc": 143998391,
+      "productCount": 67,
+      "doseCount": 456,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 33,
+        "CRITICAL CARE PHARMACY": 18,
+        "LIBERTY MAIN PHARMACY": 4,
+        "OR MAIN PHARMACY": 12
+      }
+    },
+    "ceFAZolin 1g (West-Ward Pharmaceutical Corporation)": {
+      "ndc": 143992490,
+      "productCount": 18,
+      "doseCount": 30,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 4,
+        "CCHMC MAIN PHARMACY": 8,
+        "ED PHARMACY": 5,
+        "Unknown": 1
+      }
+    },
+    "ceFAZolin 1g (West-Ward Pharmaceutical Corporation) [200 mg/mL-S-conjunc]": {
+      "ndc": "00143992490-01",
+      "productCount": 2,
+      "doseCount": 4,
+      "locations": {
+        "OR MAIN PHARMACY": 2
+      }
+    },
+    "cefepime (MAXIPIME) 40 mg/mL in sodium chloride (NS) 0.9% 100mL": {
+      "ndc": "Z6473616117",
+      "productCount": 4,
+      "doseCount": 18,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 4
+      }
+    },
+    "cefepime (MAXIPIME) 40 mg/mL in sodium chloride(NS) 0.9% - 550mL Stock": {
+      "ndc": "Z6481216539",
+      "productCount": 10,
+      "doseCount": 267,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 10
+      }
+    },
+    "cefepime 100g (Samson)": {
+      "ndc": 66288810001,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "ED PHARMACY": 3
+      }
+    },
+    "Cefepime 2000mg in Dextrose 50mL (40mg/mL)": {
+      "ndc": 264319511,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "cefepime 2g vial (Hikma)": {
+      "ndc": 143938301,
+      "productCount": 194,
+      "doseCount": 43,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 18,
+        "CCHMC MAIN PHARMACY": 161,
+        "ED PHARMACY": 5,
+        "CRITICAL CARE PHARMACY": 10
+      }
+    },
+    "Cefepime for injection 2 grams": {
+      "ndc": 60505614700,
+      "productCount": 16,
+      "doseCount": 14,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4,
+        "CRITICAL CARE PHARMACY": 6,
+        "LIBERTY MAIN PHARMACY": 4,
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "cefiderocol (FETROJA) 1 gm vial": {
+      "ndc": 59630026601,
+      "productCount": 6,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "cefOXitin 2g (Sagent)": {
+      "ndc": 25021011020,
+      "productCount": 29,
+      "doseCount": 48,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 4,
+        "OR MAIN PHARMACY": 8,
+        "CCHMC MAIN PHARMACY": 16,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "Ceftaroline (Tefaro) 600mg Vial Facta": {
+      "ndc": 456060001,
+      "productCount": 14,
+      "doseCount": 46,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 13,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "Ceftazidime 1g (WG Critical Care, LLC)": {
+      "ndc": 44567023525,
+      "productCount": 12,
+      "doseCount": 20,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 8,
+        "ED PHARMACY": 4
+      }
+    },
+    "cefTAZidime 2g (WG Critical Care)": {
+      "ndc": 44567023610,
+      "productCount": 26,
+      "doseCount": 86,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 25,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "cefTRIAXone 10g (Hospira Inc)": {
+      "ndc": 409733410,
+      "productCount": 49,
+      "doseCount": 124,
+      "locations": {
+        "ED PHARMACY": 33,
+        "CCHMC MAIN PHARMACY": 13,
+        "LIBERTY MAIN PHARMACY": 2,
+        "Unknown": 1
+      }
+    },
+    "cefTRIAXone 1g (Hospira)": {
+      "ndc": 409733211,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "OR MAIN PHARMACY": 2
+      }
+    },
+    "cefTRIAXone 2g (Hospira)": {
+      "ndc": 409733513,
+      "productCount": 34,
+      "doseCount": 75,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 19,
+        "ED PHARMACY": 9,
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "cefTRIAXone 2g (Sandoz)": {
+      "ndc": 781320990,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "ED PHARMACY": 1
+      }
+    },
+    "Cemiplimab-rwlc 50mg/ml 7ml (Sanofi)": {
+      "ndc": 61755000801,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "cetirizine 10mg/mL 1mL (TerSera Therapeutics)": {
+      "ndc": 70720010010,
+      "productCount": 6,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "chlorothiazide 500 mg (APP Pharmaceuticals)": {
+      "ndc": 63323065820,
+      "productCount": 18,
+      "doseCount": 158,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 18
+      }
+    },
+    "chlorothiazide 500 mg sagent": {
+      "ndc": 25021030520,
+      "productCount": 12,
+      "doseCount": 76,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "Unknown": 1,
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "Chlorothiazide 500mg American Regent": {
+      "ndc": 517182001,
+      "productCount": 11,
+      "doseCount": 70,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6,
+        "Unknown": 1,
+        "CRITICAL CARE PHARMACY": 4
+      }
+    },
+    "cidofovir 375mg/5mL Mylan": {
+      "ndc": 67457021005,
+      "productCount": 4,
+      "doseCount": 5,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "Cidofovir 375mg/5mL Heritage": {
+      "ndc": 23155021631,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "ciprofloxacin in D5W 2mg/mL - 200mL (Sagent)": {
+      "ndc": 25021019287,
+      "productCount": 28,
+      "doseCount": 61,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 27,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "cisatracurium 2mg/mL - 5mL vial (Meitheal)": {
+      "ndc": 71288071205,
+      "productCount": 20,
+      "doseCount": 2,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 10,
+        "CCHMC MAIN PHARMACY": 10
+      }
+    },
+    "CISplatin 1 mg/mL - 100mL vial (Sagent)": {
+      "ndc": 25021025351,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "CISplatin 1 mg/mL 100mL (Fresenius)": {
+      "ndc": 63323010365,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "Cisplatin 1mg/ml 50ml (Sagent)": {
+      "ndc": 25021025350,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "Cladribine 1 mg/mL 10mL (HisunUSA)": {
+      "ndc": 42658001001,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "clindamycin 150 mg/mL 4 mL Sagent": {
+      "ndc": 25021011504,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "Clindamycin in 5% Dextrose Injection 900mg/50mL baxter": {
+      "ndc": 338381450,
+      "productCount": 24,
+      "doseCount": 46,
+      "locations": {
+        "Unknown": 1,
+        "CCHMC MAIN PHARMACY": 21,
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "cloNIDine 100 mcg/mL 10mL (Bionichepharma)": {
+      "ndc": 67457021810,
+      "productCount": 1,
+      "doseCount": 2,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "copper chloride 0.4mg/mL - 10mL vial (Archis Pharma)": {
+      "ndc": 72819023406,
+      "productCount": 4,
+      "doseCount": 5,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 4
+      }
+    },
+    "copper chloride 0.4mg/mL 10mL vial (Exela Pharma)": {
+      "ndc": 51754010301,
+      "productCount": 51,
+      "doseCount": 51,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 51
+      }
+    },
+    "cosyntropin 0.25mg (Amphastar Pharmaceuticals Inc)": {
+      "ndc": 548590000,
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "cosyntropin 1mcg/mL in NS - 250mL !": {
+      "ndc": "Z6473616135",
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "cyclophosphamide 1g (Baxter Healthcare Corporation)": {
+      "ndc": 10019095616,
+      "productCount": 10,
+      "doseCount": 8,
+      "locations": {
+        "HEM/ONC PHARMACY": 4,
+        "CCHMC MAIN PHARMACY": 5,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "cyclophosphamide 2g (Baxter Healthcare Corporation) #2": {
+      "ndc": 10019095711,
+      "productCount": 18,
+      "doseCount": 17,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 10,
+        "HEM/ONC PHARMACY": 8
+      }
+    },
+    "cycloSPORINE (SandIMMUNE) in D5W 2.5 mg/mL- 100mL ROOM TEMP !": {
+      "ndc": "Z6473616138",
+      "productCount": 1,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "cycloSPORINE 50 mg/mL 5mL (Novartis Pharmaceuticals)": {
+      "ndc": 78010901,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "cysteine hydrochloride injection 50 mg/mL - 10mL vial (Exela) [1 mL/mL]": {
+      "ndc": "51754100701-01",
+      "productCount": 1,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Cytarabine 100 mg/mL 20mL (Fresenius)": {
+      "ndc": 63323012020,
+      "productCount": 21,
+      "doseCount": 25,
+      "locations": {
+        "HEM/ONC PHARMACY": 21
+      }
+    },
+    "cytomegalovirus immune globulin 50mg/mL - 50mL vial (Kamada)": {
+      "ndc": 49591053250,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "dacarbazine 200mg (Fresenius Kabi)": {
+      "ndc": 63323012800,
+      "productCount": 15,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 15
+      }
+    },
+    "Dactinomycin 0.5mg (Auromedics)": {
+      "ndc": 55150043101,
+      "productCount": 7,
+      "doseCount": 4,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 3,
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "DAPTOmycin (CUBICIN) 20 mg/mL in 0.9% sodium chloride - 25mL": {
+      "ndc": "Z6473716140",
+      "productCount": 12,
+      "doseCount": 15,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 12
+      }
+    },
+    "daptomycin 500mg (Meitheal)": {
+      "ndc": 71288001615,
+      "productCount": 21,
+      "doseCount": 20,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 17,
+        "CRITICAL CARE PHARMACY": 4
+      }
+    },
+    "Daratumumab 20mg/ml 20ml (Janssen)": {
+      "ndc": 57894050520,
+      "productCount": 3,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "Daratumumab 20mg/ml 5ml (Janssen)": {
+      "ndc": 57894050505,
+      "productCount": 5,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 5
+      }
+    },
+    "Decitabine 50 mg (Meitheal)": {
+      "ndc": 71288011920,
+      "productCount": 8,
+      "doseCount": 8,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 3,
+        "HEM/ONC PHARMACY": 5
+      }
+    },
+    "Decitabine 50mg (Novadoz)": {
+      "ndc": 72205003101,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "desmopressin (DDAVP) *1 mcg/mL* in NS - 4mL (MAKE IN GLASS VIAL)": {
+      "ndc": "Z6473716143",
+      "productCount": 1,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "desmopressin 4 mcg/mL 10mL (Amring)": {
+      "ndc": 69918090110,
+      "productCount": 2,
+      "doseCount": 5,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "dexamethasone (DECADRON) 1mg/mL NS - 20mL STOCK": {
+      "ndc": "Z6563217331",
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "dexamethasone (DECADRON) 1mg/mL NS - 50mL": {
+      "ndc": "Z6473716148",
+      "productCount": 11,
+      "doseCount": 53,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 10,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "dexamethasone 10 mg/mL 10mL Mylan": {
+      "ndc": 67457042000,
+      "productCount": 8,
+      "doseCount": 15,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "dexamethasone 10 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": {
+      "ndc": 641036721,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "dexamethasone 4 mg/mL 5mL Mylan": {
+      "ndc": 67457042200,
+      "productCount": 7,
+      "doseCount": 12,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "dexmedetomidine 100 mcg/mL - 2mL vial (Piramal)": {
+      "ndc": 66794023002,
+      "productCount": 8,
+      "doseCount": 6,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 3,
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "dexrazoxane 500mg (Eugia)": {
+      "ndc": 55150043701,
+      "productCount": 23,
+      "doseCount": 19,
+      "locations": {
+        "HEM/ONC PHARMACY": 10,
+        "CCHMC MAIN PHARMACY": 4,
+        "LIBERTY MAIN PHARMACY": 9
+      }
+    },
+    "dextran, low molecular weight 10%-0.9% 500mL (Hospira-Inc)": {
+      "ndc": 409741914,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Dextrose 10% in Water 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338002304,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4,
+        "CRITICAL CARE PHARMACY": 3
+      }
+    },
+    "Dextrose 10% in Water 250mL (Baxter I.V. Systems Division)": {
+      "ndc": 338002302,
+      "productCount": 31,
+      "doseCount": 31,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 22,
+        "CCHMC MAIN PHARMACY": 9
+      }
+    },
+    "Dextrose 10% in Water 500mL (Baxter I.V. Systems Division)": {
+      "ndc": 338002303,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "Dextrose 10% with 0.2% NaCl 250mL (B. Braun Medical)": {
+      "ndc": 264762320,
+      "productCount": 113,
+      "doseCount": 113,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 89,
+        "CCHMC MAIN PHARMACY": 24
+      }
+    },
+    "Dextrose 10% with 0.45% NaCl 1000mL (B. Braun Medical)": {
+      "ndc": 264762200,
+      "productCount": 58,
+      "doseCount": 58,
+      "locations": {
+        "ED PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 46,
+        "CRITICAL CARE PHARMACY": 3,
+        "Unknown": 2,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "Dextrose 5% in Lactated Ringers Injection 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338012504,
+      "productCount": 17,
+      "doseCount": 17,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8,
+        "CRITICAL CARE PHARMACY": 9
+      }
+    },
+    "Dextrose 5% in Water 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338001704,
+      "productCount": 66,
+      "doseCount": 66,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 58,
+        "HEM/ONC PHARMACY": 4,
+        "CRITICAL CARE PHARMACY": 4
+      }
+    },
+    "Dextrose 5% in Water 100mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338001748,
+      "productCount": 98,
+      "doseCount": 106,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 53,
+        "CRITICAL CARE PHARMACY": 27,
+        "LIBERTY MAIN PHARMACY": 14,
+        "OR MAIN PHARMACY": 3,
+        "ED PHARMACY": 1
+      }
+    },
+    "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338001702,
+      "productCount": 228,
+      "doseCount": 526,
+      "locations": {
+        "ED PHARMACY": 10,
+        "CCHMC MAIN PHARMACY": 92,
+        "CRITICAL CARE PHARMACY": 65,
+        "HEM/ONC PHARMACY": 56,
+        "OR MAIN PHARMACY": 3,
+        "Unknown": 1,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "Dextrose 5% in Water 500mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338001703,
+      "productCount": 18,
+      "doseCount": 77,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 15,
+        "CRITICAL CARE PHARMACY": 3
+      }
+    },
+    "Dextrose 5% in Water 50mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338001741,
+      "productCount": 135,
+      "doseCount": 147,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 38,
+        "CRITICAL CARE PHARMACY": 61,
+        "LIBERTY MAIN PHARMACY": 29,
+        "ED PHARMACY": 3,
+        "OR MAIN PHARMACY": 4
+      }
+    },
+    "Dextrose 5% with 0.2% NaCl 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338007704,
+      "productCount": 10,
+      "doseCount": 10,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3,
+        "LIBERTY MAIN PHARMACY": 7
+      }
+    },
+    "Dextrose 5% with 0.45% NaCl 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338008504,
+      "productCount": 35,
+      "doseCount": 34,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 17,
+        "HEM/ONC PHARMACY": 4,
+        "CRITICAL CARE PHARMACY": 8,
+        "LIBERTY MAIN PHARMACY": 6
+      }
+    },
+    "Dextrose 5% with 0.45% NaCl and KCl 20 mEq/L 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338067104,
+      "productCount": 5,
+      "doseCount": 5,
+      "locations": {
+        "HEM/ONC PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "Dextrose 5% with 0.9% NaCl 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338008904,
+      "productCount": 21,
+      "doseCount": 21,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 15,
+        "CRITICAL CARE PHARMACY": 4,
+        "ED PHARMACY": 2
+      }
+    },
+    "Dextrose 5% with 0.9% NaCl and KCl 20 mEq/L - 1000mL (ICUMedical)": {
+      "ndc": 990710709,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Dextrose 50% - 50mL abboject (Hospira #2)": {
+      "ndc": 409751766,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "Dextrose 50% 50mL Hospira": {
+      "ndc": 409664816,
+      "productCount": 15,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 12
+      }
+    },
+    "dianeal low calcium 1.5% Dextrose 3000mL Peritoneal Dialysis Solution": {
+      "ndc": 941040905,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "dianeal low calcium 1.5% Dextrose 5000mL Peritoneal Dialysis Solution": {
+      "ndc": 941040907,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1,
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "Dianeal Low Calcium Peritoneal Dialysis Solution with 4.25% Dextrose 2000mL": {
+      "ndc": 941045908,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1,
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "dianeal low calcium w/ dextrose 1.5% 2000mL": {
+      "ndc": 941040906,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 1,
+        "Unknown": 1
+      }
+    },
+    "dianeal low calcium w/ dextrose 2.5% 2000mL": {
+      "ndc": 941045708,
+      "productCount": 8,
+      "doseCount": 8,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 6,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "Dinutuximab 3.5mg/ml 5ml (United Therapeutics)": {
+      "ndc": 66302001401,
+      "productCount": 8,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 8
+      }
+    },
+    "diphenhydrAMINE (BENADRYL) in *NS* 5 mg/mL -10mL": {
+      "ndc": "Z6473716155",
+      "productCount": 10,
+      "doseCount": 15,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "diphenhydrAMINE 50 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": {
+      "ndc": 641037621,
+      "productCount": 15,
+      "doseCount": 15,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 7,
+        "CCHMC MAIN PHARMACY": 7,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "Doxorubicin 2mg/mL - 5mL": {
+      "ndc": 69035820,
+      "productCount": 4,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 4
+      }
+    },
+    "DOXOrubicin 2mg/ml 25ml (Sagent)": {
+      "ndc": 25021020725,
+      "productCount": 20,
+      "doseCount": 14,
+      "locations": {
+        "HEM/ONC PHARMACY": 10,
+        "LIBERTY MAIN PHARMACY": 10
+      }
+    },
+    "doxycycline 100mg Fresenius Kabi": {
+      "ndc": 63323013002,
+      "productCount": 9,
+      "doseCount": 9,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7,
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "eculizumab 10 mg/mL 30mL (Alexion)": {
+      "ndc": 25682000101,
+      "productCount": 9,
+      "doseCount": 5,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 6
+      }
+    },
+    "enalapril 1.25 mg/mL 1mL (West Ward/ hickma)": {
+      "ndc": 143978701,
+      "productCount": 17,
+      "doseCount": 27,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 17
+      }
+    },
+    "enoxaparin 100 mg/mL - 3mL (Meitheal)": {
+      "ndc": 71288042603,
+      "productCount": 8,
+      "doseCount": 130,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "enoxaparin 100 mg/mL 3mL (Amphastar)": {
+      "ndc": 548560800,
+      "productCount": 1,
+      "doseCount": 16,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "EPINEPHrine (ADRENALIN) 32 mcg/mL dilution in D5W - 12mL": {
+      "ndc": "Z6484216557",
+      "productCount": 5,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "EPINEPHrine 0.1 mg/mL 10mL (International Medication Systems, Limited) #6": {
+      "ndc": 76329331801,
+      "productCount": 12,
+      "doseCount": 22,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 9,
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "EPINEPHrine 1 mg/mL 30mL - (JHP Phamaceuticals)": {
+      "ndc": 42023016801,
+      "productCount": 14,
+      "doseCount": 82,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 11,
+        "CCHMC MAIN PHARMACY": 2,
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "EPINEPHrine in NS 10mcg/mL - 10mL syringe (STAQ)": {
+      "ndc": 73177016403,
+      "productCount": 24,
+      "doseCount": 99,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 18,
+        "Unknown": 1,
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "EPINEPHrine-lidocaine 1:100000-1% 10mL (APP Pharmaceuticals) - 2": {
+      "ndc": 63323048201,
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "OR MAIN PHARMACY": 4
+      }
+    },
+    "EPINEPHrine-lidocaine 1:200,000-0.5% 50mL (Fresenius)": {
+      "ndc": 63323048101,
+      "productCount": 1,
+      "doseCount": 3,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "epoprostenol 0.5mg VELETRI": {
+      "ndc": 66215040301,
+      "productCount": 26,
+      "doseCount": 23,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 20,
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "ertapenem 1 gm (AuroMedics)": {
+      "ndc": 55150028220,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "erythromycin lactobionate 500mg Hospira 1": {
+      "ndc": 409648211,
+      "productCount": 8,
+      "doseCount": 17,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "etanercept 50mg/mL - 0.5mL vial (Amgen)": {
+      "ndc": 58406005501,
+      "productCount": 2,
+      "doseCount": 3,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "Ethanol 70% STOCK 3mL (Dehydrated alcohol 2.12 mL/ 0.88 mL Sterile Water)": {
+      "ndc": "Z6610817285",
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "etoposide 20 mg/mL 25mL (American Pharmaceutical Partners)": {
+      "ndc": 63323010425,
+      "productCount": 10,
+      "doseCount": 10,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 4,
+        "HEM/ONC PHARMACY": 6
+      }
+    },
+    "famotidine (PEPCID) 4 mg/mL NS 5 mL stock": {
+      "ndc": "Z6567817360",
+      "productCount": 9,
+      "doseCount": 17,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "famotidine (PEPCID) 4mg/mL NS - 10mL": {
+      "ndc": "Z6473716177",
+      "productCount": 4,
+      "doseCount": 7,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "famotidine 10 mg/mL - 20mL (Fresenius Kabi) #2": {
+      "ndc": 63323073806,
+      "productCount": 21,
+      "doseCount": 197,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 20,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "famotidine 10mg/mL - 2mL vial (Fresenius)": {
+      "ndc": 63323073911,
+      "productCount": 8,
+      "doseCount": 11,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 8
+      }
+    },
+    "fat emulsion 20%, 100mL Intralipid": {
+      "ndc": 65219053101,
+      "productCount": 60,
+      "doseCount": 57,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 60
+      }
+    },
+    "fat emulsion 20%, 250mL Intralipid": {
+      "ndc": 65219053301,
+      "productCount": 27,
+      "doseCount": 40,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 27
+      }
+    },
+    "fat emulsion 20%, 500mL Intralipid": {
+      "ndc": 65219053501,
+      "productCount": 2,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "Fentanyl 50 mcg/ml": {
+      "ndc": 409909441,
+      "productCount": 12,
+      "doseCount": 16,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 11,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "fentaNYL 50 mcg/mL - 5mL (Fresenius Kabi)": {
+      "ndc": 63323080613,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Fentanyl 50 mcg/ml Westward 50mL": {
+      "ndc": 641603001,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Fentanyl Citrate 50 mcg/ml": {
+      "ndc": 409909418,
+      "productCount": 19,
+      "doseCount": 20,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 17,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "ferric carboxymaltose 50mg/mL 15mL (Regent)": {
+      "ndc": 517065001,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "Unknown": 1,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "filgrastim-sndz (Zarxio)": {
+      "ndc": 61314031805,
+      "productCount": 27,
+      "doseCount": 27,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 3,
+        "CCHMC MAIN PHARMACY": 21,
+        "LIBERTY MAIN PHARMACY": 1,
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "filgrastim-sndz (ZARXIO) 15 mcg/ml in D5W- 20 ml": {
+      "ndc": "Z6473716182",
+      "productCount": 16,
+      "doseCount": 16,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 15
+      }
+    },
+    "fluconazole 200mg/100mL NS Sagent 2": {
+      "ndc": 25021018482,
+      "productCount": 13,
+      "doseCount": 28,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "fludarabine 25mg/mL 2mL (Fresenius Kabi)": {
+      "ndc": 63323019202,
+      "productCount": 8,
+      "doseCount": 7,
+      "locations": {
+        "HEM/ONC PHARMACY": 8
+      }
+    },
+    "fomepizole 1,000mg/mL - 1.5mL vial (Zydus Pharma)": {
+      "ndc": 70710147801,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "ED PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "fosaprepitant 150 mg (Hikma)": {
+      "ndc": 143938401,
+      "productCount": 54,
+      "doseCount": 56,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 12,
+        "CCHMC MAIN PHARMACY": 20,
+        "HEM/ONC PHARMACY": 14,
+        "CRITICAL CARE PHARMACY": 6,
+        "Unknown": 2
+      }
+    },
+    "fosphenytoin (cereBYX) 25 mg PE/mL in NS -20mL": {
+      "ndc": "Z6473716183",
+      "productCount": 5,
+      "doseCount": 9,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "fosphenytoin sodium 50mg PE/mL - 10mL vial (Glenmark)": {
+      "ndc": 68462062210,
+      "productCount": 12,
+      "doseCount": 10,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 10,
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "furosemide (LASIX) 1 mg/mL in sodium chloride (NS) 0.9% - 20mL": {
+      "ndc": "Z6473716184",
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "furosemide 10 mg/mL 2mL": {
+      "ndc": 71288020302,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "galsulfase 1 mg/mL 5mL (BioMarin Pharmaceutical Inc)": {
+      "ndc": 68135002001,
+      "productCount": 4,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "Gamifant (emapalumab-lzg) #2 50 mg/10mL (5mg/mL)": {
+      "ndc": 66658050501,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "gammagard liquid 10% 25mL": {
+      "ndc": 944270009,
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "Gammaguard 10% 1gm": {
+      "ndc": 944270008,
+      "productCount": 14,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7,
+        "CRITICAL CARE PHARMACY": 4,
+        "LIBERTY MAIN PHARMACY": 3
+      }
+    },
+    "gammaguard liquid 5gm": {
+      "ndc": 944270010,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5,
+        "CRITICAL CARE PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "ganciclovir (CYTOVENE) 5mg/mL in D5W- 100mL": {
+      "ndc": "Z6474116284",
+      "productCount": 6,
+      "doseCount": 17,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "ganciclovir 500mg (Slate Run)": {
+      "ndc": 70436008955,
+      "productCount": 7,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "Gemcitabine 1g (Sagent)": {
+      "ndc": 25021023550,
+      "productCount": 8,
+      "doseCount": 5,
+      "locations": {
+        "HEM/ONC PHARMACY": 8
+      }
+    },
+    "Gemcitabine 200mg (Hospira)": {
+      "ndc": 409018501,
+      "productCount": 6,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 6
+      }
+    },
+    "GENTamicin 0.48 mg/mL NS IRRIGATION STOCK (IN BAG) - 273.3mL": {
+      "ndc": "Z6474116290",
+      "productCount": 4,
+      "doseCount": 19,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "gentamicin 10 mg/mL - 2mL vial (Fresenius Kabi)": {
+      "ndc": 63323017301,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1,
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "gentamicin 40 mg/mL - 2mL (Fresenius Kabi)": {
+      "ndc": 63323001001,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "gentamicin 40 mg/mL 20mL (Fresenius Kabi)": {
+      "ndc": 63323001003,
+      "productCount": 1,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "golimumab 50mg/4mL": {
+      "ndc": 57894035001,
+      "productCount": 10,
+      "doseCount": 3,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 3,
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "granisetron (KYTRIL) 50mcg/mL in NS - 10mL Stock": {
+      "ndc": "Z6640917752",
+      "productCount": 4,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "granisetron 1 mg/mL 4mL (Mylan)": {
+      "ndc": 67457086404,
+      "productCount": 6,
+      "doseCount": 39,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "granisetron 1mg/1mL - 1mL vial (Mylan)": {
+      "ndc": 67457086301,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "H.P. Acthar gel Repository Corticotropin 5ml Vial Questor Pharmaceuticals": {
+      "ndc": 63004871001,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "HBiofluids (CARPEDIEM) dialysis fluid 2000mL": {
+      "ndc": 9999101164,
+      "productCount": 20,
+      "doseCount": 20,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 9,
+        "CRITICAL CARE PHARMACY": 11
+      }
+    },
+    "heparin 100 units/mL - 5mL syr. (Medefil Inc)": {
+      "ndc": 64253033335,
+      "productCount": 47,
+      "doseCount": 172,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 27,
+        "CCHMC MAIN PHARMACY": 20
+      }
+    },
+    "heparin 1000 units/mL -10mL (Phlow Corp.)": {
+      "ndc": 81565020301,
+      "productCount": 66,
+      "doseCount": 94,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 63,
+        "OR MAIN PHARMACY": 2,
+        "Unknown": 1
+      }
+    },
+    "heparin 1000 units/mL 1mL Hospira": {
+      "ndc": 409272030,
+      "productCount": 9,
+      "doseCount": 7,
+      "locations": {
+        "ED PHARMACY": 9
+      }
+    },
+    "heparin 1unit/mL papaverine 0.12mg/mL NS - 500mL STOCK": {
+      "ndc": "Z6246314849",
+      "productCount": 23,
+      "doseCount": 177,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 14,
+        "CCHMC MAIN PHARMACY": 9
+      }
+    },
+    "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) Braun": {
+      "ndc": 264346220,
+      "productCount": 15,
+      "doseCount": 44,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 15
+      }
+    },
+    "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) fresenius kabi": {
+      "ndc": 63323051701,
+      "productCount": 5,
+      "doseCount": 19,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 3,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) Hospira": {
+      "ndc": 409765005,
+      "productCount": 3,
+      "doseCount": 6,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "hydrALAZINE (APRESOLINE) 1mg/mL in SW - 20mL": {
+      "ndc": "Z6242314600",
+      "productCount": 26,
+      "doseCount": 76,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 11,
+        "CCHMC MAIN PHARMACY": 14,
+        "Unknown": 1
+      }
+    },
+    "hydralazine 20 mg/ml 1mL Fresenius Kabi": {
+      "ndc": 63323061400,
+      "productCount": 29,
+      "doseCount": 29,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 12,
+        "CCHMC MAIN PHARMACY": 17
+      }
+    },
+    "hydrocortisone (Solu-CORTEF) *1mg/mL* in **D5W** 100mL": {
+      "ndc": "Z6475116306",
+      "productCount": 4,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "hydrocortisone (Solu-CORTEF) *1mg/mL* in NS - 100mL Dilution": {
+      "ndc": "Z6242314602",
+      "productCount": 28,
+      "doseCount": 363,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 7,
+        "CCHMC MAIN PHARMACY": 21
+      }
+    },
+    "hydrocortisone (Solu-CORTEF) 5mg/mL in NS- 20mL": {
+      "ndc": "Z6542817087",
+      "productCount": 3,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "hydrocortisone (Solu-CORTEF) 5mg/mL in NS- 40mL": {
+      "ndc": "Z6542817088",
+      "productCount": 4,
+      "doseCount": 9,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "hydrocortisone 100 mg (Pfizer U.S. Pharmceutical Group)": {
+      "ndc": 9001103,
+      "productCount": 54,
+      "doseCount": 51,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 8,
+        "CCHMC MAIN PHARMACY": 45,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "hydromorphone 0.2 mg/mL 1mL Syringe Fresenius Kabi": {
+      "ndc": 76045012101,
+      "productCount": 3,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "HYDROmorphone 10 mg/mL 1mL (Fresenius Kabi)": {
+      "ndc": 63323085103,
+      "productCount": 20,
+      "doseCount": 17,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 10,
+        "CCHMC MAIN PHARMACY": 10
+      }
+    },
+    "HYDROmorphone 10 mg/mL 5mL (Hospira)": {
+      "ndc": 409263425,
+      "productCount": 44,
+      "doseCount": 107,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 22,
+        "CCHMC MAIN PHARMACY": 19,
+        "Unknown": 1,
+        "OR MAIN PHARMACY": 2
+      }
+    },
+    "Hydromorphone 10 mg/mL- 1 mL vial (Hospira)": {
+      "ndc": 409263410,
+      "productCount": 13,
+      "doseCount": 13,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 13
+      }
+    },
+    "HYDROmorphone 2 mg/mL 1 mL West ward": {
+      "ndc": 641615101,
+      "productCount": 29,
+      "doseCount": 11,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 18,
+        "ED PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 8
+      }
+    },
+    "Hyqvia 10gm/100mL Immune globulin 10% Human": {
+      "ndc": 944271710,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "Hyqvia 5gm/50mL Immune Globulin 10% Human": {
+      "ndc": 944271605,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "Hyqvia Recombinant Human Hyaluronidase 5mL": {
+      "ndc": 944272203,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "Unknown": 1
+      }
+    },
+    "idursulfase 2 mg/mL 3mL (Shire US Inc)": {
+      "ndc": 54092070001,
+      "productCount": 6,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "Ifosfamide 3g (Baxter I.V. Systems Division) #1": {
+      "ndc": 10019092616,
+      "productCount": 13,
+      "doseCount": 4,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 9,
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "imipenem-cilastation-relebactam (RECARBRIO) 12.5 mg/mL NS 100mL STOCK": {
+      "ndc": "Z6603017535",
+      "productCount": 6,
+      "doseCount": 11,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "imipenem-cilastation-relebactam 1.25g (RECARBRIO)": {
+      "ndc": 6385601,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "immune globulin intravenous 10% 100mL (Baxter I.V. Systems Division) 1": {
+      "ndc": 944270011,
+      "productCount": 6,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "immune globulin intravenous 10% 100mL Grifols Gammunex-C": {
+      "ndc": 13533080072,
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2,
+        "LIBERTY MAIN PHARMACY": 1,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "immune globulin intravenous 10% 200mL (Baxter I.V. Systems Division) 1": {
+      "ndc": 944270012,
+      "productCount": 15,
+      "doseCount": 9,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 6,
+        "CCHMC MAIN PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 3,
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "immune globulin intravenous 10% 200mL (Grifols)": {
+      "ndc": 13533080025,
+      "productCount": 16,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 12,
+        "HEM/ONC PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 3
+      }
+    },
+    "immune globulin intravenous 10% 50mL (Talecris Biotherapeutics) gamunex-c 1": {
+      "ndc": 13533080021,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "Immune globulin intravenous 30g (Gammagard Liquid)": {
+      "ndc": 944270013,
+      "productCount": 21,
+      "doseCount": 14,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 14,
+        "HEM/ONC PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 5
+      }
+    },
+    "immune globulin intravenous S/D 5g/50mL (Baxter)": {
+      "ndc": "00944265707-01",
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "immune globulin subcutaneous (human) 20% - Hizentra - 10mL syringe": {
+      "ndc": 44206045722,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "immune globulin subcutaneous (human) 20% - Hizentra - 20mL syringe": {
+      "ndc": 44206045824,
+      "productCount": 7,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2,
+        "LIBERTY MAIN PHARMACY": 1,
+        "CRITICAL CARE PHARMACY": 2,
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "immune globulin subcutaneous (human) 20% - Hizentra - 5mL syringe": {
+      "ndc": 44206045621,
+      "productCount": 8,
+      "doseCount": 5,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 6
+      }
+    },
+    "Immune Globulin Subcutaneous (Human) 20% Cuvitru 20mL": {
+      "ndc": 944285006,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Immune Globulin Subcutaneous (Human) 20% Cuvitru 50mL": {
+      "ndc": 944285010,
+      "productCount": 3,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "Immune Globulin Subcutaneous (Human) 20% Cuvitru 5mL": {
+      "ndc": 944285002,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "indocyanine green 25mg (Diagnostic Green LLC) [2.5mg/mL]": {
+      "ndc": "70100042401-01",
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "indocyanine green 25mg (Renew Pharmaceuticals) [5mg/mL]": {
+      "ndc": "70100072501-01",
+      "productCount": 7,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "indocyanine green for injection 25 mg vial (stryker)": {
+      "ndc": 66259014601,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "Inflectra (Infliximab- dyyb) for injection 100mg": {
+      "ndc": 69080901,
+      "productCount": 106,
+      "doseCount": 22,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 36,
+        "CCHMC MAIN PHARMACY": 70
+      }
+    },
+    "inFLIXimab 100mg (Janssen)": {
+      "ndc": 57894016001,
+      "productCount": 176,
+      "doseCount": 32,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 99,
+        "LIBERTY MAIN PHARMACY": 77
+      }
+    },
+    "insulin human (Myxredlin) 1unit/mL in NS - 100mL bag": {
+      "ndc": 338012612,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "iohexol 350 mg/mL 100mL (GE)": {
+      "ndc": 407141491,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "OR MAIN PHARMACY": 7
+      }
+    },
+    "Irinotecan 20mg/ml 2ml (Sagent)": {
+      "ndc": 25021023002,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "Irinotecan 20mg/ml 5ml (Apotex)": {
+      "ndc": 60505612801,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "HEM/ONC PHARMACY": 7
+      }
+    },
+    "iron dextran 50mg/mL Allergan": {
+      "ndc": 23608201,
+      "productCount": 94,
+      "doseCount": 12,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 10,
+        "HEM/ONC PHARMACY": 80,
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "iron sucrose 20ml/mL 5mL (American Regent)": {
+      "ndc": 517234001,
+      "productCount": 39,
+      "doseCount": 29,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 17,
+        "LIBERTY MAIN PHARMACY": 10,
+        "HEM/ONC PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 9
+      }
+    },
+    "isoproterenol 0.2mg/mL - 5mL vial (Avet)": {
+      "ndc": 23155066131,
+      "productCount": 3,
+      "doseCount": 3,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 3
+      }
+    },
+    "isoproterenol 0.2mg/mL 5mL (Amring)": {
+      "ndc": 69918073501,
+      "productCount": 11,
+      "doseCount": 7,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 7,
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "ketamine 100 mg/mL 5mL (West-Ward)": {
+      "ndc": 143950901,
+      "productCount": 55,
+      "doseCount": 55,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 15,
+        "CRITICAL CARE PHARMACY": 38,
+        "ED PHARMACY": 2
+      }
+    },
+    "ketamine 50mg/1mL - 10mL (Hikma)": {
+      "ndc": 143950801,
+      "productCount": 3,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2,
+        "ED PHARMACY": 1
+      }
+    },
+    "ketorolac 15 mg/mL 1mL (Fresenius Kabi)": {
+      "ndc": 63323016100,
+      "productCount": 95,
+      "doseCount": 127,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 88,
+        "CRITICAL CARE PHARMACY": 7
+      }
+    },
+    "labetalol 5 mg/mL 20mL (Hospira)": {
+      "ndc": 409012501,
+      "productCount": 1,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "lacosamide 10mg/mL 20mL (Zydus)": {
+      "ndc": 70710135901,
+      "productCount": 2,
+      "doseCount": 3,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1,
+        "ED PHARMACY": 1
+      }
+    },
+    "Lactated Ringers Injection 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338011704,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "Lactated Ringers Injection 500mL (Baxter I.V. Systems Division)": {
+      "ndc": 338011703,
+      "productCount": 23,
+      "doseCount": 22,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 4,
+        "OR MAIN PHARMACY": 17
+      }
+    },
+    "laronidase 2.9 mg/5 mL 1 (Genzyme Corporation)": {
+      "ndc": 58468007001,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "letermovir (Prevymis) 480mg/24mL vial": {
+      "ndc": 6500402,
+      "productCount": 7,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "leucovorin 100mg (Sagent)": {
+      "ndc": 25021081430,
+      "productCount": 1,
+      "doseCount": 3,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "leucovorin 200mg (Hikma)": {
+      "ndc": 143955301,
+      "productCount": 2,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "leveTIRACEtam in NaCl 1500mg/100mL (Nexus)": {
+      "ndc": 14789033008,
+      "productCount": 35,
+      "doseCount": 94,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 24,
+        "ED PHARMACY": 1,
+        "OR MAIN PHARMACY": 5
+      }
+    },
+    "levOCARNitine 200 mg/mL - 5mL (Hikma)": {
+      "ndc": 143985201,
+      "productCount": 62,
+      "doseCount": 45,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 58,
+        "LIBERTY MAIN PHARMACY": 4
+      }
+    },
+    "levOCARNitine 200 mg/mL 5mL (Sigma-Tau Pharmaceuticals Inc) #2": {
+      "ndc": 54482014701,
+      "productCount": 58,
+      "doseCount": 37,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 58
+      }
+    },
+    "levofloxacin 500mg/100mL in D5W (Sagent)": {
+      "ndc": 25021013282,
+      "productCount": 24,
+      "doseCount": 24,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 23,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "levothyroxine 40mcg/mL vial (5mL)": {
+      "ndc": 63323089010,
+      "productCount": 12,
+      "doseCount": 55,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 10
+      }
+    },
+    "LIB-ampicillin (OMNIPEN) in sodium chloride 20 mg/mL -25mL STOCK": {
+      "ndc": "Z6513216831",
+      "productCount": 13,
+      "doseCount": 20,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 13
+      }
+    },
+    "LIB-ceFAZolin (ANCEF) 2000mg/20ml in SW": {
+      "ndc": "Z6511916802",
+      "productCount": 14,
+      "doseCount": 16,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 14
+      }
+    },
+    "LIB-cefepime (MAXIPIME) 40 mg/mL in sodium chloride (NS) 0.9% - 25mL STOCK": {
+      "ndc": "Z6513216835",
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "LIB-cefepime (MAXIPIME) in sodium chloride (NS) 0.9% 40 mg/mL - 50mL STOCK": {
+      "ndc": "Z6513216836",
+      "productCount": 18,
+      "doseCount": 34,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 18
+      }
+    },
+    "LIB-cefTAZidime (FORTAZ) in sterile water 100 mg/mL 5mL STOCK": {
+      "ndc": "Z6666917849",
+      "productCount": 2,
+      "doseCount": 3,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "LIB-cefTRIAXone (ROCEPHIN) in *NS* 100 mg/mL 20mL STOCK": {
+      "ndc": "Z6712318146",
+      "productCount": 6,
+      "doseCount": 8,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 6
+      }
+    },
+    "LIB-methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 25mL": {
+      "ndc": "Z6513616905",
+      "productCount": 5,
+      "doseCount": 12,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 5
+      }
+    },
+    "LIB-prochlorperazine (COMPAZINE) 1mg/mL D5W- 10mL - STOCK": {
+      "ndc": "Z6693818027",
+      "productCount": 8,
+      "doseCount": 12,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 8
+      }
+    },
+    "linezolid 2 mg/mL 300mL Primal Critical Care": {
+      "ndc": 66794021963,
+      "productCount": 2,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "lorazepam **0.5** mg/mL in NS - 4mL Make in glass vial !": {
+      "ndc": "Z6473716188",
+      "productCount": 20,
+      "doseCount": 59,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 8,
+        "CCHMC MAIN PHARMACY": 12
+      }
+    },
+    "LORazepam 2 mg/mL 10mL (Amphastar)": {
+      "ndc": 76329826100,
+      "productCount": 2,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "LUXTURNA (voretigene neparvovec-rzyl) (5x1012vg/mL) vial": {
+      "ndc": 71394006501,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "magnesium sulfate 40mg/mL - 50mL bag (Fresenius)": {
+      "ndc": 63323010602,
+      "productCount": 29,
+      "doseCount": 60,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 13,
+        "ED PHARMACY": 4,
+        "CRITICAL CARE PHARMACY": 10,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "magnesium sulfate 50% 10mL Fresenius Kabi": {
+      "ndc": 63323006404,
+      "productCount": 14,
+      "doseCount": 33,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 13,
+        "Unknown": 1
+      }
+    },
+    "magnesium sulfate 50% 2mL Fresenius Kabi": {
+      "ndc": 63323006401,
+      "productCount": 11,
+      "doseCount": 11,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 4,
+        "HEM/ONC PHARMACY": 2,
+        "LIBERTY MAIN PHARMACY": 5
+      }
+    },
+    "Mannitol 20% 500 mL (ICU Medical)": {
+      "ndc": 990771513,
+      "productCount": 6,
+      "doseCount": 12,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 6
+      }
+    },
+    "Melphalan 50mg (Dr. Reddy's)": {
+      "ndc": 43598039248,
+      "productCount": 6,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 6
+      }
+    },
+    "meropenem 1000mg/50mL TOTAL VOLUME Duplex": {
+      "ndc": 264318511,
+      "productCount": 47,
+      "doseCount": 113,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 41,
+        "CRITICAL CARE PHARMACY": 6
+      }
+    },
+    "meropenem 1g (Fresenius)": {
+      "ndc": 63323050801,
+      "productCount": 14,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 14
+      }
+    },
+    "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division)": {
+      "ndc": 10019095301,
+      "productCount": 52,
+      "doseCount": 40,
+      "locations": {
+        "HEM/ONC PHARMACY": 16,
+        "LIBERTY MAIN PHARMACY": 35,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division) [100 mg/mL]*": {
+      "ndc": "10019095301-02",
+      "productCount": 7,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "mesna 20mg/mL in sodium chloride 0.9% - 100mL - STOCK": {
+      "ndc": "Z6524717078",
+      "productCount": 1,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "methadone 1mg/mL - 5mL (STAQ Pharma)": {
+      "ndc": 73177014902,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "methocarbamol (ROBAXIN) 10 mg/mL in **NS** - 300mL *ROOM TEMP STORAGE*": {
+      "ndc": "Z6747218371",
+      "productCount": 24,
+      "doseCount": 108,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 24
+      }
+    },
+    "methocarbamol 100 mg/mL 10 mL Wintac": {
+      "ndc": 70069010101,
+      "productCount": 134,
+      "doseCount": 80,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 117,
+        "CRITICAL CARE PHARMACY": 10,
+        "OR MAIN PHARMACY": 5,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "Methotrexate 25 mg/mL 10mL (Teva)": {
+      "ndc": 703367501,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "methotrexate 25 mg/mL 40mL (Hospira)": {
+      "ndc": 61703040841,
+      "productCount": 10,
+      "doseCount": 6,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 6,
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "Methotrexate 25mg/ml 2ml PF (Westward)": {
+      "ndc": 143951901,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "HEM/ONC PHARMACY": 5,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "methylPREDNISolone (Solu-MEDROL) *1mg/mL in D5W - 40mL !": {
+      "ndc": "Z6473716200",
+      "productCount": 6,
+      "doseCount": 19,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "methylPREDNISolone (Solu-MEDROL) *5mg/mL in *NS - 100mL !": {
+      "ndc": "Z6473716201",
+      "productCount": 7,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 100mL !": {
+      "ndc": "Z6473716202",
+      "productCount": 14,
+      "doseCount": 185,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 12,
+        "CRITICAL CARE PHARMACY": 1,
+        "Unknown": 1
+      }
+    },
+    "methylPREDNISolone 1g (Dr Reddys) SWFI [62.5mg/mL]": {
+      "ndc": 43598013074,
+      "productCount": 24,
+      "doseCount": 29,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 19
+      }
+    },
+    "methylPREDNISolone 1g (Fresenius Kabi) NS/D5W [62.5 mg/mL]": {
+      "ndc": "63323026530-01",
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "ED PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "methylPREDNISolone 1g in D5W or NS (Pfizer U.S. Pharmaceuticals Group)": {
+      "ndc": 9069801,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "methylPREDNISolone 500mg (Dr. Reddys) SW": {
+      "ndc": 43598012811,
+      "productCount": 5,
+      "doseCount": 9,
+      "locations": {
+        "HEM/ONC PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "methylPREDNISolone 500mg (Dr. Reddys) [62.5 mg/mL] D5W NS": {
+      "ndc": "43598012811-01",
+      "productCount": 34,
+      "doseCount": 39,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 4,
+        "CCHMC MAIN PHARMACY": 28,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "metoclopramide 5mg/mL - 2mL (Sicor)": {
+      "ndc": 703450201,
+      "productCount": 11,
+      "doseCount": 18,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8,
+        "CRITICAL CARE PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "metroNIDAZOLE 500 mg/100 mL (Sagent)": {
+      "ndc": 25021013182,
+      "productCount": 11,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5,
+        "ED PHARMACY": 6
+      }
+    },
+    "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division)": {
+      "ndc": 338105548,
+      "productCount": 51,
+      "doseCount": 79,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 50,
+        "Unknown": 1
+      }
+    },
+    "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division) [5mg/mL]": {
+      "ndc": "00338105548-01",
+      "productCount": 56,
+      "doseCount": 51,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 43,
+        "OR MAIN PHARMACY": 3,
+        "LIBERTY MAIN PHARMACY": 10
+      }
+    },
+    "metroNIDAZOLE 5mg/mL 100mL (Hospira Inc)": {
+      "ndc": 409015201,
+      "productCount": 64,
+      "doseCount": 84,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 48,
+        "CRITICAL CARE PHARMACY": 7,
+        "ED PHARMACY": 9
+      }
+    },
+    "micafungin (MYCAMINE) 1.5mg/mL in NS - 100mL STOCK": {
+      "ndc": "Z6589817492",
+      "productCount": 1,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "micafungin (MYCAMINE) 1.5mg/mL in NS - 133.33mL STOCK": {
+      "ndc": "Z6473716205",
+      "productCount": 1,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "micafungin (MYCAMINE) 1.5mg/mL in NS - 266.67mL STOCK": {
+      "ndc": "Z6473716206",
+      "productCount": 14,
+      "doseCount": 111,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 14
+      }
+    },
+    "micafungin (MYCAMINE)1.5mg/mL in *D5W* - 33.33mL": {
+      "ndc": "Z6473716207",
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "micafungin 100mg Fresenius Kabi": {
+      "ndc": 63323072901,
+      "productCount": 103,
+      "doseCount": 48,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 88,
+        "CRITICAL CARE PHARMACY": 12,
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "micafungin 50mg Fresenius Kabi": {
+      "ndc": 63323072801,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "midazolam (VERSED) 0.1 mg/mL in NS - 4mL Make in Syringe": {
+      "ndc": "Z6473716211",
+      "productCount": 8,
+      "doseCount": 16,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 6,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "midazolam 1 mg/mL preservative-free 2mL": {
+      "ndc": 23155060031,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "midazolam 1mg/mL - 2mL vial PF (Hospira)": {
+      "ndc": 409000101,
+      "productCount": 8,
+      "doseCount": 8,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "midazolam 5 mg/mL (Avet Pharma)": {
+      "ndc": 23155060132,
+      "productCount": 49,
+      "doseCount": 18,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 44,
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "midazolam 5 mg/mL 10mL": {
+      "ndc": 641606001,
+      "productCount": 32,
+      "doseCount": 13,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 26,
+        "CRITICAL CARE PHARMACY": 6
+      }
+    },
+    "Mitoxantrone 2 mg/mL 10mL (Fresenius)": {
+      "ndc": 63323013210,
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "morphine 1 mg/mL preservative-free 2mL (STAQ PHARMA)": {
+      "ndc": 73177010501,
+      "productCount": 9,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "Morphine 10 mg/mL West Ward": {
+      "ndc": 641612701,
+      "productCount": 79,
+      "doseCount": 55,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 42,
+        "CRITICAL CARE PHARMACY": 37
+      }
+    },
+    "Morphine PF (ASTROMORPH) 0.1 mg/mL in NS - 4mL (make in syringe)": {
+      "ndc": "Z6473716214",
+      "productCount": 3,
+      "doseCount": 4,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "multiple electrolyte solution 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338022104,
+      "productCount": 16,
+      "doseCount": 16,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 16
+      }
+    },
+    "Multiple vitamins for infusion (Infuvite Adult)": {
+      "ndc": 54643565002,
+      "productCount": 16,
+      "doseCount": 16,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 16
+      }
+    },
+    "multivitamin Pediatric 50mL (Baxter Healthcare Corporation)": {
+      "ndc": 54643564700,
+      "productCount": 53,
+      "doseCount": 53,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 53
+      }
+    },
+    "mycophenolate (CELLCEPT) 6mg/mL in D5W- 250mL": {
+      "ndc": "Z6473716218",
+      "productCount": 5,
+      "doseCount": 10,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "mycophenolate mofetil 500mg (Meitheal)": {
+      "ndc": 71288080320,
+      "productCount": 18,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 18
+      }
+    },
+    "nafcillin (UNIPEN) 30mg/mL in **NS** - 66.67mL !": {
+      "ndc": "Z6473716221",
+      "productCount": 6,
+      "doseCount": 22,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "nafcillin 10g Auromedics": {
+      "ndc": 55150012499,
+      "productCount": 3,
+      "doseCount": 14,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "nafcillin 1g (Auromedics)": {
+      "ndc": 55150012215,
+      "productCount": 7,
+      "doseCount": 18,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 6,
+        "ED PHARMACY": 1
+      }
+    },
+    "nalbuphine (NUBAIN) 1mg/mL in NS - 10mL": {
+      "ndc": "Z6563917342",
+      "productCount": 12,
+      "doseCount": 57,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 9,
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "nalbuphine (NUBAIN) 1mg/mL in NS - 20mL": {
+      "ndc": "Z6576317394",
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "nalbuphine 10 mg/mL 10mL (Hospira)": {
+      "ndc": 409146461,
+      "productCount": 15,
+      "doseCount": 271,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 11,
+        "OR MAIN PHARMACY": 1,
+        "CRITICAL CARE PHARMACY": 1,
+        "Unknown": 1,
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "niCARdipine 2.5 mg/mL 10 ml (AUROMEDICS)": {
+      "ndc": 55150018301,
+      "productCount": 28,
+      "doseCount": 14,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 8,
+        "CCHMC MAIN PHARMACY": 14,
+        "Unknown": 2,
+        "OR MAIN PHARMACY": 4
+      }
+    },
+    "Nicardipine 2.5 mg/ml injection": {
+      "ndc": 143968901,
+      "productCount": 81,
+      "doseCount": 34,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 16,
+        "CRITICAL CARE PHARMACY": 65
+      }
+    },
+    "niCARdipine hydrochloride 2.5 mg/ml -10ml (Armas)": {
+      "ndc": 37248511601,
+      "productCount": 33,
+      "doseCount": 18,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 33
+      }
+    },
+    "Nivolumab 10mg/ml 10ml (Bristol-Myers Squibb)": {
+      "ndc": 3377412,
+      "productCount": 6,
+      "doseCount": 3,
+      "locations": {
+        "HEM/ONC PHARMACY": 6
+      }
+    },
+    "Nivolumab 10mg/ml 4ml (Bristol-Myers Squibb)": {
+      "ndc": 3377211,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "norepinephrine 1 mg/mL 4 mL (Mylan)": {
+      "ndc": 67457085200,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "oxytocin 10 units/mL 1 mL (Fresenius)": {
+      "ndc": 63323001203,
+      "productCount": 27,
+      "doseCount": 9,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 27
+      }
+    },
+    "PACLitaxel protein-bound 100mg vial (Teva)": {
+      "ndc": 480329001,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "pamidronate 3mg/mL 10mL (Mylan)": {
+      "ndc": 67457043010,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "pantoprazole (PROTONIX) 4mg/mL *NS* 50mL": {
+      "ndc": "Z6418315967",
+      "productCount": 19,
+      "doseCount": 218,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 19
+      }
+    },
+    "pantoprazole 40mg (Meitheal)": {
+      "ndc": 71288060010,
+      "productCount": 139,
+      "doseCount": 48,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 12,
+        "LIBERTY MAIN PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 125
+      }
+    },
+    "papavarine 30mg/mL - 2mL vial (BPI Labs)": {
+      "ndc": 54288014201,
+      "productCount": 40,
+      "doseCount": 54,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 18,
+        "CRITICAL CARE PHARMACY": 22
+      }
+    },
+    "pegfilgrastim-jmdb 6mg/0.6mL - syringe (Biocon Biologics)": {
+      "ndc": 83257000541,
+      "productCount": 7,
+      "doseCount": 7,
+      "locations": {
+        "HEM/ONC PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 6
+      }
+    },
+    "pegunigalsidase alfa-iwxj 2mg/mL - 10mL vial (Chiesi)": {
+      "ndc": 10122016002,
+      "productCount": 4,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "pembrolizumab 25mg/ml 4mL (Merck & Co.)": {
+      "ndc": 6302602,
+      "productCount": 4,
+      "doseCount": 2,
+      "locations": {
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "Pembrolizumab 25mg/ml 4ml (Merck)": {
+      "ndc": 6302601,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "pentamidine (PENTAM) 6 mg/mL in D5W - 50mL !": {
+      "ndc": "Z6473816275",
+      "productCount": 6,
+      "doseCount": 11,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "pentamidine 300mg (Fresenius)": {
+      "ndc": 63323011301,
+      "productCount": 19,
+      "doseCount": 22,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 11,
+        "CRITICAL CARE PHARMACY": 3,
+        "HEM/ONC PHARMACY": 3,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "PENTobarbital 50 mg/mL 20mL (SAGENT)": {
+      "ndc": 25021067620,
+      "productCount": 3,
+      "doseCount": 12,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "peramivir 10mg/1mL - 20mL vial (BioCryst)": {
+      "ndc": 72769018101,
+      "productCount": 6,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "PHENobarbital 10mg/mL in SW - 6.5mL": {
+      "ndc": "Z6473816271",
+      "productCount": 5,
+      "doseCount": 10,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "PHENOBarbital 65 mg/mL 1mL (Cameron Pharmaceuticals)": {
+      "ndc": 42494041501,
+      "productCount": 69,
+      "doseCount": 24,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 29,
+        "CRITICAL CARE PHARMACY": 40
+      }
+    },
+    "phenylephrine 0.2 mg/mL D5W - 30mL": {
+      "ndc": "Z6509316826",
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "phenylephrine 10 mg/mL - 1mL vial (Fresenius Kabi)": {
+      "ndc": 63323075100,
+      "productCount": 34,
+      "doseCount": 30,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 16,
+        "OR MAIN PHARMACY": 16,
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "phenylephrine 100mcg/mL - 10mL syringe (STAQ)": {
+      "ndc": 73177010803,
+      "productCount": 5,
+      "doseCount": 8,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 4,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Phoxillum B22K 4/0 5000mL- Break seal to mix": {
+      "ndc": 24571011706,
+      "productCount": 37,
+      "doseCount": 37,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 28,
+        "CCHMC MAIN PHARMACY": 9
+      }
+    },
+    "phytonadione (AQUA-MEPHYTON) 1mg/mL in NS - 10mL": {
+      "ndc": "Z6473816269",
+      "productCount": 11,
+      "doseCount": 14,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 10,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "phytonadione 10 mg/mL - 1mL vial (Fresenius)": {
+      "ndc": 65219063500,
+      "productCount": 71,
+      "doseCount": 48,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 4,
+        "CCHMC MAIN PHARMACY": 67
+      }
+    },
+    "piperacillin sodium-tazobactam (*****ZOSYN*****) 67.5 mg/mL NS - 66.67mL (4.5g vial)": {
+      "ndc": "Z6473816268",
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "piperacillin sodium-tazobactam (*****ZOSYN*****) 67.5 mg/mL NS 50 mL STOCK": {
+      "ndc": "Z6492716669",
+      "productCount": 8,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "piperacillin-tazobactam 4.5 g Sandoz": {
+      "ndc": 781311491,
+      "productCount": 13,
+      "doseCount": 14,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 13
+      }
+    },
+    "piperacillin-tazobactam in dextrose 3g-0.375g (Baxter)": {
+      "ndc": 338963601,
+      "productCount": 94,
+      "doseCount": 152,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 79,
+        "Unknown": 2,
+        "CRITICAL CARE PHARMACY": 8,
+        "OR MAIN PHARMACY": 5
+      }
+    },
+    "posaconazole 300mg/16.7mL (Glenmark)": {
+      "ndc": 68462090401,
+      "productCount": 17,
+      "doseCount": 19,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 17
+      }
+    },
+    "potassium acetate 2 mEq/mL 20mL (Hospira)": {
+      "ndc": 409818311,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "potassium chloride 2 mEq/mL 10 mL (Fresenius-Kabi)": {
+      "ndc": 63323096503,
+      "productCount": 78,
+      "doseCount": 97,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 47,
+        "CRITICAL CARE PHARMACY": 16,
+        "LIBERTY MAIN PHARMACY": 13,
+        "ED PHARMACY": 2
+      }
+    },
+    "potassium chloride 2 mEq/mL 30mL (Fresenius Kabi)": {
+      "ndc": 63323096701,
+      "productCount": 7,
+      "doseCount": 16,
+      "locations": {
+        "ED PHARMACY": 3,
+        "CCHMC MAIN PHARMACY": 3,
+        "Unknown": 1
+      }
+    },
+    "potassium chloride 20 mEq/100 mL 100mL (Baxter I.V. Systems Division)": {
+      "ndc": 338070548,
+      "productCount": 36,
+      "doseCount": 73,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 20,
+        "CRITICAL CARE PHARMACY": 15
+      }
+    },
+    "potassium phosphate 3 mmol/mL - 15mL vial (Amneal)": {
+      "ndc": 80830169101,
+      "productCount": 28,
+      "doseCount": 55,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 21,
+        "CRITICAL CARE PHARMACY": 7
+      }
+    },
+    "potassium phosphate 3 mmol/mL - 15mL vial (Amneal) [4.4mEq/mL]": {
+      "ndc": "80830169101-01",
+      "productCount": 42,
+      "doseCount": 69,
+      "locations": {
+        "ED PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 30,
+        "CRITICAL CARE PHARMACY": 5,
+        "Unknown": 2
+      }
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Fresenius Kabi) [3 MMol/mL]": {
+      "ndc": 65219005409,
+      "productCount": 7,
+      "doseCount": 13,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7
+      }
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Fresenius Kabi) [4.4 mEq/mL]*": {
+      "ndc": "65219005409-01",
+      "productCount": 14,
+      "doseCount": 17,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 14
+      }
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Somerset)": {
+      "ndc": 70069074701,
+      "productCount": 7,
+      "doseCount": 23,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 7
+      }
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Somerset) [4.4mEq/mL]": {
+      "ndc": "70069074701-01",
+      "productCount": 10,
+      "doseCount": 21,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 3,
+        "ED PHARMACY": 1,
+        "LIBERTY MAIN PHARMACY": 3
+      }
+    },
+    "prismaSATE BGK 2/0 5000mL (Gambro)": {
+      "ndc": 105351,
+      "productCount": 18,
+      "doseCount": 18,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 10,
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "PrismaSol BGK 2/0 5000mL": {
+      "ndc": 24571010206,
+      "productCount": 24,
+      "doseCount": 24,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 16,
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "prochlorperazine (COMPAZINE) 1mg/mL D5W - 10mL STOCK": {
+      "ndc": "Z6694018029",
+      "productCount": 9,
+      "doseCount": 9,
+      "locations": {
+        "ED PHARMACY": 9
+      }
+    },
+    "prochlorperazine (COMPAZINE) 1mg/mL D5W - 50mL STOCK": {
+      "ndc": "Z6715818115",
+      "productCount": 12,
+      "doseCount": 86,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 12
+      }
+    },
+    "prochlorperazine 5mg/mL - 2mL vial (Sagent)": {
+      "ndc": 25021079002,
+      "productCount": 133,
+      "doseCount": 75,
+      "locations": {
+        "ED PHARMACY": 24,
+        "CCHMC MAIN PHARMACY": 81,
+        "LIBERTY MAIN PHARMACY": 24,
+        "CRITICAL CARE PHARMACY": 3,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "Pyridoxine 100mg/mL 1mL (Fresenius Kabi)": {
+      "ndc": 63323018000,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "rabbit antithymocyte 25mg (Genzyme Corporation)": {
+      "ndc": 58468008001,
+      "productCount": 6,
+      "doseCount": 2,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 3
+      }
+    },
+    "remdesivir (VEKLURY) 100mg injection (Gilead)": {
+      "ndc": 61958290102,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "remimazolam besylate - 20mg vial (Acacia Pharma)": {
+      "ndc": 71390001100,
+      "productCount": 18,
+      "doseCount": 3,
+      "locations": {
+        "OR MAIN PHARMACY": 12,
+        "CRITICAL CARE PHARMACY": 6
+      }
+    },
+    "RENFLEXIS (infliximab-abda) Samsung": {
+      "ndc": 78206016299,
+      "productCount": 6,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "risankizumab-rzaa 60mg/mL - 10mL (Abbvie)": {
+      "ndc": 74501501,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1
+      }
+    },
+    "riTUXimab 10 mg/mL 10mL (Genentech)": {
+      "ndc": 50242005121,
+      "productCount": 3,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "rituximab-abbs (Truxima) 10mg/1mL - 50mL": {
+      "ndc": 63459010450,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen)": {
+      "ndc": 55513022301,
+      "productCount": 3,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen) #2": {
+      "ndc": 55513022321,
+      "productCount": 6,
+      "doseCount": 4,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4,
+        "LIBERTY MAIN PHARMACY": 1,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "romiPLOStim 500 mcg/mL 250 mcg vial (Amgen)": {
+      "ndc": 55513022101,
+      "productCount": 18,
+      "doseCount": 8,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 12,
+        "HEM/ONC PHARMACY": 6
+      }
+    },
+    "ropivacaine (NAROPIN) 0.2 % - EPINEPHrine (ADRENALIN) 1:200,000 injection- 20mL": {
+      "ndc": "Z6620317668",
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Ropivacaine (Naropin) 0.2% 10mL Fresenius Kabi": {
+      "ndc": 63323028503,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "ropivacaine 0.2% with epi 1:200,000 - 100mL OR STOCK": {
+      "ndc": "Z6503116712",
+      "productCount": 4,
+      "doseCount": 11,
+      "locations": {
+        "OR MAIN PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "ropivacaine 0.5% 30mL Fresenius Kabi": {
+      "ndc": 63323028611,
+      "productCount": 45,
+      "doseCount": 14,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 11,
+        "CRITICAL CARE PHARMACY": 7,
+        "OR MAIN PHARMACY": 5,
+        "LIBERTY MAIN PHARMACY": 22
+      }
+    },
+    "ropivacaine HCL 0.2% 200mg/100mL (Sagent)": {
+      "ndc": 25021067182,
+      "productCount": 8,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4,
+        "OR MAIN PHARMACY": 4
+      }
+    },
+    "ropivacaine HCL 0.2% 400mg/200mL (Sagent)": {
+      "ndc": 25021067187,
+      "productCount": 16,
+      "doseCount": 13,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5,
+        "CRITICAL CARE PHARMACY": 5,
+        "OR MAIN PHARMACY": 6
+      }
+    },
+    "sargramostim 250 mcg (Partner Therapeutics)": {
+      "ndc": 71837584301,
+      "productCount": 4,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 4
+      }
+    },
+    "Sebelipase alfa (Kanuma) 20mg/10mL": {
+      "ndc": 25682000701,
+      "productCount": 5,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "selenious acid 60 mcg/mL 10mL (American Regent, Inc)": {
+      "ndc": 517656001,
+      "productCount": 38,
+      "doseCount": 68,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 33,
+        "LIBERTY MAIN PHARMACY": 5
+      }
+    },
+    "sirolimus protein-bound particles (FYARRO) 100mg vial (Aadi Bioscience)": {
+      "ndc": 80803015350,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 2
+      }
+    },
+    "SMOFlipid 250mL 20%": {
+      "ndc": 63323082004,
+      "productCount": 107,
+      "doseCount": 110,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 107
+      }
+    },
+    "SMOFlipid 100mL 20%": {
+      "ndc": 63323082001,
+      "productCount": 123,
+      "doseCount": 111,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 115,
+        "LIBERTY MAIN PHARMACY": 8
+      }
+    },
+    "SMOFlipid 500mL 20% (New)": {
+      "ndc": 63323082003,
+      "productCount": 143,
+      "doseCount": 268,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 142,
+        "Unknown": 1
+      }
+    },
+    "sodium acetate 2 mEq/mL 20mL (Hospira Inc 2)": {
+      "ndc": 409729983,
+      "productCount": 11,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 9,
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "sodium acetate 2 mEq/mL 50mL (Hospira)": {
+      "ndc": 409329915,
+      "productCount": 21,
+      "doseCount": 22,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 21
+      }
+    },
+    "sodium bicarbonate 4.2% 5mL (Hospira)": {
+      "ndc": 409555512,
+      "productCount": 13,
+      "doseCount": 20,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 8,
+        "CCHMC MAIN PHARMACY": 5
+      }
+    },
+    "sodium bicarbonate 8.4% - 50mL (Hospira Inc) [1mEq/1mL]": {
+      "ndc": 409662522,
+      "productCount": 24,
+      "doseCount": 20,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 13,
+        "CRITICAL CARE PHARMACY": 2,
+        "LIBERTY MAIN PHARMACY": 9
+      }
+    },
+    "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004304,
+      "productCount": 42,
+      "doseCount": 42,
+      "locations": {
+        "ED PHARMACY": 5,
+        "CCHMC MAIN PHARMACY": 28,
+        "HEM/ONC PHARMACY": 2,
+        "LIBERTY MAIN PHARMACY": 4,
+        "CRITICAL CARE PHARMACY": 2,
+        "Unknown": 1
+      }
+    },
+    "Sodium Chloride 0.45% 530mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004303,
+      "productCount": 10,
+      "doseCount": 10,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 7,
+        "ED PHARMACY": 2
+      }
+    },
+    "sodium chloride 0.9% - 250mL bag (Baxter)": {
+      "ndc": 338979101,
+      "productCount": 138,
+      "doseCount": 151,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 105,
+        "HEM/ONC PHARMACY": 15,
+        "LIBERTY MAIN PHARMACY": 1,
+        "CRITICAL CARE PHARMACY": 10,
+        "Unknown": 2,
+        "OR MAIN PHARMACY": 5
+      }
+    },
+    "sodium chloride 0.9% - 530mL bag (Baxter)": {
+      "ndc": 338954303,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004904,
+      "productCount": 93,
+      "doseCount": 119,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 30,
+        "CCHMC MAIN PHARMACY": 4,
+        "HEM/ONC PHARMACY": 18,
+        "LIBERTY MAIN PHARMACY": 25,
+        "ED PHARMACY": 11,
+        "OR MAIN PHARMACY": 5
+      }
+    },
+    "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004918,
+      "productCount": 370,
+      "doseCount": 368,
+      "locations": {
+        "ED PHARMACY": 12,
+        "CCHMC MAIN PHARMACY": 244,
+        "CRITICAL CARE PHARMACY": 91,
+        "HEM/ONC PHARMACY": 13,
+        "OR MAIN PHARMACY": 10
+      }
+    },
+    "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338004948,
+      "productCount": 57,
+      "doseCount": 70,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 56,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "sodium chloride 0.9% 10mL (Fresenius Kabi)": {
+      "ndc": 63323018601,
+      "productCount": 21,
+      "doseCount": 18,
+      "locations": {
+        "HEM/ONC PHARMACY": 11,
+        "CCHMC MAIN PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 2,
+        "LIBERTY MAIN PHARMACY": 4,
+        "OR MAIN PHARMACY": 2
+      }
+    },
+    "Sodium Chloride 0.9% 25mL (30mL with overfill Baxter I.V. Systems Division)": {
+      "ndc": 338004910,
+      "productCount": 37,
+      "doseCount": 37,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 11,
+        "HEM/ONC PHARMACY": 26
+      }
+    },
+    "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338004902,
+      "productCount": 430,
+      "doseCount": 645,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 60,
+        "CCHMC MAIN PHARMACY": 188,
+        "HEM/ONC PHARMACY": 83,
+        "CRITICAL CARE PHARMACY": 78,
+        "ED PHARMACY": 6,
+        "OR MAIN PHARMACY": 14,
+        "Unknown": 1
+      }
+    },
+    "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338004903,
+      "productCount": 331,
+      "doseCount": 765,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 138,
+        "CRITICAL CARE PHARMACY": 145,
+        "Unknown": 3,
+        "LIBERTY MAIN PHARMACY": 3,
+        "OR MAIN PHARMACY": 27,
+        "HEM/ONC PHARMACY": 12,
+        "ED PHARMACY": 3
+      }
+    },
+    "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004911,
+      "productCount": 49,
+      "doseCount": 48,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 35,
+        "OR MAIN PHARMACY": 8,
+        "ED PHARMACY": 3,
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338004941,
+      "productCount": 69,
+      "doseCount": 71,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 30,
+        "LIBERTY MAIN PHARMACY": 38,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "Sodium Chloride 0.9% with KCl 40 mEq/L 1000mL (Baxter I.V. Systems Division) [40 mEq/L]": {
+      "ndc": "00338069504-01",
+      "productCount": 12,
+      "doseCount": 12,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 11,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "sodium chloride 23.4% 30mL (Fresenius Kabi) 4mEq/mL": {
+      "ndc": 63323009301,
+      "productCount": 19,
+      "doseCount": 15,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 9,
+        "CCHMC MAIN PHARMACY": 9,
+        "Unknown": 1
+      }
+    },
+    "Sodium Nitroprusside injection 25 mg/ml 2 ml Armas": {
+      "ndc": 72485010501,
+      "productCount": 87,
+      "doseCount": 75,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 35,
+        "CRITICAL CARE PHARMACY": 52
+      }
+    },
+    "sodium phosphate 3 mmol/mL 15mL (Hospira)": {
+      "ndc": 409739182,
+      "productCount": 2,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "sodium phosphate 3mmol/1mL - 15mL (Fresenius)": {
+      "ndc": "63323088101-01",
+      "productCount": 19,
+      "doseCount": 29,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 18,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "sodium thiosulfate 250 mg/mL 50mL": {
+      "ndc": 60267070550,
+      "productCount": 17,
+      "doseCount": 13,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 6,
+        "LIBERTY MAIN PHARMACY": 4,
+        "CCHMC MAIN PHARMACY": 4,
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "Sterile Water - 10mL (Hospira Inc)": {
+      "ndc": 409488717,
+      "productCount": 3,
+      "doseCount": 2,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "sterile water - 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338001304,
+      "productCount": 47,
+      "doseCount": 339,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 32,
+        "CRITICAL CARE PHARMACY": 11,
+        "OR MAIN PHARMACY": 3,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "sterile water 100mL (Hospira Inc)": {
+      "ndc": 409488725,
+      "productCount": 9,
+      "doseCount": 21,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 9
+      }
+    },
+    "sterile water irrigation 250mL (Baxter)": {
+      "ndc": 338000402,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "sulfamethoxazole-trimethoprim 80 mg-16 mg/mL - 10mL vial (Somerset)": {
+      "ndc": 70069036201,
+      "productCount": 38,
+      "doseCount": 52,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 35,
+        "CRITICAL CARE PHARMACY": 3
+      }
+    },
+    "teduglutide [rDNA origin] for injection 5mg (Gattex)": {
+      "ndc": 68875010301,
+      "productCount": 19,
+      "doseCount": 38,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 19
+      }
+    },
+    "thiamine 100 mg/mL 2mL (American Pharmaceutical Partners)": {
+      "ndc": 63323001302,
+      "productCount": 4,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 4
+      }
+    },
+    "thiamine 100 mg/mL 2mL Fresenius Kabi": {
+      "ndc": 63323001301,
+      "productCount": 87,
+      "doseCount": 32,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 86,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "thiamine 100mg/mL - 2mL vial (NorthStar)": {
+      "ndc": 72603013901,
+      "productCount": 1,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "tobramycin 40 mg/mL 30mL (Fresenius Kabi)": {
+      "ndc": 63323030605,
+      "productCount": 2,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "tobramycin 40mg/mL 2mL (Mylan)": {
+      "ndc": 67457047300,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 2
+      }
+    },
+    "tocilizumab (Actemra) 200mg/10mL Genetech": {
+      "ndc": 50242013601,
+      "productCount": 6,
+      "doseCount": 6,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 5,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "tocilizumab (Actemra) 400mg/20mL Genetech": {
+      "ndc": 50242013701,
+      "productCount": 6,
+      "doseCount": 6,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 4,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "tocilizumab (Actemra) 80mg/4mL Genetech": {
+      "ndc": 50242013501,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 2
+      }
+    },
+    "tocilizumab-aazg (TYENNE) 20mg/mL - 10mL vial (Fresenius Kabi)": {
+      "ndc": 65219059210,
+      "productCount": 2,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "tranexamic acid 100mg/mL - 10 mL vial (Sagent)": {
+      "ndc": 25021041510,
+      "productCount": 15,
+      "doseCount": 25,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 11,
+        "ED PHARMACY": 1,
+        "OR MAIN PHARMACY": 3
+      }
+    },
+    "tranexamic acid 100mg/mL 10mL (Eugia)": {
+      "ndc": 55150018810,
+      "productCount": 58,
+      "doseCount": 44,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 23,
+        "OR MAIN PHARMACY": 35
+      }
+    },
+    "treprostinil 1mg/1mL 20mL vial (Teva)": {
+      "ndc": 703066601,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 1
+      }
+    },
+    "triamcinolone acetonide injectable suspension 40mg/mL (1mL) Amneal Pharmaceuticals LLC": {
+      "ndc": 70121104901,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "valproic acid 100 mg/mL 5mL (Fresenius kabi--2)": {
+      "ndc": 63323049401,
+      "productCount": 3,
+      "doseCount": 2,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 3
+      }
+    },
+    "valproic acid 100 mg/mL 5mL Hikma": {
+      "ndc": 143978501,
+      "productCount": 52,
+      "doseCount": 31,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 41,
+        "CRITICAL CARE PHARMACY": 6,
+        "ED PHARMACY": 2,
+        "LIBERTY MAIN PHARMACY": 3
+      }
+    },
+    "vancomycin (VANCOCIN) 5 mg/mL in D5W- 300mL Stock": {
+      "ndc": "Z6491916651",
+      "productCount": 7,
+      "doseCount": 17,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 7
+      }
+    },
+    "vancomycin (VANCOCIN) 5mg/mL in D5W - 1000mL !": {
+      "ndc": "Z6473816235",
+      "productCount": 22,
+      "doseCount": 247,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 22
+      }
+    },
+    "Vancomycin (Vancocin) 5mg/mL with sodium citrate 4% antibiotic lock STOCK- 10mL": {
+      "ndc": "Z6507316787",
+      "productCount": 8,
+      "doseCount": 12,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 8
+      }
+    },
+    "vancomycin 1gm - vial (Hikma)": {
+      "ndc": 143916201,
+      "productCount": 24,
+      "doseCount": 25,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 7,
+        "CRITICAL CARE PHARMACY": 8,
+        "OR MAIN PHARMACY": 6,
+        "ED PHARMACY": 3
+      }
+    },
+    "vancomycin 500mg (Hospira Inc) -2": {
+      "ndc": 409433211,
+      "productCount": 25,
+      "doseCount": 18,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 4,
+        "CCHMC MAIN PHARMACY": 3,
+        "OR MAIN PHARMACY": 2,
+        "CRITICAL CARE PHARMACY": 15,
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "vancomycin 5g IV USE (Hospira Inc)": {
+      "ndc": 409650901,
+      "productCount": 36,
+      "doseCount": 36,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 36
+      }
+    },
+    "vasopressin 20 units/mL - 1mL vial (AuroMedics)": {
+      "ndc": 55150037001,
+      "productCount": 6,
+      "doseCount": 3,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6
+      }
+    },
+    "vasopressin 20 units/mL 1mL VASOSTRICT": {
+      "ndc": 42023016401,
+      "productCount": 16,
+      "doseCount": 8,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 16
+      }
+    },
+    "vecuronium 10mg (AuroMedic Pharma)": {
+      "ndc": 55150023501,
+      "productCount": 13,
+      "doseCount": 13,
+      "locations": {
+        "CRITICAL CARE PHARMACY": 10,
+        "CCHMC MAIN PHARMACY": 3
+      }
+    },
+    "Vecuronium 20mg (AuroMedics)": {
+      "ndc": 55150023601,
+      "productCount": 81,
+      "doseCount": 65,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 20,
+        "CRITICAL CARE PHARMACY": 60,
+        "ED PHARMACY": 1
+      }
+    },
+    "vedolizumab (Entyvio) 300mg vial": {
+      "ndc": 64764030020,
+      "productCount": 8,
+      "doseCount": 8,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 6,
+        "LIBERTY MAIN PHARMACY": 2
+      }
+    },
+    "velmanase alfa-tycv 10mg vial (Chiesi)": {
+      "ndc": 10122018001,
+      "productCount": 3,
+      "doseCount": 1,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 3
+      }
+    },
+    "verapamil 2.5mg/mL - 2mL vial (Zydus Pharma)": {
+      "ndc": 70710164301,
+      "productCount": 3,
+      "doseCount": 2,
+      "locations": {
+        "OR MAIN PHARMACY": 3
+      }
+    },
+    "vinBLAStine 1mg/mL 10mg (Fresenius)": {
+      "ndc": 63323027810,
+      "productCount": 7,
+      "doseCount": 4,
+      "locations": {
+        "HEM/ONC PHARMACY": 7
+      }
+    },
+    "vinCRIStine 1 mg/mL 1mL (Hospira)": {
+      "ndc": 61703030906,
+      "productCount": 7,
+      "doseCount": 6,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 4,
+        "HEM/ONC PHARMACY": 3
+      }
+    },
+    "vinCRIStine 1 mg/mL 2mL (Hospira)": {
+      "ndc": 61703030916,
+      "productCount": 22,
+      "doseCount": 22,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 9,
+        "HEM/ONC PHARMACY": 13
+      }
+    },
+    "Vinorelbine 10 mg/mL 5 mL (Sagent Laboratoires)": {
+      "ndc": 25021020405,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "HEM/ONC PHARMACY": 1
+      }
+    },
+    "Vitamin A 50,000 units/mL - 2mL (Casper)": {
+      "ndc": 70199002611,
+      "productCount": 4,
+      "doseCount": 7,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 3,
+        "CRITICAL CARE PHARMACY": 1
+      }
+    },
+    "von Willerand factor (HUMATE-P) 250 to 600 units": {
+      "ndc": 63833061502,
+      "productCount": 1,
+      "doseCount": 1,
+      "locations": {
+        "OR MAIN PHARMACY": 1
+      }
+    },
+    "zinc sulfate 5 mg/mL 5mL American Reagent": {
+      "ndc": 517800501,
+      "productCount": 85,
+      "doseCount": 45,
+      "locations": {
+        "CCHMC MAIN PHARMACY": 80,
+        "LIBERTY MAIN PHARMACY": 5
+      }
+    },
+    "zoledronic acid 4 mg/5 mL Dr. Reddy": {
+      "ndc": 55111068507,
+      "productCount": 2,
+      "doseCount": 2,
+      "locations": {
+        "LIBERTY MAIN PHARMACY": 1,
+        "CCHMC MAIN PHARMACY": 1
+      }
+    }
+  },
+  "by_location": {
+    "CRITICAL CARE PHARMACY": {
+      "productCount": 2626,
+      "doseCount": 3759,
+      "products": {
+        "abatacept 250mg (Bristol-Myers Squibb)": 6,
+        "Ablysinol (dehydrated alcohol) 5mL ampule": 1,
+        "acetaminophen 1000mg/100mL (Fresenius Kabi)": 11,
+        "acetaminophen 10mg/mL - 100mL bag (Baxter)": 37,
+        "acetazolamide 500 mg vial (Avet)": 1,
+        "acetylcysteine 200 mg/mL Sagent": 4,
+        "acyclovir 50 mg/mL 20mL Auromedics": 3,
+        "albumin human 25% - 100mL bag (Takeda Pharma)": 2,
+        "albuterol sulfate inhalation solution 0.5% 5mg/mL - 20mL (Staq #2)": 21,
+        "alpha 1-proteinase inhibitor human 1gm (CSL Behring)": 10,
+        "alprostadil 10mcg/mL dilution in NS - 50mL": 6,
+        "alprostadil 500 mcg/mL 1 mL(Pfizer U.S. Pharmaceuticals Group)": 8,
+        "aminophylline 25 mg/mL 20mL (Hospira Inc) #3": 1,
+        "amiodarone hcl 150mg/100mL (Nexterone)": 5,
+        "ampicillin (OMNIPEN) in sodium chloride 20 mg/mL- 100mL Stock": 3,
+        "ampicillin 2g Auromedics": 16,
+        "ampicillin and sulbactam 3g vial (WestWard)": 9,
+        "anakinra 100mg/0.67mL Syringe biovitrum #2": 2,
+        "arginine 10% 300mL dosed as mg (Pfizer U.S. Pharmaceuticals Group 1) [10G/100mL]*": 2,
+        "azithromycin 500 mg (Auromedics)": 1,
+        "bivalirudin 250mg vial (Meitheal)": 108,
+        "botulinum toxin type A 100units (Allergan Inc) [50 units/mL]": 1,
+        "bumetanide 0.25mg/mL - 10mL vial (Glenmark)": 91,
+        "butorphanol 1 mg/mL 1mL (Hospira)": 1,
+        "caffeine citrate 20 mg/mL Sagent": 3,
+        "calcium chloride 100 mg/mL 10mL (American Regent)": 186,
+        "Calcium Gluconate 100 mg /mL Fresenius Kabi 10mL": 1,
+        "calcium gluconate 100mg/mL 50mL (Fresenius Kabi)": 6,
+        "ceFAZolin 10g (West-Ward Pharmaceutical Corporation)": 18,
+        "ceFAZolin 1g (West-Ward Pharmaceutical Corporation)": 4,
+        "cefepime (MAXIPIME) 40 mg/mL in sodium chloride (NS) 0.9% 100mL": 4,
+        "cefepime 2g vial (Hikma)": 10,
+        "Cefepime for injection 2 grams": 6,
+        "cefOXitin 2g (Sagent)": 4,
+        "Ceftaroline (Tefaro) 600mg Vial Facta": 1,
+        "Ceftazidime 1g (WG Critical Care, LLC)": 8,
+        "cefTRIAXone 2g (Hospira)": 5,
+        "chlorothiazide 500 mg sagent": 5,
+        "Chlorothiazide 500mg American Regent": 4,
+        "ciprofloxacin in D5W 2mg/mL - 200mL (Sagent)": 1,
+        "cisatracurium 2mg/mL - 5mL vial (Meitheal)": 10,
+        "Clindamycin in 5% Dextrose Injection 900mg/50mL baxter": 2,
+        "cloNIDine 100 mcg/mL 10mL (Bionichepharma)": 1,
+        "cytomegalovirus immune globulin 50mg/mL - 50mL vial (Kamada)": 1,
+        "daptomycin 500mg (Meitheal)": 4,
+        "desmopressin 4 mcg/mL 10mL (Amring)": 2,
+        "dexamethasone (DECADRON) 1mg/mL NS - 20mL STOCK": 1,
+        "dexamethasone (DECADRON) 1mg/mL NS - 50mL": 1,
+        "dexamethasone 4 mg/mL 5mL Mylan": 5,
+        "dexmedetomidine 100 mcg/mL - 2mL vial (Piramal)": 3,
+        "Dextrose 10% in Water 1000mL (Baxter I.V. Systems Division)": 3,
+        "Dextrose 10% in Water 250mL (Baxter I.V. Systems Division)": 22,
+        "Dextrose 10% in Water 500mL (Baxter I.V. Systems Division)": 1,
+        "Dextrose 10% with 0.2% NaCl 250mL (B. Braun Medical)": 89,
+        "Dextrose 10% with 0.45% NaCl 1000mL (B. Braun Medical)": 3,
+        "Dextrose 5% in Lactated Ringers Injection 1000mL (Baxter I.V. Systems Division)": 9,
+        "Dextrose 5% in Water 1000mL (Baxter I.V. Systems Division)": 4,
+        "Dextrose 5% in Water 100mL (Baxter I.V. Systems Division) #3": 27,
+        "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": 65,
+        "Dextrose 5% in Water 500mL (Baxter I.V. Systems Division) #2": 3,
+        "Dextrose 5% in Water 50mL (Baxter I.V. Systems Division) #3": 61,
+        "Dextrose 5% with 0.45% NaCl 1000mL (Baxter I.V. Systems Division)": 8,
+        "Dextrose 5% with 0.9% NaCl 1000mL (Baxter I.V. Systems Division)": 4,
+        "Dextrose 50% - 50mL abboject (Hospira #2)": 1,
+        "Dextrose 50% 50mL Hospira": 12,
+        "dianeal low calcium 1.5% Dextrose 3000mL Peritoneal Dialysis Solution": 2,
+        "dianeal low calcium 1.5% Dextrose 5000mL Peritoneal Dialysis Solution": 2,
+        "Dianeal Low Calcium Peritoneal Dialysis Solution with 4.25% Dextrose 2000mL": 2,
+        "dianeal low calcium w/ dextrose 1.5% 2000mL": 5,
+        "dianeal low calcium w/ dextrose 2.5% 2000mL": 6,
+        "diphenhydrAMINE (BENADRYL) in *NS* 5 mg/mL -10mL": 5,
+        "diphenhydrAMINE 50 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": 7,
+        "doxycycline 100mg Fresenius Kabi": 2,
+        "eculizumab 10 mg/mL 30mL (Alexion)": 6,
+        "EPINEPHrine 0.1 mg/mL 10mL (International Medication Systems, Limited) #6": 9,
+        "EPINEPHrine 1 mg/mL 30mL - (JHP Phamaceuticals)": 11,
+        "EPINEPHrine in NS 10mcg/mL - 10mL syringe (STAQ)": 18,
+        "epoprostenol 0.5mg VELETRI": 20,
+        "erythromycin lactobionate 500mg Hospira 1": 2,
+        "etanercept 50mg/mL - 0.5mL vial (Amgen)": 2,
+        "Ethanol 70% STOCK 3mL (Dehydrated alcohol 2.12 mL/ 0.88 mL Sterile Water)": 1,
+        "famotidine (PEPCID) 4 mg/mL NS 5 mL stock": 1,
+        "famotidine (PEPCID) 4mg/mL NS - 10mL": 2,
+        "famotidine 10 mg/mL - 20mL (Fresenius Kabi) #2": 1,
+        "Fentanyl 50 mcg/ml": 11,
+        "Fentanyl Citrate 50 mcg/ml": 17,
+        "filgrastim-sndz (Zarxio)": 3,
+        "filgrastim-sndz (ZARXIO) 15 mcg/ml in D5W- 20 ml": 1,
+        "fluconazole 200mg/100mL NS Sagent 2": 5,
+        "fosaprepitant 150 mg (Hikma)": 6,
+        "fosphenytoin sodium 50mg PE/mL - 10mL vial (Glenmark)": 2,
+        "furosemide (LASIX) 1 mg/mL in sodium chloride (NS) 0.9% - 20mL": 1,
+        "furosemide 10 mg/mL 2mL": 1,
+        "gammagard liquid 10% 25mL": 2,
+        "Gammaguard 10% 1gm": 4,
+        "gammaguard liquid 5gm": 1,
+        "HBiofluids (CARPEDIEM) dialysis fluid 2000mL": 11,
+        "heparin 100 units/mL - 5mL syr. (Medefil Inc)": 27,
+        "heparin 1000 units/mL -10mL (Phlow Corp.)": 63,
+        "heparin 1unit/mL papaverine 0.12mg/mL NS - 500mL STOCK": 14,
+        "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) fresenius kabi": 3,
+        "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) Hospira": 2,
+        "hydrALAZINE (APRESOLINE) 1mg/mL in SW - 20mL": 11,
+        "hydralazine 20 mg/ml 1mL Fresenius Kabi": 12,
+        "hydrocortisone (Solu-CORTEF) *1mg/mL* in NS - 100mL Dilution": 7,
+        "hydrocortisone 100 mg (Pfizer U.S. Pharmceutical Group)": 8,
+        "HYDROmorphone 10 mg/mL 1mL (Fresenius Kabi)": 10,
+        "HYDROmorphone 10 mg/mL 5mL (Hospira)": 22,
+        "HYDROmorphone 2 mg/mL 1 mL West ward": 8,
+        "immune globulin intravenous 10% 200mL (Baxter I.V. Systems Division) 1": 3,
+        "Immune globulin intravenous 30g (Gammagard Liquid)": 5,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 20mL syringe": 2,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 5mL syringe": 6,
+        "insulin human (Myxredlin) 1unit/mL in NS - 100mL bag": 2,
+        "iron sucrose 20ml/mL 5mL (American Regent)": 9,
+        "isoproterenol 0.2mg/mL - 5mL vial (Avet)": 3,
+        "isoproterenol 0.2mg/mL 5mL (Amring)": 7,
+        "ketamine 100 mg/mL 5mL (West-Ward)": 38,
+        "ketorolac 15 mg/mL 1mL (Fresenius Kabi)": 7,
+        "Lactated Ringers Injection 500mL (Baxter I.V. Systems Division)": 4,
+        "leveTIRACEtam in NaCl 1500mg/100mL (Nexus)": 5,
+        "levofloxacin 500mg/100mL in D5W (Sagent)": 1,
+        "levothyroxine 40mcg/mL vial (5mL)": 2,
+        "lorazepam **0.5** mg/mL in NS - 4mL Make in glass vial !": 8,
+        "LORazepam 2 mg/mL 10mL (Amphastar)": 1,
+        "magnesium sulfate 40mg/mL - 50mL bag (Fresenius)": 10,
+        "magnesium sulfate 50% 2mL Fresenius Kabi": 4,
+        "Mannitol 20% 500 mL (ICU Medical)": 6,
+        "meropenem 1000mg/50mL TOTAL VOLUME Duplex": 6,
+        "methocarbamol 100 mg/mL 10 mL Wintac": 10,
+        "methylPREDNISolone (Solu-MEDROL) *1mg/mL in D5W - 40mL !": 2,
+        "methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 100mL !": 1,
+        "methylPREDNISolone 1g (Dr Reddys) SWFI [62.5mg/mL]": 5,
+        "methylPREDNISolone 500mg (Dr. Reddys) [62.5 mg/mL] D5W NS": 4,
+        "metoclopramide 5mg/mL - 2mL (Sicor)": 1,
+        "metroNIDAZOLE 5mg/mL 100mL (Hospira Inc)": 7,
+        "micafungin 100mg Fresenius Kabi": 12,
+        "midazolam (VERSED) 0.1 mg/mL in NS - 4mL Make in Syringe": 6,
+        "midazolam 1 mg/mL preservative-free 2mL": 1,
+        "midazolam 1mg/mL - 2mL vial PF (Hospira)": 5,
+        "midazolam 5 mg/mL (Avet Pharma)": 44,
+        "midazolam 5 mg/mL 10mL": 6,
+        "morphine 1 mg/mL preservative-free 2mL (STAQ PHARMA)": 1,
+        "Morphine 10 mg/mL West Ward": 37,
+        "Morphine PF (ASTROMORPH) 0.1 mg/mL in NS - 4mL (make in syringe)": 1,
+        "multiple electrolyte solution 1000mL (Baxter I.V. Systems Division)": 16,
+        "nafcillin 1g (Auromedics)": 6,
+        "nalbuphine (NUBAIN) 1mg/mL in NS - 10mL": 2,
+        "nalbuphine (NUBAIN) 1mg/mL in NS - 20mL": 1,
+        "nalbuphine 10 mg/mL 10mL (Hospira)": 1,
+        "niCARdipine 2.5 mg/mL 10 ml (AUROMEDICS)": 8,
+        "Nicardipine 2.5 mg/ml injection": 65,
+        "niCARdipine hydrochloride 2.5 mg/ml -10ml (Armas)": 33,
+        "norepinephrine 1 mg/mL 4 mL (Mylan)": 2,
+        "oxytocin 10 units/mL 1 mL (Fresenius)": 27,
+        "pantoprazole 40mg (Meitheal)": 12,
+        "papavarine 30mg/mL - 2mL vial (BPI Labs)": 22,
+        "pentamidine 300mg (Fresenius)": 3,
+        "PENTobarbital 50 mg/mL 20mL (SAGENT)": 1,
+        "PHENOBarbital 65 mg/mL 1mL (Cameron Pharmaceuticals)": 40,
+        "phenylephrine 10 mg/mL - 1mL vial (Fresenius Kabi)": 16,
+        "phenylephrine 100mcg/mL - 10mL syringe (STAQ)": 4,
+        "Phoxillum B22K 4/0 5000mL- Break seal to mix": 28,
+        "phytonadione (AQUA-MEPHYTON) 1mg/mL in NS - 10mL": 1,
+        "phytonadione 10 mg/mL - 1mL vial (Fresenius)": 4,
+        "piperacillin-tazobactam in dextrose 3g-0.375g (Baxter)": 8,
+        "potassium chloride 2 mEq/mL 10 mL (Fresenius-Kabi)": 16,
+        "potassium chloride 20 mEq/100 mL 100mL (Baxter I.V. Systems Division)": 15,
+        "potassium phosphate 3 mmol/mL - 15mL vial (Amneal)": 7,
+        "potassium phosphate 3 mmol/mL - 15mL vial (Amneal) [4.4mEq/mL]": 5,
+        "potassium phosphate 3 mmol/mL 15mL (Somerset)": 7,
+        "potassium phosphate 3 mmol/mL 15mL (Somerset) [4.4mEq/mL]": 3,
+        "prismaSATE BGK 2/0 5000mL (Gambro)": 10,
+        "PrismaSol BGK 2/0 5000mL": 16,
+        "prochlorperazine 5mg/mL - 2mL vial (Sagent)": 3,
+        "rabbit antithymocyte 25mg (Genzyme Corporation)": 3,
+        "remdesivir (VEKLURY) 100mg injection (Gilead)": 1,
+        "remimazolam besylate - 20mg vial (Acacia Pharma)": 6,
+        "ropivacaine 0.2% with epi 1:200,000 - 100mL OR STOCK": 1,
+        "ropivacaine 0.5% 30mL Fresenius Kabi": 7,
+        "ropivacaine HCL 0.2% 400mg/200mL (Sagent)": 5,
+        "sodium acetate 2 mEq/mL 20mL (Hospira Inc 2)": 2,
+        "sodium bicarbonate 4.2% 5mL (Hospira)": 8,
+        "sodium bicarbonate 8.4% - 50mL (Hospira Inc) [1mEq/1mL]": 2,
+        "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": 2,
+        "Sodium Chloride 0.45% 530mL (Baxter I.V. Systems Division)": 1,
+        "sodium chloride 0.9% - 250mL bag (Baxter)": 10,
+        "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": 30,
+        "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division)": 91,
+        "sodium chloride 0.9% 10mL (Fresenius Kabi)": 2,
+        "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": 78,
+        "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": 145,
+        "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division) #3": 30,
+        "Sodium Chloride 0.9% with KCl 40 mEq/L 1000mL (Baxter I.V. Systems Division) [40 mEq/L]": 1,
+        "sodium chloride 23.4% 30mL (Fresenius Kabi) 4mEq/mL": 9,
+        "Sodium Nitroprusside injection 25 mg/ml 2 ml Armas": 52,
+        "sodium phosphate 3mmol/1mL - 15mL (Fresenius)": 1,
+        "sodium thiosulfate 250 mg/mL 50mL": 6,
+        "sterile water - 1000mL (Baxter I.V. Systems Division)": 11,
+        "sulfamethoxazole-trimethoprim 80 mg-16 mg/mL - 10mL vial (Somerset)": 3,
+        "thiamine 100 mg/mL 2mL Fresenius Kabi": 1,
+        "tobramycin 40mg/mL 2mL (Mylan)": 2,
+        "tocilizumab (Actemra) 200mg/10mL Genetech": 1,
+        "tocilizumab (Actemra) 400mg/20mL Genetech": 1,
+        "tranexamic acid 100mg/mL 10mL (Eugia)": 23,
+        "valproic acid 100 mg/mL 5mL Hikma": 6,
+        "vancomycin (VANCOCIN) 5 mg/mL in D5W- 300mL Stock": 7,
+        "vancomycin 1gm - vial (Hikma)": 8,
+        "vancomycin 500mg (Hospira Inc) -2": 15,
+        "vasopressin 20 units/mL 1mL VASOSTRICT": 16,
+        "vecuronium 10mg (AuroMedic Pharma)": 10,
+        "Vecuronium 20mg (AuroMedics)": 60,
+        "Vitamin A 50,000 units/mL - 2mL (Casper)": 1
+      }
+    },
+    "HEM/ONC PHARMACY": {
+      "productCount": 699,
+      "doseCount": 542,
+      "products": {
+        "abatacept 250mg (Bristol-Myers Squibb)": 5,
+        "acetaminophen 1000mg/100mL (Fresenius Kabi)": 2,
+        "alemtuzumab (CAMPATH) in NS 3 mg/mL - 5mL STOCK": 4,
+        "alemtuzumab 30 mg/mL 1mL (Genzyme) 1": 4,
+        "alpha 1-proteinase inhibitor human 1gm (CSL Behring)": 8,
+        "arsenic trioxide 1mg/mL - 10mL (Zydus Pharmaceuticals)": 10,
+        "axatilimab-csfr 9mg/0.18mL injection (Incyte Pharma)": 11,
+        "azaCITIDine 100mg (Dr Reddy's)": 9,
+        "basiliximab 10mg (Novartis Pharmaceuticals)": 2,
+        "bevacizumab 25 mg/mL 16mL (Genentech)": 1,
+        "bevacizumab-bvzr (ZIRABEV) 25mg/mL - 16mL vial (Pfizer)": 2,
+        "Bleomycin 30 units (West-Ward)": 2,
+        "BUsulfan 6mg/ml 10ml (Meitheal)": 5,
+        "calaspargase pegol-mknl 750units/1mL - 5mL vial (Servier)": 1,
+        "calcium gluconate 100mg/mL 50mL (Fresenius Kabi)": 1,
+        "CARBOplatin 10 mg/mL 15mL (Hospira Inc) #2": 10,
+        "Cefepime for injection 2 grams": 2,
+        "CISplatin 1 mg/mL 100mL (Fresenius)": 2,
+        "Cisplatin 1mg/ml 50ml (Sagent)": 2,
+        "Cladribine 1 mg/mL 10mL (HisunUSA)": 3,
+        "cyclophosphamide 1g (Baxter Healthcare Corporation)": 4,
+        "cyclophosphamide 2g (Baxter Healthcare Corporation) #2": 8,
+        "cycloSPORINE (SandIMMUNE) in D5W 2.5 mg/mL- 100mL ROOM TEMP !": 1,
+        "cycloSPORINE 50 mg/mL 5mL (Novartis Pharmaceuticals)": 2,
+        "Cytarabine 100 mg/mL 20mL (Fresenius)": 21,
+        "dacarbazine 200mg (Fresenius Kabi)": 15,
+        "Dactinomycin 0.5mg (Auromedics)": 4,
+        "Daratumumab 20mg/ml 20ml (Janssen)": 3,
+        "Daratumumab 20mg/ml 5ml (Janssen)": 5,
+        "Decitabine 50 mg (Meitheal)": 5,
+        "Decitabine 50mg (Novadoz)": 1,
+        "dexamethasone (DECADRON) 1mg/mL NS - 20mL STOCK": 1,
+        "dexamethasone 10 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": 2,
+        "dexamethasone 4 mg/mL 5mL Mylan": 2,
+        "dexrazoxane 500mg (Eugia)": 10,
+        "Dextrose 5% in Water 1000mL (Baxter I.V. Systems Division)": 4,
+        "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": 56,
+        "Dextrose 5% with 0.45% NaCl 1000mL (Baxter I.V. Systems Division)": 4,
+        "Dextrose 5% with 0.45% NaCl and KCl 20 mEq/L 1000mL (Baxter I.V. Systems Division)": 1,
+        "Dinutuximab 3.5mg/ml 5ml (United Therapeutics)": 8,
+        "DOXOrubicin 2mg/ml 25ml (Sagent)": 10,
+        "etoposide 20 mg/mL 25mL (American Pharmaceutical Partners)": 6,
+        "ferric carboxymaltose 50mg/mL 15mL (Regent)": 1,
+        "filgrastim-sndz (Zarxio)": 2,
+        "fludarabine 25mg/mL 2mL (Fresenius Kabi)": 8,
+        "fosaprepitant 150 mg (Hikma)": 14,
+        "Gamifant (emapalumab-lzg) #2 50 mg/10mL (5mg/mL)": 3,
+        "Gemcitabine 1g (Sagent)": 8,
+        "Gemcitabine 200mg (Hospira)": 6,
+        "granisetron 1mg/1mL - 1mL vial (Mylan)": 1,
+        "hydrocortisone 100 mg (Pfizer U.S. Pharmceutical Group)": 1,
+        "Hyqvia 10gm/100mL Immune globulin 10% Human": 1,
+        "Hyqvia 5gm/50mL Immune Globulin 10% Human": 1,
+        "Ifosfamide 3g (Baxter I.V. Systems Division) #1": 4,
+        "immune globulin intravenous 10% 100mL (Baxter I.V. Systems Division) 1": 1,
+        "immune globulin intravenous 10% 100mL Grifols Gammunex-C": 1,
+        "immune globulin intravenous 10% 200mL (Baxter I.V. Systems Division) 1": 3,
+        "immune globulin intravenous 10% 200mL (Grifols)": 1,
+        "immune globulin intravenous 10% 50mL (Talecris Biotherapeutics) gamunex-c 1": 1,
+        "Immune globulin intravenous 30g (Gammagard Liquid)": 2,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 10mL syringe": 1,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 20mL syringe": 2,
+        "Irinotecan 20mg/ml 2ml (Sagent)": 2,
+        "Irinotecan 20mg/ml 5ml (Apotex)": 7,
+        "iron dextran 50mg/mL Allergan": 80,
+        "iron sucrose 20ml/mL 5mL (American Regent)": 3,
+        "magnesium sulfate 50% 2mL Fresenius Kabi": 2,
+        "Melphalan 50mg (Dr. Reddy's)": 6,
+        "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division)": 16,
+        "mesna 20mg/mL in sodium chloride 0.9% - 100mL - STOCK": 1,
+        "methotrexate 25 mg/mL 40mL (Hospira)": 4,
+        "Methotrexate 25mg/ml 2ml PF (Westward)": 5,
+        "methylPREDNISolone 500mg (Dr. Reddys) SW": 1,
+        "micafungin 100mg Fresenius Kabi": 3,
+        "Mitoxantrone 2 mg/mL 10mL (Fresenius)": 4,
+        "Nivolumab 10mg/ml 10ml (Bristol-Myers Squibb)": 6,
+        "Nivolumab 10mg/ml 4ml (Bristol-Myers Squibb)": 1,
+        "PACLitaxel protein-bound 100mg vial (Teva)": 2,
+        "pegfilgrastim-jmdb 6mg/0.6mL - syringe (Biocon Biologics)": 1,
+        "pembrolizumab 25mg/ml 4mL (Merck & Co.)": 4,
+        "pentamidine 300mg (Fresenius)": 3,
+        "prochlorperazine 5mg/mL - 2mL vial (Sagent)": 1,
+        "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen) #2": 1,
+        "romiPLOStim 500 mcg/mL 250 mcg vial (Amgen)": 6,
+        "sargramostim 250 mcg (Partner Therapeutics)": 4,
+        "sirolimus protein-bound particles (FYARRO) 100mg vial (Aadi Bioscience)": 2,
+        "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": 2,
+        "sodium chloride 0.9% - 250mL bag (Baxter)": 15,
+        "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": 18,
+        "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division)": 13,
+        "sodium chloride 0.9% 10mL (Fresenius Kabi)": 11,
+        "Sodium Chloride 0.9% 25mL (30mL with overfill Baxter I.V. Systems Division)": 26,
+        "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": 83,
+        "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": 12,
+        "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division)": 3,
+        "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division) #3": 1,
+        "sodium thiosulfate 250 mg/mL 50mL": 3,
+        "sterile water - 1000mL (Baxter I.V. Systems Division)": 1,
+        "vancomycin 500mg (Hospira Inc) -2": 1,
+        "vinBLAStine 1mg/mL 10mg (Fresenius)": 7,
+        "vinCRIStine 1 mg/mL 1mL (Hospira)": 3,
+        "vinCRIStine 1 mg/mL 2mL (Hospira)": 13,
+        "Vinorelbine 10 mg/mL 5 mL (Sagent Laboratoires)": 1
+      }
+    },
+    "CCHMC MAIN PHARMACY": {
+      "productCount": 6187,
+      "doseCount": 10363,
+      "products": {
+        "acetaminophen 1000mg/100mL (Braun)": 83,
+        "acetaminophen 1000mg/100mL (Fresenius Kabi)": 71,
+        "acetaminophen 10mg/mL - 100mL bag (Baxter)": 103,
+        "acetaZOLAMIDE (DIAMOX) in D5W 25 mg/mL - 20mL !": 1,
+        "acetazolamide 500mg West Ward": 2,
+        "acetylcysteine 200 mg/mL Sagent": 8,
+        "acyclovir (ZOVIRAX) in sodium chloride 7 mg/mL- 290mL": 7,
+        "acyclovir 50 mg/mL - 10mL (Auromedics)": 5,
+        "acyclovir 50 mg/mL 20mL Auromedics": 19,
+        "agalsidase beta 35mg (Genzyme Corporation)": 2,
+        "agalsidase beta 5mg (Genzyme Corporation)": 5,
+        "albuterol sulfate inhalation solution 0.5% 5mg/mL - 20mL (Staq #2)": 15,
+        "alpha 1-proteinase inhibitor human 1gm (CSL Behring)": 4,
+        "alprostadil 10mcg/mL dilution in NS - 50mL": 7,
+        "alprostadil 500 mcg/mL 1 mL(Pfizer U.S. Pharmaceuticals Group)": 7,
+        "aminophylline 25 mg/mL 20mL (Hospira Inc) #3": 2,
+        "amiodarone hcl 150mg/100mL (Nexterone)": 6,
+        "ampicillin (OMNIPEN) *50mg/ml* in NS -10 mL (only use 500mg vial)": 1,
+        "ampicillin (OMNIPEN) in sodium chloride 20 mg/mL - 300 mL STOCK": 19,
+        "ampicillin 2g Auromedics": 80,
+        "ampicillin 500mg Sandoz": 1,
+        "ampicillin and sulbactam 3g vial (WestWard)": 6,
+        "ampicillin-sulbactam (UNASYN) in NS 30 mg/mL - 100 mL": 63,
+        "ampicillin-sulbactam (UNASYN) in NS 30 mg/mL- 300mL STOCK": 15,
+        "ampicillin-sulbactam 10g-5g vial (Meitheal)": 27,
+        "anakinra 100mg/0.67mL Syringe biovitrum #2": 9,
+        "anifrolumab-fnia (SAPHNELO) 300mg/2mL Astra Zenica": 1,
+        "anticoagulant sodium citrate solution 4% - 9mL syringe (CCHMC)": 8,
+        "arginine 10% 300mL dosed as mg (Pfizer U.S. Pharmaceuticals Group 1) [10G/100mL]*": 3,
+        "Artesunate for injection 110mg vial": 3,
+        "ascorbic acid 500 mg/mL 50mL (McGuff Pharmaceuticals Inc)": 3,
+        "basiliximab 10mg (Novartis Pharmaceuticals)": 2,
+        "belatacept 250mg vial (Bristol-Myers Squibb)": 3,
+        "belimumab (Benlysta) 120mg Vial": 2,
+        "belimumab (Benlysta) 400 mg Vial": 2,
+        "bivalirudin 250mg vial (Meitheal)": 101,
+        "Brivaracetam (Briviact) 50mg/5mL Injection (UCB Pharma)": 8,
+        "bumetanide 0.25 mg/mL 10mL (WEST-WARD)": 14,
+        "bumetanide 0.25mg/mL - 10mL vial (Glenmark)": 47,
+        "caffeine citrate 20 mg/mL Sagent": 9,
+        "calcium chloride 100 mg/mL 10mL (American Regent)": 70,
+        "Calcium Gluconate 100 mg /mL Fresenius Kabi 10mL": 1,
+        "canakinumab injection 150mg/mL - 1mL vial (Novartis)": 1,
+        "casimersen 50mg/1mL 2mL (Sarepta)": 17,
+        "ceFAZolin 10g (West-Ward Pharmaceutical Corporation)": 33,
+        "ceFAZolin 1g (West-Ward Pharmaceutical Corporation)": 8,
+        "cefepime (MAXIPIME) 40 mg/mL in sodium chloride(NS) 0.9% - 550mL Stock": 10,
+        "cefepime 2g vial (Hikma)": 161,
+        "Cefepime for injection 2 grams": 4,
+        "cefiderocol (FETROJA) 1 gm vial": 6,
+        "cefOXitin 2g (Sagent)": 16,
+        "Ceftaroline (Tefaro) 600mg Vial Facta": 13,
+        "cefTAZidime 2g (WG Critical Care)": 25,
+        "cefTRIAXone 10g (Hospira Inc)": 13,
+        "cefTRIAXone 2g (Hospira)": 19,
+        "cetirizine 10mg/mL 1mL (TerSera Therapeutics)": 6,
+        "chlorothiazide 500 mg (APP Pharmaceuticals)": 18,
+        "chlorothiazide 500 mg sagent": 6,
+        "Chlorothiazide 500mg American Regent": 6,
+        "cidofovir 375mg/5mL Mylan": 4,
+        "Cidofovir 375mg/5mL Heritage": 1,
+        "ciprofloxacin in D5W 2mg/mL - 200mL (Sagent)": 27,
+        "cisatracurium 2mg/mL - 5mL vial (Meitheal)": 10,
+        "Clindamycin in 5% Dextrose Injection 900mg/50mL baxter": 21,
+        "copper chloride 0.4mg/mL 10mL vial (Exela Pharma)": 51,
+        "cosyntropin 0.25mg (Amphastar Pharmaceuticals Inc)": 4,
+        "cosyntropin 1mcg/mL in NS - 250mL !": 4,
+        "cyclophosphamide 1g (Baxter Healthcare Corporation)": 5,
+        "cysteine hydrochloride injection 50 mg/mL - 10mL vial (Exela) [1 mL/mL]": 1,
+        "DAPTOmycin (CUBICIN) 20 mg/mL in 0.9% sodium chloride - 25mL": 12,
+        "daptomycin 500mg (Meitheal)": 17,
+        "desmopressin (DDAVP) *1 mcg/mL* in NS - 4mL (MAKE IN GLASS VIAL)": 1,
+        "dexamethasone (DECADRON) 1mg/mL NS - 50mL": 10,
+        "dexamethasone 10 mg/mL 10mL Mylan": 7,
+        "dexmedetomidine 100 mcg/mL - 2mL vial (Piramal)": 5,
+        "dexrazoxane 500mg (Eugia)": 4,
+        "dextran, low molecular weight 10%-0.9% 500mL (Hospira-Inc)": 1,
+        "Dextrose 10% in Water 1000mL (Baxter I.V. Systems Division)": 4,
+        "Dextrose 10% in Water 250mL (Baxter I.V. Systems Division)": 9,
+        "Dextrose 10% with 0.2% NaCl 250mL (B. Braun Medical)": 24,
+        "Dextrose 10% with 0.45% NaCl 1000mL (B. Braun Medical)": 46,
+        "Dextrose 5% in Lactated Ringers Injection 1000mL (Baxter I.V. Systems Division)": 8,
+        "Dextrose 5% in Water 1000mL (Baxter I.V. Systems Division)": 58,
+        "Dextrose 5% in Water 100mL (Baxter I.V. Systems Division) #3": 53,
+        "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": 92,
+        "Dextrose 5% in Water 500mL (Baxter I.V. Systems Division) #2": 15,
+        "Dextrose 5% in Water 50mL (Baxter I.V. Systems Division) #3": 38,
+        "Dextrose 5% with 0.2% NaCl 1000mL (Baxter I.V. Systems Division)": 3,
+        "Dextrose 5% with 0.45% NaCl 1000mL (Baxter I.V. Systems Division)": 17,
+        "Dextrose 5% with 0.45% NaCl and KCl 20 mEq/L 1000mL (Baxter I.V. Systems Division)": 4,
+        "Dextrose 5% with 0.9% NaCl 1000mL (Baxter I.V. Systems Division)": 15,
+        "Dextrose 5% with 0.9% NaCl and KCl 20 mEq/L - 1000mL (ICUMedical)": 1,
+        "Dextrose 50% 50mL Hospira": 3,
+        "dianeal low calcium 1.5% Dextrose 3000mL Peritoneal Dialysis Solution": 1,
+        "dianeal low calcium 1.5% Dextrose 5000mL Peritoneal Dialysis Solution": 1,
+        "Dianeal Low Calcium Peritoneal Dialysis Solution with 4.25% Dextrose 2000mL": 1,
+        "dianeal low calcium w/ dextrose 1.5% 2000mL": 1,
+        "dianeal low calcium w/ dextrose 2.5% 2000mL": 2,
+        "diphenhydrAMINE (BENADRYL) in *NS* 5 mg/mL -10mL": 5,
+        "diphenhydrAMINE 50 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": 7,
+        "doxycycline 100mg Fresenius Kabi": 7,
+        "eculizumab 10 mg/mL 30mL (Alexion)": 3,
+        "enalapril 1.25 mg/mL 1mL (West Ward/ hickma)": 17,
+        "enoxaparin 100 mg/mL - 3mL (Meitheal)": 8,
+        "enoxaparin 100 mg/mL 3mL (Amphastar)": 1,
+        "EPINEPHrine (ADRENALIN) 32 mcg/mL dilution in D5W - 12mL": 5,
+        "EPINEPHrine 0.1 mg/mL 10mL (International Medication Systems, Limited) #6": 3,
+        "EPINEPHrine 1 mg/mL 30mL - (JHP Phamaceuticals)": 2,
+        "EPINEPHrine in NS 10mcg/mL - 10mL syringe (STAQ)": 5,
+        "epoprostenol 0.5mg VELETRI": 6,
+        "ertapenem 1 gm (AuroMedics)": 1,
+        "erythromycin lactobionate 500mg Hospira 1": 6,
+        "famotidine (PEPCID) 4 mg/mL NS 5 mL stock": 8,
+        "famotidine (PEPCID) 4mg/mL NS - 10mL": 2,
+        "famotidine 10 mg/mL - 20mL (Fresenius Kabi) #2": 20,
+        "fat emulsion 20%, 100mL Intralipid": 60,
+        "fat emulsion 20%, 250mL Intralipid": 27,
+        "fat emulsion 20%, 500mL Intralipid": 2,
+        "Fentanyl 50 mcg/ml": 1,
+        "fentaNYL 50 mcg/mL - 5mL (Fresenius Kabi)": 1,
+        "Fentanyl 50 mcg/ml Westward 50mL": 1,
+        "Fentanyl Citrate 50 mcg/ml": 2,
+        "filgrastim-sndz (Zarxio)": 21,
+        "filgrastim-sndz (ZARXIO) 15 mcg/ml in D5W- 20 ml": 15,
+        "fluconazole 200mg/100mL NS Sagent 2": 8,
+        "fomepizole 1,000mg/mL - 1.5mL vial (Zydus Pharma)": 1,
+        "fosaprepitant 150 mg (Hikma)": 20,
+        "fosphenytoin (cereBYX) 25 mg PE/mL in NS -20mL": 5,
+        "fosphenytoin sodium 50mg PE/mL - 10mL vial (Glenmark)": 10,
+        "galsulfase 1 mg/mL 5mL (BioMarin Pharmaceutical Inc)": 4,
+        "gammagard liquid 10% 25mL": 2,
+        "Gammaguard 10% 1gm": 7,
+        "gammaguard liquid 5gm": 5,
+        "ganciclovir (CYTOVENE) 5mg/mL in D5W- 100mL": 6,
+        "ganciclovir 500mg (Slate Run)": 7,
+        "GENTamicin 0.48 mg/mL NS IRRIGATION STOCK (IN BAG) - 273.3mL": 4,
+        "gentamicin 10 mg/mL - 2mL vial (Fresenius Kabi)": 1,
+        "gentamicin 40 mg/mL 20mL (Fresenius Kabi)": 1,
+        "golimumab 50mg/4mL": 7,
+        "granisetron (KYTRIL) 50mcg/mL in NS - 10mL Stock": 4,
+        "granisetron 1 mg/mL 4mL (Mylan)": 6,
+        "H.P. Acthar gel Repository Corticotropin 5ml Vial Questor Pharmaceuticals": 1,
+        "HBiofluids (CARPEDIEM) dialysis fluid 2000mL": 9,
+        "heparin 100 units/mL - 5mL syr. (Medefil Inc)": 20,
+        "heparin 1unit/mL papaverine 0.12mg/mL NS - 500mL STOCK": 9,
+        "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) Braun": 15,
+        "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) fresenius kabi": 2,
+        "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) Hospira": 1,
+        "hydrALAZINE (APRESOLINE) 1mg/mL in SW - 20mL": 14,
+        "hydralazine 20 mg/ml 1mL Fresenius Kabi": 17,
+        "hydrocortisone (Solu-CORTEF) *1mg/mL* in **D5W** 100mL": 4,
+        "hydrocortisone (Solu-CORTEF) *1mg/mL* in NS - 100mL Dilution": 21,
+        "hydrocortisone (Solu-CORTEF) 5mg/mL in NS- 20mL": 3,
+        "hydrocortisone (Solu-CORTEF) 5mg/mL in NS- 40mL": 4,
+        "hydrocortisone 100 mg (Pfizer U.S. Pharmceutical Group)": 45,
+        "hydromorphone 0.2 mg/mL 1mL Syringe Fresenius Kabi": 3,
+        "HYDROmorphone 10 mg/mL 1mL (Fresenius Kabi)": 10,
+        "HYDROmorphone 10 mg/mL 5mL (Hospira)": 19,
+        "Hydromorphone 10 mg/mL- 1 mL vial (Hospira)": 13,
+        "HYDROmorphone 2 mg/mL 1 mL West ward": 18,
+        "idursulfase 2 mg/mL 3mL (Shire US Inc)": 6,
+        "imipenem-cilastation-relebactam (RECARBRIO) 12.5 mg/mL NS 100mL STOCK": 6,
+        "imipenem-cilastation-relebactam 1.25g (RECARBRIO)": 7,
+        "immune globulin intravenous 10% 100mL (Baxter I.V. Systems Division) 1": 5,
+        "immune globulin intravenous 10% 100mL Grifols Gammunex-C": 2,
+        "immune globulin intravenous 10% 200mL (Baxter I.V. Systems Division) 1": 3,
+        "immune globulin intravenous 10% 200mL (Grifols)": 12,
+        "Immune globulin intravenous 30g (Gammagard Liquid)": 14,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 20mL syringe": 2,
+        "Immune Globulin Subcutaneous (Human) 20% Cuvitru 20mL": 1,
+        "Immune Globulin Subcutaneous (Human) 20% Cuvitru 50mL": 3,
+        "Immune Globulin Subcutaneous (Human) 20% Cuvitru 5mL": 1,
+        "indocyanine green 25mg (Renew Pharmaceuticals) [5mg/mL]": 7,
+        "Inflectra (Infliximab- dyyb) for injection 100mg": 70,
+        "inFLIXimab 100mg (Janssen)": 99,
+        "insulin human (Myxredlin) 1unit/mL in NS - 100mL bag": 1,
+        "iron dextran 50mg/mL Allergan": 4,
+        "iron sucrose 20ml/mL 5mL (American Regent)": 17,
+        "isoproterenol 0.2mg/mL 5mL (Amring)": 4,
+        "ketamine 100 mg/mL 5mL (West-Ward)": 15,
+        "ketamine 50mg/1mL - 10mL (Hikma)": 2,
+        "ketorolac 15 mg/mL 1mL (Fresenius Kabi)": 88,
+        "labetalol 5 mg/mL 20mL (Hospira)": 1,
+        "Lactated Ringers Injection 1000mL (Baxter I.V. Systems Division)": 2,
+        "Lactated Ringers Injection 500mL (Baxter I.V. Systems Division)": 2,
+        "laronidase 2.9 mg/5 mL 1 (Genzyme Corporation)": 2,
+        "letermovir (Prevymis) 480mg/24mL vial": 7,
+        "leucovorin 200mg (Hikma)": 2,
+        "leveTIRACEtam in NaCl 1500mg/100mL (Nexus)": 24,
+        "levOCARNitine 200 mg/mL - 5mL (Hikma)": 58,
+        "levOCARNitine 200 mg/mL 5mL (Sigma-Tau Pharmaceuticals Inc) #2": 58,
+        "levofloxacin 500mg/100mL in D5W (Sagent)": 23,
+        "levothyroxine 40mcg/mL vial (5mL)": 10,
+        "linezolid 2 mg/mL 300mL Primal Critical Care": 2,
+        "lorazepam **0.5** mg/mL in NS - 4mL Make in glass vial !": 12,
+        "LORazepam 2 mg/mL 10mL (Amphastar)": 1,
+        "LUXTURNA (voretigene neparvovec-rzyl) (5x1012vg/mL) vial": 1,
+        "magnesium sulfate 40mg/mL - 50mL bag (Fresenius)": 13,
+        "magnesium sulfate 50% 10mL Fresenius Kabi": 13,
+        "meropenem 1000mg/50mL TOTAL VOLUME Duplex": 41,
+        "meropenem 1g (Fresenius)": 14,
+        "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division)": 1,
+        "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division) [100 mg/mL]*": 7,
+        "methocarbamol (ROBAXIN) 10 mg/mL in **NS** - 300mL *ROOM TEMP STORAGE*": 24,
+        "methocarbamol 100 mg/mL 10 mL Wintac": 117,
+        "methylPREDNISolone (Solu-MEDROL) *1mg/mL in D5W - 40mL !": 4,
+        "methylPREDNISolone (Solu-MEDROL) *5mg/mL in *NS - 100mL !": 7,
+        "methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 100mL !": 12,
+        "methylPREDNISolone 1g (Dr Reddys) SWFI [62.5mg/mL]": 19,
+        "methylPREDNISolone 1g in D5W or NS (Pfizer U.S. Pharmaceuticals Group)": 1,
+        "methylPREDNISolone 500mg (Dr. Reddys) SW": 4,
+        "methylPREDNISolone 500mg (Dr. Reddys) [62.5 mg/mL] D5W NS": 28,
+        "metoclopramide 5mg/mL - 2mL (Sicor)": 8,
+        "metroNIDAZOLE 500 mg/100 mL (Sagent)": 5,
+        "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division)": 50,
+        "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division) [5mg/mL]": 43,
+        "metroNIDAZOLE 5mg/mL 100mL (Hospira Inc)": 48,
+        "micafungin (MYCAMINE) 1.5mg/mL in NS - 100mL STOCK": 1,
+        "micafungin (MYCAMINE) 1.5mg/mL in NS - 133.33mL STOCK": 1,
+        "micafungin (MYCAMINE) 1.5mg/mL in NS - 266.67mL STOCK": 14,
+        "micafungin (MYCAMINE)1.5mg/mL in *D5W* - 33.33mL": 2,
+        "micafungin 100mg Fresenius Kabi": 88,
+        "micafungin 50mg Fresenius Kabi": 1,
+        "midazolam (VERSED) 0.1 mg/mL in NS - 4mL Make in Syringe": 2,
+        "midazolam 1mg/mL - 2mL vial PF (Hospira)": 3,
+        "midazolam 5 mg/mL (Avet Pharma)": 5,
+        "midazolam 5 mg/mL 10mL": 26,
+        "morphine 1 mg/mL preservative-free 2mL (STAQ PHARMA)": 8,
+        "Morphine 10 mg/mL West Ward": 42,
+        "Morphine PF (ASTROMORPH) 0.1 mg/mL in NS - 4mL (make in syringe)": 2,
+        "Multiple vitamins for infusion (Infuvite Adult)": 16,
+        "multivitamin Pediatric 50mL (Baxter Healthcare Corporation)": 53,
+        "mycophenolate (CELLCEPT) 6mg/mL in D5W- 250mL": 5,
+        "mycophenolate mofetil 500mg (Meitheal)": 18,
+        "nafcillin (UNIPEN) 30mg/mL in **NS** - 66.67mL !": 6,
+        "nafcillin 10g Auromedics": 3,
+        "nalbuphine (NUBAIN) 1mg/mL in NS - 10mL": 9,
+        "nalbuphine 10 mg/mL 10mL (Hospira)": 11,
+        "niCARdipine 2.5 mg/mL 10 ml (AUROMEDICS)": 14,
+        "Nicardipine 2.5 mg/ml injection": 16,
+        "pamidronate 3mg/mL 10mL (Mylan)": 2,
+        "pantoprazole (PROTONIX) 4mg/mL *NS* 50mL": 19,
+        "pantoprazole 40mg (Meitheal)": 125,
+        "papavarine 30mg/mL - 2mL vial (BPI Labs)": 18,
+        "pegunigalsidase alfa-iwxj 2mg/mL - 10mL vial (Chiesi)": 4,
+        "pentamidine (PENTAM) 6 mg/mL in D5W - 50mL !": 6,
+        "pentamidine 300mg (Fresenius)": 11,
+        "PENTobarbital 50 mg/mL 20mL (SAGENT)": 2,
+        "peramivir 10mg/1mL - 20mL vial (BioCryst)": 6,
+        "PHENobarbital 10mg/mL in SW - 6.5mL": 5,
+        "PHENOBarbital 65 mg/mL 1mL (Cameron Pharmaceuticals)": 29,
+        "phenylephrine 0.2 mg/mL D5W - 30mL": 1,
+        "phenylephrine 10 mg/mL - 1mL vial (Fresenius Kabi)": 2,
+        "phenylephrine 100mcg/mL - 10mL syringe (STAQ)": 1,
+        "Phoxillum B22K 4/0 5000mL- Break seal to mix": 9,
+        "phytonadione (AQUA-MEPHYTON) 1mg/mL in NS - 10mL": 10,
+        "phytonadione 10 mg/mL - 1mL vial (Fresenius)": 67,
+        "piperacillin sodium-tazobactam (*****ZOSYN*****) 67.5 mg/mL NS - 66.67mL (4.5g vial)": 2,
+        "piperacillin sodium-tazobactam (*****ZOSYN*****) 67.5 mg/mL NS 50 mL STOCK": 8,
+        "piperacillin-tazobactam 4.5 g Sandoz": 13,
+        "piperacillin-tazobactam in dextrose 3g-0.375g (Baxter)": 79,
+        "posaconazole 300mg/16.7mL (Glenmark)": 17,
+        "potassium acetate 2 mEq/mL 20mL (Hospira)": 2,
+        "potassium chloride 2 mEq/mL 10 mL (Fresenius-Kabi)": 47,
+        "potassium chloride 2 mEq/mL 30mL (Fresenius Kabi)": 3,
+        "potassium chloride 20 mEq/100 mL 100mL (Baxter I.V. Systems Division)": 20,
+        "potassium phosphate 3 mmol/mL - 15mL vial (Amneal)": 21,
+        "potassium phosphate 3 mmol/mL - 15mL vial (Amneal) [4.4mEq/mL]": 30,
+        "potassium phosphate 3 mmol/mL 15mL (Fresenius Kabi) [3 MMol/mL]": 7,
+        "potassium phosphate 3 mmol/mL 15mL (Fresenius Kabi) [4.4 mEq/mL]*": 14,
+        "potassium phosphate 3 mmol/mL 15mL (Somerset) [4.4mEq/mL]": 3,
+        "prismaSATE BGK 2/0 5000mL (Gambro)": 8,
+        "PrismaSol BGK 2/0 5000mL": 8,
+        "prochlorperazine (COMPAZINE) 1mg/mL D5W - 50mL STOCK": 12,
+        "prochlorperazine 5mg/mL - 2mL vial (Sagent)": 81,
+        "Pyridoxine 100mg/mL 1mL (Fresenius Kabi)": 1,
+        "rabbit antithymocyte 25mg (Genzyme Corporation)": 3,
+        "remdesivir (VEKLURY) 100mg injection (Gilead)": 1,
+        "RENFLEXIS (infliximab-abda) Samsung": 6,
+        "riTUXimab 10 mg/mL 10mL (Genentech)": 3,
+        "rituximab-abbs (Truxima) 10mg/1mL - 50mL": 2,
+        "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen)": 3,
+        "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen) #2": 4,
+        "ropivacaine (NAROPIN) 0.2 % - EPINEPHrine (ADRENALIN) 1:200,000 injection- 20mL": 1,
+        "Ropivacaine (Naropin) 0.2% 10mL Fresenius Kabi": 1,
+        "ropivacaine 0.5% 30mL Fresenius Kabi": 11,
+        "ropivacaine HCL 0.2% 200mg/100mL (Sagent)": 4,
+        "ropivacaine HCL 0.2% 400mg/200mL (Sagent)": 5,
+        "Sebelipase alfa (Kanuma) 20mg/10mL": 5,
+        "selenious acid 60 mcg/mL 10mL (American Regent, Inc)": 33,
+        "SMOFlipid 250mL 20%": 107,
+        "SMOFlipid 100mL 20%": 115,
+        "SMOFlipid 500mL 20% (New)": 142,
+        "sodium acetate 2 mEq/mL 20mL (Hospira Inc 2)": 9,
+        "sodium acetate 2 mEq/mL 50mL (Hospira)": 21,
+        "sodium bicarbonate 4.2% 5mL (Hospira)": 5,
+        "sodium bicarbonate 8.4% - 50mL (Hospira Inc) [1mEq/1mL]": 13,
+        "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": 28,
+        "Sodium Chloride 0.45% 530mL (Baxter I.V. Systems Division)": 7,
+        "sodium chloride 0.9% - 250mL bag (Baxter)": 105,
+        "sodium chloride 0.9% - 530mL bag (Baxter)": 1,
+        "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": 4,
+        "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division)": 244,
+        "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division) #3": 1,
+        "sodium chloride 0.9% 10mL (Fresenius Kabi)": 2,
+        "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": 188,
+        "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": 138,
+        "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division)": 35,
+        "Sodium Chloride 0.9% with KCl 40 mEq/L 1000mL (Baxter I.V. Systems Division) [40 mEq/L]": 11,
+        "sodium chloride 23.4% 30mL (Fresenius Kabi) 4mEq/mL": 9,
+        "Sodium Nitroprusside injection 25 mg/ml 2 ml Armas": 35,
+        "sodium phosphate 3 mmol/mL 15mL (Hospira)": 2,
+        "sodium phosphate 3mmol/1mL - 15mL (Fresenius)": 18,
+        "sodium thiosulfate 250 mg/mL 50mL": 4,
+        "Sterile Water - 10mL (Hospira Inc)": 1,
+        "sterile water - 1000mL (Baxter I.V. Systems Division)": 32,
+        "sulfamethoxazole-trimethoprim 80 mg-16 mg/mL - 10mL vial (Somerset)": 35,
+        "teduglutide [rDNA origin] for injection 5mg (Gattex)": 19,
+        "thiamine 100 mg/mL 2mL (American Pharmaceutical Partners)": 4,
+        "thiamine 100 mg/mL 2mL Fresenius Kabi": 86,
+        "thiamine 100mg/mL - 2mL vial (NorthStar)": 1,
+        "tobramycin 40 mg/mL 30mL (Fresenius Kabi)": 2,
+        "tocilizumab (Actemra) 200mg/10mL Genetech": 5,
+        "tocilizumab (Actemra) 400mg/20mL Genetech": 4,
+        "tocilizumab (Actemra) 80mg/4mL Genetech": 2,
+        "tranexamic acid 100mg/mL - 10 mL vial (Sagent)": 11,
+        "treprostinil 1mg/1mL 20mL vial (Teva)": 1,
+        "valproic acid 100 mg/mL 5mL Hikma": 41,
+        "vancomycin (VANCOCIN) 5mg/mL in D5W - 1000mL !": 22,
+        "Vancomycin (Vancocin) 5mg/mL with sodium citrate 4% antibiotic lock STOCK- 10mL": 8,
+        "vancomycin 1gm - vial (Hikma)": 7,
+        "vancomycin 500mg (Hospira Inc) -2": 3,
+        "vancomycin 5g IV USE (Hospira Inc)": 36,
+        "vasopressin 20 units/mL - 1mL vial (AuroMedics)": 6,
+        "vecuronium 10mg (AuroMedic Pharma)": 3,
+        "Vecuronium 20mg (AuroMedics)": 20,
+        "vedolizumab (Entyvio) 300mg vial": 6,
+        "Vitamin A 50,000 units/mL - 2mL (Casper)": 3,
+        "zinc sulfate 5 mg/mL 5mL American Reagent": 80,
+        "zoledronic acid 4 mg/5 mL Dr. Reddy": 1
+      }
+    },
+    "ED PHARMACY": {
+      "productCount": 254,
+      "doseCount": 298,
+      "products": {
+        "acetaminophen 1000mg/100mL (Fresenius Kabi)": 14,
+        "acetylcysteine 20% 30mL Perrigo": 1,
+        "acetylcysteine 200 mg/mL Sagent": 5,
+        "Acyclovir 50 mg/mL 20 mL (Fresnius)": 1,
+        "acyclovir 50 mg/mL 20mL Auromedics": 3,
+        "ampicillin 2g (Sandoz Inc) #7": 1,
+        "ampicillin 2g Auromedics": 5,
+        "ampicillin and sulbactam 3g vial (WestWard)": 11,
+        "ceFAZolin 1g (West-Ward Pharmaceutical Corporation)": 5,
+        "cefepime 100g (Samson)": 3,
+        "cefepime 2g vial (Hikma)": 5,
+        "Ceftazidime 1g (WG Critical Care, LLC)": 4,
+        "cefTRIAXone 10g (Hospira Inc)": 33,
+        "cefTRIAXone 2g (Hospira)": 9,
+        "cefTRIAXone 2g (Sandoz)": 1,
+        "Dextrose 10% with 0.45% NaCl 1000mL (B. Braun Medical)": 5,
+        "Dextrose 5% in Water 100mL (Baxter I.V. Systems Division) #3": 1,
+        "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": 10,
+        "Dextrose 5% in Water 50mL (Baxter I.V. Systems Division) #3": 3,
+        "Dextrose 5% with 0.9% NaCl 1000mL (Baxter I.V. Systems Division)": 2,
+        "fomepizole 1,000mg/mL - 1.5mL vial (Zydus Pharma)": 1,
+        "heparin 1000 units/mL 1mL Hospira": 9,
+        "HYDROmorphone 2 mg/mL 1 mL West ward": 3,
+        "ketamine 100 mg/mL 5mL (West-Ward)": 2,
+        "ketamine 50mg/1mL - 10mL (Hikma)": 1,
+        "lacosamide 10mg/mL 20mL (Zydus)": 1,
+        "leveTIRACEtam in NaCl 1500mg/100mL (Nexus)": 1,
+        "magnesium sulfate 40mg/mL - 50mL bag (Fresenius)": 4,
+        "methylPREDNISolone 1g (Fresenius Kabi) NS/D5W [62.5 mg/mL]": 1,
+        "metroNIDAZOLE 500 mg/100 mL (Sagent)": 6,
+        "metroNIDAZOLE 5mg/mL 100mL (Hospira Inc)": 9,
+        "nafcillin 1g (Auromedics)": 1,
+        "potassium chloride 2 mEq/mL 10 mL (Fresenius-Kabi)": 2,
+        "potassium chloride 2 mEq/mL 30mL (Fresenius Kabi)": 3,
+        "potassium phosphate 3 mmol/mL - 15mL vial (Amneal) [4.4mEq/mL]": 5,
+        "potassium phosphate 3 mmol/mL 15mL (Somerset) [4.4mEq/mL]": 1,
+        "prochlorperazine (COMPAZINE) 1mg/mL D5W - 10mL STOCK": 9,
+        "prochlorperazine 5mg/mL - 2mL vial (Sagent)": 24,
+        "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": 5,
+        "Sodium Chloride 0.45% 530mL (Baxter I.V. Systems Division)": 2,
+        "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": 11,
+        "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division)": 12,
+        "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": 6,
+        "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": 3,
+        "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division)": 3,
+        "tranexamic acid 100mg/mL - 10 mL vial (Sagent)": 1,
+        "valproic acid 100 mg/mL 5mL Hikma": 2,
+        "vancomycin 1gm - vial (Hikma)": 3,
+        "Vecuronium 20mg (AuroMedics)": 1
+      }
+    },
+    "LIBERTY MAIN PHARMACY": {
+      "productCount": 922,
+      "doseCount": 957,
+      "products": {
+        "acetaminophen 1000mg/100mL (Fresenius Kabi)": 50,
+        "acyclovir 50 mg/mL - 10mL (Auromedics)": 1,
+        "acyclovir 50 mg/mL 20mL Auromedics": 2,
+        "ampicillin 2g (Sandoz Inc) #7": 1,
+        "ampicillin 2g Auromedics": 8,
+        "ampicillin and sulbactam 1.5 gram/vial (West-Ward)": 1,
+        "ampicillin and sulbactam 3g vial (WestWard)": 1,
+        "azaCITIDine 100mg (Dr Reddy's)": 6,
+        "azithromycin 500 mg (Auromedics)": 1,
+        "botulinum toxin type A 100units (Allergan Inc) [50 units/mL]": 6,
+        "bupivacaine 0.5% 10mL (AuroMedics)": 1,
+        "CARBOplatin 10 mg/mL 15mL (Hospira Inc) #2": 5,
+        "ceFAZolin 10g (West-Ward Pharmaceutical Corporation)": 4,
+        "Cefepime 2000mg in Dextrose 50mL (40mg/mL)": 1,
+        "cefepime 2g vial (Hikma)": 18,
+        "Cefepime for injection 2 grams": 4,
+        "cefOXitin 2g (Sagent)": 1,
+        "cefTAZidime 2g (WG Critical Care)": 1,
+        "cefTRIAXone 10g (Hospira Inc)": 2,
+        "Cemiplimab-rwlc 50mg/ml 7ml (Sanofi)": 1,
+        "CISplatin 1 mg/mL - 100mL vial (Sagent)": 1,
+        "copper chloride 0.4mg/mL - 10mL vial (Archis Pharma)": 4,
+        "cyclophosphamide 1g (Baxter Healthcare Corporation)": 1,
+        "cyclophosphamide 2g (Baxter Healthcare Corporation) #2": 10,
+        "Dactinomycin 0.5mg (Auromedics)": 3,
+        "Decitabine 50 mg (Meitheal)": 3,
+        "dexamethasone 10 mg/mL 10mL Mylan": 1,
+        "dexrazoxane 500mg (Eugia)": 9,
+        "Dextrose 10% with 0.45% NaCl 1000mL (B. Braun Medical)": 2,
+        "Dextrose 5% in Water 100mL (Baxter I.V. Systems Division) #3": 14,
+        "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": 1,
+        "Dextrose 5% in Water 50mL (Baxter I.V. Systems Division) #3": 29,
+        "Dextrose 5% with 0.2% NaCl 1000mL (Baxter I.V. Systems Division)": 7,
+        "Dextrose 5% with 0.45% NaCl 1000mL (Baxter I.V. Systems Division)": 6,
+        "diphenhydrAMINE 50 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": 1,
+        "Doxorubicin 2mg/mL - 5mL": 4,
+        "DOXOrubicin 2mg/ml 25ml (Sagent)": 10,
+        "etoposide 20 mg/mL 25mL (American Pharmaceutical Partners)": 4,
+        "famotidine 10mg/mL - 2mL vial (Fresenius)": 8,
+        "filgrastim-sndz (Zarxio)": 1,
+        "fosaprepitant 150 mg (Hikma)": 12,
+        "Gammaguard 10% 1gm": 3,
+        "gammaguard liquid 5gm": 1,
+        "gentamicin 40 mg/mL - 2mL (Fresenius Kabi)": 1,
+        "golimumab 50mg/4mL": 3,
+        "Ifosfamide 3g (Baxter I.V. Systems Division) #1": 9,
+        "immune globulin intravenous 10% 100mL Grifols Gammunex-C": 1,
+        "immune globulin intravenous 10% 200mL (Baxter I.V. Systems Division) 1": 6,
+        "immune globulin intravenous 10% 200mL (Grifols)": 3,
+        "immune globulin intravenous S/D 5g/50mL (Baxter)": 2,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 10mL syringe": 2,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 20mL syringe": 1,
+        "immune globulin subcutaneous (human) 20% - Hizentra - 5mL syringe": 2,
+        "Inflectra (Infliximab- dyyb) for injection 100mg": 36,
+        "inFLIXimab 100mg (Janssen)": 77,
+        "iron dextran 50mg/mL Allergan": 10,
+        "iron sucrose 20ml/mL 5mL (American Regent)": 10,
+        "lacosamide 10mg/mL 20mL (Zydus)": 1,
+        "leucovorin 100mg (Sagent)": 1,
+        "levOCARNitine 200 mg/mL - 5mL (Hikma)": 4,
+        "LIB-ampicillin (OMNIPEN) in sodium chloride 20 mg/mL -25mL STOCK": 13,
+        "LIB-ceFAZolin (ANCEF) 2000mg/20ml in SW": 14,
+        "LIB-cefepime (MAXIPIME) 40 mg/mL in sodium chloride (NS) 0.9% - 25mL STOCK": 2,
+        "LIB-cefepime (MAXIPIME) in sodium chloride (NS) 0.9% 40 mg/mL - 50mL STOCK": 18,
+        "LIB-cefTAZidime (FORTAZ) in sterile water 100 mg/mL 5mL STOCK": 2,
+        "LIB-cefTRIAXone (ROCEPHIN) in *NS* 100 mg/mL 20mL STOCK": 6,
+        "LIB-methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 25mL": 5,
+        "LIB-prochlorperazine (COMPAZINE) 1mg/mL D5W- 10mL - STOCK": 8,
+        "magnesium sulfate 40mg/mL - 50mL bag (Fresenius)": 2,
+        "magnesium sulfate 50% 2mL Fresenius Kabi": 5,
+        "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division)": 35,
+        "methocarbamol 100 mg/mL 10 mL Wintac": 2,
+        "Methotrexate 25 mg/mL 10mL (Teva)": 2,
+        "methotrexate 25 mg/mL 40mL (Hospira)": 6,
+        "Methotrexate 25mg/ml 2ml PF (Westward)": 2,
+        "methylPREDNISolone 1g (Fresenius Kabi) NS/D5W [62.5 mg/mL]": 1,
+        "methylPREDNISolone 500mg (Dr. Reddys) [62.5 mg/mL] D5W NS": 2,
+        "metoclopramide 5mg/mL - 2mL (Sicor)": 2,
+        "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division) [5mg/mL]": 10,
+        "nalbuphine 10 mg/mL 10mL (Hospira)": 1,
+        "pantoprazole 40mg (Meitheal)": 2,
+        "pegfilgrastim-jmdb 6mg/0.6mL - syringe (Biocon Biologics)": 6,
+        "Pembrolizumab 25mg/ml 4ml (Merck)": 2,
+        "pentamidine 300mg (Fresenius)": 2,
+        "potassium chloride 2 mEq/mL 10 mL (Fresenius-Kabi)": 13,
+        "potassium chloride 20 mEq/100 mL 100mL (Baxter I.V. Systems Division)": 1,
+        "potassium phosphate 3 mmol/mL 15mL (Somerset) [4.4mEq/mL]": 3,
+        "prochlorperazine 5mg/mL - 2mL vial (Sagent)": 24,
+        "risankizumab-rzaa 60mg/mL - 10mL (Abbvie)": 1,
+        "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen) #2": 1,
+        "romiPLOStim 500 mcg/mL 250 mcg vial (Amgen)": 12,
+        "ropivacaine 0.5% 30mL Fresenius Kabi": 22,
+        "selenious acid 60 mcg/mL 10mL (American Regent, Inc)": 5,
+        "SMOFlipid 100mL 20%": 8,
+        "sodium bicarbonate 8.4% - 50mL (Hospira Inc) [1mEq/1mL]": 9,
+        "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": 4,
+        "sodium chloride 0.9% - 250mL bag (Baxter)": 1,
+        "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": 25,
+        "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division) #3": 56,
+        "sodium chloride 0.9% 10mL (Fresenius Kabi)": 4,
+        "Sodium Chloride 0.9% 25mL (30mL with overfill Baxter I.V. Systems Division)": 11,
+        "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": 60,
+        "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": 3,
+        "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division) #3": 38,
+        "sodium thiosulfate 250 mg/mL 50mL": 4,
+        "Sterile Water - 10mL (Hospira Inc)": 2,
+        "sterile water 100mL (Hospira Inc)": 9,
+        "tocilizumab (Actemra) 400mg/20mL Genetech": 1,
+        "tocilizumab-aazg (TYENNE) 20mg/mL - 10mL vial (Fresenius Kabi)": 2,
+        "valproic acid 100 mg/mL 5mL (Fresenius kabi--2)": 3,
+        "valproic acid 100 mg/mL 5mL Hikma": 3,
+        "vancomycin 500mg (Hospira Inc) -2": 4,
+        "vedolizumab (Entyvio) 300mg vial": 2,
+        "velmanase alfa-tycv 10mg vial (Chiesi)": 3,
+        "vinCRIStine 1 mg/mL 1mL (Hospira)": 4,
+        "vinCRIStine 1 mg/mL 2mL (Hospira)": 9,
+        "zinc sulfate 5 mg/mL 5mL American Reagent": 5,
+        "zoledronic acid 4 mg/5 mL Dr. Reddy": 1
+      }
+    },
+    "OR MAIN PHARMACY": {
+      "productCount": 383,
+      "doseCount": 587,
+      "products": {
+        "acetaminophen 1000mg/100mL (Fresenius Kabi)": 80,
+        "ampicillin (OMNIPEN) in sodium chloride 20 mg/mL- 100mL Stock": 1,
+        "ampicillin 2g Auromedics": 6,
+        "ampicillin and sulbactam 3g vial (WestWard)": 5,
+        "botulinum toxin type A 100units (Allergan Inc) [100 units/mL]": 3,
+        "botulinum toxin type A 100units (Allergan Inc) [50 units/mL]": 8,
+        "bupivacaine 0.5% - 30mL vial (Eugia)": 5,
+        "bupivacaine liposome (EXPAREL) 1.3% 20mL (Pacira Pharma)": 2,
+        "butorphanol 1 mg/mL 1mL (Hospira)": 1,
+        "calcium chloride 100 mg/mL 10mL (American Regent)": 2,
+        "ceFAZolin 10g (West-Ward Pharmaceutical Corporation)": 12,
+        "ceFAZolin 1g (West-Ward Pharmaceutical Corporation) [200 mg/mL-S-conjunc]": 2,
+        "cefOXitin 2g (Sagent)": 8,
+        "cefTRIAXone 1g (Hospira)": 2,
+        "cefTRIAXone 2g (Hospira)": 1,
+        "clindamycin 150 mg/mL 4 mL Sagent": 1,
+        "Dextrose 5% in Water 100mL (Baxter I.V. Systems Division) #3": 3,
+        "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": 3,
+        "Dextrose 5% in Water 50mL (Baxter I.V. Systems Division) #3": 4,
+        "EPINEPHrine 1 mg/mL 30mL - (JHP Phamaceuticals)": 1,
+        "EPINEPHrine-lidocaine 1:100000-1% 10mL (APP Pharmaceuticals) - 2": 4,
+        "EPINEPHrine-lidocaine 1:200,000-0.5% 50mL (Fresenius)": 1,
+        "gentamicin 10 mg/mL - 2mL vial (Fresenius Kabi)": 1,
+        "heparin 1000 units/mL -10mL (Phlow Corp.)": 2,
+        "HYDROmorphone 10 mg/mL 5mL (Hospira)": 2,
+        "indocyanine green 25mg (Diagnostic Green LLC) [2.5mg/mL]": 1,
+        "indocyanine green for injection 25 mg vial (stryker)": 1,
+        "iohexol 350 mg/mL 100mL (GE)": 7,
+        "Lactated Ringers Injection 500mL (Baxter I.V. Systems Division)": 17,
+        "leveTIRACEtam in NaCl 1500mg/100mL (Nexus)": 5,
+        "methadone 1mg/mL - 5mL (STAQ Pharma)": 1,
+        "methocarbamol 100 mg/mL 10 mL Wintac": 5,
+        "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division) [5mg/mL]": 3,
+        "nalbuphine (NUBAIN) 1mg/mL in NS - 10mL": 1,
+        "nalbuphine 10 mg/mL 10mL (Hospira)": 1,
+        "niCARdipine 2.5 mg/mL 10 ml (AUROMEDICS)": 4,
+        "phenylephrine 10 mg/mL - 1mL vial (Fresenius Kabi)": 16,
+        "piperacillin-tazobactam in dextrose 3g-0.375g (Baxter)": 5,
+        "remimazolam besylate - 20mg vial (Acacia Pharma)": 12,
+        "ropivacaine 0.2% with epi 1:200,000 - 100mL OR STOCK": 3,
+        "ropivacaine 0.5% 30mL Fresenius Kabi": 5,
+        "ropivacaine HCL 0.2% 200mg/100mL (Sagent)": 4,
+        "ropivacaine HCL 0.2% 400mg/200mL (Sagent)": 6,
+        "sodium chloride 0.9% - 250mL bag (Baxter)": 5,
+        "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": 5,
+        "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division)": 10,
+        "sodium chloride 0.9% 10mL (Fresenius Kabi)": 2,
+        "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": 14,
+        "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": 27,
+        "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division)": 8,
+        "sterile water - 1000mL (Baxter I.V. Systems Division)": 3,
+        "sterile water irrigation 250mL (Baxter)": 1,
+        "tranexamic acid 100mg/mL - 10 mL vial (Sagent)": 3,
+        "tranexamic acid 100mg/mL 10mL (Eugia)": 35,
+        "triamcinolone acetonide injectable suspension 40mg/mL (1mL) Amneal Pharmaceuticals LLC": 1,
+        "vancomycin 1gm - vial (Hikma)": 6,
+        "vancomycin 500mg (Hospira Inc) -2": 2,
+        "verapamil 2.5mg/mL - 2mL vial (Zydus Pharma)": 3,
+        "von Willerand factor (HUMATE-P) 250 to 600 units": 1
+      }
+    },
+    "Unknown": {
+      "productCount": 43,
+      "doseCount": 44,
+      "products": {
+        "acetaminophen 1000mg/100mL (Fresenius Kabi)": 1,
+        "acetaminophen 10mg/mL - 100mL bag (Baxter)": 2,
+        "acyclovir (ZOVIRAX) in sodium chloride 7 mg/mL- 290mL": 1,
+        "albuterol sulfate inhalation solution 0.5% 5mg/mL - 20mL (Staq #2)": 1,
+        "ampicillin-sulbactam (UNASYN) in NS 30 mg/mL- 300mL STOCK": 1,
+        "ceFAZolin 1g (West-Ward Pharmaceutical Corporation)": 1,
+        "cefTRIAXone 10g (Hospira Inc)": 1,
+        "chlorothiazide 500 mg sagent": 1,
+        "Chlorothiazide 500mg American Regent": 1,
+        "Clindamycin in 5% Dextrose Injection 900mg/50mL baxter": 1,
+        "Dextrose 10% with 0.45% NaCl 1000mL (B. Braun Medical)": 2,
+        "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": 1,
+        "dianeal low calcium w/ dextrose 1.5% 2000mL": 1,
+        "EPINEPHrine in NS 10mcg/mL - 10mL syringe (STAQ)": 1,
+        "ferric carboxymaltose 50mg/mL 15mL (Regent)": 1,
+        "fosaprepitant 150 mg (Hikma)": 2,
+        "heparin 1000 units/mL -10mL (Phlow Corp.)": 1,
+        "hydrALAZINE (APRESOLINE) 1mg/mL in SW - 20mL": 1,
+        "HYDROmorphone 10 mg/mL 5mL (Hospira)": 1,
+        "Hyqvia Recombinant Human Hyaluronidase 5mL": 1,
+        "magnesium sulfate 50% 10mL Fresenius Kabi": 1,
+        "methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 100mL !": 1,
+        "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division)": 1,
+        "nalbuphine 10 mg/mL 10mL (Hospira)": 1,
+        "niCARdipine 2.5 mg/mL 10 ml (AUROMEDICS)": 2,
+        "piperacillin-tazobactam in dextrose 3g-0.375g (Baxter)": 2,
+        "potassium chloride 2 mEq/mL 30mL (Fresenius Kabi)": 1,
+        "potassium phosphate 3 mmol/mL - 15mL vial (Amneal) [4.4mEq/mL]": 2,
+        "SMOFlipid 500mL 20% (New)": 1,
+        "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": 1,
+        "sodium chloride 0.9% - 250mL bag (Baxter)": 2,
+        "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": 1,
+        "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": 3,
+        "sodium chloride 23.4% 30mL (Fresenius Kabi) 4mEq/mL": 1
+      }
+    }
+  },
+  "summary": {
+    "total_products": 493,
+    "total_locations": 7,
+    "total_product_uses": 11114,
+    "total_doses": 16550
+  },
+  "uploaded_at": "2026-01-24T20:13:01.666Z"
+}

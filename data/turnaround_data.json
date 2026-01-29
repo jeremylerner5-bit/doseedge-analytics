@@ -1,0 +1,1327 @@
+[
+  {
+    "id": "mkshygf308w6pjr1k",
+    "date": "2026-01-24",
+    "total_doses": 55786,
+    "avg_turnaround": 13.8,
+    "by_priority": {
+      "10": {
+        "count": 18316,
+        "total_time": 300579.8300000009
+      },
+      "20": {
+        "count": 3945,
+        "total_time": 164812.44
+      },
+      "30": {
+        "count": 1377,
+        "total_time": 51267.05000000001
+      },
+      "40": {
+        "count": 9392,
+        "total_time": 100348.17000000048
+      },
+      "45": {
+        "count": 21094,
+        "total_time": 144465.05999999994
+      },
+      "50": {
+        "count": 258,
+        "total_time": 2149.46
+      },
+      "55": {
+        "count": 1404,
+        "total_time": 7552.48
+      }
+    },
+    "by_workstation": {
+      "HDA": {
+        "count": 2068,
+        "total_time": 13297.019999999968
+      },
+      "HDC": {
+        "count": 201,
+        "total_time": 2256.789999999999
+      },
+      "HDB": {
+        "count": 346,
+        "total_time": 3013.629999999999
+      },
+      "HDD": {
+        "count": 4,
+        "total_time": 40.78
+      },
+      "NS243": {
+        "count": 5868,
+        "total_time": 64482.01999999985
+      },
+      "NS284": {
+        "count": 2719,
+        "total_time": 49149.36000000004
+      },
+      "NS286": {
+        "count": 5982,
+        "total_time": 79469.64000000006
+      },
+      "NS856": {
+        "count": 2092,
+        "total_time": 36055.46000000005
+      },
+      "NS278": {
+        "count": 2571,
+        "total_time": 50692.39000000013
+      },
+      "NS282": {
+        "count": 3487,
+        "total_time": 56875.229999999974
+      },
+      "NS275": {
+        "count": 3468,
+        "total_time": 58509.449999999924
+      },
+      "NS283": {
+        "count": 3099,
+        "total_time": 58871.01000000007
+      },
+      "N2905": {
+        "count": 350,
+        "total_time": 5117.650000000002
+      },
+      "NS840": {
+        "count": 4042,
+        "total_time": 58093.640000000116
+      },
+      "NS859": {
+        "count": 3531,
+        "total_time": 21975.25999999998
+      },
+      "NS072": {
+        "count": 1627,
+        "total_time": 33523.51999999997
+      },
+      "OR126": {
+        "count": 447,
+        "total_time": 3683.009999999997
+      },
+      "NS067": {
+        "count": 1,
+        "total_time": 108.9
+      },
+      "EDPNS": {
+        "count": 37,
+        "total_time": 207.95000000000005
+      },
+      "NS281": {
+        "count": 1746,
+        "total_time": 27988.570000000007
+      },
+      "N2903": {
+        "count": 485,
+        "total_time": 4333.819999999999
+      },
+      "N2906": {
+        "count": 385,
+        "total_time": 4757.92
+      },
+      "N2904": {
+        "count": 280,
+        "total_time": 2750.340000000002
+      },
+      "CRC": {
+        "count": 150,
+        "total_time": 1206.6999999999998
+      },
+      "NS285": {
+        "count": 363,
+        "total_time": 8417.600000000008
+      },
+      "TS1": {
+        "count": 309,
+        "total_time": 9374.949999999999
+      },
+      "NS846": {
+        "count": 413,
+        "total_time": 9056.039999999997
+      },
+      "NS847": {
+        "count": 3012,
+        "total_time": 20803.110000000062
+      },
+      "NS279": {
+        "count": 1685,
+        "total_time": 9596.679999999991
+      },
+      "NS294": {
+        "count": 1340,
+        "total_time": 34689.93
+      },
+      "BAXA": {
+        "count": 511,
+        "total_time": 19442.110000000004
+      },
+      "NS148": {
+        "count": 3167,
+        "total_time": 23334.010000000035
+      }
+    },
+    "by_drug": {
+      "famotidine": {
+        "count": 775,
+        "total_time": 10461.550000000008
+      },
+      "cefepime": {
+        "count": 2222,
+        "total_time": 33803.230000000054
+      },
+      "leucovorin": {
+        "count": 150,
+        "total_time": 1433.2399999999996
+      },
+      "1/2": {
+        "count": 196,
+        "total_time": 1864.4499999999996
+      },
+      "cefTRIAXone": {
+        "count": 931,
+        "total_time": 11640.279999999999
+      },
+      "prochlorperazine": {
+        "count": 512,
+        "total_time": 4130.9000000000015
+      },
+      "acetaminophen": {
+        "count": 4599,
+        "total_time": 50164.76999999997
+      },
+      "metoclopramide": {
+        "count": 93,
+        "total_time": 1201.3700000000001
+      },
+      "pantoprazole": {
+        "count": 1413,
+        "total_time": 25533.98000000004
+      },
+      "D5-NS": {
+        "count": 71,
+        "total_time": 499.67
+      },
+      "ceFAZolin": {
+        "count": 2193,
+        "total_time": 21831.87000000001
+      },
+      "fosaprepitant": {
+        "count": 229,
+        "total_time": 2530.6299999999997
+      },
+      "potassium": {
+        "count": 553,
+        "total_time": 2859.3399999999983
+      },
+      "ampicillin-sulbactam": {
+        "count": 805,
+        "total_time": 5808.369999999999
+      },
+      "enoxaparin": {
+        "count": 801,
+        "total_time": 5608.260000000009
+      },
+      "mesna": {
+        "count": 199,
+        "total_time": 1829.5000000000007
+      },
+      "metroNIDAZOLE": {
+        "count": 1144,
+        "total_time": 21301.77000000001
+      },
+      "sodium": {
+        "count": 867,
+        "total_time": 5220.080000000012
+      },
+      "methylPREDNISolone": {
+        "count": 1688,
+        "total_time": 23866.149999999983
+      },
+      "tranexamic": {
+        "count": 276,
+        "total_time": 1823.1100000000013
+      },
+      "D5-1/4": {
+        "count": 127,
+        "total_time": 1079.8500000000001
+      },
+      "vancomycin": {
+        "count": 1586,
+        "total_time": 12799.870000000024
+      },
+      "gentamicin": {
+        "count": 217,
+        "total_time": 3014.6000000000013
+      },
+      "hydrocortisone": {
+        "count": 1641,
+        "total_time": 10992.369999999997
+      },
+      "D5-1/2": {
+        "count": 146,
+        "total_time": 1022.1900000000003
+      },
+      "clindamycin": {
+        "count": 205,
+        "total_time": 2223.7500000000005
+      },
+      "nalbuphine": {
+        "count": 1415,
+        "total_time": 16244.82999999999
+      },
+      "ampicillin": {
+        "count": 951,
+        "total_time": 12662.529999999997
+      },
+      "Stock:": {
+        "count": 3966,
+        "total_time": 168888.67000000004
+      },
+      "magnesium": {
+        "count": 228,
+        "total_time": 879.7300000000002
+      },
+      "D10-1/2": {
+        "count": 132,
+        "total_time": 1156.1499999999994
+      },
+      "valproate": {
+        "count": 127,
+        "total_time": 1527.2000000000005
+      },
+      "acyclovir": {
+        "count": 176,
+        "total_time": 1407.8100000000009
+      },
+      "fish": {
+        "count": 1645,
+        "total_time": 31555.23999999998
+      },
+      "iron": {
+        "count": 145,
+        "total_time": 1467.1999999999991
+      },
+      "immune": {
+        "count": 203,
+        "total_time": 2781.9900000000025
+      },
+      "methotrexate": {
+        "count": 80,
+        "total_time": 890.4300000000002
+      },
+      "fat": {
+        "count": 589,
+        "total_time": 11112.710000000001
+      },
+      "Dilution:": {
+        "count": 1377,
+        "total_time": 51267.05000000001
+      },
+      "pegfilgrastim-jmdb": {
+        "count": 36,
+        "total_time": 252.83
+      },
+      "pentamidine": {
+        "count": 128,
+        "total_time": 1090.33
+      },
+      "azithromycin": {
+        "count": 43,
+        "total_time": 453.55
+      },
+      "romiPLOStim": {
+        "count": 50,
+        "total_time": 441.9100000000001
+      },
+      "cemiplimab-rwlc": {
+        "count": 2,
+        "total_time": 12.5
+      },
+      "vinCRIStine": {
+        "count": 124,
+        "total_time": 1516.6199999999994
+      },
+      "ifosfamide": {
+        "count": 46,
+        "total_time": 657.7400000000001
+      },
+      "CARBOplatin": {
+        "count": 39,
+        "total_time": 434.40000000000003
+      },
+      "cefTAZidime": {
+        "count": 652,
+        "total_time": 7726.0099999999975
+      },
+      "inFLIXimab": {
+        "count": 107,
+        "total_time": 1539.93
+      },
+      "inFLIXimab-dyyb": {
+        "count": 85,
+        "total_time": 1277.0500000000006
+      },
+      "tocilizumab": {
+        "count": 23,
+        "total_time": 190.97000000000003
+      },
+      "vedolizumab": {
+        "count": 34,
+        "total_time": 681.13
+      },
+      "pembrolizumab": {
+        "count": 8,
+        "total_time": 62.55
+      },
+      "onabotulinumtoxinA": {
+        "count": 122,
+        "total_time": 848.37
+      },
+      "EPINEPHrine": {
+        "count": 945,
+        "total_time": 4148.439999999999
+      },
+      "methocarbamol": {
+        "count": 594,
+        "total_time": 7866.669999999996
+      },
+      "ketorolac": {
+        "count": 398,
+        "total_time": 5447.340000000002
+      },
+      "ropivacaine": {
+        "count": 62,
+        "total_time": 252.0399999999999
+      },
+      "caffeine-sodium": {
+        "count": 10,
+        "total_time": 62.22999999999999
+      },
+      "HYDROmorphone": {
+        "count": 716,
+        "total_time": 5699.129999999997
+      },
+      "ROPivacaine": {
+        "count": 82,
+        "total_time": 1433.2699999999998
+      },
+      "polio": {
+        "count": 1,
+        "total_time": 7.2
+      },
+      "DOXOrubicin": {
+        "count": 62,
+        "total_time": 633.8100000000002
+      },
+      "blinatumomab": {
+        "count": 4,
+        "total_time": 41.96000000000001
+      },
+      "dexrazoxane": {
+        "count": 54,
+        "total_time": 556.0699999999999
+      },
+      "irinotecan": {
+        "count": 28,
+        "total_time": 275.98999999999995
+      },
+      "cycloPHOSphamide": {
+        "count": 63,
+        "total_time": 1049.85
+      },
+      "gemcitabine": {
+        "count": 17,
+        "total_time": 269.82000000000005
+      },
+      "azaCITIDine": {
+        "count": 31,
+        "total_time": 407
+      },
+      "filgrastim-sndz": {
+        "count": 135,
+        "total_time": 1242.9900000000005
+      },
+      "dexAMETHasone": {
+        "count": 418,
+        "total_time": 6097.020000000002
+      },
+      "etoposide": {
+        "count": 64,
+        "total_time": 711.9499999999999
+      },
+      "cefOXitin": {
+        "count": 148,
+        "total_time": 1707.260000000001
+      },
+      "lidocaine": {
+        "count": 37,
+        "total_time": 208.87000000000003
+      },
+      "lacosamide": {
+        "count": 9,
+        "total_time": 54.89
+      },
+      "ethanol": {
+        "count": 18,
+        "total_time": 92.83000000000001
+      },
+      "velmanase": {
+        "count": 4,
+        "total_time": 91.41
+      },
+      "golimumab": {
+        "count": 6,
+        "total_time": 67.3
+      },
+      "sulfamethoxazole-trimethoprim": {
+        "count": 284,
+        "total_time": 2582.7200000000003
+      },
+      "meropenem": {
+        "count": 588,
+        "total_time": 4269.879999999999
+      },
+      "asparaginase": {
+        "count": 3,
+        "total_time": 28.8
+      },
+      "zoledronic": {
+        "count": 16,
+        "total_time": 127.81
+      },
+      "levETIRAcetam": {
+        "count": 311,
+        "total_time": 4556.869999999999
+      },
+      "cytarabine": {
+        "count": 61,
+        "total_time": 772.2300000000001
+      },
+      "tocilizumab-aazg": {
+        "count": 3,
+        "total_time": 25.32
+      },
+      "decitabine": {
+        "count": 14,
+        "total_time": 149.71999999999997
+      },
+      "albumin": {
+        "count": 45,
+        "total_time": 195.68000000000004
+      },
+      "nafcillin": {
+        "count": 395,
+        "total_time": 5862.860000000001
+      },
+      "caffeine": {
+        "count": 91,
+        "total_time": 1093.1099999999992
+      },
+      "granisetron": {
+        "count": 202,
+        "total_time": 2600.3700000000017
+      },
+      "penicillin": {
+        "count": 60,
+        "total_time": 917.62
+      },
+      "piperacillin-tazobactam": {
+        "count": 683,
+        "total_time": 10862.81
+      },
+      "morphine": {
+        "count": 352,
+        "total_time": 2401.4200000000014
+      },
+      "hydrALAZINE": {
+        "count": 210,
+        "total_time": 1427.4800000000002
+      },
+      "voriconazole": {
+        "count": 63,
+        "total_time": 919.0100000000004
+      },
+      "levOCARNitine": {
+        "count": 89,
+        "total_time": 673.3599999999998
+      },
+      "desmopressin": {
+        "count": 79,
+        "total_time": 870.4800000000001
+      },
+      "ciprofloxacin": {
+        "count": 159,
+        "total_time": 2390.2400000000002
+      },
+      "amiodarone": {
+        "count": 37,
+        "total_time": 337.05999999999995
+      },
+      "acetaZOLAMIDE": {
+        "count": 83,
+        "total_time": 998.14
+      },
+      "fosphenytoin": {
+        "count": 98,
+        "total_time": 1075.9699999999998
+      },
+      "chlorothiazide": {
+        "count": 1083,
+        "total_time": 15018.390000000001
+      },
+      "bumetanide": {
+        "count": 527,
+        "total_time": 2627.2300000000037
+      },
+      "cefTAZidime-avibactam": {
+        "count": 14,
+        "total_time": 132.38
+      },
+      "heparin": {
+        "count": 1200,
+        "total_time": 4358.200000000002
+      },
+      "niCARdipine": {
+        "count": 263,
+        "total_time": 1495.0999999999995
+      },
+      "calcium": {
+        "count": 480,
+        "total_time": 2993.9099999999994
+      },
+      "vasopressin": {
+        "count": 30,
+        "total_time": 188.88
+      },
+      "alprostadil": {
+        "count": 161,
+        "total_time": 686.81
+      },
+      "midazolam": {
+        "count": 215,
+        "total_time": 1431.03
+      },
+      "insulin": {
+        "count": 30,
+        "total_time": 140.10999999999999
+      },
+      "vecuronium": {
+        "count": 316,
+        "total_time": 1894.2699999999977
+      },
+      "prismaSOL": {
+        "count": 196,
+        "total_time": 1171.58
+      },
+      "prismaSATE": {
+        "count": 157,
+        "total_time": 968.9299999999996
+      },
+      "dexmedeTOMIDine": {
+        "count": 101,
+        "total_time": 554.5000000000001
+      },
+      "ceftaroline": {
+        "count": 284,
+        "total_time": 5043.559999999998
+      },
+      "alpha": {
+        "count": 43,
+        "total_time": 622.75
+      },
+      "phenylephrine": {
+        "count": 195,
+        "total_time": 1037.6699999999996
+      },
+      "D10-1/4": {
+        "count": 422,
+        "total_time": 2166.8399999999992
+      },
+      "D10W": {
+        "count": 157,
+        "total_time": 852.9000000000001
+      },
+      "PHENOBarbital": {
+        "count": 108,
+        "total_time": 1440.1500000000003
+      },
+      "cloNIDine": {
+        "count": 2,
+        "total_time": 22.84
+      },
+      "anakinra": {
+        "count": 57,
+        "total_time": 690.1199999999999
+      },
+      "ketamine": {
+        "count": 210,
+        "total_time": 1867.0299999999995
+      },
+      "fentaNYL": {
+        "count": 170,
+        "total_time": 1005.2500000000001
+      },
+      "nitroprusside": {
+        "count": 246,
+        "total_time": 1463.4799999999993
+      },
+      "bivalirudin": {
+        "count": 439,
+        "total_time": 3445.879999999999
+      },
+      "treprostinil": {
+        "count": 22,
+        "total_time": 118.75
+      },
+      "phoxillum": {
+        "count": 314,
+        "total_time": 2592.649999999998
+      },
+      "LORazepam": {
+        "count": 131,
+        "total_time": 951.0400000000002
+      },
+      "diphenhydrAMINE": {
+        "count": 35,
+        "total_time": 154.04000000000002
+      },
+      "cytomegalovirus": {
+        "count": 4,
+        "total_time": 35.85
+      },
+      "epoprostenol": {
+        "count": 99,
+        "total_time": 808.3400000000001
+      },
+      "aminophylline": {
+        "count": 39,
+        "total_time": 353.52000000000004
+      },
+      "PENTobarbital": {
+        "count": 39,
+        "total_time": 231.94
+      },
+      "mannitol": {
+        "count": 68,
+        "total_time": 379.79
+      },
+      "micafungin": {
+        "count": 552,
+        "total_time": 4916.480000000006
+      },
+      "D5W": {
+        "count": 157,
+        "total_time": 1572.5800000000002
+      },
+      "albuterol": {
+        "count": 231,
+        "total_time": 1447.28
+      },
+      "arginine": {
+        "count": 30,
+        "total_time": 213.35
+      },
+      "HBiofluids": {
+        "count": 79,
+        "total_time": 291.17999999999995
+      },
+      "papaverine": {
+        "count": 107,
+        "total_time": 517.8399999999999
+      },
+      "angiotensin": {
+        "count": 7,
+        "total_time": 41
+      },
+      "voretigene": {
+        "count": 1,
+        "total_time": 108.9
+      },
+      "methadone": {
+        "count": 2,
+        "total_time": 9.08
+      },
+      "linezolid": {
+        "count": 57,
+        "total_time": 803.74
+      },
+      "posaconazole": {
+        "count": 94,
+        "total_time": 1222.7300000000002
+      },
+      "DAPTOmycin": {
+        "count": 75,
+        "total_time": 660.2899999999997
+      },
+      "cetirizine": {
+        "count": 24,
+        "total_time": 324.3800000000001
+      },
+      "thiamine": {
+        "count": 55,
+        "total_time": 775.5300000000001
+      },
+      "imipenem-cilastatin-relebactam": {
+        "count": 10,
+        "total_time": 80.72
+      },
+      "levothyroxine": {
+        "count": 175,
+        "total_time": 2654.5499999999997
+      },
+      "cycloSPORINE": {
+        "count": 109,
+        "total_time": 732.1200000000001
+      },
+      "brentuximab": {
+        "count": 4,
+        "total_time": 85.7
+      },
+      "daratumumab": {
+        "count": 5,
+        "total_time": 80.58999999999999
+      },
+      "axatilimab-csfr": {
+        "count": 17,
+        "total_time": 184.95999999999995
+      },
+      "bevacizumab-bvzr": {
+        "count": 8,
+        "total_time": 111.71
+      },
+      "abatacept": {
+        "count": 27,
+        "total_time": 395.73000000000013
+      },
+      "alemtuzumab": {
+        "count": 15,
+        "total_time": 88.66000000000001
+      },
+      "bevacizumab": {
+        "count": 11,
+        "total_time": 124.02999999999999
+      },
+      "CISplatin": {
+        "count": 25,
+        "total_time": 443.9400000000001
+      },
+      "calaspargase": {
+        "count": 6,
+        "total_time": 47.72
+      },
+      "nivolumab": {
+        "count": 8,
+        "total_time": 90.21000000000001
+      },
+      "sargramostim": {
+        "count": 25,
+        "total_time": 178.69
+      },
+      "dinutuximab": {
+        "count": 24,
+        "total_time": 211.47000000000003
+      },
+      "PACLitaxel": {
+        "count": 6,
+        "total_time": 256.52000000000004
+      },
+      "DACTINomycin": {
+        "count": 11,
+        "total_time": 112.83000000000001
+      },
+      "thiotepa": {
+        "count": 3,
+        "total_time": 67.94
+      },
+      "vinBLAStine": {
+        "count": 10,
+        "total_time": 102.01
+      },
+      "dacarbazine": {
+        "count": 10,
+        "total_time": 169.14000000000004
+      },
+      "recombinant": {
+        "count": 2,
+        "total_time": 24.619999999999997
+      },
+      "vinorelbine": {
+        "count": 3,
+        "total_time": 44.81999999999999
+      },
+      "sirolimus": {
+        "count": 3,
+        "total_time": 126.53999999999999
+      },
+      "bleomycin": {
+        "count": 9,
+        "total_time": 104.53
+      },
+      "riTUXimab-pvvr": {
+        "count": 1,
+        "total_time": 9.65
+      },
+      "BUsulfan": {
+        "count": 6,
+        "total_time": 89.47
+      },
+      "oxaliplatin": {
+        "count": 2,
+        "total_time": 16
+      },
+      "fludarabine": {
+        "count": 11,
+        "total_time": 205.42999999999998
+      },
+      "mitoXANTRONE": {
+        "count": 4,
+        "total_time": 28.86
+      },
+      "melphalan": {
+        "count": 2,
+        "total_time": 34.22
+      },
+      "arsenic": {
+        "count": 10,
+        "total_time": 137.36
+      },
+      "cladribine": {
+        "count": 3,
+        "total_time": 34.93
+      },
+      "acetylcysteine": {
+        "count": 39,
+        "total_time": 374.2
+      },
+      "cidofovir": {
+        "count": 23,
+        "total_time": 258.2
+      },
+      "cosyntropin": {
+        "count": 32,
+        "total_time": 260.53
+      },
+      "dilTIAZem": {
+        "count": 6,
+        "total_time": 49.69
+      },
+      "isoproterenol": {
+        "count": 18,
+        "total_time": 103.39000000000001
+      },
+      "alteplase": {
+        "count": 11,
+        "total_time": 95.01
+      },
+      "lactated": {
+        "count": 13,
+        "total_time": 63.85
+      },
+      "doxycycline": {
+        "count": 61,
+        "total_time": 1369.9499999999998
+      },
+      "sildenafil": {
+        "count": 15,
+        "total_time": 91.05999999999999
+      },
+      "letermovir": {
+        "count": 65,
+        "total_time": 1152.5499999999995
+      },
+      "riTUXimab": {
+        "count": 15,
+        "total_time": 186.81999999999996
+      },
+      "corticotropin": {
+        "count": 22,
+        "total_time": 246.66
+      },
+      "eculizumab": {
+        "count": 34,
+        "total_time": 330.15
+      },
+      "procainamide": {
+        "count": 16,
+        "total_time": 81.08000000000001
+      },
+      "basiliximab": {
+        "count": 7,
+        "total_time": 73.23
+      },
+      "labetalol": {
+        "count": 52,
+        "total_time": 286.61999999999995
+      },
+      "rabbit": {
+        "count": 19,
+        "total_time": 340.06999999999994
+      },
+      "phytonadione": {
+        "count": 81,
+        "total_time": 1261.0499999999997
+      },
+      "brivaracetam": {
+        "count": 25,
+        "total_time": 282.61999999999995
+      },
+      "dianeal": {
+        "count": 67,
+        "total_time": 433.89
+      },
+      "remdesivir": {
+        "count": 34,
+        "total_time": 408.17
+      },
+      "belatacept": {
+        "count": 8,
+        "total_time": 107.87
+      },
+      "laronidase": {
+        "count": 8,
+        "total_time": 101.95000000000002
+      },
+      "butorphanol": {
+        "count": 17,
+        "total_time": 260.34000000000003
+      },
+      "haloperidol": {
+        "count": 22,
+        "total_time": 165.97
+      },
+      "obinutuzumab": {
+        "count": 3,
+        "total_time": 50.9
+      },
+      "Vitamin": {
+        "count": 27,
+        "total_time": 383.34
+      },
+      "fluconazole": {
+        "count": 105,
+        "total_time": 1220.1
+      },
+      "belimumab": {
+        "count": 14,
+        "total_time": 233.59000000000003
+      },
+      "enalaprilat": {
+        "count": 79,
+        "total_time": 1116.6000000000004
+      },
+      "inFLIXimab-axxq": {
+        "count": 6,
+        "total_time": 123.81
+      },
+      "norepinephrine": {
+        "count": 13,
+        "total_time": 72.95000000000002
+      },
+      "levoFLOXacin": {
+        "count": 68,
+        "total_time": 882.0800000000003
+      },
+      "D5-LR": {
+        "count": 37,
+        "total_time": 275.61
+      },
+      "D10LR": {
+        "count": 7,
+        "total_time": 76.26
+      },
+      "bendamustine": {
+        "count": 2,
+        "total_time": 25.04
+      },
+      "emapalumab-lzsg": {
+        "count": 12,
+        "total_time": 169.73000000000002
+      },
+      "tisotumab": {
+        "count": 1,
+        "total_time": 30.77
+      },
+      "pegunigalsidase": {
+        "count": 3,
+        "total_time": 77.75999999999999
+      },
+      "sebelipase": {
+        "count": 4,
+        "total_time": 77.09
+      },
+      "ganciclovir": {
+        "count": 82,
+        "total_time": 1101.8100000000004
+      },
+      "indocyanine": {
+        "count": 11,
+        "total_time": 159.3
+      },
+      "BUPivacaine": {
+        "count": 17,
+        "total_time": 160.98999999999998
+      },
+      "furosemide": {
+        "count": 12,
+        "total_time": 58.11
+      },
+      "verapamil": {
+        "count": 20,
+        "total_time": 108.60000000000001
+      },
+      "triamcinolone": {
+        "count": 1,
+        "total_time": 9.73
+      },
+      "remimazolam": {
+        "count": 3,
+        "total_time": 65.88
+      },
+      "amphotericin": {
+        "count": 13,
+        "total_time": 283.19000000000005
+      },
+      "ceftolozane-tazobactam": {
+        "count": 36,
+        "total_time": 854.9699999999999
+      },
+      "cefiderocol": {
+        "count": 31,
+        "total_time": 650.1100000000001
+      },
+      "abobotulinumtoxinA": {
+        "count": 27,
+        "total_time": 252.88
+      },
+      "teduglutide": {
+        "count": 139,
+        "total_time": 1910.8300000000002
+      },
+      "amikacin": {
+        "count": 17,
+        "total_time": 324.2
+      },
+      "glycopyrrolate": {
+        "count": 59,
+        "total_time": 961.2899999999998
+      },
+      "L-cysteine": {
+        "count": 1,
+        "total_time": 6.22
+      },
+      "Albumin": {
+        "count": 4,
+        "total_time": 80.77000000000001
+      },
+      "etanercept": {
+        "count": 13,
+        "total_time": 148.41
+      },
+      "erythromycin": {
+        "count": 21,
+        "total_time": 368.38
+      },
+      "chloroprocaine": {
+        "count": 1,
+        "total_time": 9.62
+      },
+      "dextran": {
+        "count": 1,
+        "total_time": 8.45
+      },
+      "pamidronate": {
+        "count": 1,
+        "total_time": 12.28
+      },
+      "mycophenolate": {
+        "count": 157,
+        "total_time": 2456.2199999999984
+      },
+      "imiglucerase": {
+        "count": 2,
+        "total_time": 30.45
+      },
+      "paricalcitol": {
+        "count": 3,
+        "total_time": 12.629999999999999
+      },
+      "idursulfase": {
+        "count": 3,
+        "total_time": 77.03999999999999
+      },
+      "tobramycin": {
+        "count": 10,
+        "total_time": 155.25
+      },
+      "denosumab": {
+        "count": 1,
+        "total_time": 14.87
+      },
+      "inotuzumab": {
+        "count": 2,
+        "total_time": 37.3
+      },
+      "DAUNOrubicin": {
+        "count": 3,
+        "total_time": 59.17
+      },
+      "ravulizumab-cwvz": {
+        "count": 2,
+        "total_time": 51.28
+      },
+      "methylnaltrexone": {
+        "count": 4,
+        "total_time": 86.77
+      },
+      "ustekinumab": {
+        "count": 1,
+        "total_time": 6.68
+      },
+      "fomepizole": {
+        "count": 3,
+        "total_time": 19.68
+      },
+      "avalglucosidase": {
+        "count": 3,
+        "total_time": 137.98000000000002
+      },
+      "topotecan": {
+        "count": 5,
+        "total_time": 40.550000000000004
+      },
+      "risankizumab-rzaa": {
+        "count": 4,
+        "total_time": 24.950000000000003
+      },
+      "sincalide": {
+        "count": 1,
+        "total_time": 30.08
+      },
+      "bortezomib": {
+        "count": 2,
+        "total_time": 9.89
+      },
+      "dalbavancin": {
+        "count": 2,
+        "total_time": 40.67
+      },
+      "NS": {
+        "count": 1,
+        "total_time": 1.45
+      },
+      "ferric": {
+        "count": 1,
+        "total_time": 8.05
+      },
+      "pyridoxine": {
+        "count": 10,
+        "total_time": 148.05
+      },
+      "hyoscyamine": {
+        "count": 4,
+        "total_time": 45.129999999999995
+      },
+      "milrinone": {
+        "count": 3,
+        "total_time": 14.290000000000001
+      },
+      "cisatracurium": {
+        "count": 5,
+        "total_time": 38.5
+      },
+      "phentolamine": {
+        "count": 10,
+        "total_time": 47.599999999999994
+      },
+      "casimersen": {
+        "count": 4,
+        "total_time": 91.33
+      },
+      "galsulfase": {
+        "count": 5,
+        "total_time": 30.380000000000003
+      },
+      "tuberculin": {
+        "count": 2,
+        "total_time": 14.48
+      },
+      "anifrolumab-fnia": {
+        "count": 7,
+        "total_time": 84.82000000000001
+      },
+      "ertapenem": {
+        "count": 3,
+        "total_time": 35.22
+      },
+      "trabectedin": {
+        "count": 1,
+        "total_time": 48.8
+      },
+      "peramivir": {
+        "count": 2,
+        "total_time": 21.75
+      },
+      "ocrelizumab": {
+        "count": 1,
+        "total_time": 8.23
+      },
+      "artesunate": {
+        "count": 3,
+        "total_time": 52.230000000000004
+      },
+      "plerixafor": {
+        "count": 3,
+        "total_time": 35.879999999999995
+      },
+      "von": {
+        "count": 1,
+        "total_time": 9.13
+      },
+      "plasma-lyte": {
+        "count": 1,
+        "total_time": 6.08
+      },
+      "nalOXone": {
+        "count": 1,
+        "total_time": 7.13
+      },
+      "DOPamine": {
+        "count": 1,
+        "total_time": 12.02
+      },
+      "rasburicase": {
+        "count": 4,
+        "total_time": 79.21000000000001
+      },
+      "leuprolide": {
+        "count": 1,
+        "total_time": 24.32
+      },
+      "IMMUNE": {
+        "count": 2,
+        "total_time": 31.85
+      },
+      "agalsidase": {
+        "count": 1,
+        "total_time": 99.15
+      },
+      "canakinumab": {
+        "count": 1,
+        "total_time": 16.75
+      },
+      "inFLIXimab-abda": {
+        "count": 1,
+        "total_time": 54.73
+      },
+      "riTUXimab-abbs": {
+        "count": 1,
+        "total_time": 17.28
+      }
+    },
+    "uploaded_at": "2026-01-24T16:01:10.815Z"
+  }
+]

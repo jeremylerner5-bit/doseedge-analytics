@@ -1,0 +1,5077 @@
+{
+  "by_date": {
+    "2026-01-20": {
+      "total_volume": 490438.9540342999,
+      "used_volume": 375884.9240342995,
+      "waste_volume": 114554.02999999997,
+      "product_count": 2949,
+      "multi_dose_count": 1680,
+      "stock_count": 509
+    },
+    "2026-01-21": {
+      "total_volume": 539257.0496476002,
+      "used_volume": 440539.03964759776,
+      "waste_volume": 98718.00999999979,
+      "product_count": 3138,
+      "multi_dose_count": 1819,
+      "stock_count": 526
+    },
+    "2026-01-22": {
+      "total_volume": 507829.9400002999,
+      "used_volume": 409198.5700002995,
+      "waste_volume": 98631.36999999988,
+      "product_count": 3057,
+      "multi_dose_count": 1761,
+      "stock_count": 477
+    },
+    "2026-01-23": {
+      "total_volume": 578468.2466669001,
+      "used_volume": 489127.9966668982,
+      "waste_volume": 89340.24999999987,
+      "product_count": 3056,
+      "multi_dose_count": 1796,
+      "stock_count": 592
+    },
+    "2026-01-24": {
+      "total_volume": 245406.31000020003,
+      "used_volume": 197630.6800001999,
+      "waste_volume": 47775.63000000002,
+      "product_count": 1077,
+      "multi_dose_count": 533,
+      "stock_count": 259
+    },
+    "2026-01-17": {
+      "total_volume": 471424.75333359983,
+      "used_volume": 362456.16333360027,
+      "waste_volume": 108968.58999999992,
+      "product_count": 2532,
+      "multi_dose_count": 1426,
+      "stock_count": 477
+    },
+    "2026-01-18": {
+      "total_volume": 474055.3415780999,
+      "used_volume": 368590.8515781,
+      "waste_volume": 105464.48999999983,
+      "product_count": 2301,
+      "multi_dose_count": 1320,
+      "stock_count": 495
+    },
+    "2026-01-19": {
+      "total_volume": 443757.2300005,
+      "used_volume": 341411.03000050003,
+      "waste_volume": 102346.19999999992,
+      "product_count": 2256,
+      "multi_dose_count": 1291,
+      "stock_count": 474
+    }
+  },
+  "by_product": {
+    "Dextrose 10% with 0.45% NaCl 1000mL (B. Braun Medical)": {
+      "ndc": 264762200,
+      "total_volume": 59160,
+      "used_volume": 57302.73999999997,
+      "waste_volume": 1857.26,
+      "count": 58,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "potassium chloride 2 mEq/mL 10 mL (Fresenius-Kabi)": {
+      "ndc": 63323096503,
+      "total_volume": 1070,
+      "used_volume": 979.5,
+      "waste_volume": 90.5,
+      "count": 107,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sodium bicarbonate 8.4% - 50mL (Hospira Inc) [1mEq/1mL]": {
+      "ndc": 409662522,
+      "total_volume": 1250,
+      "used_volume": 969.8,
+      "waste_volume": 280.2,
+      "count": 25,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "potassium phosphate 3 mmol/mL - 15mL vial (Amneal) [4.4mEq/mL]": {
+      "ndc": "80830169101-01",
+      "total_volume": 1140,
+      "used_volume": 813.0200000000001,
+      "waste_volume": 326.98,
+      "count": 76,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Fresenius Kabi) [4.4 mEq/mL]*": {
+      "ndc": "65219005409-01",
+      "total_volume": 285,
+      "used_volume": 161.82999999999998,
+      "waste_volume": 123.17000000000002,
+      "count": 19,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% with 0.45% NaCl and KCl 20 mEq/L 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338067104,
+      "total_volume": 5000,
+      "used_volume": 4987.57,
+      "waste_volume": 12.430000000000001,
+      "count": 5,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "SMOFlipid 100mL 20%": {
+      "ndc": 63323082001,
+      "total_volume": 12300,
+      "used_volume": 10159.500000000002,
+      "waste_volume": 2140.5000000000005,
+      "count": 123,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "SMOFlipid 500mL 20% (New)": {
+      "ndc": 63323082003,
+      "total_volume": 137000,
+      "used_volume": 79167.60000000003,
+      "waste_volume": 57832.39999999999,
+      "count": 274,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "botulinum toxin type A 100units (Allergan Inc) [50 units/mL]": {
+      "ndc": "00023114501-02",
+      "total_volume": 42,
+      "used_volume": 42,
+      "waste_volume": 0,
+      "count": 21,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ceFAZolin 10g (West-Ward Pharmaceutical Corporation)": {
+      "ndc": 143998391,
+      "total_volume": 46700,
+      "used_volume": 36441.379999999954,
+      "waste_volume": 10258.620000000003,
+      "count": 467,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "acetaminophen 1000mg/100mL (Fresenius Kabi)": {
+      "ndc": 63323043441,
+      "total_volume": 62700,
+      "used_volume": 55372.89999999998,
+      "waste_volume": 7327.0999999999985,
+      "count": 627,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sodium chloride 0.9% - 250mL bag (Baxter)": {
+      "ndc": 338979101,
+      "total_volume": 40500,
+      "used_volume": 30612.209999999977,
+      "waste_volume": 9887.789999999995,
+      "count": 150,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "EPINEPHrine 1 mg/mL 30mL - (JHP Phamaceuticals)": {
+      "ndc": 42023016801,
+      "total_volume": 2940,
+      "used_volume": 2684.3700000000013,
+      "waste_volume": 255.63000000000002,
+      "count": 98,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 270mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338004902,
+      "total_volume": 176040,
+      "used_volume": 125143.06999999998,
+      "waste_volume": 50896.92999999999,
+      "count": 652,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "niCARdipine 2.5 mg/mL 10 ml (AUROMEDICS)": {
+      "ndc": 55150018301,
+      "total_volume": 280,
+      "used_volume": 280,
+      "waste_volume": 0,
+      "count": 28,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ropivacaine HCL 0.2% 400mg/200mL (Sagent)": {
+      "ndc": 25021067187,
+      "total_volume": 3600,
+      "used_volume": 2999.5,
+      "waste_volume": 600.5,
+      "count": 18,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methocarbamol 100 mg/mL 10 mL Wintac": {
+      "ndc": 70069010101,
+      "total_volume": 1420,
+      "used_volume": 1336.9999999999998,
+      "waste_volume": 83,
+      "count": 142,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methocarbamol (ROBAXIN) 10 mg/mL in **NS** - 300mL *ROOM TEMP STORAGE*": {
+      "ndc": "Z6747218371",
+      "total_volume": 36300,
+      "used_volume": 32180,
+      "waste_volume": 4120,
+      "count": 121,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "nalbuphine (NUBAIN) 1mg/mL in NS - 10mL": {
+      "ndc": "Z6563917342",
+      "total_volume": 620,
+      "used_volume": 296.9600000000001,
+      "waste_volume": 323.0399999999999,
+      "count": 62,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "acetaminophen 1000mg/100mL (Braun)": {
+      "ndc": 264410090,
+      "total_volume": 27600,
+      "used_volume": 25245.70000000001,
+      "waste_volume": 2354.2999999999997,
+      "count": 276,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "nalbuphine 10 mg/mL 10mL (Hospira)": {
+      "ndc": 409146461,
+      "total_volume": 3320,
+      "used_volume": 2589.2799999999947,
+      "waste_volume": 730.7200000000001,
+      "count": 332,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "dexamethasone (DECADRON) 1mg/mL NS - 50mL": {
+      "ndc": "Z6473716148",
+      "total_volume": 3450,
+      "used_volume": 2585.42,
+      "waste_volume": 864.5800000000003,
+      "count": 69,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Nicardipine 2.5 mg/ml injection": {
+      "ndc": 143968901,
+      "total_volume": 770,
+      "used_volume": 770,
+      "waste_volume": 0,
+      "count": 77,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 500mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338004903,
+      "total_volume": 408630,
+      "used_volume": 311569.3499999999,
+      "waste_volume": 97060.64999999986,
+      "count": 771,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Hydromorphone 10 mg/mL- 1 mL vial (Hospira)": {
+      "ndc": 409263410,
+      "total_volume": 17,
+      "used_volume": 16.5,
+      "waste_volume": 0.5,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% in Water 500mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338001703,
+      "total_volume": 46110,
+      "used_volume": 23755.090000000007,
+      "waste_volume": 22354.91,
+      "count": 87,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "heparin 1unit/mL papaverine 0.12mg/mL NS - 500mL STOCK": {
+      "ndc": "Z6246314849",
+      "total_volume": 90000,
+      "used_volume": 79800,
+      "waste_volume": 10200,
+      "count": 180,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "Vecuronium 20mg (AuroMedics)": {
+      "ndc": 55150023601,
+      "total_volume": 1620,
+      "used_volume": 1590,
+      "waste_volume": 30,
+      "count": 81,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "vecuronium 10mg (AuroMedic Pharma)": {
+      "ndc": 55150023501,
+      "total_volume": 130,
+      "used_volume": 120.3,
+      "waste_volume": 9.7,
+      "count": 13,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "chlorothiazide 500 mg sagent": {
+      "ndc": 25021030520,
+      "total_volume": 1540,
+      "used_volume": 1200.1799999999998,
+      "waste_volume": 339.8200000000001,
+      "count": 77,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% in Water 100mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338001748,
+      "total_volume": 11130,
+      "used_volume": 9255.91,
+      "waste_volume": 1874.09,
+      "count": 106,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Sodium Nitroprusside injection 25 mg/ml 2 ml Armas": {
+      "ndc": 72485010501,
+      "total_volume": 194,
+      "used_volume": 119.04000000000002,
+      "waste_volume": 74.96000000000002,
+      "count": 97,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "sodium thiosulfate 250 mg/mL 50mL": {
+      "ndc": 60267070550,
+      "total_volume": 850,
+      "used_volume": 328.8,
+      "waste_volume": 521.1999999999999,
+      "count": 17,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "bivalirudin 250mg vial (Meitheal)": {
+      "ndc": 71288042710,
+      "total_volume": 1035,
+      "used_volume": 1035,
+      "waste_volume": 0,
+      "count": 207,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "levofloxacin 500mg/100mL in D5W (Sagent)": {
+      "ndc": 25021013282,
+      "total_volume": 3500,
+      "used_volume": 2692,
+      "waste_volume": 808,
+      "count": 35,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "niCARdipine hydrochloride 2.5 mg/ml -10ml (Armas)": {
+      "ndc": 37248511601,
+      "total_volume": 330,
+      "used_volume": 330,
+      "waste_volume": 0,
+      "count": 33,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "bumetanide 0.25mg/mL - 10mL vial (Glenmark)": {
+      "ndc": 68462047040,
+      "total_volume": 1550,
+      "used_volume": 1409.3399999999997,
+      "waste_volume": 140.66,
+      "count": 155,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% in Water 250mL (Baxter I.V. Systems Division) #2": {
+      "ndc": 338001702,
+      "total_volume": 142830,
+      "used_volume": 88606.03000000016,
+      "waste_volume": 54223.96999999978,
+      "count": 529,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "micafungin (MYCAMINE) 1.5mg/mL in NS - 100mL STOCK": {
+      "ndc": "Z6589817492",
+      "total_volume": 700,
+      "used_volume": 700,
+      "waste_volume": 0,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 100mL !": {
+      "ndc": "Z6473716202",
+      "total_volume": 27200,
+      "used_volume": 19208.539999999975,
+      "waste_volume": 7991.460000000005,
+      "count": 272,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "famotidine 10 mg/mL - 20mL (Fresenius Kabi) #2": {
+      "ndc": 63323073806,
+      "total_volume": 4180,
+      "used_volume": 3778.4300000000053,
+      "waste_volume": 401.57000000000033,
+      "count": 209,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cefTAZidime 2g (WG Critical Care)": {
+      "ndc": 44567023610,
+      "total_volume": 1840,
+      "used_volume": 1636.2899999999993,
+      "waste_volume": 203.70999999999995,
+      "count": 92,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "HYDROmorphone 10 mg/mL 5mL (Hospira)": {
+      "ndc": 409263425,
+      "total_volume": 610,
+      "used_volume": 526.8000000000002,
+      "waste_volume": 83.20000000000002,
+      "count": 122,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "midazolam 5 mg/mL (Avet Pharma)": {
+      "ndc": 23155060132,
+      "total_volume": 490,
+      "used_volume": 490,
+      "waste_volume": 0,
+      "count": 49,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "phytonadione (AQUA-MEPHYTON) 1mg/mL in NS - 10mL": {
+      "ndc": "Z6473816269",
+      "total_volume": 140,
+      "used_volume": 82.5,
+      "waste_volume": 57.5,
+      "count": 14,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "midazolam 5 mg/mL 10mL": {
+      "ndc": 641606001,
+      "total_volume": 320,
+      "used_volume": 320,
+      "waste_volume": 0,
+      "count": 32,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004904,
+      "total_volume": 120360,
+      "used_volume": 98874.24999999993,
+      "waste_volume": 21485.749999999996,
+      "count": 118,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "potassium chloride 20 mEq/100 mL 100mL (Baxter I.V. Systems Division)": {
+      "ndc": 338070548,
+      "total_volume": 8600,
+      "used_volume": 6613.2,
+      "waste_volume": 1986.8,
+      "count": 86,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004918,
+      "total_volume": 38955,
+      "used_volume": 32447.129999999997,
+      "waste_volume": 6507.869999999998,
+      "count": 371,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "micafungin (MYCAMINE) 1.5mg/mL in NS - 266.67mL STOCK": {
+      "ndc": "Z6473716206",
+      "total_volume": 28800.00000359998,
+      "used_volume": 19507.840003600017,
+      "waste_volume": 9292.160000000009,
+      "count": 108,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "micafungin (MYCAMINE) 1.5mg/mL in NS - 133.33mL STOCK": {
+      "ndc": "Z6473716205",
+      "total_volume": 933.3333331000001,
+      "used_volume": 933.3333331000001,
+      "waste_volume": 0,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "HYDROmorphone 10 mg/mL 1mL (Fresenius Kabi)": {
+      "ndc": 63323085103,
+      "total_volume": 23,
+      "used_volume": 22,
+      "waste_volume": 1,
+      "count": 23,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "micafungin 100mg Fresenius Kabi": {
+      "ndc": 63323072901,
+      "total_volume": 560,
+      "used_volume": 499.40000000000003,
+      "waste_volume": 60.6,
+      "count": 112,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Chlorothiazide 500mg American Regent": {
+      "ndc": 517182001,
+      "total_volume": 1400,
+      "used_volume": 1179.2200000000005,
+      "waste_volume": 220.7800000000001,
+      "count": 70,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "chlorothiazide 500 mg (APP Pharmaceuticals)": {
+      "ndc": 63323065820,
+      "total_volume": 3260,
+      "used_volume": 2974.580000000001,
+      "waste_volume": 285.41999999999996,
+      "count": 163,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "EPINEPHrine in NS 10mcg/mL - 10mL syringe (STAQ)": {
+      "ndc": 73177016403,
+      "total_volume": 990,
+      "used_volume": 622.0099999999999,
+      "waste_volume": 367.98999999999995,
+      "count": 99,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "bumetanide 0.25 mg/mL 10mL (WEST-WARD)": {
+      "ndc": 641600701,
+      "total_volume": 170,
+      "used_volume": 161.92000000000002,
+      "waste_volume": 8.08,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "phytonadione 10 mg/mL - 1mL vial (Fresenius)": {
+      "ndc": 65219063500,
+      "total_volume": 73,
+      "used_volume": 70.25,
+      "waste_volume": 2.75,
+      "count": 73,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "romiPLOStim 500 mcg/mL 250 mcg vial (Amgen)": {
+      "ndc": 55513022101,
+      "total_volume": 9,
+      "used_volume": 7.079999999999999,
+      "waste_volume": 1.9200000000000002,
+      "count": 18,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "vedolizumab (Entyvio) 300mg vial": {
+      "ndc": 64764030020,
+      "total_volume": 40,
+      "used_volume": 34.17,
+      "waste_volume": 5.83,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "gammaguard liquid 5gm": {
+      "ndc": 944270010,
+      "total_volume": 350,
+      "used_volume": 350,
+      "waste_volume": 0,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin intravenous 10% 200mL (Baxter I.V. Systems Division) 1": {
+      "ndc": 944270012,
+      "total_volume": 3000,
+      "used_volume": 3000,
+      "waste_volume": 0,
+      "count": 15,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ceFAZolin 1g (West-Ward Pharmaceutical Corporation)": {
+      "ndc": 143992490,
+      "total_volume": 340,
+      "used_volume": 250.07999999999996,
+      "waste_volume": 89.91999999999999,
+      "count": 34,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Methotrexate 25mg/ml 2ml PF (Westward)": {
+      "ndc": 143951901,
+      "total_volume": 14,
+      "used_volume": 5.120000000000001,
+      "waste_volume": 8.879999999999999,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "sodium chloride 0.9% 10mL (Fresenius Kabi)": {
+      "ndc": 63323018601,
+      "total_volume": 210,
+      "used_volume": 102.95,
+      "waste_volume": 107.05,
+      "count": 21,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Cytarabine 100 mg/mL 20mL (Fresenius)": {
+      "ndc": 63323012020,
+      "total_volume": 500,
+      "used_volume": 88.65000000000003,
+      "waste_volume": 411.35,
+      "count": 25,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cefepime (MAXIPIME) 40 mg/mL in sodium chloride(NS) 0.9% - 550mL Stock": {
+      "ndc": "Z6481216539",
+      "total_volume": 209550,
+      "used_volume": 144754.9900000001,
+      "waste_volume": 64795.00999999995,
+      "count": 381,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "cefTRIAXone 2g (Hospira)": {
+      "ndc": 409733513,
+      "total_volume": 1680,
+      "used_volume": 1469.0400000000002,
+      "waste_volume": 210.96000000000004,
+      "count": 84,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "vinCRIStine 1 mg/mL 1mL (Hospira)": {
+      "ndc": 61703030906,
+      "total_volume": 7,
+      "used_volume": 5.22,
+      "waste_volume": 1.7799999999999998,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 25mL (30mL with overfill Baxter I.V. Systems Division)": {
+      "ndc": 338004910,
+      "total_volume": 1110,
+      "used_volume": 936.9699999999998,
+      "waste_volume": 173.03000000000003,
+      "count": 37,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dexamethasone 4 mg/mL 5mL Mylan": {
+      "ndc": 67457042200,
+      "total_volume": 85,
+      "used_volume": 58.69000000000001,
+      "waste_volume": 26.309999999999995,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Irinotecan 20mg/ml 5ml (Apotex)": {
+      "ndc": 60505612801,
+      "total_volume": 35,
+      "used_volume": 16.45,
+      "waste_volume": 18.549999999999997,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dexamethasone (DECADRON) 1mg/mL NS - 20mL STOCK": {
+      "ndc": "Z6563217331",
+      "total_volume": 40,
+      "used_volume": 2.0600000000000023,
+      "waste_volume": 37.94,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "Irinotecan 20mg/ml 2ml (Sagent)": {
+      "ndc": 25021023002,
+      "total_volume": 2,
+      "used_volume": 1.1,
+      "waste_volume": 0.9,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ampicillin 2g Auromedics": {
+      "ndc": 55150011420,
+      "total_volume": 2192,
+      "used_volume": 1760.24,
+      "waste_volume": 431.7600000000001,
+      "count": 137,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cefepime 2g vial (Hikma)": {
+      "ndc": 143938301,
+      "total_volume": 2150,
+      "used_volume": 2119.45,
+      "waste_volume": 30.55,
+      "count": 172,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ampicillin (OMNIPEN) in sodium chloride 20 mg/mL - 300 mL STOCK": {
+      "ndc": "Z6473016090",
+      "total_volume": 50700,
+      "used_volume": 39335.69999999998,
+      "waste_volume": 11364.299999999997,
+      "count": 169,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "meropenem 1000mg/50mL TOTAL VOLUME Duplex": {
+      "ndc": 264318511,
+      "total_volume": 6550,
+      "used_volume": 5450.160000000001,
+      "waste_volume": 1099.84,
+      "count": 131,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "iron sucrose 20ml/mL 5mL (American Regent)": {
+      "ndc": 517234001,
+      "total_volume": 240,
+      "used_volume": 205.85999999999999,
+      "waste_volume": 34.13999999999999,
+      "count": 48,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "acyclovir 50 mg/mL 20mL Auromedics": {
+      "ndc": 55150015520,
+      "total_volume": 640,
+      "used_volume": 501.96000000000004,
+      "waste_volume": 138.04000000000002,
+      "count": 32,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Immune globulin intravenous 30g (Gammagard Liquid)": {
+      "ndc": 944270013,
+      "total_volume": 6300,
+      "used_volume": 6300,
+      "waste_volume": 0,
+      "count": 21,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "vancomycin (VANCOCIN) 5mg/mL in D5W - 1000mL !": {
+      "ndc": "Z6473816235",
+      "total_volume": 298000,
+      "used_volume": 283543.40000000014,
+      "waste_volume": 14456.599999999997,
+      "count": 298,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Gammaguard 10% 1gm": {
+      "ndc": 944270008,
+      "total_volume": 140,
+      "used_volume": 134,
+      "waste_volume": 6,
+      "count": 14,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen) #2": {
+      "ndc": 55513022321,
+      "total_volume": 1.5,
+      "used_volume": 1.04,
+      "waste_volume": 0.46,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "diphenhydrAMINE (BENADRYL) in *NS* 5 mg/mL -10mL": {
+      "ndc": "Z6473716155",
+      "total_volume": 150,
+      "used_volume": 44.24,
+      "waste_volume": 105.75999999999999,
+      "count": 15,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cefTRIAXone 10g (Hospira Inc)": {
+      "ndc": 409733410,
+      "total_volume": 12500,
+      "used_volume": 8977.949999999995,
+      "waste_volume": 3522.049999999999,
+      "count": 125,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "prochlorperazine (COMPAZINE) 1mg/mL D5W - 50mL STOCK": {
+      "ndc": "Z6715818115",
+      "total_volume": 4450,
+      "used_volume": 3269.62,
+      "waste_volume": 1180.3800000000006,
+      "count": 89,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "cyclophosphamide 2g (Baxter Healthcare Corporation) #2": {
+      "ndc": 10019095711,
+      "total_volume": 1800,
+      "used_volume": 749.55,
+      "waste_volume": 1050.4499999999998,
+      "count": 18,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "etoposide 20 mg/mL 25mL (American Pharmaceutical Partners)": {
+      "ndc": 63323010425,
+      "total_volume": 250,
+      "used_volume": 40.56999999999999,
+      "waste_volume": 209.43000000000006,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "CARBOplatin 10 mg/mL 15mL (Hospira Inc) #2": {
+      "ndc": 61703033922,
+      "total_volume": 225,
+      "used_volume": 149.1,
+      "waste_volume": 75.89999999999999,
+      "count": 15,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "fosaprepitant 150 mg (Hikma)": {
+      "ndc": 143938401,
+      "total_volume": 280,
+      "used_volume": 238.79999999999993,
+      "waste_volume": 41.19999999999999,
+      "count": 56,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "prochlorperazine 5mg/mL - 2mL vial (Sagent)": {
+      "ndc": 25021079002,
+      "total_volume": 296,
+      "used_volume": 287.52,
+      "waste_volume": 8.479999999999999,
+      "count": 148,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ampicillin and sulbactam 3g vial (WestWard)": {
+      "ndc": 641611701,
+      "total_volume": 328,
+      "used_volume": 249.04000000000005,
+      "waste_volume": 78.96000000000001,
+      "count": 41,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004911,
+      "total_volume": 2695,
+      "used_volume": 2058.8100000000013,
+      "waste_volume": 636.1900000000002,
+      "count": 49,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ampicillin-sulbactam (UNASYN) in NS 30 mg/mL- 300mL STOCK": {
+      "ndc": "Z6563317337",
+      "total_volume": 34800,
+      "used_volume": 30872,
+      "waste_volume": 3928,
+      "count": 116,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "ampicillin-sulbactam (UNASYN) in NS 30 mg/mL - 100 mL": {
+      "ndc": "Z6473016091",
+      "total_volume": 7000,
+      "used_volume": 6953,
+      "waste_volume": 47,
+      "count": 70,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Inflectra (Infliximab- dyyb) for injection 100mg": {
+      "ndc": 69080901,
+      "total_volume": 1030,
+      "used_volume": 1030,
+      "waste_volume": 0,
+      "count": 103,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin intravenous 10% 100mL (Baxter I.V. Systems Division) 1": {
+      "ndc": 944270011,
+      "total_volume": 600,
+      "used_volume": 600,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "LIB-cefepime (MAXIPIME) in sodium chloride (NS) 0.9% 40 mg/mL - 50mL STOCK": {
+      "ndc": "Z6513216836",
+      "total_volume": 2200,
+      "used_volume": 2040.7300000000007,
+      "waste_volume": 159.27,
+      "count": 44,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "cefepime (MAXIPIME) in sodium chloride (NS) 0.9% 40 mg/mL 50mL": {
+      "ndc": "Z6473616120",
+      "total_volume": 100,
+      "used_volume": 100,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "phenylephrine 10 mg/mL - 1mL vial (Fresenius Kabi)": {
+      "ndc": 63323075100,
+      "total_volume": 35,
+      "used_volume": 32.4,
+      "waste_volume": 2.6,
+      "count": 35,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cefepime (MAXIPIME) 40 mg/mL in sodium chloride (NS) 0.9% 100mL": {
+      "ndc": "Z6473616117",
+      "total_volume": 4900,
+      "used_volume": 2700.959999999999,
+      "waste_volume": 2199.04,
+      "count": 49,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "pentamidine (PENTAM) 6 mg/mL in D5W - 50mL !": {
+      "ndc": "Z6473816275",
+      "total_volume": 600,
+      "used_volume": 395.8,
+      "waste_volume": 204.2,
+      "count": 12,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "fat emulsion 20%, 500mL Intralipid": {
+      "ndc": 65219053501,
+      "total_volume": 3500,
+      "used_volume": 2101.9,
+      "waste_volume": 1398.1,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "hydrocortisone (Solu-CORTEF) *1mg/mL* in NS - 100mL Dilution": {
+      "ndc": "Z6242314602",
+      "total_volume": 38900,
+      "used_volume": 32837.549999999945,
+      "waste_volume": 6062.4499999999925,
+      "count": 389,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ketamine 100 mg/mL 5mL (West-Ward)": {
+      "ndc": 143950901,
+      "total_volume": 450,
+      "used_volume": 416.75,
+      "waste_volume": 33.25,
+      "count": 90,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Gemcitabine 1g (Sagent)": {
+      "ndc": 25021023550,
+      "total_volume": 210.526312,
+      "used_volume": 161.966312,
+      "waste_volume": 48.56,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% with KCl 40 mEq/L 1000mL (Baxter I.V. Systems Division) [40 mEq/L]": {
+      "ndc": "00338069504-01",
+      "total_volume": 12000,
+      "used_volume": 2856,
+      "waste_volume": 9144,
+      "count": 12,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "HYDROmorphone 2 mg/mL 1 mL West ward": {
+      "ndc": 641615101,
+      "total_volume": 32,
+      "used_volume": 29.5,
+      "waste_volume": 2.5,
+      "count": 32,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% in Lactated Ringers Injection 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338012504,
+      "total_volume": 17340,
+      "used_volume": 16246.3,
+      "waste_volume": 1093.7,
+      "count": 17,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "pentamidine 300mg (Fresenius)": {
+      "ndc": 63323011301,
+      "total_volume": 110,
+      "used_volume": 70.89999999999999,
+      "waste_volume": 39.099999999999994,
+      "count": 22,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "axatilimab-csfr 9mg/0.18mL injection (Incyte Pharma)": {
+      "ndc": 50881003412,
+      "total_volume": 1.9799999999999995,
+      "used_volume": 1.71,
+      "waste_volume": 0.27,
+      "count": 11,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ampicillin (OMNIPEN) in sodium chloride 20 mg/mL- 100mL Stock": {
+      "ndc": "Z6471816069",
+      "total_volume": 800,
+      "used_volume": 360.20000000000005,
+      "waste_volume": 439.79999999999995,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "calaspargase pegol-mknl 750units/1mL - 5mL vial (Servier)": {
+      "ndc": 72694051501,
+      "total_volume": 5,
+      "used_volume": 4.07,
+      "waste_volume": 0.93,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "vinCRIStine 1 mg/mL 2mL (Hospira)": {
+      "ndc": 61703030916,
+      "total_volume": 44,
+      "used_volume": 33.33,
+      "waste_volume": 10.670000000000002,
+      "count": 22,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "leucovorin 200mg (Hikma)": {
+      "ndc": 143955301,
+      "total_volume": 120,
+      "used_volume": 32.199999999999996,
+      "waste_volume": 87.80000000000001,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Ethanol 70% STOCK 3mL (Dehydrated alcohol 2.12 mL/ 0.88 mL Sterile Water)": {
+      "ndc": "Z6610817285",
+      "total_volume": 3,
+      "used_volume": 0.7000000000000002,
+      "waste_volume": 2.3,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "acetaminophen 10mg/mL - 100mL bag (Baxter)": {
+      "ndc": 36000030660,
+      "total_volume": 47600,
+      "used_volume": 43078.200000000004,
+      "waste_volume": 4521.799999999998,
+      "count": 476,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cosyntropin 1mcg/mL in NS - 250mL !": {
+      "ndc": "Z6473616135",
+      "total_volume": 1000,
+      "used_volume": 4,
+      "waste_volume": 996,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "desmopressin 4 mcg/mL 10mL (Amring)": {
+      "ndc": 69918090110,
+      "total_volume": 200,
+      "used_volume": 60.44,
+      "waste_volume": 139.56000000000003,
+      "count": 20,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "heparin 1000 units/mL -10mL (Phlow Corp.)": {
+      "ndc": 81565020301,
+      "total_volume": 1610,
+      "used_volume": 1449.1600000000003,
+      "waste_volume": 160.83999999999995,
+      "count": 161,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "teduglutide [rDNA origin] for injection 5mg (Gattex)": {
+      "ndc": 68875010301,
+      "total_volume": 19,
+      "used_volume": 11.05,
+      "waste_volume": 7.950000000000001,
+      "count": 38,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "magnesium sulfate 40mg/mL - 50mL bag (Fresenius)": {
+      "ndc": 63323010602,
+      "total_volume": 3100,
+      "used_volume": 2166.52,
+      "waste_volume": 933.4799999999999,
+      "count": 62,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 25mL !": {
+      "ndc": "Z6473716203",
+      "total_volume": 225,
+      "used_volume": 82.19999999999999,
+      "waste_volume": 142.8,
+      "count": 9,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "azithromycin 500 mg (Auromedics)": {
+      "ndc": 55150017410,
+      "total_volume": 10,
+      "used_volume": 7.2,
+      "waste_volume": 2.8,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% in Water 50mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338001741,
+      "total_volume": 7975,
+      "used_volume": 5424.080000000008,
+      "waste_volume": 2550.9200000000014,
+      "count": 145,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "LIB-methylPREDNISolone (Solu-MEDROL) 5mg/mL in D5W - 25mL": {
+      "ndc": "Z6513616905",
+      "total_volume": 425,
+      "used_volume": 328.8,
+      "waste_volume": 96.20000000000002,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "iron dextran 50mg/mL Allergan": {
+      "ndc": 23608201,
+      "total_volume": 188,
+      "used_volume": 186.2,
+      "waste_volume": 1.8,
+      "count": 94,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "tocilizumab (Actemra) 400mg/20mL Genetech": {
+      "ndc": 50242013701,
+      "total_volume": 120,
+      "used_volume": 120,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "tocilizumab (Actemra) 200mg/10mL Genetech": {
+      "ndc": 50242013601,
+      "total_volume": 60,
+      "used_volume": 53.6,
+      "waste_volume": 6.4,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Dextrose 5% with 0.9% NaCl 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338008904,
+      "total_volume": 21000,
+      "used_volume": 20897.9,
+      "waste_volume": 102.09999999999995,
+      "count": 21,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division)": {
+      "ndc": 338105548,
+      "total_volume": 10500,
+      "used_volume": 9412.800000000001,
+      "waste_volume": 1087.1999999999998,
+      "count": 105,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "metroNIDAZOLE 5mg/mL 100mL (Hospira Inc)": {
+      "ndc": 409015201,
+      "total_volume": 11500,
+      "used_volume": 9877.5,
+      "waste_volume": 1622.5,
+      "count": 115,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Lactated Ringers Injection 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338011704,
+      "total_volume": 2040,
+      "used_volume": 1994,
+      "waste_volume": 46,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "LIB-ampicillin (OMNIPEN) in sodium chloride 20 mg/mL -25mL STOCK": {
+      "ndc": "Z6513216831",
+      "total_volume": 700,
+      "used_volume": 647.8000000000001,
+      "waste_volume": 52.199999999999996,
+      "count": 28,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "SMOFlipid 250mL 20%": {
+      "ndc": 63323082004,
+      "total_volume": 28000,
+      "used_volume": 22784.9,
+      "waste_volume": 5215.1,
+      "count": 112,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin subcutaneous (human) 20% - Hizentra - 20mL syringe": {
+      "ndc": 44206045824,
+      "total_volume": 140,
+      "used_volume": 140,
+      "waste_volume": 0,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cefOXitin 2g (Sagent)": {
+      "ndc": 25021011020,
+      "total_volume": 1120,
+      "used_volume": 994.7999999999997,
+      "waste_volume": 125.19999999999999,
+      "count": 56,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "potassium phosphate 3 mmol/mL - 15mL vial (Amneal)": {
+      "ndc": 80830169101,
+      "total_volume": 825,
+      "used_volume": 329.58999999999975,
+      "waste_volume": 495.4100000000001,
+      "count": 55,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "hydrocortisone 100 mg (Pfizer U.S. Pharmceutical Group)": {
+      "ndc": 9001103,
+      "total_volume": 106,
+      "used_volume": 101.36,
+      "waste_volume": 4.640000000000001,
+      "count": 53,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Cefepime for injection 2 grams": {
+      "ndc": 60505614700,
+      "total_volume": 212.5,
+      "used_volume": 194.99,
+      "waste_volume": 17.51,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "LIB-ceFAZolin (ANCEF) 2000mg/20ml in SW": {
+      "ndc": "Z6511916802",
+      "total_volume": 400,
+      "used_volume": 386.28,
+      "waste_volume": 13.719999999999999,
+      "count": 20,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "enoxaparin 100 mg/mL - 3mL (Meitheal)": {
+      "ndc": 71288042603,
+      "total_volume": 489,
+      "used_volume": 392.5700000000003,
+      "waste_volume": 96.42999999999988,
+      "count": 163,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "leveTIRACEtam in NaCl 1500mg/100mL (Nexus)": {
+      "ndc": 14789033008,
+      "total_volume": 10700,
+      "used_volume": 8946.69,
+      "waste_volume": 1753.3099999999997,
+      "count": 107,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "pantoprazole (PROTONIX) 4mg/mL *NS* 50mL": {
+      "ndc": "Z6418315967",
+      "total_volume": 14300,
+      "used_volume": 12000.789999999995,
+      "waste_volume": 2299.2099999999978,
+      "count": 286,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "metroNIDAZOLE 500 mg/100 mL 100mL (Baxter I.V. Systems Division) [5mg/mL]": {
+      "ndc": "00338105548-01",
+      "total_volume": 8200,
+      "used_volume": 7364.700000000001,
+      "waste_volume": 835.3000000000002,
+      "count": 82,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "pantoprazole 40mg (Meitheal)": {
+      "ndc": 71288060010,
+      "total_volume": 1500,
+      "used_volume": 1407.88,
+      "waste_volume": 92.12,
+      "count": 150,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Morphine 10 mg/mL West Ward": {
+      "ndc": 641612701,
+      "total_volume": 105,
+      "used_volume": 97.40000000000006,
+      "waste_volume": 7.599999999999997,
+      "count": 105,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "nalbuphine (NUBAIN) 1mg/mL in NS - 20mL": {
+      "ndc": "Z6576317394",
+      "total_volume": 20,
+      "used_volume": 0.5300000000000011,
+      "waste_volume": 19.47,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "morphine 1 mg/mL preservative-free 2mL (STAQ PHARMA)": {
+      "ndc": 73177010501,
+      "total_volume": 18,
+      "used_volume": 10.200000000000001,
+      "waste_volume": 7.799999999999999,
+      "count": 9,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "GENTamicin 0.48 mg/mL NS IRRIGATION STOCK (IN BAG) - 273.3mL": {
+      "ndc": "Z6474116290",
+      "total_volume": 8745.600000000002,
+      "used_volume": 4005,
+      "waste_volume": 4740.600000000003,
+      "count": 32,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "enoxaparin 100 mg/mL 3mL (Amphastar)": {
+      "ndc": 548560800,
+      "total_volume": 42,
+      "used_volume": 30.09999999999999,
+      "waste_volume": 11.899999999999997,
+      "count": 14,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 10% with 0.2% NaCl 250mL (B. Braun Medical)": {
+      "ndc": 264762320,
+      "total_volume": 29160,
+      "used_volume": 26932.589999999982,
+      "waste_volume": 2227.410000000006,
+      "count": 108,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "heparin 100 units/mL - 5mL syr. (Medefil Inc)": {
+      "ndc": 64253033335,
+      "total_volume": 865,
+      "used_volume": 650.3899999999988,
+      "waste_volume": 214.6100000000001,
+      "count": 173,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "inFLIXimab 100mg (Janssen)": {
+      "ndc": 57894016001,
+      "total_volume": 1760,
+      "used_volume": 1742.8000000000002,
+      "waste_volume": 17.2,
+      "count": 176,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Lactated Ringers Injection 500mL (Baxter I.V. Systems Division)": {
+      "ndc": 338011703,
+      "total_volume": 12190,
+      "used_volume": 11345,
+      "waste_volume": 845,
+      "count": 23,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ropivacaine 0.2% with epi 1:200,000 - 100mL OR STOCK": {
+      "ndc": "Z6503116712",
+      "total_volume": 1100,
+      "used_volume": 492,
+      "waste_volume": 608,
+      "count": 11,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "tranexamic acid 100mg/mL 10mL (Eugia)": {
+      "ndc": 55150018810,
+      "total_volume": 740,
+      "used_volume": 661.1799999999998,
+      "waste_volume": 78.82000000000001,
+      "count": 74,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "triamcinolone acetonide injectable suspension 40mg/mL (1mL) Amneal Pharmaceuticals LLC": {
+      "ndc": 70121104901,
+      "total_volume": 1,
+      "used_volume": 0.30000000000000004,
+      "waste_volume": 0.7,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sulfamethoxazole-trimethoprim 80 mg-16 mg/mL - 10mL vial (Somerset)": {
+      "ndc": 70069036201,
+      "total_volume": 710,
+      "used_volume": 507.9900000000001,
+      "waste_volume": 202.01,
+      "count": 71,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "fat emulsion 20%, 100mL Intralipid": {
+      "ndc": 65219053101,
+      "total_volume": 6400,
+      "used_volume": 3601.3,
+      "waste_volume": 2798.7000000000003,
+      "count": 64,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "caffeine citrate 20 mg/mL Sagent": {
+      "ndc": 25021060103,
+      "total_volume": 99,
+      "used_volume": 58.22,
+      "waste_volume": 40.78,
+      "count": 33,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Vitamin A 50,000 units/mL - 2mL (Casper)": {
+      "ndc": 70199002611,
+      "total_volume": 14,
+      "used_volume": 1.2999999999999998,
+      "waste_volume": 12.700000000000001,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "fat emulsion 20%, 250mL Intralipid": {
+      "ndc": 65219053301,
+      "total_volume": 10250,
+      "used_volume": 4085.7000000000016,
+      "waste_volume": 6164.299999999999,
+      "count": 41,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "vinBLAStine 1mg/mL 10mg (Fresenius)": {
+      "ndc": 63323027810,
+      "total_volume": 70,
+      "used_volume": 40.980000000000004,
+      "waste_volume": 29.020000000000003,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dexrazoxane 500mg (Eugia)": {
+      "ndc": 55150043701,
+      "total_volume": 1300,
+      "used_volume": 1119.5700000000002,
+      "waste_volume": 180.42999999999998,
+      "count": 26,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "DOXOrubicin 2mg/ml 25ml (Sagent)": {
+      "ndc": 25021020725,
+      "total_volume": 500,
+      "used_volume": 373.4,
+      "waste_volume": 126.6,
+      "count": 20,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dacarbazine 200mg (Fresenius Kabi)": {
+      "ndc": 63323012800,
+      "total_volume": 300,
+      "used_volume": 256.3,
+      "waste_volume": 43.699999999999996,
+      "count": 15,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Dextrose 5% in Water 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338001704,
+      "total_volume": 67320,
+      "used_volume": 59894.64999999995,
+      "waste_volume": 7425.349999999994,
+      "count": 66,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "prochlorperazine (COMPAZINE) 1mg/mL D5W - 10mL STOCK": {
+      "ndc": "Z6694018029",
+      "total_volume": 100,
+      "used_volume": 100,
+      "waste_volume": 0,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "calcium gluconate 100mg/mL 50mL (Fresenius Kabi)": {
+      "ndc": 63323036003,
+      "total_volume": 350,
+      "used_volume": 350,
+      "waste_volume": 0,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "pegunigalsidase alfa-iwxj 2mg/mL - 10mL vial (Chiesi)": {
+      "ndc": 10122016002,
+      "total_volume": 40,
+      "used_volume": 40,
+      "waste_volume": 0,
+      "count": 4,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "agalsidase beta 35mg (Genzyme Corporation)": {
+      "ndc": 58468004001,
+      "total_volume": 14,
+      "used_volume": 14,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "agalsidase beta 5mg (Genzyme Corporation)": {
+      "ndc": 58468004101,
+      "total_volume": 5,
+      "used_volume": 5,
+      "waste_volume": 0,
+      "count": 5,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "indocyanine green 25mg (Renew Pharmaceuticals) [5mg/mL]": {
+      "ndc": "70100072501-01",
+      "total_volume": 35,
+      "used_volume": 25.75,
+      "waste_volume": 9.25,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sterile water - 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338001304,
+      "total_volume": 340000,
+      "used_volume": 205750.2100000003,
+      "waste_volume": 134249.78999999966,
+      "count": 340,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "indocyanine green for injection 25 mg vial (stryker)": {
+      "ndc": 66259014601,
+      "total_volume": 5,
+      "used_volume": 0.25,
+      "waste_volume": 4.75,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sirolimus protein-bound particles (FYARRO) 100mg vial (Aadi Bioscience)": {
+      "ndc": 80803015350,
+      "total_volume": 40,
+      "used_volume": 34.2,
+      "waste_volume": 5.8,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "casimersen 50mg/1mL 2mL (Sarepta)": {
+      "ndc": 60923022702,
+      "total_volume": 34,
+      "used_volume": 34,
+      "waste_volume": 0,
+      "count": 17,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Dactinomycin 0.5mg (Auromedics)": {
+      "ndc": 55150043101,
+      "total_volume": 7,
+      "used_volume": 6.2299999999999995,
+      "waste_volume": 0.77,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "PHENOBarbital 65 mg/mL 1mL (Cameron Pharmaceuticals)": {
+      "ndc": 42494041501,
+      "total_volume": 69,
+      "used_volume": 60.70999999999998,
+      "waste_volume": 8.29,
+      "count": 69,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 100mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338004948,
+      "total_volume": 7665,
+      "used_volume": 4466.969999999999,
+      "waste_volume": 3198.03,
+      "count": 73,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "diphenhydrAMINE 50 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": {
+      "ndc": 641037621,
+      "total_volume": 15,
+      "used_volume": 12.16,
+      "waste_volume": 2.84,
+      "count": 15,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "LIB-prochlorperazine (COMPAZINE) 1mg/mL D5W- 10mL - STOCK": {
+      "ndc": "Z6693818027",
+      "total_volume": 190,
+      "used_volume": 156.03,
+      "waste_volume": 33.97,
+      "count": 19,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "famotidine 10mg/mL - 2mL vial (Fresenius)": {
+      "ndc": 63323073911,
+      "total_volume": 22,
+      "used_volume": 11.82,
+      "waste_volume": 10.179999999999998,
+      "count": 11,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.9% 50mL (Baxter I.V. Systems Division) #3": {
+      "ndc": 338004941,
+      "total_volume": 4290,
+      "used_volume": 2874.1099999999997,
+      "waste_volume": 1415.8900000000006,
+      "count": 78,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "vancomycin 500mg (Hospira Inc) -2": {
+      "ndc": 409433211,
+      "total_volume": 260,
+      "used_volume": 202.38,
+      "waste_volume": 57.620000000000005,
+      "count": 26,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "vancomycin 1gm - vial (Hikma)": {
+      "ndc": 143916201,
+      "total_volume": 620,
+      "used_volume": 444.1,
+      "waste_volume": 175.9,
+      "count": 31,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "bupivacaine liposome (EXPAREL) 1.3% 20mL (Pacira Pharma)": {
+      "ndc": 65250026620,
+      "total_volume": 40,
+      "used_volume": 32.4,
+      "waste_volume": 7.6,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "bupivacaine 0.5% - 30mL vial (Eugia)": {
+      "ndc": 55150017030,
+      "total_volume": 180,
+      "used_volume": 108.45,
+      "waste_volume": 71.55,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "tranexamic acid 100mg/mL - 10 mL vial (Sagent)": {
+      "ndc": 25021041510,
+      "total_volume": 290,
+      "used_volume": 193.74,
+      "waste_volume": 96.25999999999999,
+      "count": 29,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Acyclovir 50 mg/mL 20 mL (Fresnius)": {
+      "ndc": 65219062404,
+      "total_volume": 40,
+      "used_volume": 5.259999999999998,
+      "waste_volume": 34.74,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Ceftazidime 1g (WG Critical Care, LLC)": {
+      "ndc": 44567023525,
+      "total_volume": 237.6000000000001,
+      "used_volume": 120.73999999999997,
+      "waste_volume": 116.86,
+      "count": 22,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "acyclovir (ZOVIRAX) in sodium chloride 7 mg/mL- 290mL": {
+      "ndc": "Z6473016076",
+      "total_volume": 12470,
+      "used_volume": 3874.799999999999,
+      "waste_volume": 8595.199999999997,
+      "count": 43,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cyclophosphamide 1g (Baxter Healthcare Corporation)": {
+      "ndc": 10019095616,
+      "total_volume": 500,
+      "used_volume": 276.34999999999997,
+      "waste_volume": 223.64999999999998,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division)": {
+      "ndc": 10019095301,
+      "total_volume": 620,
+      "used_volume": 450.89999999999986,
+      "waste_volume": 169.1,
+      "count": 62,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "metoclopramide 5mg/mL - 2mL (Sicor)": {
+      "ndc": 703450201,
+      "total_volume": 40,
+      "used_volume": 18.029999999999998,
+      "waste_volume": 21.97,
+      "count": 20,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "dianeal low calcium w/ dextrose 1.5% 2000mL": {
+      "ndc": 941040906,
+      "total_volume": 14000,
+      "used_volume": 13988.6,
+      "waste_volume": 11.4,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dianeal low calcium w/ dextrose 2.5% 2000mL": {
+      "ndc": 941045708,
+      "total_volume": 16000,
+      "used_volume": 15973.2,
+      "waste_volume": 26.8,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dianeal low calcium 1.5% Dextrose 5000mL Peritoneal Dialysis Solution": {
+      "ndc": 941040907,
+      "total_volume": 15000,
+      "used_volume": 14995.5,
+      "waste_volume": 4.5,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cysteine hydrochloride injection 50 mg/mL - 10mL vial (Exela) [1 mL/mL]": {
+      "ndc": "51754100701-01",
+      "total_volume": 20,
+      "used_volume": 2.039999999999999,
+      "waste_volume": 17.96,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ciprofloxacin in D5W 2mg/mL - 200mL (Sagent)": {
+      "ndc": 25021019287,
+      "total_volume": 15200,
+      "used_volume": 13637,
+      "waste_volume": 1563,
+      "count": 76,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "valproic acid 100 mg/mL 5mL Hikma": {
+      "ndc": 143978501,
+      "total_volume": 330,
+      "used_volume": 300.67,
+      "waste_volume": 29.329999999999995,
+      "count": 66,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "LIB-cefTRIAXone (ROCEPHIN) in *NS* 100 mg/mL 20mL STOCK": {
+      "ndc": "Z6712318146",
+      "total_volume": 300,
+      "used_volume": 195.25,
+      "waste_volume": 104.75,
+      "count": 15,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "LIB-cefepime (MAXIPIME) 40 mg/mL in sodium chloride (NS) 0.9% - 25mL STOCK": {
+      "ndc": "Z6513216835",
+      "total_volume": 75,
+      "used_volume": 62.88,
+      "waste_volume": 12.12,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "ketorolac 15 mg/mL 1mL (Fresenius Kabi)": {
+      "ndc": 63323016100,
+      "total_volume": 162,
+      "used_volume": 138.28999999999994,
+      "waste_volume": 23.710000000000015,
+      "count": 162,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "pembrolizumab 25mg/ml 4mL (Merck & Co.)": {
+      "ndc": 6302602,
+      "total_volume": 16,
+      "used_volume": 10.36,
+      "waste_volume": 5.640000000000001,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Dextrose 10% in Water 250mL (Baxter I.V. Systems Division)": {
+      "ndc": 338002302,
+      "total_volume": 8370,
+      "used_volume": 7247.439999999998,
+      "waste_volume": 1122.5600000000004,
+      "count": 31,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ceFAZolin 1g (West-Ward Pharmaceutical Corporation) [200 mg/mL-S-conjunc]": {
+      "ndc": "00143992490-01",
+      "total_volume": 20,
+      "used_volume": 8,
+      "waste_volume": 12,
+      "count": 4,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "LUXTURNA (voretigene neparvovec-rzyl) (5x1012vg/mL) vial": {
+      "ndc": 71394006501,
+      "total_volume": 3,
+      "used_volume": 0.2999999999999998,
+      "waste_volume": 2.7,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "PHENobarbital 10mg/mL in SW - 6.5mL": {
+      "ndc": "Z6473816271",
+      "total_volume": 91,
+      "used_volume": 5.3199999999999985,
+      "waste_volume": 85.68,
+      "count": 14,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "methylPREDNISolone 500mg (Dr. Reddys) [62.5 mg/mL] D5W NS": {
+      "ndc": "43598012811-01",
+      "total_volume": 320,
+      "used_volume": 297.34,
+      "waste_volume": 22.66,
+      "count": 40,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) Braun": {
+      "ndc": 264346220,
+      "total_volume": 11000,
+      "used_volume": 2077.7400000000002,
+      "waste_volume": 8922.259999999998,
+      "count": 44,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) Hospira": {
+      "ndc": 409765005,
+      "total_volume": 1500,
+      "used_volume": 54.03000000000003,
+      "waste_volume": 1445.97,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Heparin 25,000 units/250mL 0.45% Sodium Chloride (100 units/mL) fresenius kabi": {
+      "ndc": 63323051701,
+      "total_volume": 4750,
+      "used_volume": 3696.520000000001,
+      "waste_volume": 1053.4800000000002,
+      "count": 19,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ropivacaine (NAROPIN) 0.2 % - EPINEPHrine (ADRENALIN) 1:200,000 injection- 20mL": {
+      "ndc": "Z6620317668",
+      "total_volume": 20,
+      "used_volume": 10,
+      "waste_volume": 10,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "gentamicin 10 mg/mL - 2mL vial (Fresenius Kabi)": {
+      "ndc": 63323017301,
+      "total_volume": 4,
+      "used_volume": 0.7999999999999998,
+      "waste_volume": 3.2,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Vinorelbine 10 mg/mL 5 mL (Sagent Laboratoires)": {
+      "ndc": 25021020405,
+      "total_volume": 5,
+      "used_volume": 4.38,
+      "waste_volume": 0.62,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "methylPREDNISolone 1g (Fresenius Kabi) NS/D5W [62.5 mg/mL]": {
+      "ndc": "63323026530-01",
+      "total_volume": 32,
+      "used_volume": 16.35,
+      "waste_volume": 15.65,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "levOCARNitine 200 mg/mL 5mL (Sigma-Tau Pharmaceuticals Inc) #2": {
+      "ndc": 54482014701,
+      "total_volume": 325,
+      "used_volume": 266.35,
+      "waste_volume": 58.65,
+      "count": 65,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "levOCARNitine 200 mg/mL - 5mL (Hikma)": {
+      "ndc": 143985201,
+      "total_volume": 345,
+      "used_volume": 269.85,
+      "waste_volume": 75.15,
+      "count": 69,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "piperacillin-tazobactam in dextrose 3g-0.375g (Baxter)": {
+      "ndc": 338963601,
+      "total_volume": 10100,
+      "used_volume": 8987.019999999999,
+      "waste_volume": 1112.9799999999998,
+      "count": 202,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "fluconazole 200mg/100mL NS Sagent 2": {
+      "ndc": 25021018482,
+      "total_volume": 2800,
+      "used_volume": 1449.7800000000002,
+      "waste_volume": 1350.2199999999998,
+      "count": 28,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "EPINEPHrine 0.1 mg/mL 10mL (International Medication Systems, Limited) #6": {
+      "ndc": 76329331801,
+      "total_volume": 230,
+      "used_volume": 96.62,
+      "waste_volume": 133.38,
+      "count": 23,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "butorphanol 1 mg/mL 1mL (Hospira)": {
+      "ndc": 409162321,
+      "total_volume": 3,
+      "used_volume": 1.04,
+      "waste_volume": 1.96,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ropivacaine 0.5% 30mL Fresenius Kabi": {
+      "ndc": 63323028611,
+      "total_volume": 1410,
+      "used_volume": 1260.8,
+      "waste_volume": 149.2,
+      "count": 47,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "fludarabine 25mg/mL 2mL (Fresenius Kabi)": {
+      "ndc": 63323019202,
+      "total_volume": 16,
+      "used_volume": 5.559999999999999,
+      "waste_volume": 10.440000000000001,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Dextrose 5% with 0.45% NaCl 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338008504,
+      "total_volume": 34680,
+      "used_volume": 33199.42,
+      "waste_volume": 1480.5799999999997,
+      "count": 34,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Melphalan 50mg (Dr. Reddy's)": {
+      "ndc": 43598039248,
+      "total_volume": 60,
+      "used_volume": 56.6,
+      "waste_volume": 3.4,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "letermovir (Prevymis) 480mg/24mL vial": {
+      "ndc": 6500402,
+      "total_volume": 216,
+      "used_volume": 178,
+      "waste_volume": 38,
+      "count": 9,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "hydrALAZINE (APRESOLINE) 1mg/mL in SW - 20mL": {
+      "ndc": "Z6242314600",
+      "total_volume": 1520,
+      "used_volume": 771.8500000000004,
+      "waste_volume": 748.1499999999997,
+      "count": 76,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "valproic acid 100 mg/mL 5mL (Fresenius kabi--2)": {
+      "ndc": 63323049401,
+      "total_volume": 15,
+      "used_volume": 11.42,
+      "waste_volume": 3.58,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "anakinra 100mg/0.67mL Syringe biovitrum #2": {
+      "ndc": 66658023401,
+      "total_volume": 10.05,
+      "used_volume": 5.480000000000001,
+      "waste_volume": 4.569999999999999,
+      "count": 15,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methylPREDNISolone 500mg (Dr. Reddys) SW": {
+      "ndc": 43598012811,
+      "total_volume": 80,
+      "used_volume": 51.43000000000001,
+      "waste_volume": 28.57,
+      "count": 10,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "canakinumab injection 150mg/mL - 1mL vial (Novartis)": {
+      "ndc": 78073461,
+      "total_volume": 1,
+      "used_volume": 0.4,
+      "waste_volume": 0.6,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "remdesivir (VEKLURY) 100mg injection (Gilead)": {
+      "ndc": 61958290102,
+      "total_volume": 40,
+      "used_volume": 26.729999999999997,
+      "waste_volume": 13.27,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Ropivacaine (Naropin) 0.2% 10mL Fresenius Kabi": {
+      "ndc": 63323028503,
+      "total_volume": 10,
+      "used_volume": 6.25,
+      "waste_volume": 3.75,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "erythromycin lactobionate 500mg Hospira 1": {
+      "ndc": 409648211,
+      "total_volume": 170,
+      "used_volume": 21.5,
+      "waste_volume": 148.5,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methylPREDNISolone 1g (Dr Reddys) SWFI [62.5mg/mL]": {
+      "ndc": 43598013074,
+      "total_volume": 464,
+      "used_volume": 359.2,
+      "waste_volume": 104.80000000000001,
+      "count": 29,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "gentamicin 40 mg/mL 20mL (Fresenius Kabi)": {
+      "ndc": 63323001003,
+      "total_volume": 340,
+      "used_volume": 243.93999999999997,
+      "waste_volume": 96.06,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.45% 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004304,
+      "total_volume": 41820,
+      "used_volume": 40365.40999999999,
+      "waste_volume": 1454.5899999999997,
+      "count": 41,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "thiamine 100 mg/mL 2mL Fresenius Kabi": {
+      "ndc": 63323001301,
+      "total_volume": 196,
+      "used_volume": 187.56,
+      "waste_volume": 8.44,
+      "count": 98,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Nivolumab 10mg/ml 10ml (Bristol-Myers Squibb)": {
+      "ndc": 3377412,
+      "total_volume": 60,
+      "used_volume": 58.2,
+      "waste_volume": 1.8,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ketamine 50mg/1mL - 10mL (Hikma)": {
+      "ndc": 143950801,
+      "total_volume": 50,
+      "used_volume": 23.38,
+      "waste_volume": 26.62,
+      "count": 5,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sodium bicarbonate 4.2% 5mL (Hospira)": {
+      "ndc": 409555512,
+      "total_volume": 105,
+      "used_volume": 74,
+      "waste_volume": 31,
+      "count": 21,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "idursulfase 2 mg/mL 3mL (Shire US Inc)": {
+      "ndc": 54092070001,
+      "total_volume": 18,
+      "used_volume": 18,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "phenylephrine 100mcg/mL - 10mL syringe (STAQ)": {
+      "ndc": 73177010803,
+      "total_volume": 80,
+      "used_volume": 5.699999999999999,
+      "waste_volume": 74.30000000000001,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "treprostinil 1mg/1mL 20mL vial (Teva)": {
+      "ndc": 703066601,
+      "total_volume": 100,
+      "used_volume": 25.2,
+      "waste_volume": 74.8,
+      "count": 5,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "azaCITIDine 100mg (Dr Reddy's)": {
+      "ndc": 43598030562,
+      "total_volume": 150,
+      "used_volume": 103.85,
+      "waste_volume": 46.150000000000006,
+      "count": 15,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Daratumumab 20mg/ml 20ml (Janssen)": {
+      "ndc": 57894050520,
+      "total_volume": 60,
+      "used_volume": 60,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Daratumumab 20mg/ml 5ml (Janssen)": {
+      "ndc": 57894050505,
+      "total_volume": 25,
+      "used_volume": 21.8,
+      "waste_volume": 3.2,
+      "count": 5,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Nivolumab 10mg/ml 4ml (Bristol-Myers Squibb)": {
+      "ndc": 3377211,
+      "total_volume": 4,
+      "used_volume": 1.7999999999999998,
+      "waste_volume": 2.2,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Ifosfamide 3g (Baxter I.V. Systems Division) #1": {
+      "ndc": 10019092616,
+      "total_volume": 780,
+      "used_volume": 558.1999999999999,
+      "waste_volume": 221.79999999999998,
+      "count": 13,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "albuterol sulfate inhalation solution 0.5% 5mg/mL - 20mL (Staq #2)": {
+      "ndc": 73177016333,
+      "total_volume": 1320,
+      "used_volume": 1240,
+      "waste_volume": 80,
+      "count": 66,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methylPREDNISolone (Solu-MEDROL) *1mg/mL in D5W - 40mL !": {
+      "ndc": "Z6473716200",
+      "total_volume": 760,
+      "used_volume": 352,
+      "waste_volume": 408,
+      "count": 19,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "H.P. Acthar gel Repository Corticotropin 5ml Vial Questor Pharmaceuticals": {
+      "ndc": 63004871001,
+      "total_volume": 25,
+      "used_volume": 18.4,
+      "waste_volume": 6.6,
+      "count": 5,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "azithromycin (ZITHROMAX) in D5W 2 mg/mL - 250mL": {
+      "ndc": "Z6473616106",
+      "total_volume": 250,
+      "used_volume": 45.66999999999999,
+      "waste_volume": 204.33,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "gammagard liquid 10% 25mL": {
+      "ndc": 944270009,
+      "total_volume": 100,
+      "used_volume": 90,
+      "waste_volume": 10,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin intravenous 10% 50mL (Talecris Biotherapeutics) gamunex-c 1": {
+      "ndc": 13533080021,
+      "total_volume": 50,
+      "used_volume": 50,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "potassium chloride 2 mEq/mL 30mL (Fresenius Kabi)": {
+      "ndc": 63323096701,
+      "total_volume": 570,
+      "used_volume": 480,
+      "waste_volume": 90,
+      "count": 19,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "calcium chloride 100 mg/mL 10mL (American Regent)": {
+      "ndc": 517671001,
+      "total_volume": 2660,
+      "used_volume": 2467.5,
+      "waste_volume": 192.49999999999994,
+      "count": 266,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Mannitol 20% 500 mL (ICU Medical)": {
+      "ndc": 990771513,
+      "total_volume": 6000,
+      "used_volume": 398,
+      "waste_volume": 5602,
+      "count": 12,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "famotidine (PEPCID) 4mg/mL NS - 10mL": {
+      "ndc": "Z6473716177",
+      "total_volume": 70,
+      "used_volume": 2.3200000000000003,
+      "waste_volume": 67.68,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "famotidine (PEPCID) 4 mg/mL NS 5 mL stock": {
+      "ndc": "Z6567817360",
+      "total_volume": 105,
+      "used_volume": 48.269999999999996,
+      "waste_volume": 56.730000000000004,
+      "count": 21,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "metroNIDAZOLE 500 mg/100 mL (Sagent)": {
+      "ndc": 25021013182,
+      "total_volume": 1400,
+      "used_volume": 1400,
+      "waste_volume": 0,
+      "count": 14,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Methotrexate 25 mg/mL 10mL (Teva)": {
+      "ndc": 703367501,
+      "total_volume": 20,
+      "used_volume": 12.98,
+      "waste_volume": 7.02,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin intravenous 10% 200mL (Grifols)": {
+      "ndc": 13533080025,
+      "total_volume": 3400,
+      "used_volume": 3400,
+      "waste_volume": 0,
+      "count": 17,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin intravenous 10% 100mL Grifols Gammunex-C": {
+      "ndc": 13533080072,
+      "total_volume": 400,
+      "used_volume": 400,
+      "waste_volume": 0,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "pegfilgrastim-jmdb 6mg/0.6mL - syringe (Biocon Biologics)": {
+      "ndc": 83257000541,
+      "total_volume": 4.2,
+      "used_volume": 2.01,
+      "waste_volume": 2.1900000000000004,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sodium phosphate 3mmol/1mL - 15mL (Fresenius)": {
+      "ndc": "63323088101-01",
+      "total_volume": 435,
+      "used_volume": 139.16000000000003,
+      "waste_volume": 295.84000000000003,
+      "count": 29,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Somerset) [4.4mEq/mL]": {
+      "ndc": "70069074701-01",
+      "total_volume": 360,
+      "used_volume": 254.11,
+      "waste_volume": 105.89,
+      "count": 24,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "filgrastim-sndz (ZARXIO) 15 mcg/ml in D5W- 20 ml": {
+      "ndc": "Z6473716182",
+      "total_volume": 320,
+      "used_volume": 233.42,
+      "waste_volume": 86.58000000000001,
+      "count": 16,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "nafcillin 1g (Auromedics)": {
+      "ndc": 55150012215,
+      "total_volume": 72,
+      "used_volume": 48.87999999999999,
+      "waste_volume": 23.119999999999997,
+      "count": 18,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "nafcillin (UNIPEN) 30mg/mL in **NS** - 66.67mL !": {
+      "ndc": "Z6473716221",
+      "total_volume": 6000.300000000005,
+      "used_volume": 4526.750000000002,
+      "waste_volume": 1473.5500000000004,
+      "count": 90,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "CISplatin 1 mg/mL - 100mL vial (Sagent)": {
+      "ndc": 25021025351,
+      "total_volume": 100,
+      "used_volume": 62,
+      "waste_volume": 38,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "magnesium sulfate 50% 2mL Fresenius Kabi": {
+      "ndc": 63323006401,
+      "total_volume": 22,
+      "used_volume": 21.79,
+      "waste_volume": 0.21,
+      "count": 11,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "sterile water 100mL (Hospira Inc)": {
+      "ndc": 409488725,
+      "total_volume": 2100,
+      "used_volume": 1266.0600000000004,
+      "waste_volume": 833.94,
+      "count": 21,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "riTUXimab 10 mg/mL 10mL (Genentech)": {
+      "ndc": 50242005121,
+      "total_volume": 30,
+      "used_volume": 23.25,
+      "waste_volume": 6.75,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "galsulfase 1 mg/mL 5mL (BioMarin Pharmaceutical Inc)": {
+      "ndc": 68135002001,
+      "total_volume": 20,
+      "used_volume": 20,
+      "waste_volume": 0,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "anifrolumab-fnia (SAPHNELO) 300mg/2mL Astra Zenica": {
+      "ndc": 310304000,
+      "total_volume": 2,
+      "used_volume": 2,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "magnesium sulfate 50% 10mL Fresenius Kabi": {
+      "ndc": 63323006404,
+      "total_volume": 320,
+      "used_volume": 136.75,
+      "waste_volume": 183.25000000000003,
+      "count": 32,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% with 0.9% NaCl and KCl 20 mEq/L - 1000mL (ICUMedical)": {
+      "ndc": 990710709,
+      "total_volume": 1000,
+      "used_volume": 999,
+      "waste_volume": 1,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "sodium acetate 2 mEq/mL 50mL (Hospira)": {
+      "ndc": 409329915,
+      "total_volume": 1250,
+      "used_volume": 1000.75,
+      "waste_volume": 249.25,
+      "count": 25,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Fresenius Kabi) [3 MMol/mL]": {
+      "ndc": 65219005409,
+      "total_volume": 195,
+      "used_volume": 69.38,
+      "waste_volume": 125.62,
+      "count": 13,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Clindamycin in 5% Dextrose Injection 900mg/50mL baxter": {
+      "ndc": 338381450,
+      "total_volume": 2650,
+      "used_volume": 1991.6,
+      "waste_volume": 658.4,
+      "count": 53,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "filgrastim-sndz (Zarxio)": {
+      "ndc": 61314031805,
+      "total_volume": 13.5,
+      "used_volume": 12.31,
+      "waste_volume": 1.19,
+      "count": 27,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "vancomycin (VANCOCIN) 5 mg/mL in D5W- 300mL Stock": {
+      "ndc": "Z6491916651",
+      "total_volume": 10200,
+      "used_volume": 7122.4,
+      "waste_volume": 3077.5999999999995,
+      "count": 34,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "desmopressin (DDAVP) *1 mcg/mL* in NS - 4mL (MAKE IN GLASS VIAL)": {
+      "ndc": "Z6473716143",
+      "total_volume": 12,
+      "used_volume": 0.30000000000000027,
+      "waste_volume": 11.7,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "posaconazole 300mg/16.7mL (Glenmark)": {
+      "ndc": 68462090401,
+      "total_volume": 350.6999999999999,
+      "used_volume": 273.1499999999999,
+      "waste_volume": 77.55000000000001,
+      "count": 21,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Mitoxantrone 2 mg/mL 10mL (Fresenius)": {
+      "ndc": 63323013210,
+      "total_volume": 40,
+      "used_volume": 23.6,
+      "waste_volume": 16.4,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cefTRIAXone 1g (Hospira)": {
+      "ndc": 409733211,
+      "total_volume": 30,
+      "used_volume": 24.2,
+      "waste_volume": 5.8,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Phoxillum B22K 4/0 5000mL- Break seal to mix": {
+      "ndc": 24571011706,
+      "total_volume": 180000,
+      "used_volume": 179958.95999999988,
+      "waste_volume": 41.04000000000001,
+      "count": 36,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "potassium phosphate 3 mmol/mL 15mL (Somerset)": {
+      "ndc": 70069074701,
+      "total_volume": 330,
+      "used_volume": 140.92999999999998,
+      "waste_volume": 189.07000000000005,
+      "count": 22,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ganciclovir (CYTOVENE) 5mg/mL in D5W- 100mL": {
+      "ndc": "Z6474116284",
+      "total_volume": 1700,
+      "used_volume": 415.39,
+      "waste_volume": 1284.61,
+      "count": 17,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ganciclovir 500mg (Slate Run)": {
+      "ndc": 70436008955,
+      "total_volume": 80,
+      "used_volume": 60.54,
+      "waste_volume": 19.46,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "alpha 1-proteinase inhibitor human 1gm (CSL Behring)": {
+      "ndc": 53720102,
+      "total_volume": 440,
+      "used_volume": 400.68,
+      "waste_volume": 39.31999999999999,
+      "count": 22,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "alprostadil 10mcg/mL dilution in NS - 50mL": {
+      "ndc": "Z6473016079",
+      "total_volume": 1500,
+      "used_volume": 869,
+      "waste_volume": 631,
+      "count": 30,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "EPINEPHrine-lidocaine 1:200,000-0.5% 50mL (Fresenius)": {
+      "ndc": 63323048101,
+      "total_volume": 150,
+      "used_volume": 69,
+      "waste_volume": 81,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "fosphenytoin (cereBYX) 25 mg PE/mL in NS -20mL": {
+      "ndc": "Z6473716183",
+      "total_volume": 240,
+      "used_volume": 165.99999999999997,
+      "waste_volume": 73.99999999999999,
+      "count": 12,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "levothyroxine 40mcg/mL vial (5mL)": {
+      "ndc": 63323089010,
+      "total_volume": 275,
+      "used_volume": 219.35999999999996,
+      "waste_volume": 55.64000000000004,
+      "count": 55,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "vasopressin 20 units/mL 1mL VASOSTRICT": {
+      "ndc": 42023016401,
+      "total_volume": 16,
+      "used_volume": 16,
+      "waste_volume": 0,
+      "count": 16,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "papavarine 30mg/mL - 2mL vial (BPI Labs)": {
+      "ndc": 54288014201,
+      "total_volume": 108,
+      "used_volume": 59.400000000000006,
+      "waste_volume": 48.60000000000001,
+      "count": 54,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "vasopressin 20 units/mL - 1mL vial (AuroMedics)": {
+      "ndc": 55150037001,
+      "total_volume": 6,
+      "used_volume": 6,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "golimumab 50mg/4mL": {
+      "ndc": 57894035001,
+      "total_volume": 40,
+      "used_volume": 40,
+      "waste_volume": 0,
+      "count": 10,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "hydromorphone 0.2 mg/mL 1mL Syringe Fresenius Kabi": {
+      "ndc": 76045012101,
+      "total_volume": 4,
+      "used_volume": 1.4900000000000002,
+      "waste_volume": 2.51,
+      "count": 4,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "mesna 100 mg/mL 10mL (Baxter I.V. Systems Division) [100 mg/mL]*": {
+      "ndc": "10019095301-02",
+      "total_volume": 70,
+      "used_volume": 46.8,
+      "waste_volume": 23.2,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Sodium Chloride 0.45% 530mL (Baxter I.V. Systems Division)": {
+      "ndc": 338004303,
+      "total_volume": 5300,
+      "used_volume": 3408.64,
+      "waste_volume": 1891.3600000000001,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "sodium chloride 0.9% - 530mL bag (Baxter)": {
+      "ndc": 338954303,
+      "total_volume": 530,
+      "used_volume": 176,
+      "waste_volume": 354,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Fentanyl 50 mcg/ml": {
+      "ndc": 409909441,
+      "total_volume": 900,
+      "used_volume": 678,
+      "waste_volume": 222,
+      "count": 18,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "BUsulfan 6mg/ml 10ml (Meitheal)": {
+      "ndc": 71288011610,
+      "total_volume": 50,
+      "used_volume": 29.970000000000002,
+      "waste_volume": 20.03,
+      "count": 5,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cycloSPORINE (SandIMMUNE) in D5W 2.5 mg/mL- 100mL ROOM TEMP !": {
+      "ndc": "Z6473616138",
+      "total_volume": 400,
+      "used_volume": 243.2,
+      "waste_volume": 156.8,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "alemtuzumab (CAMPATH) in NS 3 mg/mL - 5mL STOCK": {
+      "ndc": "Z6716518246",
+      "total_volume": 20,
+      "used_volume": 1.2400000000000002,
+      "waste_volume": 18.759999999999998,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "lacosamide 10mg/mL 20mL (Zydus)": {
+      "ndc": 70710135901,
+      "total_volume": 60,
+      "used_volume": 40.379999999999995,
+      "waste_volume": 19.62,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "EPINEPHrine (ADRENALIN) 32 mcg/mL dilution in D5W - 12mL": {
+      "ndc": "Z6484216557",
+      "total_volume": 84,
+      "used_volume": 64,
+      "waste_volume": 20,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "phenylephrine 0.2 mg/mL D5W - 30mL": {
+      "ndc": "Z6509316826",
+      "total_volume": 30,
+      "used_volume": 20,
+      "waste_volume": 10,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ampicillin and sulbactam 1.5 gram/vial (West-Ward)": {
+      "ndc": 641611601,
+      "total_volume": 4,
+      "used_volume": 2.88,
+      "waste_volume": 1.12,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Dextrose 10% in Water 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338002304,
+      "total_volume": 7140,
+      "used_volume": 6722.75,
+      "waste_volume": 417.25,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "sodium chloride 23.4% 30mL (Fresenius Kabi) 4mEq/mL": {
+      "ndc": 63323009301,
+      "total_volume": 660,
+      "used_volume": 464.22,
+      "waste_volume": 195.77999999999997,
+      "count": 22,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Ceftaroline (Tefaro) 600mg Vial Facta": {
+      "ndc": 456060001,
+      "total_volume": 940,
+      "used_volume": 716.0099999999999,
+      "waste_volume": 223.99000000000004,
+      "count": 47,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "thiamine 100mg/mL - 2mL vial (NorthStar)": {
+      "ndc": 72603013901,
+      "total_volume": 6,
+      "used_volume": 4.5,
+      "waste_volume": 1.5,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 50% 50mL Hospira": {
+      "ndc": 409664816,
+      "total_volume": 850,
+      "used_volume": 744.8000000000001,
+      "waste_volume": 105.2,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "piperacillin sodium-tazobactam (*****ZOSYN*****) 67.5 mg/mL NS 50 mL STOCK": {
+      "ndc": "Z6492716669",
+      "total_volume": 400,
+      "used_volume": 400,
+      "waste_volume": 0,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "Dextrose 50% - 50mL abboject (Hospira #2)": {
+      "ndc": 409751766,
+      "total_volume": 50,
+      "used_volume": 22.4,
+      "waste_volume": 27.6,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "piperacillin sodium-tazobactam (*****ZOSYN*****) 67.5 mg/mL NS - 66.67mL (4.5g vial)": {
+      "ndc": "Z6473816268",
+      "total_volume": 133.34,
+      "used_volume": 100,
+      "waste_volume": 33.34,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "lorazepam **0.5** mg/mL in NS - 4mL Make in glass vial !": {
+      "ndc": "Z6473716188",
+      "total_volume": 244,
+      "used_volume": 58.679999999999986,
+      "waste_volume": 185.31999999999996,
+      "count": 61,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "potassium acetate 2 mEq/mL 20mL (Hospira)": {
+      "ndc": 409818311,
+      "total_volume": 40,
+      "used_volume": 40,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "gentamicin 40 mg/mL - 2mL (Fresenius Kabi)": {
+      "ndc": 63323001001,
+      "total_volume": 4,
+      "used_volume": 1.53,
+      "waste_volume": 2.47,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "acyclovir 50 mg/mL - 10mL (Auromedics)": {
+      "ndc": 55150015410,
+      "total_volume": 70,
+      "used_volume": 45.76,
+      "waste_volume": 24.240000000000002,
+      "count": 7,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methotrexate 25 mg/mL 40mL (Hospira)": {
+      "ndc": 61703040841,
+      "total_volume": 400,
+      "used_volume": 222.26,
+      "waste_volume": 177.74,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "fosphenytoin sodium 50mg PE/mL - 10mL vial (Glenmark)": {
+      "ndc": 68462062210,
+      "total_volume": 120,
+      "used_volume": 105.2,
+      "waste_volume": 14.8,
+      "count": 12,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "botulinum toxin type A 100units (Allergan Inc) [100 units/mL]": {
+      "ndc": "00023114501-01",
+      "total_volume": 3,
+      "used_volume": 3,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "PENTobarbital 50 mg/mL 20mL (SAGENT)": {
+      "ndc": 25021067620,
+      "total_volume": 300,
+      "used_volume": 245,
+      "waste_volume": 55,
+      "count": 15,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "belimumab (Benlysta) 400 mg Vial": {
+      "ndc": 49401010201,
+      "total_volume": 10,
+      "used_volume": 10,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "fentaNYL 50 mcg/mL - 5mL (Fresenius Kabi)": {
+      "ndc": 63323080613,
+      "total_volume": 5,
+      "used_volume": 4,
+      "waste_volume": 1,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Fentanyl Citrate 50 mcg/ml": {
+      "ndc": 409909418,
+      "total_volume": 140,
+      "used_volume": 123,
+      "waste_volume": 17,
+      "count": 28,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "clindamycin 150 mg/mL 4 mL Sagent": {
+      "ndc": 25021011504,
+      "total_volume": 4,
+      "used_volume": 4,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "belimumab (Benlysta) 120mg Vial": {
+      "ndc": 49401010101,
+      "total_volume": 3,
+      "used_volume": 3,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dianeal low calcium 1.5% Dextrose 3000mL Peritoneal Dialysis Solution": {
+      "ndc": 941040905,
+      "total_volume": 9000,
+      "used_volume": 9000,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cefiderocol (FETROJA) 1 gm vial": {
+      "ndc": 59630026601,
+      "total_volume": 67.2,
+      "used_volume": 30.63,
+      "waste_volume": 36.57,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sodium acetate 2 mEq/mL 20mL (Hospira Inc 2)": {
+      "ndc": 409729983,
+      "total_volume": 240,
+      "used_volume": 210.62,
+      "waste_volume": 29.380000000000003,
+      "count": 12,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 10% in Water 500mL (Baxter I.V. Systems Division)": {
+      "ndc": 338002303,
+      "total_volume": 530,
+      "used_volume": 461.5,
+      "waste_volume": 68.5,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "heparin 1000 units/mL 10 mL (Fresenius)": {
+      "ndc": 63323054005,
+      "total_volume": 10,
+      "used_volume": 8,
+      "waste_volume": 2,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dianeal Low Calcium Peritoneal Dialysis Solution with 4.25% Dextrose 2000mL": {
+      "ndc": 941045908,
+      "total_volume": 6000,
+      "used_volume": 5997.2,
+      "waste_volume": 2.8,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "HBiofluids (CARPEDIEM) dialysis fluid 2000mL": {
+      "ndc": 9999101164,
+      "total_volume": 40000,
+      "used_volume": 40000,
+      "waste_volume": 0,
+      "count": 20,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "multiple electrolyte solution 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338022104,
+      "total_volume": 16320,
+      "used_volume": 15549.5,
+      "waste_volume": 770.5,
+      "count": 16,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "epoprostenol 0.5mg VELETRI": {
+      "ndc": 66215040301,
+      "total_volume": 170,
+      "used_volume": 127.07999999999996,
+      "waste_volume": 42.919999999999995,
+      "count": 34,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Decitabine 50 mg (Meitheal)": {
+      "ndc": 71288011920,
+      "total_volume": 80,
+      "used_volume": 28.099999999999998,
+      "waste_volume": 51.900000000000006,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Decitabine 50mg (Novadoz)": {
+      "ndc": 72205003101,
+      "total_volume": 10,
+      "used_volume": 4.1,
+      "waste_volume": 5.9,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "arginine 10% 300mL dosed as mg (Pfizer U.S. Pharmaceuticals Group 1) [10G/100mL]*": {
+      "ndc": "00009043601-01",
+      "total_volume": 2700,
+      "used_volume": 283.08000000000004,
+      "waste_volume": 2416.92,
+      "count": 9,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ampicillin 2g (Sandoz Inc) #7": {
+      "ndc": 781340880,
+      "total_volume": 32,
+      "used_volume": 17.92,
+      "waste_volume": 14.08,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "acetazolamide 500 mg vial (Avet)": {
+      "ndc": 23155031331,
+      "total_volume": 5,
+      "used_volume": 0.20999999999999996,
+      "waste_volume": 4.79,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "acetaZOLAMIDE (DIAMOX) in D5W 25 mg/mL - 20mL !": {
+      "ndc": "Z6478216361",
+      "total_volume": 40,
+      "used_volume": 3.3599999999999994,
+      "waste_volume": 36.64,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "famotidine 10 mg/mL 4mL Fresenius Kabi": {
+      "ndc": 63323073803,
+      "total_volume": 4,
+      "used_volume": 3.2199999999999998,
+      "waste_volume": 0.78,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cidofovir 375mg/5mL Mylan": {
+      "ndc": 67457021005,
+      "total_volume": 25,
+      "used_volume": 4.459999999999999,
+      "waste_volume": 20.54,
+      "count": 5,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "verapamil 2.5mg/mL - 2mL vial (Zydus Pharma)": {
+      "ndc": 70710164301,
+      "total_volume": 6,
+      "used_volume": 3.67,
+      "waste_volume": 2.33,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ferric carboxymaltose 50mg/mL 15mL (Regent)": {
+      "ndc": 517065001,
+      "total_volume": 30,
+      "used_volume": 30,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "tocilizumab (Actemra) 80mg/4mL Genetech": {
+      "ndc": 50242013501,
+      "total_volume": 8,
+      "used_volume": 8,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "gentamicin (GARAMYCIN) in D5W 10 mg/mL - 8mL !": {
+      "ndc": "Z6474116287",
+      "total_volume": 16,
+      "used_volume": 5.42,
+      "waste_volume": 10.58,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Artesunate for injection 110mg vial": {
+      "ndc": 73607000201,
+      "total_volume": 33,
+      "used_volume": 5.400000000000002,
+      "waste_volume": 27.599999999999998,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Cladribine 1 mg/mL 10mL (HisunUSA)": {
+      "ndc": 42658001001,
+      "total_volume": 30,
+      "used_volume": 25.049999999999997,
+      "waste_volume": 4.949999999999999,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "prismaSATE BGK 2/0 5000mL (Gambro)": {
+      "ndc": 105351,
+      "total_volume": 90000,
+      "used_volume": 89970.45999999999,
+      "waste_volume": 29.54,
+      "count": 18,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "PrismaSol BGK 2/0 5000mL": {
+      "ndc": 24571010206,
+      "total_volume": 120000,
+      "used_volume": 119940.91999999997,
+      "waste_volume": 59.079999999999984,
+      "count": 24,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "abatacept 250mg (Bristol-Myers Squibb)": {
+      "ndc": 3218713,
+      "total_volume": 110,
+      "used_volume": 87.52,
+      "waste_volume": 22.480000000000004,
+      "count": 11,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "basiliximab 10mg (Novartis Pharmaceuticals)": {
+      "ndc": 78039361,
+      "total_volume": 10,
+      "used_volume": 10,
+      "waste_volume": 0,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "ropivacaine HCL 0.2% 200mg/100mL (Sagent)": {
+      "ndc": 25021067182,
+      "total_volume": 800,
+      "used_volume": 518.5,
+      "waste_volume": 281.5,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "amiodarone hcl 150mg/100mL (Nexterone)": {
+      "ndc": 43066015010,
+      "total_volume": 1600,
+      "used_volume": 614,
+      "waste_volume": 986,
+      "count": 16,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "dextran, low molecular weight 10%-0.9% 500mL (Hospira-Inc)": {
+      "ndc": 409741914,
+      "total_volume": 500,
+      "used_volume": 30,
+      "waste_volume": 470,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "norepinephrine 1 mg/mL 4 mL (Mylan)": {
+      "ndc": 67457085200,
+      "total_volume": 8,
+      "used_volume": 0.29000000000000004,
+      "waste_volume": 7.71,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dexmedetomidine 100 mcg/mL - 2mL vial (Piramal)": {
+      "ndc": 66794023002,
+      "total_volume": 16,
+      "used_volume": 8.480000000000004,
+      "waste_volume": 7.52,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "aminophylline 25 mg/mL 20mL (Hospira Inc) #3": {
+      "ndc": 409592216,
+      "total_volume": 80,
+      "used_volume": 6.719999999999999,
+      "waste_volume": 73.28,
+      "count": 4,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "hydrocortisone (Solu-CORTEF) *1mg/mL* in **D5W** 100mL": {
+      "ndc": "Z6475116306",
+      "total_volume": 600,
+      "used_volume": 26.30000000000001,
+      "waste_volume": 573.7,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "micafungin (MYCAMINE)1.5mg/mL in *D5W* - 33.33mL": {
+      "ndc": "Z6473716207",
+      "total_volume": 66.666666,
+      "used_volume": 4.00666600000001,
+      "waste_volume": 62.66,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "albumin human 25% - 100mL bag (Takeda Pharma)": {
+      "ndc": 944049304,
+      "total_volume": 200,
+      "used_volume": 12,
+      "waste_volume": 188,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "penicillin g potassium (PFIZERPEN) 50,000 units/mL in SW - 100mL !": {
+      "ndc": "Z6242314653",
+      "total_volume": 300,
+      "used_volume": 37.62000000000002,
+      "waste_volume": 262.38,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "pamidronate 3mg/mL 10mL (Mylan)": {
+      "ndc": 67457043010,
+      "total_volume": 20,
+      "used_volume": 13.33,
+      "waste_volume": 6.67,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "PACLitaxel protein-bound 100mg vial (Teva)": {
+      "ndc": 480329001,
+      "total_volume": 40,
+      "used_volume": 40,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Gamifant (emapalumab-lzg) #2 50 mg/10mL (5mg/mL)": {
+      "ndc": 66658050501,
+      "total_volume": 20,
+      "used_volume": 20,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "acetylcysteine 200 mg/mL Sagent": {
+      "ndc": 25021081230,
+      "total_volume": 510,
+      "used_volume": 360.4,
+      "waste_volume": 149.6,
+      "count": 17,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "fomepizole 1,000mg/mL - 1.5mL vial (Zydus Pharma)": {
+      "ndc": 70710147801,
+      "total_volume": 3,
+      "used_volume": 1.82,
+      "waste_volume": 1.18,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Fentanyl 50 mcg/ml Westward 50mL": {
+      "ndc": 641603001,
+      "total_volume": 50,
+      "used_volume": 30,
+      "waste_volume": 20,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "indocyanine green 25mg (Diagnostic Green LLC) [2.5mg/mL]": {
+      "ndc": "70100042401-01",
+      "total_volume": 10,
+      "used_volume": 0.5,
+      "waste_volume": 9.5,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin subcutaneous (human) 20% - Hizentra - 10mL syringe": {
+      "ndc": 44206045722,
+      "total_volume": 30,
+      "used_volume": 30,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "immune globulin subcutaneous (human) 20% - Hizentra - 5mL syringe": {
+      "ndc": 44206045621,
+      "total_volume": 40,
+      "used_volume": 35.5,
+      "waste_volume": 4.5,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methylPREDNISolone (Solu-MEDROL) *5mg/mL in *NS - 100mL !": {
+      "ndc": "Z6473716201",
+      "total_volume": 900,
+      "used_volume": 280,
+      "waste_volume": 619.9999999999999,
+      "count": 9,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "doxycycline 100mg Fresenius Kabi": {
+      "ndc": 63323013002,
+      "total_volume": 110,
+      "used_volume": 86.2,
+      "waste_volume": 23.799999999999997,
+      "count": 11,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "granisetron 1 mg/mL 4mL (Mylan)": {
+      "ndc": 67457086404,
+      "total_volume": 196,
+      "used_volume": 154.26000000000002,
+      "waste_volume": 41.740000000000016,
+      "count": 49,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "labetalol 5 mg/mL 20mL (Hospira)": {
+      "ndc": 409012501,
+      "total_volume": 100,
+      "used_volume": 45.95,
+      "waste_volume": 54.05,
+      "count": 5,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "eculizumab 10 mg/mL 30mL (Alexion)": {
+      "ndc": 25682000101,
+      "total_volume": 270,
+      "used_volume": 270,
+      "waste_volume": 0,
+      "count": 9,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "belatacept 250mg vial (Bristol-Myers Squibb)": {
+      "ndc": 3037113,
+      "total_volume": 30,
+      "used_volume": 22,
+      "waste_volume": 8,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sterile water irrigation 250mL (Baxter)": {
+      "ndc": 338000402,
+      "total_volume": 250,
+      "used_volume": 247,
+      "waste_volume": 3,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Pembrolizumab 25mg/ml 4ml (Merck)": {
+      "ndc": 6302601,
+      "total_volume": 8,
+      "used_volume": 8,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "alprostadil 500 mcg/mL 1 mL(Pfizer U.S. Pharmaceuticals Group)": {
+      "ndc": 9316901,
+      "total_volume": 15,
+      "used_volume": 15,
+      "waste_volume": 0,
+      "count": 15,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Morphine PF (ASTROMORPH) 0.1 mg/mL in NS - 4mL (make in syringe)": {
+      "ndc": "Z6473716214",
+      "total_volume": 16,
+      "used_volume": 2.9,
+      "waste_volume": 13.1,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cefTRIAXone 2g (Sandoz)": {
+      "ndc": 781320990,
+      "total_volume": 20,
+      "used_volume": 8.95,
+      "waste_volume": 11.05,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "zoledronic acid 4 mg/5 mL Dr. Reddy": {
+      "ndc": 55111068507,
+      "total_volume": 10,
+      "used_volume": 5.42,
+      "waste_volume": 4.58,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "midazolam (VERSED) 0.1 mg/mL in NS - 4mL Make in Syringe": {
+      "ndc": "Z6473716211",
+      "total_volume": 64,
+      "used_volume": 28.74,
+      "waste_volume": 35.260000000000005,
+      "count": 16,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Hyqvia Recombinant Human Hyaluronidase 5mL": {
+      "ndc": 944272203,
+      "total_volume": 5,
+      "used_volume": 0.08999999999999986,
+      "waste_volume": 4.91,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Hyqvia 10gm/100mL Immune globulin 10% Human": {
+      "ndc": 944271710,
+      "total_volume": 100,
+      "used_volume": 100,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Hyqvia 5gm/50mL Immune Globulin 10% Human": {
+      "ndc": 944271605,
+      "total_volume": 50,
+      "used_volume": 50,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "methadone 1mg/mL - 5mL (STAQ Pharma)": {
+      "ndc": 73177014902,
+      "total_volume": 5,
+      "used_volume": 2,
+      "waste_volume": 3,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ertapenem 1 gm (AuroMedics)": {
+      "ndc": 55150028220,
+      "total_volume": 10,
+      "used_volume": 10,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dexamethasone (DECADRON) ***0.1mg/mL*** in SW -40mL": {
+      "ndc": "Z6473716147",
+      "total_volume": 40,
+      "used_volume": 2.030000000000001,
+      "waste_volume": 37.97,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "DAPTOmycin (CUBICIN) 20 mg/mL in 0.9% sodium chloride - 25mL": {
+      "ndc": "Z6473716140",
+      "total_volume": 625,
+      "used_volume": 507.15,
+      "waste_volume": 117.85,
+      "count": 25,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "sargramostim 250 mcg (Partner Therapeutics)": {
+      "ndc": 71837584301,
+      "total_volume": 3,
+      "used_volume": 2.14,
+      "waste_volume": 0.86,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "enalapril 1.25 mg/mL 1mL (West Ward/ hickma)": {
+      "ndc": 143978701,
+      "total_volume": 27,
+      "used_volume": 23.5,
+      "waste_volume": 3.5,
+      "count": 27,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "hydralazine 20 mg/ml 1mL Fresenius Kabi": {
+      "ndc": 63323061400,
+      "total_volume": 29,
+      "used_volume": 28.5,
+      "waste_volume": 0.5,
+      "count": 29,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Pyridoxine 100mg/mL 1mL (Fresenius Kabi)": {
+      "ndc": 63323018000,
+      "total_volume": 1,
+      "used_volume": 0.09999999999999998,
+      "waste_volume": 0.9,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cetirizine 10mg/mL 1mL (TerSera Therapeutics)": {
+      "ndc": 70720010010,
+      "total_volume": 6,
+      "used_volume": 6,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Dextrose 5% with 0.2% NaCl 1000mL (Baxter I.V. Systems Division)": {
+      "ndc": 338007704,
+      "total_volume": 10200,
+      "used_volume": 9500.84,
+      "waste_volume": 699.1600000000001,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "leucovorin 100mg (Sagent)": {
+      "ndc": 25021081430,
+      "total_volume": 30,
+      "used_volume": 12.96,
+      "waste_volume": 17.04,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "cloNIDine 100 mcg/mL 10mL (Bionichepharma)": {
+      "ndc": 67457021810,
+      "total_volume": 20,
+      "used_volume": 0.23999999999999844,
+      "waste_volume": 19.76,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Vancomycin (Vancocin) 5mg/mL with sodium citrate 4% antibiotic lock STOCK- 10mL": {
+      "ndc": "Z6507316787",
+      "total_volume": 100,
+      "used_volume": 17.400000000000006,
+      "waste_volume": 82.60000000000001,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "Sebelipase alfa (Kanuma) 20mg/10mL": {
+      "ndc": 25682000701,
+      "total_volume": 50,
+      "used_volume": 50,
+      "waste_volume": 0,
+      "count": 5,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Dinutuximab 3.5mg/ml 5ml (United Therapeutics)": {
+      "ndc": 66302001401,
+      "total_volume": 40,
+      "used_volume": 22.4,
+      "waste_volume": 17.6,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "dexamethasone 10 mg/mL 10mL Mylan": {
+      "ndc": 67457042000,
+      "total_volume": 200,
+      "used_volume": 152.42,
+      "waste_volume": 47.58,
+      "count": 20,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Doxorubicin 2mg/mL - 5mL": {
+      "ndc": 69035820,
+      "total_volume": 20,
+      "used_volume": 16.6,
+      "waste_volume": 3.4,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "remimazolam besylate - 20mg vial (Acacia Pharma)": {
+      "ndc": 71390001100,
+      "total_volume": 144,
+      "used_volume": 144,
+      "waste_volume": 0,
+      "count": 18,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Bleomycin 30 units (West-Ward)": {
+      "ndc": 143924101,
+      "total_volume": 20,
+      "used_volume": 20,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Brivaracetam (Briviact) 50mg/5mL Injection (UCB Pharma)": {
+      "ndc": 50474097063,
+      "total_volume": 40,
+      "used_volume": 40,
+      "waste_volume": 0,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cisatracurium 2mg/mL - 5mL vial (Meitheal)": {
+      "ndc": 71288071205,
+      "total_volume": 100,
+      "used_volume": 100,
+      "waste_volume": 0,
+      "count": 20,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "sodium phosphate 3 mmol/mL 15mL (Hospira)": {
+      "ndc": 409739182,
+      "total_volume": 45,
+      "used_volume": 11.01,
+      "waste_volume": 33.99,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "EPINEPHrine-lidocaine 1:100000-1% 10mL (APP Pharmaceuticals) - 2": {
+      "ndc": 63323048201,
+      "total_volume": 40,
+      "used_volume": 40,
+      "waste_volume": 0,
+      "count": 4,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "hydrocortisone (Solu-CORTEF) 5mg/mL in NS- 40mL": {
+      "ndc": "Z6542817088",
+      "total_volume": 320,
+      "used_volume": 260,
+      "waste_volume": 60,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "hydrocortisone (Solu-CORTEF) 5mg/mL in NS- 20mL": {
+      "ndc": "Z6542817087",
+      "total_volume": 120,
+      "used_volume": 120,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "immune globulin intravenous S/D 5g/50mL (Baxter)": {
+      "ndc": "00944265707-01",
+      "total_volume": 100,
+      "used_volume": 62,
+      "waste_volume": 38,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "peramivir 10mg/1mL - 20mL vial (BioCryst)": {
+      "ndc": 72769018101,
+      "total_volume": 120,
+      "used_volume": 120,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "methylPREDNISolone 1g in D5W or NS (Pfizer U.S. Pharmaceuticals Group)": {
+      "ndc": 9069801,
+      "total_volume": 16,
+      "used_volume": 16,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "CISplatin 1 mg/mL 100mL (Fresenius)": {
+      "ndc": 63323010365,
+      "total_volume": 200,
+      "used_volume": 200,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Cisplatin 1mg/ml 50ml (Sagent)": {
+      "ndc": 25021025350,
+      "total_volume": 100,
+      "used_volume": 47,
+      "waste_volume": 53,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "rabbit antithymocyte 25mg (Genzyme Corporation)": {
+      "ndc": 58468008001,
+      "total_volume": 30,
+      "used_volume": 26,
+      "waste_volume": 4,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "insulin human (Myxredlin) 1unit/mL in NS - 100mL bag": {
+      "ndc": 338012612,
+      "total_volume": 300,
+      "used_volume": 11.700000000000003,
+      "waste_volume": 288.3,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "tocilizumab-aazg (TYENNE) 20mg/mL - 10mL vial (Fresenius Kabi)": {
+      "ndc": 65219059210,
+      "total_volume": 20,
+      "used_volume": 20,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "LIB-cefTAZidime (FORTAZ) in sterile water 100 mg/mL 5mL STOCK": {
+      "ndc": "Z6666917849",
+      "total_volume": 55,
+      "used_volume": 37.5,
+      "waste_volume": 17.5,
+      "count": 11,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "velmanase alfa-tycv 10mg vial (Chiesi)": {
+      "ndc": 10122018001,
+      "total_volume": 15,
+      "used_volume": 15,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "RENFLEXIS (infliximab-abda) Samsung": {
+      "ndc": 78206016299,
+      "total_volume": 60,
+      "used_volume": 60,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "laronidase 2.9 mg/5 mL 1 (Genzyme Corporation)": {
+      "ndc": 58468007001,
+      "total_volume": 10,
+      "used_volume": 6.15,
+      "waste_volume": 3.85,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Gemcitabine 200mg (Hospira)": {
+      "ndc": 409018501,
+      "total_volume": 31.578946800000004,
+      "used_volume": 31.578946800000004,
+      "waste_volume": 0,
+      "count": 6,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "bupivacaine 0.5% 10mL (AuroMedics)": {
+      "ndc": 55150016910,
+      "total_volume": 10,
+      "used_volume": 10,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "EPINEPHrine-lidocaine 1:100,000-1% - 20mL vial (Hospira)": {
+      "ndc": 409000701,
+      "total_volume": 20,
+      "used_volume": 20,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Immune Globulin Subcutaneous (Human) 20% Cuvitru 5mL": {
+      "ndc": 944285002,
+      "total_volume": 5,
+      "used_volume": 5,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Immune Globulin Subcutaneous (Human) 20% Cuvitru 50mL": {
+      "ndc": 944285010,
+      "total_volume": 150,
+      "used_volume": 150,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Immune Globulin Subcutaneous (Human) 20% Cuvitru 20mL": {
+      "ndc": 944285006,
+      "total_volume": 20,
+      "used_volume": 20,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "bevacizumab 25 mg/mL 16mL (Genentech)": {
+      "ndc": 50242006101,
+      "total_volume": 16,
+      "used_volume": 11.02,
+      "waste_volume": 4.98,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "daptomycin 500mg (Meitheal)": {
+      "ndc": 71288001615,
+      "total_volume": 210,
+      "used_volume": 198.32,
+      "waste_volume": 11.68,
+      "count": 21,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "etanercept 50mg/mL - 0.5mL vial (Amgen)": {
+      "ndc": 58406005501,
+      "total_volume": 1.5,
+      "used_volume": 0.39999999999999997,
+      "waste_volume": 1.1,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "arsenic trioxide 1mg/mL - 10mL (Zydus Pharmaceuticals)": {
+      "ndc": 68382099710,
+      "total_volume": 100,
+      "used_volume": 58.00000000000001,
+      "waste_volume": 42,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Cemiplimab-rwlc 50mg/ml 7ml (Sanofi)": {
+      "ndc": 61755000801,
+      "total_volume": 7,
+      "used_volume": 7,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "isoproterenol 0.2mg/mL - 5mL vial (Avet)": {
+      "ndc": 23155066131,
+      "total_volume": 15,
+      "used_volume": 15,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "isoproterenol 0.2mg/mL 5mL (Amring)": {
+      "ndc": 69918073501,
+      "total_volume": 55,
+      "used_volume": 55,
+      "waste_volume": 0,
+      "count": 11,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "rituximab-abbs (Truxima) 10mg/1mL - 50mL": {
+      "ndc": 63459010450,
+      "total_volume": 100,
+      "used_volume": 100,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Cefepime 2000mg in Dextrose 50mL (40mg/mL)": {
+      "ndc": 264319511,
+      "total_volume": 50,
+      "used_volume": 50,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "Calcium Gluconate 100 mg /mL Fresenius Kabi 10mL": {
+      "ndc": 63323036001,
+      "total_volume": 20,
+      "used_volume": 4.12,
+      "waste_volume": 15.879999999999999,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "mycophenolate (CELLCEPT) 6mg/mL in D5W- 250mL": {
+      "ndc": "Z6473716218",
+      "total_volume": 2500,
+      "used_volume": 400,
+      "waste_volume": 2100,
+      "count": 10,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "copper chloride 0.4mg/mL 10mL vial (Exela Pharma)": {
+      "ndc": 51754010301,
+      "total_volume": 510,
+      "used_volume": 510,
+      "waste_volume": 0,
+      "count": 51,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "multivitamin Pediatric 50mL (Baxter Healthcare Corporation)": {
+      "ndc": 54643564700,
+      "total_volume": 2450,
+      "used_volume": 2450,
+      "waste_volume": 0,
+      "count": 49,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "Multiple vitamins for infusion (Infuvite Adult)": {
+      "ndc": 54643565002,
+      "total_volume": 1600,
+      "used_volume": 1600,
+      "waste_volume": 0,
+      "count": 16,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "selenious acid 60 mcg/mL 10mL (American Regent, Inc)": {
+      "ndc": 517656001,
+      "total_volume": 680,
+      "used_volume": 631.6500000000001,
+      "waste_volume": 48.35,
+      "count": 68,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "zinc sulfate 5 mg/mL 5mL American Reagent": {
+      "ndc": 517800501,
+      "total_volume": 425,
+      "used_volume": 425,
+      "waste_volume": 0,
+      "count": 85,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "folic acid 5 mg/mL 10mL (Xgen)": {
+      "ndc": 39822110001,
+      "total_volume": 80,
+      "used_volume": 31.5,
+      "waste_volume": 48.5,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "LORazepam 2 mg/mL 10mL (Amphastar)": {
+      "ndc": 76329826100,
+      "total_volume": 210,
+      "used_volume": 169,
+      "waste_volume": 41,
+      "count": 21,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "piperacillin-tazobactam 4.5 g Sandoz": {
+      "ndc": 781311491,
+      "total_volume": 414,
+      "used_volume": 391,
+      "waste_volume": 23,
+      "count": 18,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "ampicillin-sulbactam 10g-5g vial (Meitheal)": {
+      "ndc": 71288003375,
+      "total_volume": 4550,
+      "used_volume": 4530,
+      "waste_volume": 20,
+      "count": 91,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "vancomycin 5g IV USE (Hospira Inc)": {
+      "ndc": 409650901,
+      "total_volume": 1800,
+      "used_volume": 1800,
+      "waste_volume": 0,
+      "count": 36,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "midazolam 1 mg/mL preservative-free 2mL": {
+      "ndc": 23155060031,
+      "total_volume": 2,
+      "used_volume": 0.3999999999999999,
+      "waste_volume": 1.6,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "oxytocin 10 units/mL 1 mL (Fresenius)": {
+      "ndc": 63323001203,
+      "total_volume": 27,
+      "used_volume": 27,
+      "waste_volume": 0,
+      "count": 27,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "anticoagulant sodium citrate solution 4% - 9mL syringe (CCHMC)": {
+      "ndc": 9999101972,
+      "total_volume": 72,
+      "used_volume": 72,
+      "waste_volume": 0,
+      "count": 8,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "mycophenolate mofetil 500mg (Meitheal)": {
+      "ndc": 71288080320,
+      "total_volume": 252,
+      "used_volume": 252,
+      "waste_volume": 0,
+      "count": 18,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "ascorbic acid 500 mg/mL 50mL (McGuff Pharmaceuticals Inc)": {
+      "ndc": 67157010150,
+      "total_volume": 1500,
+      "used_volume": 1500,
+      "waste_volume": 0,
+      "count": 30,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "midazolam 1mg/mL - 2mL vial PF (Hospira)": {
+      "ndc": 409000101,
+      "total_volume": 16,
+      "used_volume": 3.1999999999999993,
+      "waste_volume": 12.799999999999999,
+      "count": 8,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "Ablysinol (dehydrated alcohol) 5mL ampule": {
+      "ndc": 54288010515,
+      "total_volume": 5,
+      "used_volume": 2.12,
+      "waste_volume": 2.88,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "acetazolamide 500mg West Ward": {
+      "ndc": 143950301,
+      "total_volume": 10,
+      "used_volume": 10,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "heparin 1000 units/mL 1mL Hospira": {
+      "ndc": 409272030,
+      "total_volume": 14,
+      "used_volume": 12.14,
+      "waste_volume": 1.8599999999999999,
+      "count": 14,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "cosyntropin 0.25mg (Amphastar Pharmaceuticals Inc)": {
+      "ndc": 548590000,
+      "total_volume": 4,
+      "used_volume": 4,
+      "waste_volume": 0,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "cefepime 100g (Samson)": {
+      "ndc": 66288810001,
+      "total_volume": 3000,
+      "used_volume": 3000,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "alemtuzumab 30 mg/mL 1mL (Genzyme) 1": {
+      "ndc": 58468035701,
+      "total_volume": 4,
+      "used_volume": 2,
+      "waste_volume": 2,
+      "count": 4,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "copper chloride 0.4mg/mL - 10mL vial (Archis Pharma)": {
+      "ndc": 72819023406,
+      "total_volume": 50,
+      "used_volume": 35,
+      "waste_volume": 15,
+      "count": 5,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "iohexol 350 mg/mL 100mL (GE)": {
+      "ndc": 407141491,
+      "total_volume": 700,
+      "used_volume": 700,
+      "waste_volume": 0,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "nafcillin 10g Auromedics": {
+      "ndc": 55150012499,
+      "total_volume": 1400,
+      "used_volume": 1320,
+      "waste_volume": 80,
+      "count": 14,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "Sterile Water - 10mL (Hospira Inc)": {
+      "ndc": 409488717,
+      "total_volume": 30,
+      "used_volume": 20.5,
+      "waste_volume": 9.5,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "imipenem-cilastation-relebactam 1.25g (RECARBRIO)": {
+      "ndc": 6385601,
+      "total_volume": 140,
+      "used_volume": 140,
+      "waste_volume": 0,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "ampicillin 500mg Sandoz": {
+      "ndc": 781340778,
+      "total_volume": 5,
+      "used_volume": 5,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "dexamethasone 10 mg/mL 1mL (Baxter Pharmaceutical Products, Inc)": {
+      "ndc": 641036721,
+      "total_volume": 2,
+      "used_volume": 2,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "cycloSPORINE 50 mg/mL 5mL (Novartis Pharmaceuticals)": {
+      "ndc": 78010901,
+      "total_volume": 10,
+      "used_volume": 10,
+      "waste_volume": 0,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "furosemide 10 mg/mL 2mL": {
+      "ndc": 71288020302,
+      "total_volume": 2,
+      "used_volume": 2,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "thiamine 100 mg/mL 2mL (American Pharmaceutical Partners)": {
+      "ndc": 63323001302,
+      "total_volume": 8,
+      "used_volume": 8,
+      "waste_volume": 0,
+      "count": 4,
+      "is_multi_dose": true,
+      "is_stock": true
+    },
+    "micafungin 50mg Fresenius Kabi": {
+      "ndc": 63323072801,
+      "total_volume": 5,
+      "used_volume": 5,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "romiPLOStim 500 mcg/mL - 125mcg vial (Amgen)": {
+      "ndc": 55513022301,
+      "total_volume": 0.75,
+      "used_volume": 0.75,
+      "waste_volume": 0,
+      "count": 3,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "imipenem-cilastation-relebactam (RECARBRIO) 12.5 mg/mL NS 100mL STOCK": {
+      "ndc": "Z6603017535",
+      "total_volume": 1100,
+      "used_volume": 840,
+      "waste_volume": 260,
+      "count": 11,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "tobramycin 40mg/mL 2mL (Mylan)": {
+      "ndc": 67457047300,
+      "total_volume": 4,
+      "used_volume": 3.25,
+      "waste_volume": 0.75,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "tobramycin 40 mg/mL 30mL (Fresenius Kabi)": {
+      "ndc": 63323030605,
+      "total_volume": 180,
+      "used_volume": 133,
+      "waste_volume": 47,
+      "count": 6,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "ampicillin (OMNIPEN) *50mg/ml* in NS -10 mL (only use 500mg vial)": {
+      "ndc": "Z6473016086",
+      "total_volume": 10,
+      "used_volume": 1.3599999999999994,
+      "waste_volume": 8.64,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "furosemide (LASIX) 1 mg/mL in sodium chloride (NS) 0.9% - 20mL": {
+      "ndc": "Z6473716184",
+      "total_volume": 20,
+      "used_volume": 0.9299999999999997,
+      "waste_volume": 19.07,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "acetylcysteine 20% 30mL Perrigo": {
+      "ndc": 574080530,
+      "total_volume": 30,
+      "used_volume": 1.8000000000000007,
+      "waste_volume": 28.2,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "meropenem 1g (Fresenius)": {
+      "ndc": 63323050801,
+      "total_volume": 280,
+      "used_volume": 280,
+      "waste_volume": 0,
+      "count": 14,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "von Willerand factor (HUMATE-P) 250 to 600 units": {
+      "ndc": 63833061502,
+      "total_volume": 5,
+      "used_volume": 2.55,
+      "waste_volume": 2.45,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "bevacizumab-bvzr (ZIRABEV) 25mg/mL - 16mL vial (Pfizer)": {
+      "ndc": 69034201,
+      "total_volume": 32,
+      "used_volume": 27.4,
+      "waste_volume": 4.6,
+      "count": 2,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "linezolid 2 mg/mL 300mL Primal Critical Care": {
+      "ndc": 66794021963,
+      "total_volume": 1200,
+      "used_volume": 280,
+      "waste_volume": 920,
+      "count": 4,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "cytomegalovirus immune globulin 50mg/mL - 50mL vial (Kamada)": {
+      "ndc": 49591053250,
+      "total_volume": 50,
+      "used_volume": 11,
+      "waste_volume": 39,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "mesna 20mg/mL in sodium chloride 0.9% - 100mL - STOCK": {
+      "ndc": "Z6524717078",
+      "total_volume": 200,
+      "used_volume": 60,
+      "waste_volume": 140,
+      "count": 2,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "granisetron (KYTRIL) 50mcg/mL in NS - 10mL Stock": {
+      "ndc": "Z6640917752",
+      "total_volume": 70,
+      "used_volume": 18.200000000000003,
+      "waste_volume": 51.800000000000004,
+      "count": 7,
+      "is_multi_dose": false,
+      "is_stock": true
+    },
+    "risankizumab-rzaa 60mg/mL - 10mL (Abbvie)": {
+      "ndc": 74501501,
+      "total_volume": 10,
+      "used_volume": 10,
+      "waste_volume": 0,
+      "count": 1,
+      "is_multi_dose": true,
+      "is_stock": false
+    },
+    "fentaNYL *1 mcg/mL* in NS - 10 mL (make in syringe)": {
+      "ndc": "Z6572317372",
+      "total_volume": 10,
+      "used_volume": 0.6999999999999993,
+      "waste_volume": 9.3,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    },
+    "Cidofovir 375mg/5mL Heritage": {
+      "ndc": 23155021631,
+      "total_volume": 5,
+      "used_volume": 0.3799999999999999,
+      "waste_volume": 4.62,
+      "count": 1,
+      "is_multi_dose": false,
+      "is_stock": false
+    }
+  },
+  "by_location": {
+    "A6S": {
+      "total_volume": 33279.12999999998,
+      "used_volume": 24229.68999999999,
+      "waste_volume": 9049.439999999999,
+      "count": 206
+    },
+    "CCM SDS": {
+      "total_volume": 39644,
+      "used_volume": 33558.85000000001,
+      "waste_volume": 6085.149999999997,
+      "count": 402
+    },
+    "CCM PROC CENTER SDS": {
+      "total_volume": 4867,
+      "used_volume": 4257.54,
+      "waste_volume": 609.46,
+      "count": 60
+    },
+    "CCM PERIOP": {
+      "total_volume": 5331,
+      "used_volume": 4543.58,
+      "waste_volume": 787.42,
+      "count": 36
+    },
+    "CCM OR": {
+      "total_volume": 18950,
+      "used_volume": 14985.359999999995,
+      "waste_volume": 3964.6399999999994,
+      "count": 148
+    },
+    "A4N": {
+      "total_volume": 91323.59999999999,
+      "used_volume": 74759.37000000014,
+      "waste_volume": 16564.230000000007,
+      "count": 523
+    },
+    "G1NE": {
+      "total_volume": 18272,
+      "used_volume": 15402.029999999999,
+      "waste_volume": 2869.9699999999993,
+      "count": 100
+    },
+    "G3NW": {
+      "total_volume": 324997.43333380006,
+      "used_volume": 276404.4033338001,
+      "waste_volume": 48593.03,
+      "count": 1638
+    },
+    "B5CBDI": {
+      "total_volume": 14384.25,
+      "used_volume": 6106.909999999998,
+      "waste_volume": 8277.340000000002,
+      "count": 125
+    },
+    "LA1W": {
+      "total_volume": 9258,
+      "used_volume": 7340.38,
+      "waste_volume": 1917.62,
+      "count": 179
+    },
+    "LIB PERIOP": {
+      "total_volume": 200,
+      "used_volume": 200,
+      "waste_volume": 0,
+      "count": 2
+    },
+    "LIB SDS": {
+      "total_volume": 9659,
+      "used_volume": 8708.5,
+      "waste_volume": 950.5,
+      "count": 126
+    },
+    "A7NS": {
+      "total_volume": 46462,
+      "used_volume": 38115.069999999985,
+      "waste_volume": 8346.93,
+      "count": 295
+    },
+    "CCM EMERGENCY MED": {
+      "total_volume": 39162.299999999996,
+      "used_volume": 30429.070000000018,
+      "waste_volume": 8733.229999999998,
+      "count": 292
+    },
+    "A4C1": {
+      "total_volume": 2660,
+      "used_volume": 2505.32,
+      "waste_volume": 154.68,
+      "count": 22
+    },
+    "A5C": {
+      "total_volume": 130653.9549117,
+      "used_volume": 102098.67491170001,
+      "waste_volume": 28555.279999999995,
+      "count": 541
+    },
+    "G5DH": {
+      "total_volume": 26003.453680800005,
+      "used_volume": 12818.533680799997,
+      "waste_volume": 13184.92,
+      "count": 302
+    },
+    "A6N": {
+      "total_volume": 70586,
+      "used_volume": 57477.47999999998,
+      "waste_volume": 13108.519999999995,
+      "count": 394
+    },
+    "G5NW": {
+      "total_volume": 34924.833333899995,
+      "used_volume": 24597.5333339,
+      "waste_volume": 10327.300000000003,
+      "count": 162
+    },
+    "A5S": {
+      "total_volume": 55515.6000004,
+      "used_volume": 39513.76000040002,
+      "waste_volume": 16001.839999999998,
+      "count": 363
+    },
+    "CCM INFUSIONS C5": {
+      "total_volume": 22439,
+      "used_volume": 16120.86,
+      "waste_volume": 6318.14,
+      "count": 337
+    },
+    "LIB INFUSIONS": {
+      "total_volume": 1200,
+      "used_volume": 924,
+      "waste_volume": 276,
+      "count": 22
+    },
+    "CCM INFUSIONS A1": {
+      "total_volume": 2166,
+      "used_volume": 1930,
+      "waste_volume": 236,
+      "count": 15
+    },
+    "LA4": {
+      "total_volume": 58526.59999999999,
+      "used_volume": 49840.28000000003,
+      "waste_volume": 8686.319999999998,
+      "count": 482
+    },
+    "G3SE": {
+      "total_volume": 361879.15000000014,
+      "used_volume": 339146.08999999997,
+      "waste_volume": 22733.06000000002,
+      "count": 772
+    },
+    "G5SW": {
+      "total_volume": 27514.666666900004,
+      "used_volume": 19057.7766669,
+      "waste_volume": 8456.890000000003,
+      "count": 240
+    },
+    "CCM END TESTS INFUS E2": {
+      "total_volume": 1050,
+      "used_volume": 148,
+      "waste_volume": 902,
+      "count": 4
+    },
+    "A3S": {
+      "total_volume": 51430.399999999994,
+      "used_volume": 39712.579999999994,
+      "waste_volume": 11717.820000000007,
+      "count": 255
+    },
+    "A6CARU": {
+      "total_volume": 2630,
+      "used_volume": 2426.97,
+      "waste_volume": 203.02999999999997,
+      "count": 16
+    },
+    "A5N1": {
+      "total_volume": 50385.5,
+      "used_volume": 39596.1,
+      "waste_volume": 10789.400000000003,
+      "count": 325
+    },
+    "LIB EMERGENCY MEDICINE": {
+      "total_volume": 8554,
+      "used_volume": 6794.1100000000015,
+      "waste_volume": 1759.8899999999996,
+      "count": 109
+    },
+    "LCBDI": {
+      "total_volume": 11455.25,
+      "used_volume": 9441.199999999999,
+      "waste_volume": 2014.0499999999997,
+      "count": 104
+    },
+    "A3N": {
+      "total_volume": 55250,
+      "used_volume": 47311.47999999997,
+      "waste_volume": 7938.520000000001,
+      "count": 459
+    },
+    "CCM PHERESIS C4": {
+      "total_volume": 2070,
+      "used_volume": 2019.8000000000002,
+      "waste_volume": 50.2,
+      "count": 5
+    },
+    "A4S": {
+      "total_volume": 107581.85999999999,
+      "used_volume": 83322.72000000006,
+      "waste_volume": 24259.13999999997,
+      "count": 640
+    },
+    "G3SW": {
+      "total_volume": 91438.53333359997,
+      "used_volume": 62208.59333360004,
+      "waste_volume": 29229.940000000013,
+      "count": 585
+    },
+    "G4NE": {
+      "total_volume": 100643.30999999997,
+      "used_volume": 87047.07999999991,
+      "waste_volume": 13596.229999999996,
+      "count": 367
+    },
+    "G4NW": {
+      "total_volume": 53343.8,
+      "used_volume": 39666.77000000004,
+      "waste_volume": 13677.030000000006,
+      "count": 438
+    },
+    "G6SE": {
+      "total_volume": 42950,
+      "used_volume": 34523.10999999999,
+      "waste_volume": 8426.889999999992,
+      "count": 217
+    },
+    "A4C": {
+      "total_volume": 1000,
+      "used_volume": 1000,
+      "waste_volume": 0,
+      "count": 4
+    },
+    "A6C": {
+      "total_volume": 58723,
+      "used_volume": 40208.84000000002,
+      "waste_volume": 18514.15999999999,
+      "count": 239
+    },
+    "G6NW": {
+      "total_volume": 151540.46666640003,
+      "used_volume": 116409.66666640015,
+      "waste_volume": 35130.80000000001,
+      "count": 919
+    },
+    "G4SE": {
+      "total_volume": 58607.34,
+      "used_volume": 53558.4,
+      "waste_volume": 5048.940000000004,
+      "count": 184
+    },
+    "CCM PACU": {
+      "total_volume": 8481,
+      "used_volume": 7267.469999999999,
+      "waste_volume": 1213.5299999999997,
+      "count": 61
+    },
+    "CCM PROC CENTER OR": {
+      "total_volume": 850,
+      "used_volume": 815,
+      "waste_volume": 35,
+      "count": 9
+    },
+    "B4N": {
+      "total_volume": 20810.6,
+      "used_volume": 14080.37999999999,
+      "waste_volume": 6730.219999999999,
+      "count": 142
+    },
+    "CCM DIALYSIS": {
+      "total_volume": 11315,
+      "used_volume": 3234.3399999999992,
+      "waste_volume": 8080.659999999996,
+      "count": 61
+    },
+    "A7C": {
+      "total_volume": 42486.399999999994,
+      "used_volume": 38137.750000000015,
+      "waste_volume": 4348.650000000005,
+      "count": 197
+    },
+    "G6SW": {
+      "total_volume": 126543.6666668,
+      "used_volume": 95475.41666680003,
+      "waste_volume": 31068.24999999999,
+      "count": 664
+    },
+    "LIB OR": {
+      "total_volume": 2950,
+      "used_volume": 2620,
+      "waste_volume": 330,
+      "count": 35
+    },
+    "CCM CARDIAC CATH LAB": {
+      "total_volume": 1476,
+      "used_volume": 1192.92,
+      "waste_volume": 283.08,
+      "count": 14
+    },
+    "B4FC": {
+      "total_volume": 4206,
+      "used_volume": 2804.3199999999993,
+      "waste_volume": 1401.68,
+      "count": 36
+    },
+    "G5NE": {
+      "total_volume": 37716.3600001,
+      "used_volume": 25359.410000099997,
+      "waste_volume": 12356.950000000012,
+      "count": 336
+    },
+    "G6NE": {
+      "total_volume": 118228.66666690001,
+      "used_volume": 92049.56666689998,
+      "waste_volume": 26179.099999999988,
+      "count": 810
+    },
+    "CCM CT OR": {
+      "total_volume": 7971,
+      "used_volume": 7272.99,
+      "waste_volume": 698.0100000000001,
+      "count": 34
+    },
+    "LIB PACU": {
+      "total_volume": 530,
+      "used_volume": 472,
+      "waste_volume": 58,
+      "count": 7
+    },
+    "A7N": {
+      "total_volume": 2200,
+      "used_volume": 2100,
+      "waste_volume": 100,
+      "count": 10
+    },
+    "G4SW": {
+      "total_volume": 43115.87999999999,
+      "used_volume": 33437.22999999998,
+      "waste_volume": 9678.65,
+      "count": 299
+    },
+    "B4NR": {
+      "total_volume": 3015,
+      "used_volume": 1974.4899999999998,
+      "waste_volume": 1040.51,
+      "count": 22
+    },
+    "G3NE": {
+      "total_volume": 245608.54000019998,
+      "used_volume": 217755.55000020002,
+      "waste_volume": 27852.989999999987,
+      "count": 1000
+    },
+    "B4S": {
+      "total_volume": 7748.8,
+      "used_volume": 5176.38,
+      "waste_volume": 2572.4199999999996,
+      "count": 59
+    },
+    "CCM PEDIATRIC SURGERY": {
+      "total_volume": 20,
+      "used_volume": 18.88,
+      "waste_volume": 1.12,
+      "count": 4
+    },
+    "G1NW": {
+      "total_volume": 21437.100000000002,
+      "used_volume": 14886.67000000001,
+      "waste_volume": 6550.430000000003,
+      "count": 138
+    },
+    "Tube to #701": {
+      "total_volume": 5,
+      "used_volume": 1.21,
+      "waste_volume": 3.79,
+      "count": 1
+    },
+    "G1SW": {
+      "total_volume": 85023.52999999997,
+      "used_volume": 70279.38000000002,
+      "waste_volume": 14744.149999999996,
+      "count": 333
+    },
+    "CCM INTERVENT RADIOLOG": {
+      "total_volume": 107,
+      "used_volume": 100,
+      "waste_volume": 7,
+      "count": 3
+    },
+    "G4C": {
+      "total_volume": 12502.35,
+      "used_volume": 9505.090000000004,
+      "waste_volume": 2997.2599999999998,
+      "count": 52
+    },
+    "CCM CT OR PERIOP": {
+      "total_volume": 10664,
+      "used_volume": 4820.740000000002,
+      "waste_volume": 5843.2599999999975,
+      "count": 83
+    },
+    "CCM CT OR PREP": {
+      "total_volume": 100,
+      "used_volume": 82,
+      "waste_volume": 18,
+      "count": 1
+    },
+    "ED Pharmacy": {
+      "total_volume": 21640,
+      "used_volume": 18737.520000000004,
+      "waste_volume": 2902.4799999999996,
+      "count": 89
+    },
+    "CCHMC Main Pharmacy": {
+      "total_volume": 501576,
+      "used_volume": 357822.6199999998,
+      "waste_volume": 143753.37999999974,
+      "count": 2550
+    },
+    "Critical Care Pharmacy": {
+      "total_volume": 69786.5,
+      "used_volume": 52971.17,
+      "waste_volume": 16815.33,
+      "count": 341
+    },
+    "Liberty Main Pharmacy": {
+      "total_volume": 14557,
+      "used_volume": 10434.350000000002,
+      "waste_volume": 4122.65,
+      "count": 205
+    },
+    "OR Main Pharmacy": {
+      "total_volume": 22531,
+      "used_volume": 18797.889999999992,
+      "waste_volume": 3733.110000000001,
+      "count": 76
+    },
+    "Hem/ONC Pharmacy": {
+      "total_volume": 2031,
+      "used_volume": 340,
+      "waste_volume": 1691,
+      "count": 18
+    },
+    "CCM TRANSPORT MEDICINE": {
+      "total_volume": 2143,
+      "used_volume": 1687.54,
+      "waste_volume": 455.46,
+      "count": 12
+    },
+    "ADMIT": {
+      "total_volume": 1747,
+      "used_volume": 1662.5,
+      "waste_volume": 84.5,
+      "count": 8
+    },
+    "ADMT": {
+      "total_volume": 1002,
+      "used_volume": 1000,
+      "waste_volume": 2,
+      "count": 2
+    }
+  },
+  "summary": {
+    "total_records": 20366,
+    "total_dates": 8,
+    "total_waste_ml": 765798.6,
+    "date_range": {
+      "start": "2026-01-17",
+      "end": "2026-01-24"
+    }
+  },
+  "uploaded_at": "2026-01-24T20:33:52.941Z"
+}

@@ -589,6 +589,81 @@
             </div>
 
             <div class="card">
+                <div class="card-header" style="cursor: pointer;" onclick="toggleGuide()">
+                    <div>
+                        <div class="card-title">📋 DoseEdge Report Guide</div>
+                        <div class="card-subtitle">Click to expand - Which reports to pull from DoseEdge</div>
+                    </div>
+                    <span id="guideToggle" style="font-size: 18px;">▼</span>
+                </div>
+                <div id="reportGuide" style="display: none; margin-top: 16px;">
+                    <table class="data-table" style="font-size: 13px;">
+                        <thead>
+                            <tr>
+                                <th>Upload Box</th>
+                                <th>DoseEdge Report Name</th>
+                                <th>Location in DoseEdge</th>
+                                <th>Purpose</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Production Stats</strong></td>
+                                <td>Dose Order Prep Statistics by Date</td>
+                                <td>Reports → Statistics → Dose Order Prep Statistics</td>
+                                <td>Production volume trends, hourly patterns</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Turnaround Report</strong></td>
+                                <td>Turnaround Report</td>
+                                <td>Reports → Statistics → Turnaround Report</td>
+                                <td>Queue-to-sort time metrics</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Bypass Stats</strong></td>
+                                <td>Bypass Prep Statistics</td>
+                                <td>Reports → Statistics → Bypass Prep Statistics</td>
+                                <td>Bypass rates by location</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Product Usage</strong></td>
+                                <td>Product Usage</td>
+                                <td>Reports → Usage → Product Usage</td>
+                                <td>Product usage by location (aggregate)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Product Wastage</strong></td>
+                                <td>Product Wastage</td>
+                                <td>Reports → Usage → Product Wastage</td>
+                                <td>Waste volume by product (aggregate)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Detailed Wastage</strong></td>
+                                <td>Product Usage and Wastage Report</td>
+                                <td>Reports → Usage → Product Usage and Wastage</td>
+                                <td>Daily waste trends (detailed with dates)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Stock Doses</strong></td>
+                                <td>Completed Stock and Dilution Doses</td>
+                                <td>Reports → Statistics → Completed Stock and Dilution Doses</td>
+                                <td>Stock solution production counts</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-radius: 6px; font-size: 13px;">
+                        <strong>Tips:</strong>
+                        <ul style="margin: 8px 0 0 20px; padding: 0;">
+                            <li>Use 30-90 day date ranges for meaningful trends</li>
+                            <li>Export reports as .xls or .xlsx format</li>
+                            <li>You can upload multiple reports at once</li>
+                            <li>Re-uploading a report type will replace the previous data</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
                 <div class="card-title" style="margin-bottom: 12px;">Data Status</div>
                 <div id="dataStatus">Loading...</div>
             </div>
@@ -646,6 +721,18 @@
                 document.getElementById(`${type}File`).textContent = '';
                 document.getElementById(`${type}Box`).classList.remove('has-file');
             });
+        }
+
+        function toggleGuide() {
+            const guide = document.getElementById('reportGuide');
+            const toggle = document.getElementById('guideToggle');
+            if (guide.style.display === 'none') {
+                guide.style.display = 'block';
+                toggle.textContent = '▲';
+            } else {
+                guide.style.display = 'none';
+                toggle.textContent = '▼';
+            }
         }
 
         async function uploadAll() {

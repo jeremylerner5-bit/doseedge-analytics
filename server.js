@@ -1051,7 +1051,7 @@ app.get('/api/product-wastage/by-type', (req, res) => {
 
 // ============ DETAILED WASTAGE (with dates) ============
 
-// Upload detailed usage/wastage report (has dates, no patient names)
+// Upload detailed usage/wastage report (has dates for trending)
 app.post('/api/upload/detailed-wastage', upload.single('file'), (req, res) => {
     try {
         const workbook = XLSX.readFile(req.file.path);

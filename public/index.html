@@ -506,18 +506,6 @@
                 </div>
             </div>
 
-            <!-- Waste Trend Section (if detailed data available) -->
-            <div class="card" id="wasteTrendSection" style="display:none;">
-                <div class="card-header">
-                    <div>
-                        <div class="card-title">Waste Trend Over Time</div>
-                        <div class="card-subtitle">Daily waste volume and percentage</div>
-                    </div>
-                </div>
-                <div class="chart-container tall">
-                    <canvas id="wasteTrendChart"></canvas>
-                </div>
-            </div>
         </div>
 
         <!-- Upload Tab -->
@@ -1211,12 +1199,6 @@
                     loadStockData();
                 }
 
-                // Load waste trend if detailed data available
-                if (detailedSummary.total_records > 0) {
-                    document.getElementById('wasteTrendSection').style.display = 'block';
-                    loadWasteTrend();
-                }
-
             } catch (err) {
                 console.error('Error loading waste data:', err);
             }
@@ -1259,60 +1241,6 @@
 
             } catch (err) {
                 console.error('Error loading stock data:', err);
-            }
-        }
-
-        async function loadWasteTrend() {
-            try {
-                const daily = await fetch('/api/detailed-wastage/daily?days=30').then(r => r.json());
-
-                if (daily.length === 0) return;
-
-                // Waste trend chart
-                if (charts.wasteTrend) charts.wasteTrend.destroy();
-                const trendCtx = document.getElementById('wasteTrendChart').getContext('2d');
-                charts.wasteTrend = new Chart(trendCtx, {
-                    type: 'line',
-                    data: {
-                        labels: daily.map(d => formatDate(d.date)),
-                        datasets: [{
-                            label: 'Waste %',
-                            data: daily.map(d => d.waste_percent),
-                            borderColor: '#d63031',
-                            backgroundColor: 'rgba(214, 48, 49, 0.1)',
-                            fill: true,
-                            tension: 0.3,
-                            yAxisID: 'y'
-                        }, {
-                            label: 'Waste (L)',
-                            data: daily.map(d => d.waste_volume / 1000),
-                            borderColor: '#fdcb6e',
-                            backgroundColor: 'transparent',
-                            tension: 0.3,
-                            yAxisID: 'y1'
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: { legend: { position: 'top' } },
-                        scales: {
-                            y: {
-                                type: 'linear',
-                                position: 'left',
-                                title: { display: true, text: 'Waste %' }
-                            },
-                            y1: {
-                                type: 'linear',
-                                position: 'right',
-                                title: { display: true, text: 'Waste (L)' },
-                                grid: { drawOnChartArea: false }
-                            }
-                        }
-                    }
-                });
-            } catch (err) {
-                console.error('Error loading waste trend:', err);
             }
         }
 

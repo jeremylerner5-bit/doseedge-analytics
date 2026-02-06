@@ -6,211 +6,411 @@
     <title>DoseEdge Analytics</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f5f6fa;
-            color: #2d3436;
+        :root {
+            --bg-primary: #f0f4f8;
+            --bg-card: #ffffff;
+            --bg-header: linear-gradient(135deg, #0d9488 0%, #14b8a6 50%, #2dd4bf 100%);
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --text-muted: #94a3b8;
+            --border-color: #e2e8f0;
+            --border-light: #f1f5f9;
+            --accent: #0d9488;
+            --accent-hover: #0f766e;
+            --accent-light: rgba(13, 148, 136, 0.08);
+            --accent-lighter: rgba(13, 148, 136, 0.04);
+            --blue: #2563eb;
+            --blue-light: rgba(37, 99, 235, 0.08);
+            --amber: #d97706;
+            --amber-light: rgba(217, 119, 6, 0.08);
+            --red: #dc2626;
+            --red-light: rgba(220, 38, 38, 0.08);
+            --purple: #7c3aed;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.04);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.08);
+            --radius: 10px;
+            --nav-bg: #ffffff;
+            --input-bg: #ffffff;
+            --table-hover: #f8fafc;
+            --table-header: #f8fafc;
+            --skeleton: #e2e8f0;
+            --skeleton-shine: #f1f5f9;
+            --toast-bg: #1e293b;
         }
 
+        [data-theme="dark"] {
+            --bg-primary: #0f172a;
+            --bg-card: #1e293b;
+            --bg-header: linear-gradient(135deg, #0f766e 0%, #0d9488 50%, #14b8a6 100%);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --border-color: #334155;
+            --border-light: #1e293b;
+            --accent-light: rgba(13, 148, 136, 0.15);
+            --accent-lighter: rgba(13, 148, 136, 0.08);
+            --blue-light: rgba(37, 99, 235, 0.15);
+            --amber-light: rgba(217, 119, 6, 0.15);
+            --red-light: rgba(220, 38, 38, 0.15);
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.2);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.3);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.4);
+            --nav-bg: #1e293b;
+            --input-bg: #334155;
+            --table-hover: #334155;
+            --table-header: #334155;
+            --skeleton: #334155;
+            --skeleton-shine: #475569;
+            --toast-bg: #334155;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* Header */
         .header {
-            background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+            background: var(--bg-header);
             color: white;
-            padding: 20px 30px;
+            padding: 18px 28px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .header h1 { font-size: 22px; font-weight: 600; }
-        .header-subtitle { opacity: 0.9; font-size: 14px; margin-top: 4px; }
+        .header h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }
+        .header-subtitle { opacity: 0.85; font-size: 13px; margin-top: 3px; font-weight: 400; }
         .header-right { display: flex; gap: 10px; align-items: center; }
+        .header-right select {
+            padding: 7px 12px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 6px;
+            font-size: 13px;
+            background: rgba(255,255,255,0.15);
+            color: white;
+            cursor: pointer;
+        }
+        .header-right select option { color: #1e293b; background: white; }
 
+        .theme-toggle {
+            width: 36px; height: 36px;
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 8px;
+            background: rgba(255,255,255,0.15);
+            color: white;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+        .theme-toggle:hover { background: rgba(255,255,255,0.25); }
+
+        /* Sticky Nav */
         .nav-tabs {
             display: flex;
-            background: white;
-            border-bottom: 2px solid #e0e0e0;
+            background: var(--nav-bg);
+            border-bottom: 1px solid var(--border-color);
             padding: 0 20px;
             overflow-x: auto;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: background 0.3s, border-color 0.3s;
         }
         .nav-tab {
-            padding: 14px 20px;
+            padding: 13px 18px;
             cursor: pointer;
-            border-bottom: 3px solid transparent;
-            margin-bottom: -2px;
-            color: #636e72;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -1px;
+            color: var(--text-secondary);
             font-weight: 500;
-            font-size: 14px;
+            font-size: 13px;
             transition: all 0.2s;
             white-space: nowrap;
+            user-select: none;
         }
-        .nav-tab:hover { color: #00b894; }
-        .nav-tab.active { color: #00b894; border-bottom-color: #00b894; }
+        .nav-tab:hover { color: var(--accent); }
+        .nav-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
 
         .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
 
+        /* Cards with hover lift */
         .card {
-            background: white;
-            border-radius: 12px;
-            padding: 24px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 22px;
+            margin-bottom: 18px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s, background 0.3s, border-color 0.3s;
         }
+        .card:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
         .card-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 16px;
+            margin-bottom: 14px;
             flex-wrap: wrap;
-            gap: 12px;
+            gap: 10px;
         }
-        .card-title { font-size: 16px; font-weight: 600; color: #2d3436; }
-        .card-subtitle { font-size: 12px; color: #888; margin-top: 2px; }
+        .card-title { font-size: 15px; font-weight: 600; color: var(--text-primary); }
+        .card-subtitle { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
 
+        /* Stat cards */
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
-            margin-bottom: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
+            margin-bottom: 18px;
         }
         .stat-card {
-            background: white;
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            border-left: 4px solid #00b894;
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 18px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid var(--border-color);
+            border-left: 3px solid var(--accent);
+            transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
         }
-        .stat-card.warning { border-left-color: #fdcb6e; }
-        .stat-card.danger { border-left-color: #d63031; }
-        .stat-card.info { border-left-color: #0984e3; }
-        .stat-label { font-size: 11px; color: #636e72; text-transform: uppercase; letter-spacing: 0.5px; }
-        .stat-value { font-size: 28px; font-weight: 700; margin: 6px 0 4px; color: #2d3436; }
-        .stat-sub { font-size: 12px; color: #888; }
+        .stat-card:hover { transform: translateY(-1px); box-shadow: var(--shadow-md); }
+        .stat-card.warning { border-left-color: var(--amber); }
+        .stat-card.danger { border-left-color: var(--red); }
+        .stat-card.info { border-left-color: var(--blue); }
+        .stat-card.purple { border-left-color: var(--purple); }
+        .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; font-weight: 500; }
+        .stat-value { font-size: 26px; font-weight: 700; margin: 5px 0 3px; color: var(--text-primary); }
+        .stat-sub { font-size: 12px; color: var(--text-secondary); }
 
-        .filter-bar {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-        .filter-bar select, .filter-bar input {
-            padding: 8px 12px;
-            border: 1px solid #ddd;
+        /* Skeleton loading */
+        .skeleton {
+            background: var(--skeleton);
             border-radius: 6px;
-            font-size: 13px;
-            background: white;
-        }
-
-        .chart-container {
             position: relative;
-            height: 300px;
+            overflow: hidden;
         }
-        .chart-container.tall { height: 400px; }
+        .skeleton::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(90deg, transparent, var(--skeleton-shine), transparent);
+            animation: shimmer 1.5s infinite;
+        }
+        @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+        .skeleton-stat { height: 90px; }
+        .skeleton-chart { height: 300px; }
+        .skeleton-text { height: 16px; margin-bottom: 8px; width: 60%; }
 
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 13px;
+        /* Filter bar */
+        .filter-bar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+        .filter-bar select, .filter-bar input {
+            padding: 7px 11px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 12px;
+            background: var(--input-bg);
+            color: var(--text-primary);
+            transition: border-color 0.2s;
         }
+        .filter-bar select:focus, .filter-bar input:focus { outline: none; border-color: var(--accent); }
+
+        /* Search input for tables */
+        .table-search {
+            width: 100%;
+            padding: 8px 12px 8px 32px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 12px;
+            background: var(--input-bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E") no-repeat 10px center;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+            transition: border-color 0.2s;
+        }
+        .table-search:focus { outline: none; border-color: var(--accent); }
+
+        /* Charts */
+        .chart-container { position: relative; height: 280px; }
+        .chart-container.tall { height: 380px; }
+
+        /* Tables */
+        .data-table { width: 100%; border-collapse: collapse; font-size: 12px; }
         .data-table th, .data-table td {
-            padding: 12px;
+            padding: 10px 12px;
             text-align: left;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid var(--border-color);
         }
         .data-table th {
-            background: #f8f9fa;
+            background: var(--table-header);
             font-weight: 600;
-            color: #636e72;
-            font-size: 11px;
+            color: var(--text-secondary);
+            font-size: 10px;
             text-transform: uppercase;
+            letter-spacing: 0.3px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
         }
-        .data-table tr:hover { background: #f8f9fa; }
+        .data-table tr:hover { background: var(--table-hover); }
+        .data-table td { color: var(--text-primary); }
 
         .table-container {
             max-height: 400px;
             overflow-y: auto;
-            border: 1px solid #eee;
+            border: 1px solid var(--border-color);
             border-radius: 8px;
         }
 
         .badge {
             display: inline-block;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 11px;
             font-weight: 500;
         }
-        .badge-success { background: #d4edda; color: #155724; }
-        .badge-warning { background: #fff3cd; color: #856404; }
-        .badge-danger { background: #f8d7da; color: #721c24; }
-        .badge-info { background: #d1ecf1; color: #0c5460; }
+        .badge-success { background: #dcfce7; color: #166534; }
+        .badge-warning { background: #fef3c7; color: #92400e; }
+        .badge-danger { background: #fee2e2; color: #991b1b; }
+        .badge-info { background: #dbeafe; color: #1e40af; }
 
+        [data-theme="dark"] .badge-success { background: rgba(22,163,74,0.2); color: #86efac; }
+        [data-theme="dark"] .badge-warning { background: rgba(217,119,6,0.2); color: #fcd34d; }
+        [data-theme="dark"] .badge-danger { background: rgba(220,38,38,0.2); color: #fca5a5; }
+        [data-theme="dark"] .badge-info { background: rgba(37,99,235,0.2); color: #93c5fd; }
+
+        /* Upload */
         .upload-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
         }
         .upload-box {
-            border: 2px dashed #ddd;
-            border-radius: 12px;
-            padding: 24px;
+            border: 2px dashed var(--border-color);
+            border-radius: var(--radius);
+            padding: 20px 16px;
             text-align: center;
             cursor: pointer;
             transition: all 0.2s;
         }
-        .upload-box:hover { border-color: #00b894; background: #f8fff9; }
-        .upload-box.has-file { border-color: #00b894; background: #f0fff4; }
-        .upload-icon { font-size: 32px; margin-bottom: 8px; }
-        .upload-title { font-weight: 600; margin-bottom: 4px; }
-        .upload-hint { font-size: 12px; color: #888; }
-        .upload-filename { font-size: 11px; color: #00b894; margin-top: 8px; word-break: break-all; }
+        .upload-box:hover { border-color: var(--accent); background: var(--accent-lighter); }
+        .upload-box.has-file { border-color: var(--accent); background: var(--accent-light); }
+        .upload-icon { font-size: 28px; margin-bottom: 6px; }
+        .upload-title { font-weight: 600; font-size: 13px; margin-bottom: 3px; color: var(--text-primary); }
+        .upload-hint { font-size: 11px; color: var(--text-muted); }
+        .upload-filename { font-size: 10px; color: var(--accent); margin-top: 6px; word-break: break-all; font-weight: 500; }
         .file-input { display: none; }
 
+        /* Buttons */
         .btn {
-            padding: 10px 20px;
+            padding: 8px 16px;
             border: none;
-            border-radius: 8px;
-            font-size: 14px;
+            border-radius: 6px;
+            font-size: 13px;
             font-weight: 500;
             cursor: pointer;
             transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
         }
-        .btn-primary { background: #00b894; color: white; }
-        .btn-primary:hover { background: #00a383; }
-        .btn-secondary { background: #dfe6e9; color: #2d3436; }
-        .btn-secondary:hover { background: #b2bec3; }
+        .btn-primary { background: var(--accent); color: white; }
+        .btn-primary:hover { background: var(--accent-hover); }
+        .btn-secondary { background: var(--border-color); color: var(--text-primary); }
+        .btn-secondary:hover { opacity: 0.8; }
+        .btn-sm { padding: 5px 10px; font-size: 11px; }
 
-        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-        @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+        .export-btn {
+            padding: 4px 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            font-size: 11px;
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .export-btn:hover { border-color: var(--accent); color: var(--accent); }
 
-        .toast-container { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+        /* Grid */
+        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+        @media (max-width: 960px) { .grid-2 { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .upload-grid { grid-template-columns: repeat(2, 1fr); }
+            .header { padding: 14px 16px; }
+            .container { padding: 14px; }
+            .header h1 { font-size: 17px; }
+        }
+        @media (max-width: 480px) {
+            .stats-grid { grid-template-columns: 1fr; }
+            .upload-grid { grid-template-columns: 1fr; }
+        }
+
+        /* Toast with slide-out */
+        .toast-container { position: fixed; bottom: 20px; right: 20px; z-index: 1000; display: flex; flex-direction: column; gap: 8px; }
         .toast {
-            background: #2d3436;
+            background: var(--toast-bg);
             color: white;
-            padding: 12px 20px;
+            padding: 11px 18px;
             border-radius: 8px;
-            margin-top: 10px;
-            animation: slideIn 0.3s ease;
+            font-size: 13px;
+            animation: toastIn 0.35s ease;
+            box-shadow: var(--shadow-lg);
         }
-        .toast.success { background: #00b894; }
-        .toast.error { background: #d63031; }
-        @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+        .toast.success { background: var(--accent); }
+        .toast.error { background: var(--red); }
+        .toast.leaving { animation: toastOut 0.35s ease forwards; }
+        @keyframes toastIn { from { transform: translateX(120%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+        @keyframes toastOut { from { transform: translateX(0); opacity: 1; } to { transform: translateX(120%); opacity: 0; } }
 
-        .progress-bar {
-            height: 8px;
-            background: #eee;
-            border-radius: 4px;
-            overflow: hidden;
-            margin-top: 8px;
+        /* Progress bar */
+        .progress-bar { height: 6px; background: var(--border-color); border-radius: 3px; overflow: hidden; margin-top: 6px; }
+        .progress-fill { height: 100%; background: var(--accent); transition: width 0.3s; border-radius: 3px; }
+        .progress-fill.warning { background: var(--amber); }
+        .progress-fill.danger { background: var(--red); }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-muted);
         }
-        .progress-fill {
-            height: 100%;
-            background: #00b894;
-            transition: width 0.3s;
+        .empty-state-icon { font-size: 40px; margin-bottom: 12px; opacity: 0.5; }
+        .empty-state-title { font-size: 15px; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px; }
+        .empty-state-text { font-size: 13px; max-width: 320px; margin: 0 auto; line-height: 1.5; }
+
+        /* Data status grid */
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
         }
-        .progress-fill.warning { background: #fdcb6e; }
-        .progress-fill.danger { background: #d63031; }
+        .status-item {
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            background: var(--bg-card);
+        }
+        .status-item-label { font-size: 12px; font-weight: 600; color: var(--text-primary); margin-bottom: 4px; }
+        .status-item-value { font-size: 11px; color: var(--text-secondary); }
+        .status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; }
+        .status-dot.active { background: var(--accent); }
+        .status-dot.empty { background: var(--text-muted); }
+
+        /* Print styles */
+        @media print {
+            .header, .nav-tabs, .filter-bar, .export-btn, .btn, .upload-grid, .theme-toggle, .toast-container { display: none !important; }
+            body { background: white !important; color: black !important; }
+            .card { box-shadow: none !important; border: 1px solid #ccc !important; break-inside: avoid; page-break-inside: avoid; }
+            .tab-content { display: block !important; }
+            .container { max-width: 100%; padding: 0 10px; }
+            .stat-card { box-shadow: none !important; border: 1px solid #ccc !important; }
+        }
     </style>
 </head>
 <body>
@@ -226,6 +426,7 @@
                 <option value="90">Last 90 Days</option>
                 <option value="365">Last Year</option>
             </select>
+            <button class="theme-toggle" id="themeToggle" title="Toggle dark mode">&#9790;</button>
         </div>
     </div>
 
@@ -240,7 +441,13 @@
     <div class="container">
         <!-- Overview Tab -->
         <div class="tab-content active" id="overview-tab">
-            <div class="stats-grid" id="overviewStats"></div>
+            <div class="stats-grid" id="overviewStats">
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+            </div>
 
             <div class="grid-2">
                 <div class="card">
@@ -249,8 +456,9 @@
                             <div class="card-title">Production vs Turnaround</div>
                             <div class="card-subtitle">Volume and speed trends</div>
                         </div>
+                        <button class="export-btn" onclick="exportCSV('production')">Export CSV</button>
                     </div>
-                    <div class="chart-container">
+                    <div class="chart-container" id="overviewCombinedWrap">
                         <canvas id="overviewCombinedChart"></canvas>
                     </div>
                 </div>
@@ -278,9 +486,7 @@
                     </div>
                     <div class="table-container" style="max-height: 250px;">
                         <table class="data-table" id="overviewStockTable">
-                            <thead>
-                                <tr><th>Stock/Dilution</th><th>Count</th></tr>
-                            </thead>
+                            <thead><tr><th>Stock/Dilution</th><th>Count</th></tr></thead>
                             <tbody></tbody>
                         </table>
                     </div>
@@ -295,9 +501,7 @@
                     </div>
                     <div class="table-container" style="max-height: 250px;">
                         <table class="data-table" id="overviewWasteTable">
-                            <thead>
-                                <tr><th>Product</th><th>Waste</th></tr>
-                            </thead>
+                            <thead><tr><th>Product</th><th>Waste</th></tr></thead>
                             <tbody></tbody>
                         </table>
                     </div>
@@ -307,7 +511,11 @@
 
         <!-- Production Tab -->
         <div class="tab-content" id="production-tab">
-            <div class="stats-grid" id="productionStats"></div>
+            <div class="stats-grid" id="productionStats">
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+            </div>
 
             <div class="card">
                 <div class="card-header">
@@ -320,6 +528,7 @@
                             <option value="daily">Daily</option>
                             <option value="weekly">Weekly</option>
                         </select>
+                        <button class="export-btn" onclick="exportCSV('production')">Export CSV</button>
                     </div>
                 </div>
                 <div class="chart-container tall">
@@ -342,7 +551,25 @@
 
         <!-- Turnaround Tab -->
         <div class="tab-content" id="turnaround-tab">
-            <div class="stats-grid" id="turnaroundStats"></div>
+            <div class="stats-grid" id="turnaroundStats">
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+            </div>
+
+            <!-- Turnaround trend chart -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Turnaround Time Trend</div>
+                        <div class="card-subtitle">Daily average turnaround over time</div>
+                    </div>
+                    <button class="export-btn" onclick="exportCSV('turnaround')">Export CSV</button>
+                </div>
+                <div class="chart-container tall">
+                    <canvas id="turnaroundTrendChart"></canvas>
+                </div>
+            </div>
 
             <div class="grid-2">
                 <div class="card">
@@ -377,15 +604,10 @@
                         <div class="card-subtitle">Most frequently prepped medications</div>
                     </div>
                 </div>
+                <input type="text" class="table-search" id="drugSearch" placeholder="Search drugs..." oninput="filterTable('topDrugsTable', this.value)">
                 <div class="table-container">
                     <table class="data-table" id="topDrugsTable">
-                        <thead>
-                            <tr>
-                                <th>Drug</th>
-                                <th>Count</th>
-                                <th>Avg Turnaround</th>
-                            </tr>
-                        </thead>
+                        <thead><tr><th>Drug</th><th>Count</th><th>Avg Turnaround</th></tr></thead>
                         <tbody></tbody>
                     </table>
                 </div>
@@ -394,7 +616,26 @@
 
         <!-- Waste Analysis Tab -->
         <div class="tab-content" id="waste-tab">
-            <div class="stats-grid" id="wasteStats"></div>
+            <div class="stats-grid" id="wasteStats">
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+                <div class="skeleton skeleton-stat"></div>
+            </div>
+
+            <!-- Waste trend chart -->
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <div class="card-title">Daily Waste Trend</div>
+                        <div class="card-subtitle">Waste volume over time</div>
+                    </div>
+                    <button class="export-btn" onclick="exportCSV('waste')">Export CSV</button>
+                </div>
+                <div class="chart-container tall">
+                    <canvas id="wasteTrendChart"></canvas>
+                </div>
+            </div>
 
             <div class="grid-2">
                 <div class="card">
@@ -406,21 +647,14 @@
                         <div class="filter-bar">
                             <select id="wasteSortBy" onchange="loadWasteData()">
                                 <option value="waste_ml">By Volume (mL)</option>
-                                <option value="waste_percent">By Percentage</option>
+                                <option value="waste_percent">By Percentage (excl. 100%)</option>
                             </select>
                         </div>
                     </div>
+                    <input type="text" class="table-search" id="wasteSearch" placeholder="Search products..." oninput="filterTable('topWasteTable', this.value)">
                     <div class="table-container" style="max-height: 500px;">
                         <table class="data-table" id="topWasteTable">
-                            <thead>
-                                <tr>
-                                    <th>Product</th>
-                                    <th>Type</th>
-                                    <th>Partial Uses</th>
-                                    <th>Waste (mL)</th>
-                                    <th>Waste %</th>
-                                </tr>
-                            </thead>
+                            <thead><tr><th>Product</th><th>Type</th><th>Partial Uses</th><th>Waste (mL)</th><th>Waste %</th></tr></thead>
                             <tbody></tbody>
                         </table>
                     </div>
@@ -461,116 +695,102 @@
                     </div>
                     <div class="table-container">
                         <table class="data-table" id="topUsageTable">
-                            <thead>
-                                <tr>
-                                    <th>Product</th>
-                                    <th>Uses</th>
-                                    <th>Doses</th>
-                                    <th>Locations</th>
-                                </tr>
-                            </thead>
+                            <thead><tr><th>Product</th><th>Uses</th><th>Doses</th><th>Locations</th></tr></thead>
                             <tbody></tbody>
                         </table>
                     </div>
                 </div>
             </div>
 
-            <!-- Stock Solutions Section -->
             <div class="card" id="stockSection" style="display:none;">
                 <div class="card-header">
                     <div>
-                        <div class="card-title">Stock Solutions Production</div>
-                        <div class="card-subtitle">Pre-made stocks and dilutions for individualized pediatric dosing</div>
+                        <div class="card-title">Stock &amp; Dilution Production</div>
+                        <div class="card-subtitle">Pre-made stocks and dilutions for individual patient doses. BAXA items are compounded on the BAXA TPN machine.</div>
                     </div>
                     <div class="filter-bar">
                         <select id="stockTypeFilter" onchange="loadStockData()">
-                            <option value="all">All Stock Solutions</option>
+                            <option value="all">All Stocks &amp; Dilutions</option>
                             <option value="stock">IV Stocks</option>
                             <option value="dilution">Dilutions</option>
+                            <option value="baxa">BAXA TPN Only</option>
                         </select>
                     </div>
                 </div>
-                <div class="stats-grid" id="stockStats" style="margin-bottom: 16px;"></div>
+                <div class="stats-grid" id="stockStats" style="margin-bottom: 14px;"></div>
+                <input type="text" class="table-search" id="stockSearch" placeholder="Search stock solutions..." oninput="filterTable('stockTable', this.value)">
                 <div class="table-container" style="max-height: 400px;">
                     <table class="data-table" id="stockTable">
-                        <thead>
-                            <tr>
-                                <th>Stock Solution</th>
-                                <th>Category</th>
-                                <th>Size</th>
-                                <th>Total Made</th>
-                            </tr>
-                        </thead>
+                        <thead><tr><th>Stock Solution</th><th>Category</th><th>Size</th><th>Total Made</th></tr></thead>
                         <tbody></tbody>
                     </table>
                 </div>
             </div>
-
         </div>
 
         <!-- Upload Tab -->
         <div class="tab-content" id="upload-tab">
             <div class="card">
-                <div class="card-title" style="margin-bottom: 20px;">Upload DoseEdge Reports</div>
+                <div class="card-title" style="margin-bottom: 18px;">Upload DoseEdge Reports</div>
                 <div class="upload-grid">
                     <div class="upload-box" id="productionBox" onclick="triggerUpload('production')">
-                        <div class="upload-icon">📊</div>
+                        <div class="upload-icon">&#x1F4CA;</div>
                         <div class="upload-title">Production Stats</div>
                         <div class="upload-hint">Dose Order Prep Statistics by Date</div>
-                        <div class="upload-filename" id="productionFile"></div>
+                        <div class="upload-filename" id="productionFileLabel"></div>
                     </div>
                     <input type="file" id="productionInput" class="file-input" accept=".xls,.xlsx">
 
                     <div class="upload-box" id="turnaroundBox" onclick="triggerUpload('turnaround')">
-                        <div class="upload-icon">⏱️</div>
+                        <div class="upload-icon">&#x23F1;</div>
                         <div class="upload-title">Turnaround Report</div>
                         <div class="upload-hint">Dose turnaround times</div>
-                        <div class="upload-filename" id="turnaroundFile"></div>
+                        <div class="upload-filename" id="turnaroundFileLabel"></div>
                     </div>
                     <input type="file" id="turnaroundInput" class="file-input" accept=".xls,.xlsx">
 
                     <div class="upload-box" id="bypassBox" onclick="triggerUpload('bypass')">
-                        <div class="upload-icon">⚠️</div>
+                        <div class="upload-icon">&#x26A0;</div>
                         <div class="upload-title">Bypass Stats</div>
                         <div class="upload-hint">Bypass Prep Statistics</div>
-                        <div class="upload-filename" id="bypassFile"></div>
+                        <div class="upload-filename" id="bypassFileLabel"></div>
                     </div>
                     <input type="file" id="bypassInput" class="file-input" accept=".xls,.xlsx">
 
                     <div class="upload-box" id="productUsageBox" onclick="triggerUpload('productUsage')">
-                        <div class="upload-icon">📦</div>
+                        <div class="upload-icon">&#x1F4E6;</div>
                         <div class="upload-title">Product Usage</div>
                         <div class="upload-hint">Product Usage by Location Report</div>
-                        <div class="upload-filename" id="productUsageFile"></div>
+                        <div class="upload-filename" id="productUsageFileLabel"></div>
                     </div>
                     <input type="file" id="productUsageInput" class="file-input" accept=".xls,.xlsx">
 
                     <div class="upload-box" id="productWastageBox" onclick="triggerUpload('productWastage')">
-                        <div class="upload-icon">🗑️</div>
+                        <div class="upload-icon">&#x1F5D1;</div>
                         <div class="upload-title">Product Wastage</div>
                         <div class="upload-hint">Product Wastage Summary Report</div>
-                        <div class="upload-filename" id="productWastageFile"></div>
+                        <div class="upload-filename" id="productWastageFileLabel"></div>
                     </div>
                     <input type="file" id="productWastageInput" class="file-input" accept=".xls,.xlsx">
 
                     <div class="upload-box" id="detailedWastageBox" onclick="triggerUpload('detailedWastage')">
-                        <div class="upload-icon">📈</div>
+                        <div class="upload-icon">&#x1F4C8;</div>
                         <div class="upload-title">Detailed Wastage</div>
                         <div class="upload-hint">Usage & Wastage Report (with dates)</div>
-                        <div class="upload-filename" id="detailedWastageFile"></div>
+                        <div class="upload-filename" id="detailedWastageFileLabel"></div>
                     </div>
                     <input type="file" id="detailedWastageInput" class="file-input" accept=".xls,.xlsx">
 
                     <div class="upload-box" id="stockDosesBox" onclick="triggerUpload('stockDoses')">
-                        <div class="upload-icon">🧪</div>
+                        <div class="upload-icon">&#x1F9EA;</div>
                         <div class="upload-title">Stock Doses</div>
                         <div class="upload-hint">Completed Stock and Dilution Doses</div>
-                        <div class="upload-filename" id="stockDosesFile"></div>
+                        <div class="upload-filename" id="stockDosesFileLabel"></div>
                     </div>
                     <input type="file" id="stockDosesInput" class="file-input" accept=".xls,.xlsx">
                 </div>
 
-                <div style="margin-top: 20px; display: flex; gap: 10px;">
+                <div style="margin-top: 18px; display: flex; gap: 10px;">
                     <button class="btn btn-primary" onclick="uploadAll()">Upload Selected Files</button>
                     <button class="btn btn-secondary" onclick="clearUploads()">Clear</button>
                 </div>
@@ -579,69 +799,29 @@
             <div class="card">
                 <div class="card-header" style="cursor: pointer;" onclick="toggleGuide()">
                     <div>
-                        <div class="card-title">📋 DoseEdge Report Guide</div>
+                        <div class="card-title">DoseEdge Report Guide</div>
                         <div class="card-subtitle">Click to expand - Which reports to pull from DoseEdge</div>
                     </div>
-                    <span id="guideToggle" style="font-size: 18px;">▼</span>
+                    <span id="guideToggle" style="font-size: 16px; color: var(--text-muted);">&#9660;</span>
                 </div>
-                <div id="reportGuide" style="display: none; margin-top: 16px;">
-                    <table class="data-table" style="font-size: 13px;">
+                <div id="reportGuide" style="display: none; margin-top: 14px;">
+                    <table class="data-table" style="font-size: 12px;">
                         <thead>
-                            <tr>
-                                <th>Upload Box</th>
-                                <th>DoseEdge Report Name</th>
-                                <th>Location in DoseEdge</th>
-                                <th>Purpose</th>
-                            </tr>
+                            <tr><th>Upload Box</th><th>DoseEdge Report Name</th><th>Location in DoseEdge</th><th>Purpose</th></tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td><strong>Production Stats</strong></td>
-                                <td>Dose Order Prep Statistics by Date</td>
-                                <td>Reports → Statistics → Dose Order Prep Statistics</td>
-                                <td>Production volume trends, hourly patterns</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Turnaround Report</strong></td>
-                                <td>Turnaround Report</td>
-                                <td>Reports → Statistics → Turnaround Report</td>
-                                <td>Queue-to-sort time metrics</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Bypass Stats</strong></td>
-                                <td>Bypass Prep Statistics</td>
-                                <td>Reports → Statistics → Bypass Prep Statistics</td>
-                                <td>Bypass rates by location</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Product Usage</strong></td>
-                                <td>Product Usage</td>
-                                <td>Reports → Usage → Product Usage</td>
-                                <td>Product usage by location (aggregate)</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Product Wastage</strong></td>
-                                <td>Product Wastage</td>
-                                <td>Reports → Usage → Product Wastage</td>
-                                <td>Waste volume by product (aggregate)</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Detailed Wastage</strong></td>
-                                <td>Product Usage and Wastage Report</td>
-                                <td>Reports → Usage → Product Usage and Wastage</td>
-                                <td>Daily waste trends (detailed with dates)</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Stock Doses</strong></td>
-                                <td>Completed Stock and Dilution Doses</td>
-                                <td>Reports → Statistics → Completed Stock and Dilution Doses</td>
-                                <td>Stock solution production counts</td>
-                            </tr>
+                            <tr><td><strong>Production Stats</strong></td><td>Dose Order Prep Statistics by Date</td><td>Reports &rarr; Statistics &rarr; Dose Order Prep Statistics</td><td>Production volume trends, hourly patterns</td></tr>
+                            <tr><td><strong>Turnaround Report</strong></td><td>Turnaround Report</td><td>Reports &rarr; Statistics &rarr; Turnaround Report</td><td>Queue-to-sort time metrics</td></tr>
+                            <tr><td><strong>Bypass Stats</strong></td><td>Bypass Prep Statistics</td><td>Reports &rarr; Statistics &rarr; Bypass Prep Statistics</td><td>Bypass rates by location</td></tr>
+                            <tr><td><strong>Product Usage</strong></td><td>Product Usage</td><td>Reports &rarr; Usage &rarr; Product Usage</td><td>Product usage by location (aggregate)</td></tr>
+                            <tr><td><strong>Product Wastage</strong></td><td>Product Wastage</td><td>Reports &rarr; Usage &rarr; Product Wastage</td><td>Waste volume by product (aggregate)</td></tr>
+                            <tr><td><strong>Detailed Wastage</strong></td><td>Product Usage and Wastage Report</td><td>Reports &rarr; Usage &rarr; Product Usage and Wastage</td><td>Daily waste trends (detailed with dates)</td></tr>
+                            <tr><td><strong>Stock Doses</strong></td><td>Completed Stock and Dilution Doses</td><td>Reports &rarr; Statistics &rarr; Completed Stock and Dilution Doses</td><td>Stock solution production counts</td></tr>
                         </tbody>
                     </table>
-                    <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-radius: 6px; font-size: 13px;">
+                    <div style="margin-top: 14px; padding: 12px; background: var(--accent-light); border-radius: 6px; font-size: 12px; color: var(--text-secondary);">
                         <strong>Tips:</strong>
-                        <ul style="margin: 8px 0 0 20px; padding: 0;">
+                        <ul style="margin: 6px 0 0 18px; padding: 0; line-height: 1.6;">
                             <li>Use 30-90 day date ranges for meaningful trends</li>
                             <li>Export reports as .xls or .xlsx format</li>
                             <li>You can upload multiple reports at once</li>
@@ -652,8 +832,14 @@
             </div>
 
             <div class="card">
-                <div class="card-title" style="margin-bottom: 12px;">Data Status</div>
-                <div id="dataStatus">Loading...</div>
+                <div class="card-header">
+                    <div class="card-title">Data Status</div>
+                    <button class="btn btn-secondary btn-sm" onclick="clearAllData()">Clear All Data</button>
+                </div>
+                <div id="dataStatus">
+                    <div class="skeleton skeleton-text"></div>
+                    <div class="skeleton skeleton-text" style="width:40%"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -664,7 +850,93 @@
         let charts = {};
         let selectedFiles = { production: null, turnaround: null, bypass: null, productUsage: null, productWastage: null, detailedWastage: null, stockDoses: null };
 
+        // ===== THEME =====
+        function initTheme() {
+            const saved = localStorage.getItem('de-theme') || 'light';
+            document.documentElement.setAttribute('data-theme', saved);
+            updateThemeIcon(saved);
+        }
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('de-theme', next);
+            updateThemeIcon(next);
+            // Rebuild charts for theme
+            const activeTab = document.querySelector('.nav-tab.active');
+            if (activeTab) {
+                const tab = activeTab.dataset.tab;
+                if (tab === 'overview') loadOverviewData();
+                if (tab === 'production') loadProductionData();
+                if (tab === 'turnaround') loadTurnaroundData();
+                if (tab === 'waste') loadWasteData();
+            }
+        }
+        function updateThemeIcon(theme) {
+            document.getElementById('themeToggle').innerHTML = theme === 'dark' ? '&#9728;' : '&#9790;';
+        }
+
+        // Chart.js defaults for theme
+        function getChartColors() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            return {
+                gridColor: isDark ? 'rgba(148,163,184,0.1)' : 'rgba(0,0,0,0.06)',
+                textColor: isDark ? '#94a3b8' : '#64748b',
+                tooltipBg: isDark ? '#334155' : '#1e293b',
+            };
+        }
+        function chartDefaults() {
+            const c = getChartColors();
+            return {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { labels: { color: c.textColor, font: { size: 11 } } },
+                    tooltip: {
+                        backgroundColor: c.tooltipBg,
+                        titleFont: { size: 12 },
+                        bodyFont: { size: 11 },
+                        padding: 10,
+                        cornerRadius: 6,
+                        displayColors: true,
+                        boxPadding: 4
+                    }
+                },
+                scales: {
+                    x: { ticks: { color: c.textColor, font: { size: 10 } }, grid: { color: c.gridColor } },
+                    y: { ticks: { color: c.textColor, font: { size: 10 } }, grid: { color: c.gridColor } }
+                }
+            };
+        }
+
+        // ===== ANIMATED COUNTER =====
+        function animateCounters() {
+            document.querySelectorAll('.stat-value[data-target]').forEach(el => {
+                const target = parseFloat(el.dataset.target);
+                const suffix = el.dataset.suffix || '';
+                const decimals = el.dataset.decimals ? parseInt(el.dataset.decimals) : 0;
+                const duration = 800;
+                const start = performance.now();
+
+                function step(now) {
+                    const progress = Math.min((now - start) / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+                    const current = target * eased;
+                    if (decimals > 0) {
+                        el.textContent = current.toFixed(decimals) + suffix;
+                    } else {
+                        el.textContent = Math.round(current).toLocaleString() + suffix;
+                    }
+                    if (progress < 1) requestAnimationFrame(step);
+                }
+                requestAnimationFrame(step);
+            });
+        }
+
+        // ===== INIT =====
         document.addEventListener('DOMContentLoaded', () => {
+            initTheme();
+            document.getElementById('themeToggle').addEventListener('click', toggleTheme);
             initTabs();
             initFileInputs();
             refreshAllData();
@@ -676,9 +948,7 @@
                     document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
                     document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
                     tab.classList.add('active');
-                    document.getElementById(`${tab.dataset.tab}-tab`).classList.add('active');
-
-                    // Load tab-specific data
+                    document.getElementById(tab.dataset.tab + '-tab').classList.add('active');
                     if (tab.dataset.tab === 'production') loadProductionData();
                     if (tab.dataset.tab === 'turnaround') loadTurnaroundData();
                     if (tab.dataset.tab === 'waste') loadWasteData();
@@ -689,112 +959,91 @@
 
         function initFileInputs() {
             ['production', 'turnaround', 'bypass', 'productUsage', 'productWastage', 'detailedWastage', 'stockDoses'].forEach(type => {
-                document.getElementById(`${type}Input`).addEventListener('change', e => {
+                document.getElementById(type + 'Input').addEventListener('change', e => {
                     const file = e.target.files[0];
                     selectedFiles[type] = file;
-                    document.getElementById(`${type}File`).textContent = file ? file.name : '';
-                    document.getElementById(`${type}Box`).classList.toggle('has-file', !!file);
+                    document.getElementById(type + 'FileLabel').textContent = file ? file.name : '';
+                    document.getElementById(type + 'Box').classList.toggle('has-file', !!file);
                 });
             });
         }
 
-        function triggerUpload(type) {
-            document.getElementById(`${type}Input`).click();
-        }
+        function triggerUpload(type) { document.getElementById(type + 'Input').click(); }
 
         function clearUploads() {
             ['production', 'turnaround', 'bypass', 'productUsage', 'productWastage', 'detailedWastage', 'stockDoses'].forEach(type => {
                 selectedFiles[type] = null;
-                document.getElementById(`${type}Input`).value = '';
-                document.getElementById(`${type}File`).textContent = '';
-                document.getElementById(`${type}Box`).classList.remove('has-file');
+                document.getElementById(type + 'Input').value = '';
+                document.getElementById(type + 'FileLabel').textContent = '';
+                document.getElementById(type + 'Box').classList.remove('has-file');
             });
         }
 
         function toggleGuide() {
             const guide = document.getElementById('reportGuide');
             const toggle = document.getElementById('guideToggle');
-            if (guide.style.display === 'none') {
-                guide.style.display = 'block';
-                toggle.textContent = '▲';
-            } else {
-                guide.style.display = 'none';
-                toggle.textContent = '▼';
-            }
+            if (guide.style.display === 'none') { guide.style.display = 'block'; toggle.innerHTML = '&#9650;'; }
+            else { guide.style.display = 'none'; toggle.innerHTML = '&#9660;'; }
         }
 
+        // ===== TABLE SEARCH/FILTER =====
+        function filterTable(tableId, query) {
+            const rows = document.querySelectorAll('#' + tableId + ' tbody tr');
+            const q = query.toLowerCase();
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                row.style.display = text.includes(q) ? '' : 'none';
+            });
+        }
+
+        // ===== CSV EXPORT =====
+        function exportCSV(type) {
+            window.open('/api/export/csv?type=' + type, '_blank');
+        }
+
+        // ===== UPLOAD =====
         async function uploadAll() {
-            const uploads = [];
-
-            // Map UI types to API endpoints
             const endpointMap = {
-                production: 'production',
-                turnaround: 'turnaround',
-                bypass: 'bypass',
-                productUsage: 'product-usage',
-                productWastage: 'product-wastage',
-                detailedWastage: 'detailed-wastage',
-                stockDoses: 'stock-doses'
+                production: 'production', turnaround: 'turnaround', bypass: 'bypass',
+                productUsage: 'product-usage', productWastage: 'product-wastage',
+                detailedWastage: 'detailed-wastage', stockDoses: 'stock-doses'
             };
-
+            const uploads = [];
             for (const [type, file] of Object.entries(selectedFiles)) {
                 if (file) {
                     const formData = new FormData();
                     formData.append('file', file);
-                    const endpoint = endpointMap[type] || type;
                     uploads.push(
-                        fetch(`/api/upload/${endpoint}`, { method: 'POST', body: formData })
-                            .then(r => r.json())
-                            .then(result => ({ type, result }))
+                        fetch('/api/upload/' + (endpointMap[type] || type), { method: 'POST', body: formData })
+                            .then(r => r.json()).then(result => ({ type, result }))
                             .catch(err => ({ type, error: err.message }))
                     );
                 }
             }
-
-            if (uploads.length === 0) {
-                showToast('No files selected', 'error');
-                return;
-            }
-
+            if (uploads.length === 0) { showToast('No files selected', 'error'); return; }
             showToast('Uploading files...');
-
             const results = await Promise.all(uploads);
-            let successCount = 0;
-
+            let ok = 0;
             results.forEach(({ type, result, error }) => {
-                if (error) {
-                    showToast(`${type}: ${error}`, 'error');
-                } else if (result.success) {
-                    showToast(`${type}: ${result.results.added} added, ${result.results.updated} updated`, 'success');
-                    successCount++;
-                } else {
-                    showToast(`${type}: ${result.error}`, 'error');
-                }
+                if (error) showToast(type + ': ' + error, 'error');
+                else if (result.success) { showToast(type + ': ' + result.results.added + ' added, ' + result.results.updated + ' updated', 'success'); ok++; }
+                else showToast(type + ': ' + result.error, 'error');
             });
-
-            if (successCount > 0) {
-                clearUploads();
-                refreshAllData();
-            }
+            if (ok > 0) { clearUploads(); refreshAllData(); }
         }
 
-        function getDays() {
-            return document.getElementById('globalDateRange').value;
-        }
+        function getDays() { return document.getElementById('globalDateRange').value; }
 
-        async function refreshAllData() {
-            await loadOverviewData();
-            loadDataStatus();
-        }
+        async function refreshAllData() { await loadOverviewData(); loadDataStatus(); }
 
+        // ===== OVERVIEW =====
         async function loadOverviewData() {
             const days = getDays();
-
             try {
                 const [summary, production, turnaround, bypassSummary, wasteSummary, stockSummary, topStocks, topWaste] = await Promise.all([
-                    fetch(`/api/summary?days=${days}`).then(r => r.json()),
-                    fetch(`/api/production/daily?days=${days}`).then(r => r.json()),
-                    fetch(`/api/turnaround/daily?days=${days}`).then(r => r.json()),
+                    fetch('/api/summary?days=' + days).then(r => r.json()),
+                    fetch('/api/production/daily?days=' + days).then(r => r.json()),
+                    fetch('/api/turnaround/daily?days=' + days).then(r => r.json()),
                     fetch('/api/bypass/summary').then(r => r.json()),
                     fetch('/api/product-wastage/summary').then(r => r.json()),
                     fetch('/api/stock-doses/summary').then(r => r.json()),
@@ -802,358 +1051,433 @@
                     fetch('/api/product-wastage/top-waste?limit=8').then(r => r.json())
                 ]);
 
-                // Stats cards
-                const wasteL = (wasteSummary.total_waste_ml || 0) / 1000;
+                const wasteCost = wasteSummary.total_waste_dollars || 0;
+
+                // Check if all empty
+                const hasData = summary.total_doses > 0 || summary.total_bypasses > 0 || (stockSummary.total_doses_made || 0) > 0;
+
+                if (!hasData) {
+                    document.getElementById('overviewStats').innerHTML = `
+                        <div class="empty-state" style="grid-column: 1/-1;">
+                            <div class="empty-state-icon">&#x1F4CA;</div>
+                            <div class="empty-state-title">No data yet</div>
+                            <div class="empty-state-text">Upload DoseEdge reports from the Upload Data tab to see your pharmacy analytics here.</div>
+                        </div>`;
+                    return;
+                }
+
                 document.getElementById('overviewStats').innerHTML = `
                     <div class="stat-card">
                         <div class="stat-label">Total Doses</div>
-                        <div class="stat-value">${summary.total_doses.toLocaleString()}</div>
+                        <div class="stat-value" data-target="${summary.total_doses}">0</div>
                         <div class="stat-sub">${summary.days_tracked} days tracked</div>
                     </div>
                     <div class="stat-card info">
                         <div class="stat-label">Avg Turnaround</div>
-                        <div class="stat-value">${summary.avg_turnaround_minutes} min</div>
+                        <div class="stat-value" data-target="${summary.avg_turnaround_minutes}" data-decimals="1" data-suffix=" min">0</div>
                         <div class="stat-sub">Queue to sort</div>
                     </div>
                     <div class="stat-card ${summary.bypass_rate > 5 ? 'danger' : summary.bypass_rate > 2 ? 'warning' : ''}">
                         <div class="stat-label">Bypass Rate</div>
-                        <div class="stat-value">${summary.bypass_rate}%</div>
-                        <div class="stat-sub">${summary.total_bypasses} total bypasses</div>
+                        <div class="stat-value" data-target="${summary.bypass_rate}" data-decimals="2" data-suffix="%">0</div>
+                        <div class="stat-sub">${summary.total_bypasses.toLocaleString()} total bypasses</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-label">Stock Solutions</div>
-                        <div class="stat-value">${(stockSummary.total_doses_made || 0).toLocaleString()}</div>
+                        <div class="stat-value" data-target="${stockSummary.total_doses_made || 0}">0</div>
                         <div class="stat-sub">${(stockSummary.total_stock_types || 0) + (stockSummary.total_dilution_types || 0)} types</div>
                     </div>
-                `;
-
-                // Combined Production + Turnaround chart
-                if (charts.overviewCombined) charts.overviewCombined.destroy();
-                const combinedCtx = document.getElementById('overviewCombinedChart').getContext('2d');
-                charts.overviewCombined = new Chart(combinedCtx, {
-                    type: 'line',
-                    data: {
-                        labels: production.map(d => formatDate(d.date)),
-                        datasets: [{
-                            label: 'Doses',
-                            data: production.map(d => d.total_doses),
-                            borderColor: '#00b894',
-                            backgroundColor: 'rgba(0, 184, 148, 0.1)',
-                            fill: true,
-                            tension: 0.3,
-                            yAxisID: 'y'
-                        }, {
-                            label: 'Turnaround (min)',
-                            data: turnaround.map(d => d.avg_turnaround),
-                            borderColor: '#0984e3',
-                            backgroundColor: 'transparent',
-                            tension: 0.3,
-                            yAxisID: 'y1'
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: { legend: { position: 'top' } },
-                        scales: {
-                            y: { position: 'left', title: { display: true, text: 'Doses' } },
-                            y1: { position: 'right', title: { display: true, text: 'Minutes' }, grid: { drawOnChartArea: false } }
+                    <div class="stat-card purple">
+                        <div class="stat-label">Total Waste Cost</div>
+                        <div class="stat-value" data-target="${wasteCost}" data-decimals="0" data-suffix="">0</div>
+                        <div class="stat-sub">${((wasteSummary.total_waste_ml || 0) / 1000).toFixed(1)}L total volume</div>
+                    </div>`;
+                // Format waste cost with $ after animation sets the number
+                setTimeout(() => {
+                    const wcEl = document.querySelector('.stat-card.purple .stat-value');
+                    if (wcEl) {
+                        const finalVal = wasteCost;
+                        const dur = 800;
+                        const st = performance.now();
+                        function wcStep(now) {
+                            const p = Math.min((now - st) / dur, 1);
+                            const e = 1 - Math.pow(1 - p, 3);
+                            wcEl.textContent = '$' + Math.round(finalVal * e).toLocaleString();
+                            if (p < 1) requestAnimationFrame(wcStep);
                         }
+                        requestAnimationFrame(wcStep);
                     }
-                });
+                }, 10);
+                animateCounters();
 
-                // Bypass by location chart
-                if (charts.overviewBypass) charts.overviewBypass.destroy();
-                const bypassCtx = document.getElementById('overviewBypassChart').getContext('2d');
-                if (bypassSummary.length > 0) {
-                    charts.overviewBypass = new Chart(bypassCtx, {
-                        type: 'bar',
+                // Combined chart
+                const defaults = chartDefaults();
+                if (charts.overviewCombined) charts.overviewCombined.destroy();
+                if (production.length > 0 || turnaround.length > 0) {
+                    charts.overviewCombined = new Chart(document.getElementById('overviewCombinedChart').getContext('2d'), {
+                        type: 'line',
                         data: {
-                            labels: bypassSummary.slice(0, 6).map(b => b.location.replace(' PHARMACY', '').replace('CCHMC ', '')),
+                            labels: production.map(d => formatDate(d.date)),
                             datasets: [{
-                                label: 'Bypasses',
-                                data: bypassSummary.slice(0, 6).map(b => b.total_bypasses),
-                                backgroundColor: '#fdcb6e',
-                                borderRadius: 4
+                                label: 'Doses',
+                                data: production.map(d => d.total_doses),
+                                borderColor: '#14b8a6',
+                                backgroundColor: 'rgba(20, 184, 166, 0.08)',
+                                fill: true, tension: 0.3, yAxisID: 'y', pointRadius: 2, pointHoverRadius: 5, borderWidth: 2
+                            }, {
+                                label: 'Turnaround (min)',
+                                data: turnaround.map(d => d.avg_turnaround),
+                                borderColor: '#2563eb',
+                                backgroundColor: 'transparent',
+                                tension: 0.3, yAxisID: 'y1', pointRadius: 2, pointHoverRadius: 5, borderWidth: 2
                             }]
                         },
                         options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            indexAxis: 'y',
-                            plugins: { legend: { display: false } }
+                            ...defaults,
+                            plugins: {
+                                ...defaults.plugins,
+                                tooltip: {
+                                    ...defaults.plugins.tooltip,
+                                    callbacks: {
+                                        label: ctx => ctx.dataset.label === 'Doses'
+                                            ? 'Doses: ' + ctx.raw.toLocaleString()
+                                            : 'Turnaround: ' + ctx.raw + ' min'
+                                    }
+                                }
+                            },
+                            scales: {
+                                x: defaults.scales.x,
+                                y: { ...defaults.scales.y, position: 'left', title: { display: true, text: 'Doses', color: getChartColors().textColor, font: { size: 11 } } },
+                                y1: { position: 'right', title: { display: true, text: 'Minutes', color: getChartColors().textColor, font: { size: 11 } }, grid: { drawOnChartArea: false }, ticks: { color: getChartColors().textColor } }
+                            }
                         }
                     });
                 }
 
-                // Top stocks table
-                document.querySelector('#overviewStockTable tbody').innerHTML = topStocks.length > 0
-                    ? topStocks.map(s => `<tr><td>${s.name.substring(0, 35)}${s.name.length > 35 ? '...' : ''}</td><td><strong>${s.total}</strong></td></tr>`).join('')
-                    : '<tr><td colspan="2" style="color:#888;text-align:center;">No stock data</td></tr>';
+                // Bypass chart
+                if (charts.overviewBypass) charts.overviewBypass.destroy();
+                if (bypassSummary.length > 0) {
+                    charts.overviewBypass = new Chart(document.getElementById('overviewBypassChart').getContext('2d'), {
+                        type: 'bar',
+                        data: {
+                            labels: bypassSummary.slice(0, 6).map(b => b.location.replace(' PHARMACY', '').replace('CCHMC ', '')),
+                            datasets: [{ label: 'Bypasses', data: bypassSummary.slice(0, 6).map(b => b.total_bypasses), backgroundColor: '#d97706', borderRadius: 4 }]
+                        },
+                        options: { ...defaults, indexAxis: 'y', plugins: { ...defaults.plugins, legend: { display: false }, tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw.toLocaleString() + ' bypasses' } } } }
+                    });
+                }
 
-                // Top waste table
-                document.querySelector('#overviewWasteTable tbody').innerHTML = topWaste.length > 0
-                    ? topWaste.map(w => `<tr><td>${w.name.substring(0, 30)}${w.name.length > 30 ? '...' : ''}</td><td>${(w.waste_ml/1000).toFixed(1)}L</td></tr>`).join('')
-                    : '<tr><td colspan="2" style="color:#888;text-align:center;">No waste data</td></tr>';
+                // Tables
+                const tbody1 = document.querySelector('#overviewStockTable tbody');
+                tbody1.innerHTML = topStocks.length > 0
+                    ? topStocks.map(s => '<tr><td>' + truncate(s.name, 35) + '</td><td><strong>' + s.total + '</strong></td></tr>').join('')
+                    : emptyRow(2, 'No stock data - upload from Upload tab');
 
-            } catch (err) {
-                console.error('Error loading overview:', err);
-            }
+                const tbody2 = document.querySelector('#overviewWasteTable tbody');
+                tbody2.innerHTML = topWaste.length > 0
+                    ? topWaste.map(w => '<tr><td>' + truncate(w.name, 30) + '</td><td>' + (w.waste_ml / 1000).toFixed(1) + 'L</td></tr>').join('')
+                    : emptyRow(2, 'No waste data - upload from Upload tab');
+
+            } catch (err) { console.error('Error loading overview:', err); }
         }
 
+        // ===== PRODUCTION =====
         async function loadProductionData() {
             const days = getDays();
             const grouping = document.getElementById('productionGrouping')?.value || 'daily';
-
-            // Production stats
             try {
-                const summary = await fetch(`/api/summary?days=${days}`).then(r => r.json());
+                const summary = await fetch('/api/summary?days=' + days).then(r => r.json());
                 const avgDaily = summary.days_tracked > 0 ? Math.round(summary.total_doses / summary.days_tracked) : 0;
+
+                if (summary.total_doses === 0) {
+                    document.getElementById('productionStats').innerHTML = `
+                        <div class="empty-state" style="grid-column:1/-1;">
+                            <div class="empty-state-icon">&#x1F4CA;</div>
+                            <div class="empty-state-title">No production data</div>
+                            <div class="empty-state-text">Upload Production Stats from the Upload tab to see trends.</div>
+                        </div>`;
+                    return;
+                }
 
                 document.getElementById('productionStats').innerHTML = `
                     <div class="stat-card">
                         <div class="stat-label">Total Doses</div>
-                        <div class="stat-value">${summary.total_doses.toLocaleString()}</div>
+                        <div class="stat-value" data-target="${summary.total_doses}">0</div>
                         <div class="stat-sub">In selected period</div>
                     </div>
                     <div class="stat-card info">
                         <div class="stat-label">Daily Average</div>
-                        <div class="stat-value">${avgDaily.toLocaleString()}</div>
+                        <div class="stat-value" data-target="${avgDaily}">0</div>
                         <div class="stat-sub">Doses per day</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-label">Days Tracked</div>
-                        <div class="stat-value">${summary.days_tracked}</div>
+                        <div class="stat-value" data-target="${summary.days_tracked}">0</div>
                         <div class="stat-sub">With production data</div>
-                    </div>
-                `;
+                    </div>`;
+                animateCounters();
             } catch (e) { console.error(e); }
 
             try {
                 const [daily, hourly] = await Promise.all([
-                    fetch(`/api/production/daily?days=${days}&grouping=${grouping}`).then(r => r.json()),
-                    fetch(`/api/production/hourly?days=${days}`).then(r => r.json())
+                    fetch('/api/production/daily?days=' + days + '&grouping=' + grouping).then(r => r.json()),
+                    fetch('/api/production/hourly?days=' + days).then(r => r.json())
                 ]);
+                const defaults = chartDefaults();
 
-                // Production trend
                 if (charts.production) charts.production.destroy();
-                const ctx = document.getElementById('productionChart').getContext('2d');
-                charts.production = new Chart(ctx, {
+                charts.production = new Chart(document.getElementById('productionChart').getContext('2d'), {
                     type: 'bar',
                     data: {
                         labels: daily.map(d => d.date),
-                        datasets: [{
-                            label: 'Doses',
-                            data: daily.map(d => d.total_doses),
-                            backgroundColor: '#00b894',
-                            borderRadius: 4
-                        }]
+                        datasets: [{ label: 'Doses', data: daily.map(d => d.total_doses), backgroundColor: '#14b8a6', borderRadius: 4 }]
                     },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: { legend: { display: false } }
-                    }
+                    options: { ...defaults, plugins: { ...defaults.plugins, legend: { display: false }, tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw.toLocaleString() + ' doses' } } } }
                 });
 
-                // Hourly distribution
                 if (charts.productionHourly) charts.productionHourly.destroy();
-                const hourlyCtx = document.getElementById('productionHourlyChart').getContext('2d');
-                charts.productionHourly = new Chart(hourlyCtx, {
+                charts.productionHourly = new Chart(document.getElementById('productionHourlyChart').getContext('2d'), {
                     type: 'line',
                     data: {
                         labels: hourly.map(h => h.hour_label),
-                        datasets: [{
-                            label: 'Avg Doses',
-                            data: hourly.map(h => h.avg_doses),
-                            borderColor: '#00b894',
-                            backgroundColor: 'rgba(0, 184, 148, 0.2)',
-                            fill: true,
-                            tension: 0.4
-                        }]
+                        datasets: [{ label: 'Avg Doses', data: hourly.map(h => h.avg_doses), borderColor: '#14b8a6', backgroundColor: 'rgba(20,184,166,0.1)', fill: true, tension: 0.4, pointRadius: 3, pointHoverRadius: 6, borderWidth: 2 }]
                     },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: { legend: { display: false } }
-                    }
+                    options: { ...defaults, plugins: { ...defaults.plugins, legend: { display: false }, tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw + ' avg doses/day' } } } }
                 });
-
-            } catch (err) {
-                console.error('Error loading production:', err);
-            }
+            } catch (err) { console.error('Error loading production:', err); }
         }
 
+        // ===== TURNAROUND =====
         async function loadTurnaroundData() {
             const days = getDays();
-
             try {
                 const [daily, byPriority, byWorkstation, topDrugs] = await Promise.all([
-                    fetch(`/api/turnaround/daily?days=${days}`).then(r => r.json()),
-                    fetch(`/api/turnaround/by-priority?days=${days}`).then(r => r.json()),
-                    fetch(`/api/turnaround/by-workstation?days=${days}`).then(r => r.json()),
-                    fetch(`/api/turnaround/top-drugs?days=${days}&limit=15`).then(r => r.json())
+                    fetch('/api/turnaround/daily?days=' + days).then(r => r.json()),
+                    fetch('/api/turnaround/by-priority?days=' + days).then(r => r.json()),
+                    fetch('/api/turnaround/by-workstation?days=' + days).then(r => r.json()),
+                    fetch('/api/turnaround/top-drugs?days=' + days + '&limit=15').then(r => r.json())
                 ]);
 
-                // Stats
                 const totalDoses = daily.reduce((sum, d) => sum + d.total_doses, 0);
-                const avgTurnaround = daily.length > 0
-                    ? daily.reduce((sum, d) => sum + d.avg_turnaround, 0) / daily.length
-                    : 0;
+                const avgTurnaround = daily.length > 0 ? daily.reduce((sum, d) => sum + d.avg_turnaround, 0) / daily.length : 0;
+
+                if (totalDoses === 0) {
+                    document.getElementById('turnaroundStats').innerHTML = `
+                        <div class="empty-state" style="grid-column:1/-1;">
+                            <div class="empty-state-icon">&#x23F1;</div>
+                            <div class="empty-state-title">No turnaround data</div>
+                            <div class="empty-state-text">Upload a Turnaround Report from the Upload tab to see metrics.</div>
+                        </div>`;
+                    return;
+                }
 
                 document.getElementById('turnaroundStats').innerHTML = `
                     <div class="stat-card">
                         <div class="stat-label">Total Doses</div>
-                        <div class="stat-value">${totalDoses.toLocaleString()}</div>
+                        <div class="stat-value" data-target="${totalDoses}">0</div>
                         <div class="stat-sub">In selected period</div>
                     </div>
                     <div class="stat-card info">
                         <div class="stat-label">Avg Turnaround</div>
-                        <div class="stat-value">${avgTurnaround.toFixed(1)} min</div>
+                        <div class="stat-value" data-target="${avgTurnaround.toFixed(1)}" data-decimals="1" data-suffix=" min">0</div>
                         <div class="stat-sub">Queue to sort</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-label">Workstations</div>
-                        <div class="stat-value">${byWorkstation.length}</div>
+                        <div class="stat-value" data-target="${byWorkstation.length}">0</div>
                         <div class="stat-sub">Active prep stations</div>
-                    </div>
-                `;
+                    </div>`;
+                animateCounters();
+
+                const defaults = chartDefaults();
+
+                // Turnaround TREND chart
+                if (charts.turnaroundTrend) charts.turnaroundTrend.destroy();
+                const trendContainer = document.getElementById('turnaroundTrendChart').parentElement;
+                if (daily.length <= 1) {
+                    // Single data point - show a summary card instead of a useless 1-point chart
+                    trendContainer.innerHTML = daily.length === 1
+                        ? '<div style="display:flex;align-items:center;justify-content:center;height:100%;flex-direction:column;gap:8px;color:var(--text-secondary);">'
+                            + '<div style="font-size:48px;font-weight:700;color:var(--blue);">' + daily[0].avg_turnaround + ' <span style="font-size:18px;font-weight:400;">min</span></div>'
+                            + '<div style="font-size:14px;">Average turnaround on ' + formatDate(daily[0].date) + '</div>'
+                            + '<div style="font-size:13px;">' + daily[0].total_doses.toLocaleString() + ' doses processed</div>'
+                            + '<div style="margin-top:12px;padding:10px 16px;background:var(--accent-light);border-radius:6px;font-size:12px;color:var(--text-muted);max-width:400px;text-align:center;">Upload turnaround reports covering multiple days to see a trend line over time.</div>'
+                        + '</div>'
+                        : '<div class="empty-state"><div class="empty-state-icon">&#x23F1;</div><div class="empty-state-title">No trend data</div><div class="empty-state-text">Upload turnaround reports to see trends.</div></div>';
+                } else {
+                    trendContainer.innerHTML = '<canvas id="turnaroundTrendChart"></canvas>';
+                    charts.turnaroundTrend = new Chart(document.getElementById('turnaroundTrendChart').getContext('2d'), {
+                        type: 'line',
+                        data: {
+                            labels: daily.map(d => formatDate(d.date)),
+                            datasets: [{
+                                label: 'Avg Turnaround',
+                                data: daily.map(d => d.avg_turnaround),
+                                borderColor: '#2563eb',
+                                backgroundColor: 'rgba(37,99,235,0.08)',
+                                fill: true, tension: 0.3, pointRadius: 3, pointHoverRadius: 6, borderWidth: 2
+                            }]
+                        },
+                        options: {
+                            ...defaults,
+                            plugins: {
+                                ...defaults.plugins,
+                                legend: { display: false },
+                                tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw + ' min avg turnaround' } }
+                            },
+                            scales: {
+                                x: defaults.scales.x,
+                                y: { ...defaults.scales.y, title: { display: true, text: 'Minutes', color: getChartColors().textColor, font: { size: 11 } } }
+                            }
+                        }
+                    });
+                }
 
                 // Priority chart
                 if (charts.priority) charts.priority.destroy();
-                const priorityCtx = document.getElementById('priorityChart').getContext('2d');
-                charts.priority = new Chart(priorityCtx, {
+                charts.priority = new Chart(document.getElementById('priorityChart').getContext('2d'), {
                     type: 'bar',
                     data: {
                         labels: byPriority.map(p => p.priority_label),
                         datasets: [{
                             label: 'Avg Minutes',
                             data: byPriority.map(p => p.avg_turnaround),
-                            backgroundColor: byPriority.map(p => {
-                                if (p.priority <= 20) return '#d63031';
-                                if (p.priority <= 40) return '#fdcb6e';
-                                return '#00b894';
-                            }),
+                            backgroundColor: byPriority.map(p => p.priority <= 20 ? '#dc2626' : p.priority <= 40 ? '#d97706' : '#14b8a6'),
                             borderRadius: 4
                         }]
                     },
                     options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        indexAxis: 'y',
-                        plugins: { legend: { display: false } }
+                        ...defaults, indexAxis: 'y',
+                        plugins: { ...defaults.plugins, legend: { display: false }, tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw + ' min (' + byPriority[ctx.dataIndex].count + ' doses)' } } }
                     }
                 });
 
                 // Workstation chart
                 if (charts.workstation) charts.workstation.destroy();
-                const wsCtx = document.getElementById('workstationChart').getContext('2d');
-                charts.workstation = new Chart(wsCtx, {
+                charts.workstation = new Chart(document.getElementById('workstationChart').getContext('2d'), {
                     type: 'bar',
                     data: {
                         labels: byWorkstation.slice(0, 10).map(w => w.workstation),
-                        datasets: [{
-                            label: 'Doses',
-                            data: byWorkstation.slice(0, 10).map(w => w.count),
-                            backgroundColor: '#0984e3',
-                            borderRadius: 4
-                        }]
+                        datasets: [{ label: 'Doses', data: byWorkstation.slice(0, 10).map(w => w.count), backgroundColor: '#2563eb', borderRadius: 4 }]
                     },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: { legend: { display: false } }
-                    }
+                    options: { ...defaults, plugins: { ...defaults.plugins, legend: { display: false }, tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw.toLocaleString() + ' doses (' + byWorkstation[ctx.dataIndex].avg_turnaround + ' min avg)' } } } }
                 });
 
                 // Top drugs table
-                document.querySelector('#topDrugsTable tbody').innerHTML = topDrugs.map(d => `
-                    <tr>
-                        <td>${d.drug}</td>
-                        <td>${d.count.toLocaleString()}</td>
-                        <td>${d.avg_turnaround} min</td>
-                    </tr>
-                `).join('');
+                document.querySelector('#topDrugsTable tbody').innerHTML = topDrugs.length > 0
+                    ? topDrugs.map(d => '<tr><td>' + d.drug + '</td><td>' + d.count.toLocaleString() + '</td><td>' + d.avg_turnaround + ' min</td></tr>').join('')
+                    : emptyRow(3, 'No drug data available');
 
-            } catch (err) {
-                console.error('Error loading turnaround:', err);
-            }
+            } catch (err) { console.error('Error loading turnaround:', err); }
         }
 
+        // ===== WASTE =====
         async function loadWasteData() {
+            const days = getDays();
             const sortBy = document.getElementById('wasteSortBy')?.value || 'waste_ml';
-
             try {
-                const [wastageSummary, topWaste, byType, usageSummary, usageByLocation, topProducts, stockSummary, detailedSummary] = await Promise.all([
+                const [wastageSummary, topWaste, byType, usageSummary, usageByLocation, topProducts, stockSummary, detailedSummary, detailedDaily] = await Promise.all([
                     fetch('/api/product-wastage/summary').then(r => r.json()),
-                    fetch(`/api/product-wastage/top-waste?limit=25&sortBy=${sortBy}`).then(r => r.json()),
+                    fetch('/api/product-wastage/top-waste?limit=25&sortBy=' + sortBy + (sortBy === 'waste_percent' ? '&excludeFull=true' : '')).then(r => r.json()),
                     fetch('/api/product-wastage/by-type').then(r => r.json()),
                     fetch('/api/product-usage/summary').then(r => r.json()),
                     fetch('/api/product-usage/by-location').then(r => r.json()),
                     fetch('/api/product-usage/top-products?limit=15').then(r => r.json()),
                     fetch('/api/stock-doses/summary').then(r => r.json()),
-                    fetch('/api/detailed-wastage/summary').then(r => r.json())
+                    fetch('/api/detailed-wastage/summary').then(r => r.json()),
+                    fetch('/api/detailed-wastage/daily?days=' + days).then(r => r.json())
                 ]);
 
-                // Stats
+                const hasData = (usageSummary.total_products || 0) > 0 || (wastageSummary.total_waste_ml || 0) > 0;
+
+                if (!hasData) {
+                    document.getElementById('wasteStats').innerHTML = `
+                        <div class="empty-state" style="grid-column:1/-1;">
+                            <div class="empty-state-icon">&#x1F5D1;</div>
+                            <div class="empty-state-title">No waste data</div>
+                            <div class="empty-state-text">Upload Product Wastage or Product Usage reports from the Upload tab.</div>
+                        </div>`;
+                    return;
+                }
+
                 document.getElementById('wasteStats').innerHTML = `
                     <div class="stat-card">
                         <div class="stat-label">Total Products</div>
-                        <div class="stat-value">${(usageSummary.total_products || 0).toLocaleString()}</div>
+                        <div class="stat-value" data-target="${usageSummary.total_products || 0}">0</div>
                         <div class="stat-sub">Unique products tracked</div>
                     </div>
                     <div class="stat-card info">
                         <div class="stat-label">Product Uses</div>
-                        <div class="stat-value">${(usageSummary.total_product_uses || 0).toLocaleString()}</div>
+                        <div class="stat-value" data-target="${usageSummary.total_product_uses || 0}">0</div>
                         <div class="stat-sub">${(usageSummary.total_doses || 0).toLocaleString()} doses</div>
                     </div>
                     <div class="stat-card danger">
                         <div class="stat-label">Total Waste</div>
-                        <div class="stat-value">${((wastageSummary.total_waste_ml || 0) / 1000).toFixed(1)}L</div>
+                        <div class="stat-value" data-target="${((wastageSummary.total_waste_ml || 0) / 1000).toFixed(1)}" data-decimals="1" data-suffix="L">0</div>
                         <div class="stat-sub">${(wastageSummary.total_partial_products || 0).toLocaleString()} partial products</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-label">Locations</div>
-                        <div class="stat-value">${usageSummary.total_locations || 0}</div>
+                        <div class="stat-value" data-target="${usageSummary.total_locations || 0}">0</div>
                         <div class="stat-sub">Pharmacy locations</div>
-                    </div>
-                `;
+                    </div>`;
+                animateCounters();
 
-                // Top waste table
-                document.querySelector('#topWasteTable tbody').innerHTML = topWaste.length > 0 ? topWaste.map(p => `
-                    <tr>
-                        <td title="NDC: ${p.ndc}">${p.name.substring(0, 35)}${p.name.length > 35 ? '...' : ''}</td>
-                        <td><span class="badge badge-info">${p.type}</span></td>
-                        <td>${p.partial_count.toLocaleString()}</td>
-                        <td>${Math.round(p.waste_ml).toLocaleString()}</td>
-                        <td><span class="badge ${p.waste_percent > 50 ? 'badge-danger' : p.waste_percent > 25 ? 'badge-warning' : 'badge-success'}">${p.waste_percent}%</span></td>
-                    </tr>
-                `).join('') : '<tr><td colspan="5" style="text-align:center;color:#888;">Upload Product Wastage report to see data</td></tr>';
+                const defaults = chartDefaults();
 
-                // Waste by type chart
-                if (charts.wasteType) charts.wasteType.destroy();
-                const typeCtx = document.getElementById('wasteTypeChart').getContext('2d');
-                if (byType.length > 0) {
-                    charts.wasteType = new Chart(typeCtx, {
-                        type: 'doughnut',
+                // Waste trend chart (new)
+                if (charts.wasteTrend) charts.wasteTrend.destroy();
+                if (detailedDaily.length > 0) {
+                    charts.wasteTrend = new Chart(document.getElementById('wasteTrendChart').getContext('2d'), {
+                        type: 'line',
                         data: {
-                            labels: byType.map(t => t.type),
+                            labels: detailedDaily.map(d => formatDate(d.date)),
                             datasets: [{
-                                data: byType.map(t => t.waste_ml),
-                                backgroundColor: ['#d63031', '#0984e3', '#fdcb6e', '#00b894'],
-                                borderWidth: 0
+                                label: 'Waste Volume',
+                                data: detailedDaily.map(d => d.waste_volume),
+                                borderColor: '#dc2626',
+                                backgroundColor: 'rgba(220,38,38,0.06)',
+                                fill: true, tension: 0.3, pointRadius: 3, pointHoverRadius: 6, borderWidth: 2
                             }]
                         },
                         options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
+                            ...defaults,
                             plugins: {
-                                legend: { position: 'bottom' },
-                                tooltip: {
-                                    callbacks: {
-                                        label: ctx => `${ctx.label}: ${(ctx.raw / 1000).toFixed(1)}L`
-                                    }
-                                }
+                                ...defaults.plugins,
+                                legend: { display: false },
+                                tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw.toFixed(1) + ' mL waste (' + detailedDaily[ctx.dataIndex].waste_percent + '%)' } }
+                            },
+                            scales: {
+                                x: defaults.scales.x,
+                                y: { ...defaults.scales.y, title: { display: true, text: 'Waste (mL)', color: getChartColors().textColor, font: { size: 11 } } }
+                            }
+                        }
+                    });
+                }
+
+                // Top waste table
+                document.querySelector('#topWasteTable tbody').innerHTML = topWaste.length > 0
+                    ? topWaste.map(p => '<tr><td title="NDC: ' + p.ndc + '">' + truncate(p.name, 38) + '</td><td><span class="badge badge-info">' + p.type + '</span></td><td>' + p.partial_count.toLocaleString() + '</td><td>' + Math.round(p.waste_ml).toLocaleString() + '</td><td><span class="badge ' + (p.waste_percent >= 100 ? 'badge-danger' : p.waste_percent > 50 ? 'badge-warning' : 'badge-success') + '">' + p.waste_percent + '%</span></td></tr>').join('')
+                    : emptyRow(5, 'Upload Product Wastage report to see data');
+                if (sortBy === 'waste_percent') {
+                    document.querySelector('#topWasteTable tbody').insertAdjacentHTML('beforeend',
+                        '<tr><td colspan="5" style="text-align:center;font-size:11px;color:var(--text-muted);padding:10px;font-style:italic;">Products with 100% waste (stocks/premixed solutions fully consumed per use) are excluded. Switch to Volume to see all.</td></tr>');
+                }
+
+                // Waste by type chart
+                if (charts.wasteType) charts.wasteType.destroy();
+                if (byType.length > 0) {
+                    charts.wasteType = new Chart(document.getElementById('wasteTypeChart').getContext('2d'), {
+                        type: 'doughnut',
+                        data: {
+                            labels: byType.map(t => t.type),
+                            datasets: [{ data: byType.map(t => t.waste_ml), backgroundColor: ['#dc2626', '#2563eb', '#d97706', '#14b8a6'], borderWidth: 0 }]
+                        },
+                        options: {
+                            responsive: true, maintainAspectRatio: false,
+                            plugins: {
+                                legend: { position: 'bottom', labels: { color: getChartColors().textColor, font: { size: 11 } } },
+                                tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.label + ': ' + (ctx.raw / 1000).toFixed(1) + 'L ($' + byType[ctx.dataIndex].waste_dollars.toLocaleString() + ')' } }
                             }
                         }
                     });
@@ -1161,132 +1485,150 @@
 
                 // Usage by location chart
                 if (charts.usageLocation) charts.usageLocation.destroy();
-                const locCtx = document.getElementById('usageLocationChart').getContext('2d');
                 if (usageByLocation.length > 0) {
-                    charts.usageLocation = new Chart(locCtx, {
+                    charts.usageLocation = new Chart(document.getElementById('usageLocationChart').getContext('2d'), {
                         type: 'bar',
                         data: {
                             labels: usageByLocation.map(l => l.location.replace(' PHARMACY', '')),
-                            datasets: [{
-                                label: 'Product Uses',
-                                data: usageByLocation.map(l => l.product_count),
-                                backgroundColor: '#00b894',
-                                borderRadius: 4
-                            }]
+                            datasets: [{ label: 'Product Uses', data: usageByLocation.map(l => l.product_count), backgroundColor: '#14b8a6', borderRadius: 4 }]
                         },
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            indexAxis: 'y',
-                            plugins: { legend: { display: false } }
-                        }
+                        options: { ...defaults, indexAxis: 'y', plugins: { ...defaults.plugins, legend: { display: false }, tooltip: { ...defaults.plugins.tooltip, callbacks: { label: ctx => ctx.raw.toLocaleString() + ' product uses' } } } }
                     });
                 }
 
                 // Top usage table
-                document.querySelector('#topUsageTable tbody').innerHTML = topProducts.length > 0 ? topProducts.map(p => `
-                    <tr>
-                        <td title="NDC: ${p.ndc}">${p.name.substring(0, 35)}${p.name.length > 35 ? '...' : ''}</td>
-                        <td>${p.product_count.toLocaleString()}</td>
-                        <td>${p.dose_count.toLocaleString()}</td>
-                        <td>${p.locations_used}</td>
-                    </tr>
-                `).join('') : '<tr><td colspan="4" style="text-align:center;color:#888;">Upload Product Usage report to see data</td></tr>';
+                document.querySelector('#topUsageTable tbody').innerHTML = topProducts.length > 0
+                    ? topProducts.map(p => '<tr><td title="NDC: ' + p.ndc + '">' + truncate(p.name, 35) + '</td><td>' + p.product_count.toLocaleString() + '</td><td>' + p.dose_count.toLocaleString() + '</td><td>' + p.locations_used + '</td></tr>').join('')
+                    : emptyRow(4, 'Upload Product Usage report to see data');
 
-                // Load stock data if available
-                if (stockSummary.total_doses_made > 0) {
+                // Stock section
+                if ((stockSummary.total_doses_made || 0) > 0) {
                     document.getElementById('stockSection').style.display = 'block';
                     loadStockData();
+                } else {
+                    document.getElementById('stockSection').style.display = 'none';
                 }
 
-            } catch (err) {
-                console.error('Error loading waste data:', err);
-            }
+            } catch (err) { console.error('Error loading waste data:', err); }
         }
 
+        // ===== STOCK =====
         async function loadStockData() {
             const typeFilter = document.getElementById('stockTypeFilter')?.value || 'all';
-
             try {
-                const [summary, stocks] = await Promise.all([
+                // For BAXA filter, fetch all and filter client-side
+                const apiType = typeFilter === 'baxa' ? 'all' : typeFilter;
+                const [summary, allStocks] = await Promise.all([
                     fetch('/api/stock-doses/summary').then(r => r.json()),
-                    fetch(`/api/stock-doses/all?limit=50&type=${typeFilter}`).then(r => r.json())
+                    fetch('/api/stock-doses/all?limit=100&type=' + apiType).then(r => r.json())
                 ]);
 
-                // Stats
+                let stocks = allStocks;
+                if (typeFilter === 'baxa') {
+                    stocks = allStocks.filter(s => (s.original || s.name).toUpperCase().includes('BAXA'));
+                }
+
+                const baxaCount = allStocks.filter(s => (s.original || s.name).toUpperCase().includes('BAXA')).length;
+                const baxaTotal = allStocks.filter(s => (s.original || s.name).toUpperCase().includes('BAXA')).reduce((sum, s) => sum + s.total, 0);
+
                 document.getElementById('stockStats').innerHTML = `
-                    <div class="stat-card" style="padding: 12px;">
+                    <div class="stat-card" style="padding:12px;">
                         <div class="stat-label">Stock Types</div>
-                        <div class="stat-value" style="font-size: 20px;">${summary.total_stock_types || 0}</div>
+                        <div class="stat-value" style="font-size:20px;" data-target="${summary.total_stock_types || 0}">0</div>
                     </div>
-                    <div class="stat-card info" style="padding: 12px;">
+                    <div class="stat-card info" style="padding:12px;">
                         <div class="stat-label">Dilution Types</div>
-                        <div class="stat-value" style="font-size: 20px;">${summary.total_dilution_types || 0}</div>
+                        <div class="stat-value" style="font-size:20px;" data-target="${summary.total_dilution_types || 0}">0</div>
                     </div>
-                    <div class="stat-card" style="padding: 12px;">
+                    <div class="stat-card" style="padding:12px;">
                         <div class="stat-label">Total Made</div>
-                        <div class="stat-value" style="font-size: 20px;">${(summary.total_doses_made || 0).toLocaleString()}</div>
+                        <div class="stat-value" style="font-size:20px;" data-target="${summary.total_doses_made || 0}">0</div>
                     </div>
-                `;
+                    <div class="stat-card warning" style="padding:12px;">
+                        <div class="stat-label">BAXA TPN</div>
+                        <div class="stat-value" style="font-size:20px;" data-target="${baxaTotal}">0</div>
+                        <div class="stat-sub">${baxaCount} formulations</div>
+                    </div>`;
+                animateCounters();
 
-                // Table
-                document.querySelector('#stockTable tbody').innerHTML = stocks.length > 0 ? stocks.map(s => `
-                    <tr>
-                        <td title="${s.original}">${s.name.substring(0, 45)}${s.name.length > 45 ? '...' : ''}</td>
-                        <td><span class="badge ${s.type === 'Dilution' ? 'badge-info' : 'badge-warning'}">${s.type}</span></td>
-                        <td>${s.size}</td>
-                        <td><strong>${s.total.toLocaleString()}</strong></td>
-                    </tr>
-                `).join('') : '<tr><td colspan="4" style="text-align:center;color:#888;">Upload Stock Doses report to see data</td></tr>';
+                function stockBadge(s) {
+                    const isBaxa = (s.original || s.name).toUpperCase().includes('BAXA');
+                    if (isBaxa) return '<span class="badge badge-warning">BAXA TPN</span>';
+                    return '<span class="badge ' + (s.type === 'Dilution' ? 'badge-info' : 'badge-success') + '">' + s.type + '</span>';
+                }
 
-            } catch (err) {
-                console.error('Error loading stock data:', err);
-            }
+                document.querySelector('#stockTable tbody').innerHTML = stocks.length > 0
+                    ? stocks.map(s => '<tr><td title="' + escHtml(s.original) + '">' + truncate(s.name, 45) + '</td><td>' + stockBadge(s) + '</td><td>' + s.size + '</td><td><strong>' + s.total.toLocaleString() + '</strong></td></tr>').join('')
+                    : emptyRow(4, typeFilter === 'baxa' ? 'No BAXA TPN items found' : 'Upload Stock Doses report to see data');
+            } catch (err) { console.error('Error loading stock data:', err); }
         }
 
+        // ===== DATA STATUS =====
         async function loadDataStatus() {
             try {
-                const summary = await fetch('/api/summary?days=365').then(r => r.json());
-                document.getElementById('dataStatus').innerHTML = `
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
-                        <div>
-                            <strong>Production Data:</strong><br>
-                            ${summary.data_range?.production ? `${summary.data_range.production.start} to ${summary.data_range.production.end}` : 'No data'}
-                        </div>
-                        <div>
-                            <strong>Total Records:</strong><br>
-                            ${summary.total_doses.toLocaleString()} doses tracked
-                        </div>
-                    </div>
-                    <div style="margin-top: 16px;">
-                        <button class="btn btn-secondary" onclick="clearAllData()">Clear All Data</button>
-                    </div>
-                `;
+                const status = await fetch('/api/data-status').then(r => r.json());
+                const items = [
+                    { label: 'Production', records: status.production.records, dateRange: status.production.dateRange },
+                    { label: 'Turnaround', records: status.turnaround.records, dateRange: status.turnaround.dateRange },
+                    { label: 'Bypass', records: status.bypass.records, dateRange: null },
+                    { label: 'Usage', records: status.usage.records, dateRange: status.usage.dateRange },
+                    { label: 'Product Usage', records: status.productUsage.records, dateRange: null },
+                    { label: 'Product Wastage', records: status.productWastage.records, dateRange: null },
+                    { label: 'Detailed Wastage', records: status.detailedWastage.records, dateRange: status.detailedWastage.dateRange },
+                    { label: 'Stock Doses', records: status.stockDoses.records, dateRange: null }
+                ];
+                document.getElementById('dataStatus').innerHTML = '<div class="status-grid">' +
+                    items.map(it => {
+                        const active = it.records > 0;
+                        let val = active ? it.records.toLocaleString() + ' records' : 'No data';
+                        if (it.dateRange && it.dateRange.start) val += '<br>' + it.dateRange.start + ' to ' + it.dateRange.end;
+                        return '<div class="status-item"><div class="status-item-label"><span class="status-dot ' + (active ? 'active' : 'empty') + '"></span>' + it.label + '</div><div class="status-item-value">' + val + '</div></div>';
+                    }).join('') +
+                    '</div>';
             } catch (err) {
                 document.getElementById('dataStatus').textContent = 'Error loading status';
             }
         }
 
         async function clearAllData() {
-            if (!confirm('Are you sure you want to clear all data?')) return;
+            if (!confirm('Are you sure you want to clear ALL data? This cannot be undone.')) return;
             await fetch('/api/clear', { method: 'POST' });
             showToast('All data cleared', 'success');
             refreshAllData();
         }
 
+        // ===== UTILS =====
         function formatDate(dateStr) {
             if (!dateStr || dateStr.includes('Week')) return dateStr;
             const d = new Date(dateStr + 'T00:00:00');
             return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         }
 
-        function showToast(message, type = '') {
+        function truncate(str, len) {
+            if (!str) return '';
+            return str.length > len ? str.substring(0, len) + '...' : str;
+        }
+
+        function escHtml(str) {
+            if (!str) return '';
+            return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+
+        function emptyRow(cols, msg) {
+            return '<tr><td colspan="' + cols + '" style="text-align:center;color:var(--text-muted);padding:24px;">' + msg + '</td></tr>';
+        }
+
+        function showToast(message, type) {
+            type = type || '';
             const container = document.getElementById('toastContainer');
             const toast = document.createElement('div');
-            toast.className = `toast ${type}`;
+            toast.className = 'toast ' + type;
             toast.textContent = message;
             container.appendChild(toast);
-            setTimeout(() => toast.remove(), 4000);
+            setTimeout(() => {
+                toast.classList.add('leaving');
+                setTimeout(() => toast.remove(), 350);
+            }, 3500);
         }
     </script>
 </body>

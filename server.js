@@ -1022,11 +1022,16 @@ app.get('/api/product-wastage/summary', (req, res) => {
 });
 
 app.get('/api/product-wastage/top-waste', (req, res) => {
-    const { limit = 20, sortBy = 'waste_ml' } = req.query;
+    const { limit = 20, sortBy = 'waste_ml', excludeFull = 'false' } = req.query;
     if (!productWastage.products) {
         return res.json([]);
     }
-    const sorted = [...productWastage.products].sort((a, b) => {
+    let filtered = [...productWastage.products];
+    // When sorting by percentage, optionally exclude 100% items (stocks fully consumed)
+    if (excludeFull === 'true') {
+        filtered = filtered.filter(p => p.waste_percent < 100);
+    }
+    const sorted = filtered.sort((a, b) => {
         if (sortBy === 'waste_dollars') return b.waste_dollars - a.waste_dollars;
         if (sortBy === 'waste_percent') return b.waste_percent - a.waste_percent;
         return b.waste_ml - a.waste_ml;
@@ -1285,11 +1290,15 @@ app.post('/api/upload/stock-doses', upload.single('file'), (req, res) => {
                 size = sizeMatch[0];
             }
 
-            // Clean up drug name
+            // Clean up drug name - preserve BAXA as a category (BAXA TPN compounder)
+            const isBaxa = /BAXA/i.test(dose);
             drugName = dose
                 .replace(/^(DILUTION|STOCK):\s*/i, '')
                 .replace(/BAXA\s*-\s*/i, '')
                 .trim();
+            if (isBaxa) {
+                drugName = 'BAXA - ' + drugName;
+            }
 
             const record = {
                 name: drugName,
@@ -1368,13 +1377,105 @@ app.post('/api/clear', (req, res) => {
     turnaroundData = [];
     bypassData = [];
     usageData = [];
+    productUsage = [];
+    productWastage = [];
+    detailedWastage = [];
+    stockDoses = [];
 
     saveData(productionFile, productionData);
     saveData(turnaroundFile, turnaroundData);
     saveData(bypassFile, bypassData);
     saveData(usageFile, usageData);
+    saveData(productUsageFile, productUsage);
+    saveData(productWastageFile, productWastage);
+    saveData(detailedWastageFile, detailedWastage);
+    saveData(stockDosesFile, stockDoses);
 
     res.json({ success: true, message: 'All data cleared' });
+});
+
+// Data status endpoint
+app.get('/api/data-status', (req, res) => {
+    function getDateRange(arr, dateField = 'date') {
+        if (!arr || arr.length === 0) return null;
+        const dates = arr.map(d => d[dateField]).filter(Boolean).sort();
+        return { start: dates[0], end: dates[dates.length - 1] };
+    }
+
+    res.json({
+        production: {
+            records: productionData.length,
+            dateRange: getDateRange(productionData),
+            lastUpload: productionData[0]?.uploaded_at || null
+        },
+        turnaround: {
+            records: turnaroundData.length,
+            dateRange: getDateRange(turnaroundData),
+            lastUpload: turnaroundData[0]?.uploaded_at || null
+        },
+        bypass: {
+            records: bypassData.length,
+            lastUpload: bypassData[0]?.uploaded_at || null
+        },
+        usage: {
+            records: usageData.length,
+            dateRange: getDateRange(usageData),
+            lastUpload: usageData[0]?.uploaded_at || null
+        },
+        productUsage: {
+            records: productUsage.summary ? productUsage.summary.total_products : 0,
+            lastUpload: productUsage.uploaded_at || null
+        },
+        productWastage: {
+            records: productWastage.summary ? productWastage.summary.total_products : 0,
+            lastUpload: productWastage.uploaded_at || null
+        },
+        detailedWastage: {
+            records: detailedWastage.summary ? detailedWastage.summary.total_records : 0,
+            dateRange: detailedWastage.summary ? detailedWastage.summary.date_range : null,
+            lastUpload: detailedWastage.uploaded_at || null
+        },
+        stockDoses: {
+            records: stockDoses.summary ? stockDoses.summary.total_doses_made : 0,
+            lastUpload: stockDoses.uploaded_at || null
+        }
+    });
+});
+
+// CSV export endpoint
+app.get('/api/export/csv', (req, res) => {
+    const { type } = req.query;
+
+    if (type === 'production') {
+        const rows = [['Date', 'Total Doses']];
+        productionData.forEach(d => rows.push([d.date, d.total_doses]));
+        res.setHeader('Content-Type', 'text/csv');
+        res.setHeader('Content-Disposition', 'attachment; filename=production_export.csv');
+        return res.send(rows.map(r => r.join(',')).join('\n'));
+    }
+
+    if (type === 'turnaround') {
+        const rows = [['Date', 'Total Doses', 'Avg Turnaround (min)']];
+        turnaroundData.forEach(d => rows.push([d.date, d.total_doses, d.avg_turnaround]));
+        res.setHeader('Content-Type', 'text/csv');
+        res.setHeader('Content-Disposition', 'attachment; filename=turnaround_export.csv');
+        return res.send(rows.map(r => r.join(',')).join('\n'));
+    }
+
+    if (type === 'waste') {
+        const rows = [['Product', 'NDC', 'Type', 'Waste (mL)', 'Waste ($)', 'Waste %']];
+        if (productWastage.products) {
+            productWastage.products.forEach(p => rows.push([
+                '"' + p.name.replace(/"/g, '""') + '"',
+                p.ndc, p.type, p.waste_ml, p.waste_dollars, p.waste_percent
+            ]));
+        }
+        res.setHeader('Content-Type', 'text/csv');
+        res.setHeader('Content-Disposition', 'attachment; filename=waste_export.csv');
+        return res.send(rows.map(r => r.join(',')).join('\n'));
+    }
+
+    res.status(400).json({ error: 'Invalid type. Use: production, turnaround, or waste' });
 });
 
 // Helper functions
